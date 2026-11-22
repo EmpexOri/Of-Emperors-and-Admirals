@@ -565,6 +565,15 @@
 	}
 	c:X40 ?= {
 		create_diplomatic_pact = {
+			country = c:HAP
+			type = vassal
+		}
+	}
+	c:HAP ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
 			country = c:X84
 			type = vassal
 		}
