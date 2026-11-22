@@ -1,5 +1,12 @@
 ﻿l_english:
-    
+
+    gov_lusitanian_admiralty:0 "Almirantado Junta"
+    RULER_TITLE_GRAND_ADMIRAL:0 "Grand Admiral"
+    LUS_LORD_ADMIRAL:0 "Lord Admiral"
+    LUS_LADY_ADMIRAL:0 "Lady Admiral"
+    law_almirantado_junta:0 "Almirantado Junta"
+    law_almirantado_junta_desc:0 "The Almirantado Junta establishes a political order dominated by the Grand Admiral and the naval high command. Aristocratic families and wealthy commercial interests retain considerable influence, but the Officer Corps forms the backbone of the state."
+
     intervene_in_war.tt:0 "Join any [concept_war] where [SCOPE.sCountry('target_country_scope').GetName] is the [concept_war_leader]"
     intervene_in_war.ttt:0 "Must not have a [concept_truce] with any potential enemy" 
     intervene_in_war:0 "Intervene in War"
