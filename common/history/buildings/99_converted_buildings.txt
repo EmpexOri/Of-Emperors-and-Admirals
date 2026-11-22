@@ -6245,7 +6245,7 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:X40 = {
+		region_state:HAP = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -13594,7 +13594,7 @@
 		}
 	}
 	s:STATE_EASTERN_HUBEI = {
-		region_state:X40 = {
+		region_state:X83 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -24509,7 +24509,7 @@
 		}
 	}
 	s:STATE_JIANGXI = {
-		region_state:X40 = {
+		region_state:X82 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -45511,7 +45511,7 @@
 		}
 	}
 	s:STATE_SHANXI = {
-		region_state:X40 = {
+		region_state:HAP = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -45792,7 +45792,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:X40 = {
+		region_state:HAP = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -57512,7 +57512,7 @@
 		}
 	}
 	s:STATE_XIAN = {
-		region_state:X40 = {
+		region_state:V15 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {

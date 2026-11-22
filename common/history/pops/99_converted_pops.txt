@@ -5472,7 +5472,7 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:X40 = {
+		region_state:HAP = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -12284,7 +12284,7 @@
 		}
 	}
 	s:STATE_EASTERN_HUBEI = {
-		region_state:X40 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = dynamic-chihan-culture-num3
 				religion = daoshenic
@@ -21436,7 +21436,7 @@
 		}
 	}
 	s:STATE_JIANGXI = {
-		region_state:X40 = {
+		region_state:X82 = {
 			create_pop = {
 				culture = miao
 				religion = daoshenic
@@ -43676,7 +43676,7 @@
 		}
 	}
 	s:STATE_SHANXI = {
-		region_state:X40 = {
+		region_state:HAP = {
 			create_pop = {
 				culture = han
 				religion = confucian
@@ -43835,7 +43835,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:X40 = {
+		region_state:HAP = {
 			create_pop = {
 				culture = mongol
 				religion = mahayana
@@ -54712,7 +54712,7 @@
 		}
 	}
 	s:STATE_XIAN = {
-		region_state:X40 = {
+		region_state:V15 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic

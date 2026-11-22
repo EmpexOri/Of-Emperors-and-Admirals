@@ -1,4 +1,13 @@
-﻿REPLACE_OR_CREATE:A00 ?= {
+﻿HAP = {
+    color = { 200 50 50 } 
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { han }
+	religion = daoshenic
+	capital = STATE_BEIJING
+}
+
+REPLACE_OR_CREATE:A00 ?= {
 	color = { 146 43 62 }
 	country_type = decentralized
 	tier = principality

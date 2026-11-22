@@ -1,4 +1,11 @@
 ﻿COUNTRIES = {
+    c:HAP ?= {
+        activate_law = law_type:law_monarchy
+        activate_law = law_type:law_autocracy
+        activate_law = law_type:law_traditionalism 
+    }
+
+
 	c:A04 ?= {
 		effect_native_conscription_3 = yes
 		effect_starting_politics_traditional = yes
