@@ -1,0 +1,15 @@
+
+gov_chonininate = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_TORYO"
+	female_ruler = "RULER_TITLE_TORYO"
+	
+    male_heir = "HEIR_TITLE_WAKATORYO"
+    female_heir = "HEIR_TITLE_WAKATORYO"
+
+	possible = {
+		c:JAP ?= this
+		has_law = law_type:law_choninbakufu
+	}
+}

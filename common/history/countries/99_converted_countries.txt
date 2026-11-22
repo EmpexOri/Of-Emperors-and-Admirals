@@ -2919,38 +2919,62 @@
 		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urban_planning
 		add_technology_researched = urbanization
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_choninbakufu
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_intermediate_edo_system
+		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_free_trade
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_warrior_caste
+		activate_law = law_type:law_diplomatic_navy
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_kabunakama
+		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_landed_voting
-		activate_law = law_type:law_local_police
-		activate_law = law_type:law_migration_controls
-		activate_law = law_type:law_no_colonial_affairs
-		activate_law = law_type:law_no_health_system
-		activate_law = law_type:law_no_home_affairs
-		activate_law = law_type:law_no_social_security
-		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_parliamentary_republic
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_slave_trade
-		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_low_income_tax
+		activate_law = law_type:law_no_corporation_taxes
+		activate_law = law_type:law_moderate_consumption_tax
+		activate_law = law_type:law_disorganized_planning 
+		activate_law = law_type:law_ad_hoc_administration
+		activate_law = law_type:law_internal_colonization
+		activate_law = law_type:law_terakoya
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_debtors_prisons
 		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_guild_system
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_no_social_security
+		
 		ig:ig_landowners = {
 			remove_ideology = ideology_paternalistic
- 			add_ideology = ideology_republican_paternalistic
- 		}
+			add_ideology = ideology_daimyo_traditionalism
+		}
+		ig:ig_industrialists = {
+			remove_ideology = ideology_laissez_faire
+			add_ideology = ideology_merchant_oligarchy
+		}
+		
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_industrialists = {
+			add_ruling_interest_group = yes
+		}
+		
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 1
 		}
 		set_institution_investment_level = {
 			institution = institution_schools
-			level = 3
+			level = 2
 		}
 	}
 	c:JUN ?= {
@@ -4208,12 +4232,6 @@
 		activate_law = law_type:law_debt_slavery
 	}
 	c:N22 ?= {
-		effect_native_conscription_3 = yes
-		effect_starting_politics_traditional = yes
-		effect_starting_technology_tier_7_tech = yes
-		activate_law = law_type:law_debt_slavery
-	}
-	c:N27 ?= {
 		effect_native_conscription_3 = yes
 		effect_starting_politics_traditional = yes
 		effect_starting_technology_tier_7_tech = yes
@@ -8171,28 +8189,36 @@ c:LUS ?= {
     add_technology_researched = urban_planning
     add_technology_researched = urbanization
 
-    activate_law = law_type:law_charitable_health_system
-    activate_law = law_type:law_colonial_resettlement
-    activate_law = law_type:law_cultural_exclusion
-    activate_law = law_type:law_state_religion
-    activate_law = law_type:law_hereditary_bureaucrats
-    activate_law = law_type:law_land_based_taxation
-    activate_law = law_type:law_local_police
-    activate_law = law_type:law_mercantilism
-    activate_law = law_type:law_migration_controls
-    activate_law = law_type:law_monarchy
-    activate_law = law_type:law_no_home_affairs
-    activate_law = law_type:law_no_social_security
-    activate_law = law_type:law_no_workers_rights
-    activate_law = law_type:law_professional_army
-    activate_law = law_type:law_religious_schools
-    activate_law = law_type:law_censorship
-    activate_law = law_type:law_serfdom
-    activate_law = law_type:law_slavery_banned
-    activate_law = law_type:law_traditionalism
-    activate_law = law_type:law_almirantado_junta
-    activate_law = law_type:law_women_own_property
-
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_almirantado_junta
+	activate_law = law_type:law_national_supremacy
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_military_bureaucrats
+	activate_law = law_type:law_volunteer_only
+	activate_law = law_type:law_professional_navy
+	activate_law = law_type:law_secret_police
+	activate_law = law_type:law_traditionalism
+	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_low_income_tax
+	activate_law = law_type:law_no_corporation_taxes
+	activate_law = law_type:law_moderate_consumption_tax
+	activate_law = law_type:law_dispersed_industry
+	activate_law = law_type:law_colonial_resettlement
+	activate_law = law_type:law_indirect_rule
+	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_tenant_farmers
+	activate_law = law_type:law_colonial_slavery
+	activate_law = law_type:law_peonage
+	activate_law = law_type:law_women_own_property
+	activate_law = law_type:law_censorship
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_combination_acts
+	activate_law = law_type:law_militarized_police
+	activate_law = law_type:law_charitable_health_system
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_no_social_security
+	
     set_institution_investment_level = {
         institution = institution_colonial_affairs
         level = 1

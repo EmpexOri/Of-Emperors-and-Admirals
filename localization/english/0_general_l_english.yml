@@ -7,6 +7,23 @@
     law_almirantado_junta:0 "Almirantado Junta"
     law_almirantado_junta_desc:0 "The Almirantado Junta establishes a political order dominated by the Grand Admiral and the naval high command. Aristocratic families and wealthy commercial interests retain considerable influence, but the Officer Corps forms the backbone of the state."
 
+    law_choninbakufu:0 "Chōninbakufu"
+    law_choninbakufu_desc:0 "The Chōninbakufu is a merchant-led shogunate in which powerful commercial houses, wealthy landowning families, and industrial capitalists dominate the state. The merchant houses finance the regime, while the traditional landed elite retain their privileged position. Political influence and investment are concentrated in the hands of the wealthy."
+    law_kabunakama:0 "Kabunakama"
+    law_kabunakama_desc:0 "The Kabunakama system preserves the traditional economic order while granting privileged merchant associations considerable economic freedom. Private construction is encouraged, and a greater share of government dividends is reinvested into the economy."
+    gov_chonininate:0 "Chōninate"
+    gov_chonininate_desc:0 "A Japanese merchant shogunate in which the great merchant houses and hereditary military aristocracy govern under the authority of the Tōryō."
+    RULER_TITLE_TORYO:0 "Tōryō"
+    HEIR_TITLE_WAKATORYO:0 "Waka-Tōryō"
+    ig_buddhist_monks:0 "Sōryo"
+
+    ideology_daimyo_traditionalism:0 "Gōshō Traditionalism"
+    ideology_daimyo_traditionalism_desc:0 "#lore The traditional aristocracy believes that Japan's prosperity and stability depend upon the preservation of hereditary authority, feudal obligations and the established social hierarchy. The merchant houses may accumulate wealth, provided they remain within the political order established by the Shogunate.#!"
+    ideology_merchant_oligarchy:0 "Zaibatsu Chōnindō"
+    ideology_merchant_oligarchy_desc:0 "#lore The great merchant houses believe that wealth and commercial influence should form the foundation of political power. They support the Shogunate as the guarantor of privileged commerce, protected monopolies and private accumulation of capital, opposing democratic interference in the established economic order.#!"
+
+
+
     intervene_in_war.tt:0 "Join any [concept_war] where [SCOPE.sCountry('target_country_scope').GetName] is the [concept_war_leader]"
     intervene_in_war.ttt:0 "Must not have a [concept_truce] with any potential enemy" 
     intervene_in_war:0 "Intervene in War"

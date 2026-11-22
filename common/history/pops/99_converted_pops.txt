@@ -4560,7 +4560,7 @@
 				size = 1243
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-togoku
+				culture = neo-mexico_colony-togoku
 				religion = mahayana
 				size = 3932
 			}
@@ -4570,7 +4570,7 @@
 				size = 1611
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-togoku
+				culture = neo-mexico_colony-togoku
 				religion = mahayana
 				size = 5290
 			}
@@ -4593,16 +4593,6 @@
 				culture = oodham
 				religion = mahayana
 				size = 2030
-			}
-			create_pop = {
-				culture = japanese
-				religion = mahayana
-				size = 16802
-			}
-			create_pop = {
-				culture = han
-				religion = mahayana
-				size = 4623
 			}
 		}
 	}
@@ -8282,21 +8272,6 @@
 				culture = penutian
 				religion = mahayana
 				size = 5547
-			}
-			create_pop = {
-				culture = japanese
-				religion = mahayana
-				size = 137025
-			}
-			create_pop = {
-				culture = japanese
-				religion = mahayana
-				size = 1600000
-			}
-			create_pop = {
-				culture = han
-				religion = mahayana
-				size = 463982
 			}
 		}
 		region_state:M08 = {
@@ -17563,12 +17538,14 @@
 		}
 	}
 	s:STATE_GUIZHOU = {
-		region_state:X83 = {
+		region_state:X75 = {
 			create_pop = {
 				culture = yi
 				religion = daoshenic
 				size = 213018
 			}
+		}
+		region_state:X83 = {
 			create_pop = {
 				culture = yi
 				religion = daoshenic
@@ -18424,7 +18401,7 @@
 		}
 	}
 	s:STATE_HENAN = {
-		region_state:HAP = {
+		region_state:X40 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -19063,7 +19040,7 @@
 		}
 	}
 	s:STATE_HINGGAN = {
-		region_state:X81 = {
+		region_state:V15 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -19074,6 +19051,8 @@
 				religion = tengri_pagan_reformed
 				size = 78410
 			}
+		}
+		region_state:V23 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
@@ -19114,6 +19093,8 @@
 				religion = mahayana
 				size = 115304
 			}
+		}
+		region_state:X40 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -19129,6 +19110,8 @@
 				religion = daoshenic
 				size = 117615
 			}
+		}
+		region_state:X81 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -19220,7 +19203,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 437025
+				size = 637025
 			}
 		}
 	}
@@ -19493,12 +19476,7 @@
 		}
 	}
 	s:STATE_HUNAN = {
-		region_state:X83 = {
-			create_pop = {
-				culture = yi
-				religion = daoshenic
-				size = 234132
-			}
+		region_state:X40 = {
 			create_pop = {
 				culture = dynamic-chihan-culture-num3
 				religion = daoshenic
@@ -19518,6 +19496,13 @@
 				culture = dynamic-chihan-culture-num4
 				religion = daoshenic
 				size = 429241
+			}
+		}
+		region_state:X83 = {
+			create_pop = {
+				culture = yi
+				religion = daoshenic
+				size = 234132
 			}
 		}
 	}
@@ -21451,7 +21436,7 @@
 		}
 	}
 	s:STATE_JIANGXI = {
-		region_state:X40 = {
+		region_state:X82 = {
 			create_pop = {
 				culture = miao
 				religion = daoshenic
@@ -22286,6 +22271,11 @@
 				culture = japanese
 				religion = mahayana
 				size = 98212
+			}
+			create_pop = {
+				culture = japanese
+				religion = mahayana
+				size = 196802
 			}
 		}
 		region_state:W91 = {
@@ -23903,7 +23893,7 @@
 		}
 	}
 	s:STATE_KOLYMA = {
-		region_state:N27 = {
+		region_state:V23 = {
 			create_pop = {
 				culture = siberian
 				religion = tengri_pagan_reformed
@@ -23944,6 +23934,8 @@
 				religion = daoshenic
 				size = 97
 			}
+		}
+		region_state:X67 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -23974,6 +23966,8 @@
 				religion = tengri_pagan_reformed
 				size = 5938
 			}
+		}
+		region_state:X84 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -25402,6 +25396,8 @@
 				religion = daoshenic
 				size = 112726
 			}
+		}
+		region_state:X83 = {
 			create_pop = {
 				culture = tibetan
 				religion = daoshenic
@@ -33865,7 +33861,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:V23 = {
+		region_state:KOR = {
 			create_pop = {
 				culture = manchu
 				religion = animist
@@ -33891,6 +33887,8 @@
 				religion = mahayana
 				size = 88154
 			}
+		}
+		region_state:V23 = {
 			create_pop = {
 				culture = mongol
 				religion = daoshenic
@@ -36915,16 +36913,6 @@
 				culture = neo-usa_north_colony-korean
 				religion = mahayana
 				size = 1998
-			}
-			create_pop = {
-				culture = japanese
-				religion = mahayana
-				size = 133901
-			}
-			create_pop = {
-				culture = han
-				religion = mahayana
-				size = 18045
 			}
 		}
 		region_state:N05 = {
@@ -40068,7 +40056,7 @@
 		}
 	}
 	s:STATE_QINGHAI = {
-		region_state:W83 = {
+		region_state:V15 = {
 			create_pop = {
 				culture = mongol
 				religion = daoshenic
@@ -40079,6 +40067,8 @@
 				religion = daoshenic
 				size = 265765
 			}
+		}
+		region_state:W83 = {
 			create_pop = {
 				culture = tibetan_new
 				religion = sunni
@@ -40109,6 +40099,8 @@
 				religion = daoshenic
 				size = 31912
 			}
+		}
+		region_state:X83 = {
 			create_pop = {
 				culture = tibetan
 				religion = daoshenic
@@ -43655,7 +43647,7 @@
 		}
 	}
 	s:STATE_SHANDONG = {
-		region_state:HAP = {
+		region_state:X40 = {
 			create_pop = {
 				culture = han
 				religion = mahayana
@@ -43891,12 +43883,14 @@
 		}
 	}
 	s:STATE_SICHUAN = {
-		region_state:X83 = {
+		region_state:X40 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
 				size = 150733
 			}
+		}
+		region_state:X83 = {
 			create_pop = {
 				culture = tibetan
 				religion = daoshenic
@@ -45113,6 +45107,8 @@
 				religion = mahayana
 				size = 399937
 			}
+		}
+		region_state:X40 = {
 			create_pop = {
 				culture = mongol
 				religion = theravada
@@ -48464,6 +48460,11 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
+				size = 133901
+			}
+			create_pop = {
+				culture = japanese
+				religion = mahayana
 				size = 268319
 			}
 			create_pop = {
@@ -48649,7 +48650,7 @@
 		}
 	}
 	s:STATE_TONKIN = {
-		region_state:X82 = {
+		region_state:X50 = {
 			create_pop = {
 				culture = vietnamese
 				religion = daoshenic
@@ -48660,6 +48661,8 @@
 				religion = daoshenic
 				size = 103930
 			}
+		}
+		region_state:X82 = {
 			create_pop = {
 				culture = vietnamese
 				religion = daoshenic
@@ -49137,6 +49140,23 @@
 		}
 	}
 	s:STATE_TUCUMAN = {
+		region_state:TWT = {
+			create_pop = {
+				culture = aimara
+				religion = animist
+				size = 1713
+			}
+			create_pop = {
+				culture = patagonian
+				religion = animist
+				size = 90
+			}
+			create_pop = {
+				culture = neo-argentine_colony-dutch
+				religion = gelugpa
+				size = 3385
+			}
+		}
 		region_state:X32 = {
 			create_pop = {
 				culture = aimara
@@ -49212,21 +49232,6 @@
 				culture = neo-argentine_colony-dutch
 				religion = gelugpa
 				size = 4875
-			}
-			create_pop = {
-				culture = aimara
-				religion = animist
-				size = 1713
-			}
-			create_pop = {
-				culture = patagonian
-				religion = animist
-				size = 90
-			}
-			create_pop = {
-				culture = neo-argentine_colony-dutch
-				religion = gelugpa
-				size = 3385
 			}
 		}
 	}
@@ -50692,7 +50697,7 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:X81 = {
+		region_state:V23 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
@@ -50718,6 +50723,8 @@
 				religion = mahayana
 				size = 23399
 			}
+		}
+		region_state:X81 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
@@ -51059,11 +51066,6 @@
 				culture = algonquian
 				religion = mahayana
 				size = 1169
-			}
-			create_pop = {
-				culture = japanese
-				religion = mahayana
-				size = 2500
 			}
 		}
 		region_state:N04 = {
@@ -52861,7 +52863,7 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI = {
-		region_state:X83 = {
+		region_state:X40 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -54756,7 +54758,7 @@
 				size = 569
 			}
 		}
-		region_state:N27 = {
+		region_state:V23 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -54767,6 +54769,8 @@
 				religion = daoshenic
 				size = 73
 			}
+		}
+		region_state:X67 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -54777,6 +54781,8 @@
 				religion = tengri_pagan_reformed
 				size = 5268
 			}
+		}
+		region_state:X84 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -55720,6 +55726,8 @@
 				religion = daoshenic
 				size = 834075
 			}
+		}
+		region_state:X83 = {
 			create_pop = {
 				culture = yi
 				religion = daoshenic
@@ -56248,7 +56256,7 @@
 		}
 	}
 	s:STATE_ZHILI = {
-		region_state:HAP = {
+		region_state:X40 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic

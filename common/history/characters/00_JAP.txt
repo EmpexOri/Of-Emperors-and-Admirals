@@ -48,6 +48,8 @@
 			culture = cu:japanese
 			religion = rel:mahayana
 			birth_date = 1788.6.2
+			interest_group = ig_industrialists
+			ideology = ideology_merchant_oligarchy
 			traits = {
 				direct expert_colonial_administrator 
 			}

@@ -528,11 +528,11 @@ law_millet_system = {
 	progressiveness = -50
 
 	is_visible = {
-		ROOT = c:TUR
+		c:TUR ?= this
 	}
-	
+
 	can_enact = {
-		ROOT = c:TUR
+		c:TUR ?= this
 	}
 	
 	on_enact = {
@@ -639,11 +639,11 @@ law_codified_mecelle = {
 	progressiveness = 0
 
 	is_visible = {
-		ROOT = c:TUR
+		c:TUR ?= this
 	}
-	
+
 	can_enact = {
-		ROOT = c:TUR
+		c:TUR ?= this
 	}
 
 	unlocking_technologies = {

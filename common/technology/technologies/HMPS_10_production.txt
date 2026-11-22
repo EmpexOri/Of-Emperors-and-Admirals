@@ -1,0 +1,174 @@
+﻿### ERA 1
+
+INJECT:lathe = {
+	modifier = {
+		building_economy_of_scale_level_cap_add = 10
+	}
+}
+
+### ERA 2
+
+INJECT:intensive_agriculture = {
+	
+	modifier = { #HMPS
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add  = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+INJECT:railways = { #HMPS
+	modifier = {
+		state_market_access_price_impact = 0.05
+	}
+}
+
+INJECT:nitroglycerin = { #HMPS
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.1
+	}
+}
+INJECT:nitroglycerin = { #HMPS
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.1
+	}
+}
+
+### ERA 3
+
+INJECT:improved_fertilizer = { #HMPS
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add  = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+INJECT:dynamite = { #HMPS
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.1
+	}
+}
+
+alternators = { #HMPS ORIGINAL TECH
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/alternator.dds"
+	category = production
+	
+	modifier = {
+		# Unlocks AC PM
+	}
+	
+	unlocking_technologies = {	
+		electrical_generation
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+### ERA 4
+
+synfuel = { #HMPS ORIGINAL, do not need inject/replace
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/synth_oil.dds"
+	category = production
+	
+	modifier = {
+		# Unlocks Synth Oil
+	}
+	
+	unlocking_technologies = {	
+		plastics
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+INJECT:nitrogen_fixation = { #HMPS
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add  = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+INJECT:combustion_engine = { #HMPS
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.1
+	}
+}
+
+REPLACE:reinforced_concrete = { # HMPS: construction throughput moved to the Fittings methods
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/reinforced_concrete.dds"
+	category = production
+
+	unlocking_technologies = {
+		bessemer_process
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+REPLACE:pneumatic_tools = { # HMPS: construction throughput moved to the Fittings methods
+	# Countries get a +25% chance of discovering new resources
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/pneumatic_tools.dds"
+	category = production
+
+	modifier = {
+		goods_output_hardwood_mult = 0.25
+		country_resource_discovery_chance_mult = 0.25
+		building_economy_of_scale_level_cap_add = 10
+		building_group_bg_logging_throughput_add = 0.20 # added when arable logging was removed
+	}
+
+	unlocking_technologies = {
+		rotary_valve_engine
+		reinforced_concrete
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+INJECT:oil_turbine = {
+	modifier = {
+		building_group_bg_oil_extraction_throughput_add = 0.2 #HMPS - Added to make up for reduced oil in world when converting to slim
+	}
+}
+
+### ERA 5
+INJECT:compression_ignition = {
+	modifier = {
+		building_group_bg_oil_extraction_throughput_add = 0.2 #HMPS - Added to make up for reduced oil in world when converting to slim
+	}
+}
+
+REPLACE:arc_welding = {
+	# Unlocks Arc Welding Shipbuilding PM in Shipyards
+	# Unlocks Very Fast PM in Construction Camps
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+
+	unlocking_technologies = {
+		electric_arc_process
+		pneumatic_tools
+	}
+
+	modifier = { #HMPS: Replaced max capital ship construction with efficiency due to the increased max ship weekly construction changes
+		country_ship_group_capital_ships_construction_efficiency_add = 0.10
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}

@@ -340,8 +340,8 @@
 		effect_starting_pop_wealth_low = yes
 	}
 	c:JAP ?= {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_very_high = yes
+		effect_starting_pop_literacy_low = yes
+		effect_starting_pop_wealth_low = yes
 	}
 	c:JUN ?= {
 		effect_starting_pop_literacy_high = yes
