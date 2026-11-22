@@ -1,0 +1,25 @@
+gov_lusitanian_admiralty = {
+    transfer_of_power = hereditary
+
+    male_ruler = "RULER_TITLE_GRAND_ADMIRAL"
+    female_ruler = "RULER_TITLE_GRAND_ADMIRAL"
+
+    male_heir = "RULER_TITLE_PRINCE"
+    female_heir = "RULER_TITLE_PRINCESS"
+
+    possible = {
+        AND = {
+            exists = c:LUS
+            c:LUS = ROOT
+
+            has_law = law_type:law_monarchy
+
+            OR = {
+				has_law = law_type:law_almirantado_junta
+				has_law = law_type:law_autocracy
+            }
+
+            has_variable = lus_admiralty_active
+        }
+    }
+}

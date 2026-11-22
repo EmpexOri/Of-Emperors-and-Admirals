@@ -1,0 +1,91 @@
+﻿GBH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.059 0.098 0.302 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_GBH_added_gndbwt15j5vca.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+
+GBH_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.059 0.098 0.302 }
+	color2 = rgb { 0.549 0.035 0.027 }
+	color3 = rgb { 0.059 0.098 0.302 }
+
+	textured_emblem = {
+		texture = "ff_GBH_monarchy_added_1cf3xz114der30.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_GBH_monarchy_custom_1uapfm67ju1ws.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.3694 0.64 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_GBH_monarchy_added_g91eu21qjgmvr.tga"
+		instance = { position = { 0.85 0.5 } scale = { 0.25 0.25 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_GBH_monarchy_added_zrhbp9gbngj.tga"
+		instance = { position = { 0.15 0.5 } scale = { 0.25 0.25 } }
+	}
+}
+
+GBH_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.059 0.098 0.302 }
+	color2 = rgb { 0.549 0.035 0.027 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_GBH_republic_added_loxyzh1hc9id.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}
+
+GBH_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.549 0.035 0.027 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_GBH_communist_added_ci0x6t6r4zk6.tga"
+		instance = { position = { 0 0.5 } scale = { 1 1 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_cogwheel.dds"
+		color1 = rgb { 1.000 1.000 1.000 }
+		color2 = rgb { 1.000 1.000 1.000 }
+		color3 = rgb { 0.776 0.639 0.361 }
+		instance = { position = { 0.15 0.5 } scale = { 0.45 0.45 } }
+	}
+}
+
+GBH_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.059 0.098 0.302 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_GBH_dictatorship_added_1yv156a87am2f.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_iron_cross.dds"
+		color1 = rgb { 0.549 0.035 0.027 }
+		color2 = rgb { 0.031 0.031 0.031 }
+		color3 = rgb { 0.776 0.639 0.361 }
+		instance = { position = { 0.33 0.5 } scale = { 0.45 0.45 } }
+	}
+}
+

@@ -1,0 +1,43 @@
+﻿LUS = {
+	pattern = "pattern_verical_bicolor_offset.dds"
+	color1 = rgb { 1.000 1.000 1.000 }
+	color2 = rgb { 0.059 0.098 0.302 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "te_coa_portugal.dds"
+		instance = { position = { 0.4 0.5 } scale = { 1 1 } }
+	}
+}
+
+LUS_dictatorship = {
+	pattern = "pattern_border_fringe.tga"
+	color1 = rgb { 0.533 0.133 0.133 }
+	color2 = rgb { 0.059 0.098 0.302 }
+	color3 = rgb { 1.000 1.000 1.000 }
+
+	textured_emblem = {
+		texture = "ce_coa_shield_sweden.dds"
+		instance = { position = { 0.5 0.5 } scale = { 0.75 0.75 } }
+	}
+
+	textured_emblem = {
+		texture = "te_coa_portuguese_republic.dds"
+		instance = { position = { 0.59 0.36 } scale = { 0.25 0.25 } }
+	}
+
+	textured_emblem = {
+		texture = "te_coa_spain.dds"
+		instance = { position = { 0.4104 0.36 } scale = { 0.3 0.3 } }
+	}
+
+	textured_emblem = {
+		texture = "te_coa_france_greater.dds"
+		instance = { position = { 0.41 0.63 } scale = { 0.25 0.25 } }
+	}
+
+	textured_emblem = {
+		texture = "ce_star_05_morocco.dds"
+		instance = { position = { 0.5845 0.64 } scale = { 0.25 0.23 } }
+	}
+}
