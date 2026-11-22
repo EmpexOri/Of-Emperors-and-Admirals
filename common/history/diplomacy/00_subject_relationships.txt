@@ -1,5 +1,4 @@
-﻿
-DIPLOMACY = {
+﻿DIPLOMACY = {
 	c:ARK ?= {
 		create_diplomatic_pact = {
 			country = c:V41
@@ -477,7 +476,7 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:W83
-			type = personal_union
+			type = tributary
 		}
 	}
 	c:W83 ?= {
@@ -495,17 +494,11 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:V15
-			type = personal_union
+			type = vassal
 		}
 	}
 	c:V15 ?= {
 		add_liberty_desire = 23.95
-	}
-	c:X40 ?= {
-		create_diplomatic_pact = {
-			country = c:CHP
-			type = tributary
-		}
 	}
 	c:X40 ?= {
 		create_diplomatic_pact = {
@@ -519,7 +512,7 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:X75
-			type = personal_union
+			type = vassal
 		}
 	}
 	c:X75 ?= {
@@ -537,7 +530,7 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:X80
-			type = personal_union
+			type = vassal
 		}
 	}
 	c:X80 ?= {
@@ -546,7 +539,7 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:X81
-			type = personal_union
+			type = vassal
 		}
 	}
 	c:X81 ?= {
@@ -555,7 +548,7 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:X82
-			type = personal_union
+			type = vassal
 		}
 	}
 	c:X82 ?= {
@@ -564,7 +557,7 @@ DIPLOMACY = {
 	c:X40 ?= {
 		create_diplomatic_pact = {
 			country = c:X83
-			type = personal_union
+			type = vassal
 		}
 	}
 	c:X83 ?= {
@@ -572,23 +565,8 @@ DIPLOMACY = {
 	}
 	c:X40 ?= {
 		create_diplomatic_pact = {
-			country = c:HAP
-			type = personal_union
-		}
-	}
-	c:HAP ?= {
-		add_liberty_desire = -50
-	}
-	c:X40 ?= {
-		create_diplomatic_pact = {
-			country = c:HAP
-			type = personal_union
-		}
-	}
-	c:X40 ?= {
-		create_diplomatic_pact = {
 			country = c:X84
-			type = protectorate
+			type = vassal
 		}
 	}
 	c:X84 ?= {
