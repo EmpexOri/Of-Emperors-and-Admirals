@@ -6580,6 +6580,14 @@ REPLACE_OR_CREATE:N26 ?= {
 	capital = STATE_KACHIN
 }
 
+REPLACE_OR_CREATE:N27 ?= {
+	color = { 247 208 77 }
+	country_type = decentralized
+	tier = principality
+	cultures = { yakut }
+	capital = STATE_YAKUTSK
+}
+
 REPLACE_OR_CREATE:NAG ?= {
 	color = { 120 148 140 }
 	country_type = unrecognized
