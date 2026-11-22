@@ -365,37 +365,37 @@
 	c:GRE ?= {
 		add_liberty_desire = 49.166
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:X21
 			type = chartered_company
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:GUA
 			type = chartered_company
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:HAI
 			type = colony
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:PLT
 			type = colony
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:CLM
 			type = colony
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:PAP
 			type = puppet
@@ -404,7 +404,7 @@
 	c:PAP ?= {
 		add_liberty_desire = -50
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:X77
 			type = puppet
@@ -413,7 +413,7 @@
 	c:X77 ?= {
 		add_liberty_desire = -50
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:X78
 			type = puppet
@@ -422,7 +422,7 @@
 	c:X78 ?= {
 		add_liberty_desire = -50
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:X93
 			type = colony
@@ -578,7 +578,7 @@
 			type = chartered_company
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:W92
 			type = chartered_company

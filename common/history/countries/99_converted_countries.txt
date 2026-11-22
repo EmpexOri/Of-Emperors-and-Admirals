@@ -8101,7 +8101,7 @@
 			level = 3
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		add_technology_researched = academia
 		add_technology_researched = admiralty
 		add_technology_researched = army_reserves

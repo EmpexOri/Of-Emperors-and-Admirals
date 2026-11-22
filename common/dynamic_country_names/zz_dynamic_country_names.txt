@@ -1,0 +1,37 @@
+ALK = {
+    dynamic_country_name = {
+        name = dyn_c_russian_american_company
+        adjective = dyn_c_russian_american_company_adj
+        use_overlord_prefix = yes
+
+        is_main_tag_only = yes
+        priority = 5
+
+        trigger = {
+            scope:actor ?= {
+                is_subject = yes
+                is_subject_type = subject_type_chartered_company
+                NOT = {
+                    overlord = {
+                        country_has_primary_culture = cu:japanese
+                    }
+                }
+            }
+        }
+    }
+	dynamic_country_name = {
+		name = dyn_c_alyaska
+		adjective = dyn_c_alyaska_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			scope:actor ?= {
+				any_primary_culture = {
+					cu:russian ?= this
+				}
+			}
+		}
+	}
+}

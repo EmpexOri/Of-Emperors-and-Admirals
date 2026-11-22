@@ -1286,7 +1286,7 @@
 		}
 	}
 	s:STATE_ALENTEJO = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -1703,7 +1703,7 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = maghrebi
 				religion = catholic
@@ -2945,7 +2945,7 @@
 		}
 	}
 	s:STATE_AQUITAINE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = basque
 				religion = catholic
@@ -3004,7 +3004,7 @@
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = basque
 				religion = catholic
@@ -3676,7 +3676,7 @@
 		}
 	}
 	s:STATE_ASTURIAS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = spanish
 				religion = catholic
@@ -4069,7 +4069,7 @@
 		}
 	}
 	s:STATE_AZORES = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = berber
 				religion = animist
@@ -4762,7 +4762,7 @@
 		}
 	}
 	s:STATE_BALEARIC_ISLANDS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = catalan
 				religion = catholic
@@ -5134,7 +5134,7 @@
 		}
 	}
 	s:STATE_BASQUE_COUNTRY = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = basque
 				religion = catholic
@@ -5511,7 +5511,7 @@
 		}
 	}
 	s:STATE_BEIRA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -6511,7 +6511,7 @@
 				size = 446
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
@@ -8510,7 +8510,7 @@
 		}
 	}
 	s:STATE_CANARY_ISLANDS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = berber
 				religion = sunni
@@ -8586,7 +8586,7 @@
 				size = 32219
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = khoisan
 				religion = animist
@@ -8595,7 +8595,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -8611,7 +8611,7 @@
 				size = 285678
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = catalan
 				religion = catholic
@@ -14430,7 +14430,7 @@
 		}
 	}
 	s:STATE_ENTRE_DOURO_E_MINHO = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -14802,7 +14802,7 @@
 		}
 	}
 	s:STATE_ESTREMADURA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -14821,7 +14821,7 @@
 		}
 	}
 	s:STATE_EXTREMADURA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -15027,7 +15027,7 @@
 		}
 	}
 	s:STATE_FEZ = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = maghrebi
 				religion = ibadi
@@ -15923,7 +15923,7 @@
 		}
 	}
 	s:STATE_GALICIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -16432,7 +16432,7 @@
 				size = 8
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = dynamic-dyola-mali-culture-num1
 				religion = sunni
@@ -17004,7 +17004,7 @@
 		}
 	}
 	s:STATE_GUANGDONG = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = dynamic-chihan-culture-num4
 				religion = daoshenic
@@ -17735,7 +17735,7 @@
 				size = 96402
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = occitan
 				religion = catholic
@@ -19470,7 +19470,7 @@
 		}
 	}
 	s:STATE_HUNAN = {
-		region_state:X40 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = dynamic-chihan-culture-num3
 				religion = daoshenic
@@ -19491,10 +19491,7 @@
 				religion = daoshenic
 				size = 386317
 			}
-		}
-		region_state:X83 = {
-			create_pop = {
-				culture = yi
+			culture = yi
 				religion = daoshenic
 				size = 210718
 			}
@@ -23277,7 +23274,7 @@
 				size = 52187
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = kikuyu
 				religion = sunni
@@ -24530,7 +24527,7 @@
 				size = 47
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = occitan
 				religion = catholic
@@ -25261,7 +25258,7 @@
 		}
 	}
 	s:STATE_LEON = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = asturleonese
 				religion = catholic
@@ -25808,7 +25805,7 @@
 				size = 19622
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = yao
 				religion = sunni
@@ -26204,7 +26201,7 @@
 		}
 	}
 	s:STATE_LOWER_ANDALUSIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = andalucian
 				religion = catholic
@@ -26743,7 +26740,7 @@
 				size = 127317
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = tagalog
 				religion = gelugpa
@@ -26801,7 +26798,7 @@
 		}
 	}
 	s:STATE_MADEIRA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = berber
 				religion = ibadi
@@ -27255,7 +27252,7 @@
 				size = 67042
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = aslian
 				religion = theravada
@@ -27960,7 +27957,7 @@
 		}
 	}
 	s:STATE_MARRAKECH = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = maghrebi
 				religion = catholic
@@ -30475,7 +30472,7 @@
 				size = 51544
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = swahili
 				religion = sunni
@@ -31258,7 +31255,7 @@
 		}
 	}
 	s:STATE_MURCIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = andalucian
 				religion = catholic
@@ -32255,7 +32252,7 @@
 		}
 	}
 	s:STATE_NEW_CASTILE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = spanish
 				religion = catholic
@@ -33416,8 +33413,6 @@
 				religion = daoshenic
 				size = 310587
 			}
-		}
-		region_state:X40 = {
 			create_pop = {
 				culture = tuvan
 				religion = daoshenic
@@ -35830,20 +35825,6 @@
 				religion = daoshenic
 				size = 773
 			}
-		}
-		region_state:X67 = {
-			create_pop = {
-				culture = yakut
-				religion = tengri_pagan_reformed
-				size = 51
-			}
-			create_pop = {
-				culture = yakut
-				religion = tengri_pagan_reformed
-				size = 254
-			}
-		}
-		region_state:X84 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -35863,6 +35844,18 @@
 				culture = han
 				religion = daoshenic
 				size = 421
+			}
+		}
+		region_state:X67 = {
+			create_pop = {
+				culture = yakut
+				religion = tengri_pagan_reformed
+				size = 51
+			}
+			create_pop = {
+				culture = yakut
+				religion = tengri_pagan_reformed
+				size = 254
 			}
 		}
 	}
@@ -35958,7 +35951,7 @@
 		}
 	}
 	s:STATE_OLD_CASTILE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = asturleonese
 				religion = catholic
@@ -36111,7 +36104,7 @@
 				size = 27
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = han
 				religion = sunni
@@ -39216,7 +39209,7 @@
 				size = 4
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = occitan
 				religion = catholic
@@ -44798,7 +44791,7 @@
 				size = 29
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = sidama
 				religion = oriental_orthodox
@@ -45144,7 +45137,7 @@
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = portuguese
 				religion = catholic
@@ -45888,7 +45881,7 @@
 				size = 20594
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = malagasy
 				religion = sunni
@@ -50122,7 +50115,7 @@
 		}
 	}
 	s:STATE_UPPER_ANDALUSIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = andalucian
 				religion = catholic
@@ -51313,7 +51306,7 @@
 		}
 	}
 	s:STATE_VALENCIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = andalucian
 				religion = catholic
@@ -52805,7 +52798,7 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI = {
-		region_state:X40 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = han
 				religion = daoshenic
@@ -53998,7 +53991,7 @@
 				size = 10556
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = micronesian
 				religion = animist
@@ -54723,8 +54716,6 @@
 				religion = tengri_pagan_reformed
 				size = 4741
 			}
-		}
-		region_state:X84 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -54855,7 +54846,7 @@
 				size = 649400
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = korean
 				religion = mahayana
@@ -55207,7 +55198,7 @@
 				size = 64
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = yemenite
 				religion = sunni
@@ -55897,7 +55888,7 @@
 				size = 80
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = nguni
 				religion = sunni
@@ -56021,7 +56012,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_pop = {
 				culture = swahili
 				religion = sunni

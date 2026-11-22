@@ -229,7 +229,7 @@
 			type = rivalry
 		}
 		create_diplomatic_pact = {
-			country = c:W97
+			country = c:LUS
 			type = rivalry
 		}
 		create_diplomatic_pact = {
@@ -655,7 +655,7 @@
 			type = rivalry
 		}
 	}
-	c:W97 ?= {
+	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:IDN
 			type = rivalry

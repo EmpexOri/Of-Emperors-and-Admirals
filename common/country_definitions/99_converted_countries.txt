@@ -11243,13 +11243,13 @@ REPLACE_OR_CREATE:W96 ?= {
 	capital = STATE_QINGHAI
 }
 
-REPLACE_OR_CREATE:W97 ?= {
+REPLACE_OR_CREATE:LUS ?= {
 	color = { 2 52 149 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { portuguese }
 	religion = catholic
-	capital = STATE_ESTREMADURA
+	capital = STATE_BEIRA
 }
 
 REPLACE_OR_CREATE:W98 ?= {

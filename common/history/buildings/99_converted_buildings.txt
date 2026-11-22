@@ -1044,12 +1044,12 @@
 		}
 	}
 	s:STATE_ALENTEJO = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -1060,7 +1060,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -1072,7 +1072,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 5
 						region = STATE_ALENTEJO
 					}
@@ -1085,7 +1085,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_ALENTEJO
 					}
@@ -1098,7 +1098,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ALENTEJO
 					}
@@ -1111,7 +1111,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ALENTEJO
 					}
@@ -1123,7 +1123,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -1658,12 +1658,12 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -1675,7 +1675,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AL_RIF
 					}
@@ -1688,7 +1688,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_AL_RIF
 					}
@@ -1701,7 +1701,7 @@
 				add_ownership = {
 					building = {
 						type = building_tooling_workshop
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AL_RIF
 					}
@@ -1714,7 +1714,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AL_RIF
 					}
@@ -1726,7 +1726,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -2688,12 +2688,12 @@
 		}
 	}
 	s:STATE_AQUITAINE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -2704,7 +2704,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -2716,7 +2716,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AQUITAINE
 					}
@@ -2724,7 +2724,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AQUITAINE
 					}
@@ -2732,7 +2732,7 @@
 				add_ownership = {
 					building = {
 						type = building_logging_camp
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_AQUITAINE
 					}
@@ -2745,7 +2745,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_AQUITAINE
 					}
@@ -2758,7 +2758,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AQUITAINE
 					}
@@ -2770,7 +2770,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 4
 					}
 				}
@@ -2781,7 +2781,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -2791,12 +2791,12 @@
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -2808,7 +2808,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ARAGON
 					}
@@ -2821,7 +2821,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_ARAGON
 					}
@@ -2833,7 +2833,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -2845,7 +2845,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ARAGON
 					}
@@ -2853,7 +2853,7 @@
 				add_ownership = {
 					building = {
 						type = building_furniture_manufactory
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ARAGON
 					}
@@ -2866,7 +2866,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ARAGON
 					}
@@ -3560,12 +3560,12 @@
 		}
 	}
 	s:STATE_ASTURIAS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -3577,7 +3577,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_ASTURIAS
 					}
@@ -3590,7 +3590,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_ASTURIAS
 					}
@@ -3602,7 +3602,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -4373,13 +4373,13 @@
 		}
 	}
 	s:STATE_AZORES = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_AZORES
 					}
@@ -4391,7 +4391,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -5044,12 +5044,12 @@
 		}
 	}
 	s:STATE_BALEARIC_ISLANDS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -5061,7 +5061,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BALEARIC_ISLANDS
 					}
@@ -5074,7 +5074,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BALEARIC_ISLANDS
 					}
@@ -5087,7 +5087,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_BALEARIC_ISLANDS
 					}
@@ -5100,7 +5100,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -5112,7 +5112,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -5656,12 +5656,12 @@
 		}
 	}
 	s:STATE_BASQUE_COUNTRY = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -5673,7 +5673,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_BASQUE_COUNTRY
 					}
@@ -5686,7 +5686,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_BASQUE_COUNTRY
 					}
@@ -5699,7 +5699,7 @@
 				add_ownership = {
 					building = {
 						type = building_tooling_workshop
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BASQUE_COUNTRY
 					}
@@ -5712,7 +5712,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BASQUE_COUNTRY
 					}
@@ -5724,7 +5724,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -6379,12 +6379,12 @@
 		}
 	}
 	s:STATE_BEIRA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -6396,7 +6396,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 4
 						region = STATE_BEIRA
 					}
@@ -6409,7 +6409,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BEIRA
 					}
@@ -6422,7 +6422,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_BEIRA
 					}
@@ -6435,7 +6435,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BEIRA
 					}
@@ -6447,7 +6447,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -6458,7 +6458,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -7480,12 +7480,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_trade_center"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -7496,7 +7496,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -7508,7 +7508,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_BOMBAY
 					}
@@ -7520,7 +7520,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -9321,13 +9321,13 @@
 		}
 	}
 	s:STATE_CANARY_ISLANDS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_CANARY_ISLANDS
 					}
@@ -9339,7 +9339,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -9452,12 +9452,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_trade_center"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -9468,7 +9468,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -9479,7 +9479,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -9489,12 +9489,12 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -9505,7 +9505,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -9587,12 +9587,12 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -9603,7 +9603,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -9615,7 +9615,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 5
 						region = STATE_CATALONIA
 					}
@@ -9628,7 +9628,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_CATALONIA
 					}
@@ -9641,7 +9641,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_CATALONIA
 					}
@@ -9654,7 +9654,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_CATALONIA
 					}
@@ -9667,7 +9667,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_CATALONIA
 					}
@@ -9679,7 +9679,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -15765,12 +15765,12 @@
 		}
 	}
 	s:STATE_ENTRE_DOURO_E_MINHO = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -15782,7 +15782,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_ENTRE_DOURO_E_MINHO
 					}
@@ -15795,7 +15795,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_ENTRE_DOURO_E_MINHO
 					}
@@ -15808,7 +15808,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -15820,7 +15820,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -15831,7 +15831,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -16003,12 +16003,12 @@
 		}
 	}
 	s:STATE_ESTREMADURA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -16019,7 +16019,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -16031,7 +16031,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 5
 						region = STATE_ESTREMADURA
 					}
@@ -16044,7 +16044,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -16057,7 +16057,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -16070,7 +16070,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -16083,7 +16083,7 @@
 				add_ownership = {
 					building = {
 						type = building_food_industry
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -16096,7 +16096,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -16104,7 +16104,7 @@
 				add_ownership = {
 					building = {
 						type = building_furniture_manufactory
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -16116,7 +16116,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -16126,12 +16126,12 @@
 		}
 	}
 	s:STATE_EXTREMADURA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -16142,7 +16142,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -16154,7 +16154,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_EXTREMADURA
 					}
@@ -16167,7 +16167,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_EXTREMADURA
 					}
@@ -16179,7 +16179,7 @@
 				building = "building_chemical_plant"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -16434,12 +16434,12 @@
 		}
 	}
 	s:STATE_FEZ = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -16451,7 +16451,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_FEZ
 					}
@@ -16464,7 +16464,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_FEZ
 					}
@@ -16477,7 +16477,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_FEZ
 					}
@@ -16489,7 +16489,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -17120,7 +17120,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -17789,12 +17789,12 @@
 		}
 	}
 	s:STATE_GALICIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -17806,7 +17806,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 5
 						region = STATE_GALICIA
 					}
@@ -17819,7 +17819,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_GALICIA
 					}
@@ -17832,7 +17832,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_GALICIA
 					}
@@ -17845,7 +17845,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -17857,7 +17857,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 4
 					}
 				}
@@ -17868,7 +17868,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -18291,12 +18291,12 @@
 		}
 	}
 	s:STATE_GOLD_COAST = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 5
 					}
 				}
@@ -18308,7 +18308,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_GOLD_COAST
 					}
@@ -18320,7 +18320,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -18825,12 +18825,12 @@
 		}
 	}
 	s:STATE_GUANGDONG = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 5
 					}
 				}
@@ -18842,7 +18842,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_GUANGDONG
 					}
@@ -18855,7 +18855,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_GUANGDONG
 					}
@@ -18868,7 +18868,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_GUANGDONG
 					}
@@ -18880,7 +18880,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -19945,12 +19945,12 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -19961,7 +19961,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -19973,7 +19973,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_GUYENNE
 					}
@@ -19986,7 +19986,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_GUYENNE
 					}
@@ -22447,7 +22447,7 @@
 		}
 	}
 	s:STATE_HUNAN = {
-		region_state:X40 = {
+		region_state:X83 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -22510,7 +22510,6 @@
 				activate_production_methods = { "pm_pig_iron" }
 			}
 		}
-		region_state:X83 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -23425,7 +23424,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -26106,12 +26105,12 @@
 		}
 	}
 	s:STATE_KENYA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 7
 					}
 				}
@@ -26123,7 +26122,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_KENYA
 					}
@@ -26136,7 +26135,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_KENYA
 					}
@@ -26149,7 +26148,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_KENYA
 					}
@@ -26161,7 +26160,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -27752,12 +27751,12 @@
 				activate_production_methods = { "pm_samurai_training" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 7
 					}
 				}
@@ -27768,7 +27767,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 12
 					}
 				}
@@ -27780,7 +27779,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LANGUEDOC
 					}
@@ -27793,7 +27792,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_LANGUEDOC
 					}
@@ -27806,7 +27805,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LANGUEDOC
 					}
@@ -27819,7 +27818,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LANGUEDOC
 					}
@@ -27831,7 +27830,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 6
 					}
 				}
@@ -27842,7 +27841,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -28592,12 +28591,12 @@
 		}
 	}
 	s:STATE_LEON = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -28608,7 +28607,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -28620,7 +28619,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LEON
 					}
@@ -28633,7 +28632,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_LEON
 					}
@@ -28646,7 +28645,7 @@
 				add_ownership = {
 					building = {
 						type = building_food_industry
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LEON
 					}
@@ -29088,12 +29087,12 @@
 		}
 	}
 	s:STATE_LINDI = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -29105,7 +29104,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LINDI
 					}
@@ -29118,7 +29117,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LINDI
 					}
@@ -29131,7 +29130,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_LINDI
 					}
@@ -29584,12 +29583,12 @@
 		}
 	}
 	s:STATE_LOWER_ANDALUSIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -29600,7 +29599,7 @@
 				building = "building_naval_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -29611,7 +29610,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 13
 					}
 				}
@@ -29623,7 +29622,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_LOWER_ANDALUSIA
 					}
@@ -29636,7 +29635,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_LOWER_ANDALUSIA
 					}
@@ -29649,7 +29648,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LOWER_ANDALUSIA
 					}
@@ -29662,7 +29661,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_LOWER_ANDALUSIA
 					}
@@ -29674,7 +29673,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -29685,7 +29684,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -30289,12 +30288,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 8
 					}
 				}
@@ -30305,7 +30304,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -30388,12 +30387,12 @@
 		}
 	}
 	s:STATE_MADEIRA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -30405,7 +30404,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MADEIRA
 					}
@@ -30417,7 +30416,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -30915,12 +30914,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 5
 					}
 				}
@@ -30932,7 +30931,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MALAYA
 					}
@@ -31424,12 +31423,12 @@
 		}
 	}
 	s:STATE_MARRAKECH = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -31440,7 +31439,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -31452,7 +31451,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MARRAKECH
 					}
@@ -31465,7 +31464,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MARRAKECH
 					}
@@ -31478,7 +31477,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_MARRAKECH
 					}
@@ -31490,7 +31489,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -33402,12 +33401,12 @@
 		}
 	}
 	s:STATE_MOCAMBIQUE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -33419,7 +33418,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MOCAMBIQUE
 					}
@@ -33432,7 +33431,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MOCAMBIQUE
 					}
@@ -33445,7 +33444,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_MOCAMBIQUE
 					}
@@ -33457,7 +33456,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -34209,12 +34208,12 @@
 		}
 	}
 	s:STATE_MURCIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 7
 					}
 				}
@@ -34225,7 +34224,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 8
 					}
 				}
@@ -34237,7 +34236,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_MURCIA
 					}
@@ -34250,7 +34249,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -34258,7 +34257,7 @@
 				add_ownership = {
 					building = {
 						type = building_gold_mine
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MURCIA
 					}
@@ -34271,7 +34270,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MURCIA
 					}
@@ -34284,7 +34283,7 @@
 				add_ownership = {
 					building = {
 						type = building_tooling_workshop
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_MURCIA
 					}
@@ -34296,7 +34295,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -35000,12 +34999,12 @@
 		}
 	}
 	s:STATE_NEW_CASTILE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -35016,7 +35015,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -35028,7 +35027,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_NEW_CASTILE
 					}
@@ -35041,7 +35040,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_NEW_CASTILE
 					}
@@ -35053,7 +35052,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -35065,7 +35064,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_NEW_CASTILE
 					}
@@ -35073,7 +35072,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_NEW_CASTILE
 					}
@@ -35081,7 +35080,7 @@
 				add_ownership = {
 					building = {
 						type = building_coal_mine
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_NEW_CASTILE
 					}
@@ -35094,7 +35093,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_NEW_CASTILE
 					}
@@ -35106,7 +35105,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 4
 					}
 				}
@@ -35778,8 +35777,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" }
 			}
-		}
-		region_state:X40 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -38194,12 +38191,12 @@
 		}
 	}
 	s:STATE_OLD_CASTILE = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -38211,7 +38208,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38224,7 +38221,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_OLD_CASTILE
 					}
@@ -38236,7 +38233,7 @@
 				building = "building_university"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -38248,7 +38245,7 @@
 				add_ownership = {
 					building = {
 						type = building_coal_mine
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38261,7 +38258,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38269,7 +38266,7 @@
 				add_ownership = {
 					building = {
 						type = building_furniture_manufactory
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38282,7 +38279,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38290,7 +38287,7 @@
 				add_ownership = {
 					building = {
 						type = building_textile_mill
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38303,7 +38300,7 @@
 				add_ownership = {
 					building = {
 						type = building_tooling_workshop
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38316,7 +38313,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_OLD_CASTILE
 					}
@@ -38328,7 +38325,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -38339,7 +38336,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -38456,12 +38453,12 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -38728,7 +38725,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -41023,12 +41020,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -41040,7 +41037,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_POITOU
 					}
@@ -41052,7 +41049,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -41582,7 +41579,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -44578,7 +44575,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -47102,12 +47099,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 4
 					}
 				}
@@ -47119,7 +47116,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_SOMALILAND
 					}
@@ -47132,7 +47129,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_SOMALILAND
 					}
@@ -47144,7 +47141,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -47629,12 +47626,12 @@
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -47645,7 +47642,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -48052,12 +48049,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -48068,7 +48065,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -52808,12 +52805,12 @@
 		}
 	}
 	s:STATE_UPPER_ANDALUSIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -52824,7 +52821,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -52836,7 +52833,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52849,7 +52846,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52862,7 +52859,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -52870,7 +52867,7 @@
 				add_ownership = {
 					building = {
 						type = building_lead_mine
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52883,7 +52880,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52891,7 +52888,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52899,7 +52896,7 @@
 				add_ownership = {
 					building = {
 						type = building_iron_mine
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52912,7 +52909,7 @@
 				add_ownership = {
 					building = {
 						type = building_furniture_manufactory
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_UPPER_ANDALUSIA
 					}
@@ -52924,7 +52921,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 3
 					}
 				}
@@ -52935,7 +52932,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -53845,12 +53842,12 @@
 		}
 	}
 	s:STATE_VALENCIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -53861,7 +53858,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 2
 					}
 				}
@@ -53873,7 +53870,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 5
 						region = STATE_VALENCIA
 					}
@@ -53886,7 +53883,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_VALENCIA
 					}
@@ -53899,7 +53896,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_VALENCIA
 					}
@@ -53912,7 +53909,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_VALENCIA
 					}
@@ -53920,7 +53917,7 @@
 				add_ownership = {
 					building = {
 						type = building_furniture_manufactory
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_VALENCIA
 					}
@@ -53932,7 +53929,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -55359,7 +55356,7 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI = {
-		region_state:X40 = {
+		region_state:X83 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -56922,12 +56919,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -56939,7 +56936,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_WEST_MICRONESIA
 					}
@@ -56952,7 +56949,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_WEST_MICRONESIA
 					}
@@ -56964,7 +56961,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -57212,7 +57209,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ESTREMADURA
 					}
@@ -57595,7 +57592,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:X84 = {
+		region_state:X67 = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -57780,12 +57777,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 4
 					}
 				}
@@ -57797,7 +57794,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_YANGHO
 					}
@@ -57810,7 +57807,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_YANGHO
 					}
@@ -57823,7 +57820,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_YANGHO
 					}
@@ -57835,7 +57832,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -58086,12 +58083,12 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 5
 					}
 				}
@@ -58103,7 +58100,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_YEMEN
 					}
@@ -58116,7 +58113,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_YEMEN
 					}
@@ -58129,7 +58126,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 3
 						region = STATE_YEMEN
 					}
@@ -58142,7 +58139,7 @@
 				add_ownership = {
 					building = {
 						type = building_lead_mine
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_YEMEN
 					}
@@ -58155,7 +58152,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_YEMEN
 					}
@@ -58167,7 +58164,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -58577,12 +58574,12 @@
 		}
 	}
 	s:STATE_ZAMBEZIA = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 5
 					}
 				}
@@ -58594,7 +58591,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ZAMBEZIA
 					}
@@ -58607,7 +58604,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_ZAMBEZIA
 					}
@@ -58619,7 +58616,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -58629,13 +58626,13 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:W97 = {
+		region_state:LUS = {
 			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ZANZIBAR
 					}
@@ -58647,7 +58644,7 @@
 				building = "building_trade_center"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
@@ -58659,7 +58656,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ZANZIBAR
 					}
@@ -58672,7 +58669,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ZANZIBAR
 					}
@@ -58685,7 +58682,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W97
+						country = c:LUS
 						levels = 2
 						region = STATE_ZANZIBAR
 					}
@@ -58698,7 +58695,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W97
+						country = c:LUS
 						levels = 1
 						region = STATE_ZANZIBAR
 					}
@@ -58710,7 +58707,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W97
+						country = c:LUS
 						levels = 1
 					}
 				}
