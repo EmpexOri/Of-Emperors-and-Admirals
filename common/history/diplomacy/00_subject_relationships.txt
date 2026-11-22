@@ -1,0 +1,587 @@
+﻿DIPLOMACY = {
+	c:ARK ?= {
+		create_diplomatic_pact = {
+			country = c:V41
+			type = tributary
+		}
+	}
+	c:V41 ?= {
+		add_liberty_desire = -50
+	}
+	c:ARK ?= {
+		create_diplomatic_pact = {
+			country = c:HTH
+			type = tributary
+		}
+	}
+	c:HTH ?= {
+		add_liberty_desire = -27.375
+	}
+	c:ARK ?= {
+		create_diplomatic_pact = {
+			country = c:W44
+			type = tributary
+		}
+	}
+	c:W44 ?= {
+		add_liberty_desire = -33.492
+	}
+	c:ARK ?= {
+		create_diplomatic_pact = {
+			country = c:TIP
+			type = tributary
+		}
+	}
+	c:TIP ?= {
+		add_liberty_desire = -50
+	}
+	c:ARK ?= {
+		create_diplomatic_pact = {
+			country = c:ASM
+			type = tributary
+		}
+	}
+	c:ASM ?= {
+		add_liberty_desire = -39.591
+	}
+	c:X14 ?= {
+		create_diplomatic_pact = {
+			country = c:W03
+			type = personal_union
+		}
+	}
+	c:W03 ?= {
+		add_liberty_desire = -20.718
+	}
+	c:BOH ?= {
+		create_diplomatic_pact = {
+			country = c:X86
+			type = puppet
+		}
+	}
+	c:X86 ?= {
+		add_liberty_desire = -50
+	}
+	c:BOH ?= {
+		create_diplomatic_pact = {
+			country = c:X87
+			type = puppet
+		}
+	}
+	c:X87 ?= {
+		add_liberty_desire = -34.089
+	}
+	c:BOH ?= {
+		create_diplomatic_pact = {
+			country = c:X88
+			type = puppet
+		}
+	}
+	c:X88 ?= {
+		add_liberty_desire = -50
+	}
+	c:BOH ?= {
+		create_diplomatic_pact = {
+			country = c:X89
+			type = puppet
+		}
+	}
+	c:X89 ?= {
+		add_liberty_desire = -10.339
+	}
+	c:BOH ?= {
+		create_diplomatic_pact = {
+			country = c:X90
+			type = puppet
+		}
+	}
+	c:X90 ?= {
+		add_liberty_desire = -50
+	}
+	c:DEN ?= {
+		create_diplomatic_pact = {
+			country = c:X36
+			type = colony
+		}
+	}
+	c:EGY ?= {
+		create_diplomatic_pact = {
+			country = c:ETH
+			type = vassal
+		}
+	}
+	c:ETH ?= {
+		add_liberty_desire = -0.521
+	}
+	c:EGY ?= {
+		create_diplomatic_pact = {
+			country = c:X79
+			type = vassal
+		}
+	}
+	c:X79 ?= {
+		add_liberty_desire = -47.51
+	}
+	c:X55 ?= {
+		create_diplomatic_pact = {
+			country = c:W76
+			type = puppet
+		}
+	}
+	c:W76 ?= {
+		add_liberty_desire = -50
+	}
+	c:FRA ?= {
+		create_diplomatic_pact = {
+			country = c:X26
+			type = colony
+		}
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:V23
+			type = tributary
+		}
+	}
+	c:V23 ?= {
+		add_liberty_desire = -18.285
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:CAL
+			type = colony
+		}
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:ALK
+			type = chartered_company
+		}
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:TWT
+			type = tributary
+		}
+	}
+	c:TWT ?= {
+		add_liberty_desire = -5.028
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:X67
+			type = vassal
+		}
+	}
+	c:X67 ?= {
+		add_liberty_desire = -50
+	}
+	c:KOR ?= {
+		create_diplomatic_pact = {
+			country = c:X31
+			type = colony
+		}
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:X22
+			type = colony
+		}
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:W84
+			type = puppet
+		}
+	}
+	c:W84 ?= {
+		add_liberty_desire = -10.983
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:V44
+			type = puppet
+		}
+	}
+	c:V44 ?= {
+		add_liberty_desire = 12.827
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:X32
+			type = colony
+		}
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:X76
+			type = puppet
+		}
+	}
+	c:X76 ?= {
+		add_liberty_desire = -50
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:W73
+			type = protectorate
+		}
+	}
+	c:W73 ?= {
+		add_liberty_desire = -44.617
+	}
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:W24
+			type = protectorate
+		}
+	}
+	c:W24 ?= {
+		add_liberty_desire = -42.773
+	}
+	c:MUG ?= {
+		create_diplomatic_pact = {
+			country = c:X92
+			type = vassal
+		}
+	}
+	c:X92 ?= {
+		add_liberty_desire = -48.679
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:V20
+			type = tributary
+		}
+	}
+	c:V20 ?= {
+		add_liberty_desire = -49.297
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = tributary
+		}
+	}
+	c:MAK ?= {
+		add_liberty_desire = -27.357
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:V33
+			type = tributary
+		}
+	}
+	c:V33 ?= {
+		add_liberty_desire = -13.58
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = tributary
+		}
+	}
+	c:HDJ ?= {
+		add_liberty_desire = -50
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:MAZ
+			type = tributary
+		}
+	}
+	c:MAZ ?= {
+		add_liberty_desire = 1.318
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:LUR
+			type = tributary
+		}
+	}
+	c:LUR ?= {
+		add_liberty_desire = -50
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:V45
+			type = tributary
+		}
+	}
+	c:V45 ?= {
+		add_liberty_desire = -50
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:X44
+			type = tributary
+		}
+	}
+	c:X44 ?= {
+		add_liberty_desire = -50
+	}
+	c:PER ?= {
+		create_diplomatic_pact = {
+			country = c:W46
+			type = tributary
+		}
+	}
+	c:W46 ?= {
+		add_liberty_desire = -30.782
+	}
+	c:SLV ?= {
+		create_diplomatic_pact = {
+			country = c:X91
+			type = puppet
+		}
+	}
+	c:X91 ?= {
+		add_liberty_desire = -44.157
+	}
+	c:GAO ?= {
+		create_diplomatic_pact = {
+			country = c:X56
+			type = puppet
+		}
+	}
+	c:X56 ?= {
+		add_liberty_desire = -38.098
+	}
+	c:GAO ?= {
+		create_diplomatic_pact = {
+			country = c:W99
+			type = puppet
+		}
+	}
+	c:W99 ?= {
+		add_liberty_desire = -36.198
+	}
+	c:W80 ?= {
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = puppet
+		}
+	}
+	c:GRE ?= {
+		add_liberty_desire = 49.166
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:X21
+			type = chartered_company
+		}
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:GUA
+			type = chartered_company
+		}
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = colony
+		}
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:PLT
+			type = colony
+		}
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:CLM
+			type = colony
+		}
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = puppet
+		}
+	}
+	c:PAP ?= {
+		add_liberty_desire = -50
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:X77
+			type = puppet
+		}
+	}
+	c:X77 ?= {
+		add_liberty_desire = -50
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:X78
+			type = puppet
+		}
+	}
+	c:X78 ?= {
+		add_liberty_desire = -50
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:X93
+			type = colony
+		}
+	}
+	c:V00 ?= {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = puppet
+		}
+	}
+	c:MOL ?= {
+		add_liberty_desire = 13.242
+	}
+	c:V19 ?= {
+		create_diplomatic_pact = {
+			country = c:V17
+			type = tributary
+		}
+	}
+	c:V17 ?= {
+		add_liberty_desire = 33.155
+	}
+	c:V19 ?= {
+		create_diplomatic_pact = {
+			country = c:TUV
+			type = tributary
+		}
+	}
+	c:TUV ?= {
+		add_liberty_desire = -14.954
+	}
+	c:X00 ?= {
+		create_diplomatic_pact = {
+			country = c:QUE
+			type = colony
+		}
+	}
+	c:X00 ?= {
+		create_diplomatic_pact = {
+			country = c:NEN
+			type = colony
+		}
+	}
+	c:X00 ?= {
+		create_diplomatic_pact = {
+			country = c:X37
+			type = colony
+		}
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:W83
+			type = tributary
+		}
+	}
+	c:W83 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X50
+			type = tributary
+		}
+	}
+	c:X50 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:V15
+			type = vassal
+		}
+	}
+	c:V15 ?= {
+		add_liberty_desire = 23.95
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:BRY
+			type = tributary
+		}
+	}
+	c:BRY ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X75
+			type = vassal
+		}
+	}
+	c:X75 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = tributary
+		}
+	}
+	c:KOR ?= {
+		add_liberty_desire = 21.122
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X80
+			type = vassal
+		}
+	}
+	c:X80 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X81
+			type = vassal
+		}
+	}
+	c:X81 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X82
+			type = vassal
+		}
+	}
+	c:X82 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X83
+			type = vassal
+		}
+	}
+	c:X83 ?= {
+		add_liberty_desire = -50
+	}
+	c:X40 ?= {
+		create_diplomatic_pact = {
+			country = c:X84
+			type = vassal
+		}
+	}
+	c:X84 ?= {
+		add_liberty_desire = -50
+	}
+	c:JAP ?= {
+		create_diplomatic_pact = {
+			country = c:W91
+			type = chartered_company
+		}
+	}
+	c:W97 ?= {
+		create_diplomatic_pact = {
+			country = c:W92
+			type = chartered_company
+		}
+	}
+}

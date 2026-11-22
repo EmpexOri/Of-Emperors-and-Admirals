@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:V44 = {
+		create_character = {
+			first_name = "Thamala_Martaban"
+			ruler = yes
+			culture = cu:mon
+			religion = rel:gelugpa
+			birth_date = 1776.9.2
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Narathu_Dagon"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1802.5.22
+		}
+
+		create_character = {
+			first_name = "Karawika_Pegu"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1805.12.2
+		}
+
+	}
+}

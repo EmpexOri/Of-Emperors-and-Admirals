@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:AYM = {
+		create_character = {
+			first_name = "Manco_C0pac"
+			last_name = "Hanan"
+			heir = yes
+			culture = cu:quechua
+			religion = rel:animist
+			birth_date = 1809.5.19
+			traits = {
+				wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Michay"
+			last_name = "Colla-Topa"
+			female = yes
+			culture = cu:quechua
+			religion = rel:animist
+			birth_date = 1805.8.2
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Amaru_IV"
+			last_name = "Hanan"
+			ruler = yes
+			culture = cu:quechua
+			religion = rel:animist
+			birth_date = 1815.12.24
+			traits = {
+				basic_diplomat wrathful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Yupanqui_Quilaco"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1798.5.6
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Surandaman_Atahualpa"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1779.10.9
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

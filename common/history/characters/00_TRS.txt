@@ -1,0 +1,65 @@
+﻿CHARACTERS = {
+	c:TRS = {
+		create_character = {
+			first_name = "Gyorgyi"
+			last_name = "Dambski"
+			female = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1815.8.27
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Zabergan"
+			last_name = "Etichonen-Lucerne"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1833.7.4
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Alzek_VII"
+			last_name = "Etichonen-Lucerne"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1810.6.30
+			traits = {
+				experienced_colonial_administrator pious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Alzek_Bathory"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1798.2.9
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Karol_Bethlen"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1792.1.13
+			traits = {
+				grifter 
+			}
+		}
+
+	}
+}

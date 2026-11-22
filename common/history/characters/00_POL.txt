@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:POL = {
+		create_character = {
+			first_name = "Bezprym"
+			last_name = "Dambski"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1828.9.8
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Anna"
+			last_name = "Anchovis"
+			female = yes
+			culture = cu:dynamic-cosmopolitan_french-portugese-culture-num1
+			religion = rel:protestant
+			birth_date = 1800.7.6
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Polan_Dambski"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1791.10.28
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Polan_II"
+			last_name = "Dambski"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1799.4.1
+			traits = {
+				hedonist 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Polan_Judycki"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1794.12.4
+			traits = {
+				inept 
+			}
+		}
+
+	}
+}

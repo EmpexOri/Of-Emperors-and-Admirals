@@ -1,0 +1,38 @@
+﻿CHARACTERS = {
+	c:Z04 = {
+		create_character = {
+			first_name = "Zivinbudas"
+			last_name = "Horn"
+			heir = yes
+			culture = cu:swedish
+			religion = rel:catholic
+			birth_date = 1822.2.6
+			traits = {
+				experienced_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Borkus_II"
+			last_name = "Horn"
+			ruler = yes
+			culture = cu:swedish
+			religion = rel:catholic
+			birth_date = 1807.2.6
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Talivaldis_Ingrija"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1780.1.18
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}

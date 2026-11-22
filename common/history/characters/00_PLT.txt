@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:PLT = {
+		create_character = {
+			first_name = "Alastair_Albuquerque"
+			ruler = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1774.4.25
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Demetrius_Vasconcelos"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1772.6.6
+			traits = {
+				inept 
+			}
+		}
+
+	}
+}

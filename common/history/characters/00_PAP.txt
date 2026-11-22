@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:PAP = {
+		create_character = {
+			first_name = "Gordanius_Ruzzini"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1799.4.23
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Johannes_IX"
+			ruler = yes
+			culture = cu:catalan
+			religion = rel:catholic
+			birth_date = 1785.3.3
+			traits = {
+				cruel experienced_political_operator 
+			}
+		}
+
+	}
+}

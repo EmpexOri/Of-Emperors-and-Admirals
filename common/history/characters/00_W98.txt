@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W98 = {
+		create_character = {
+			first_name = "_Isa_IV"
+			last_name = "Tabghurin"
+			ruler = yes
+			culture = cu:berber
+			religion = rel:sunni
+			birth_date = 1815.11.4
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+	}
+}

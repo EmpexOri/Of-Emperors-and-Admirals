@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X44 = {
+		create_character = {
+			first_name = "Urus_II"
+			last_name = "Mangit"
+			ruler = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1815.11.4
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

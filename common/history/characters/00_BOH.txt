@@ -1,0 +1,113 @@
+﻿CHARACTERS = {
+	c:BOH = {
+		create_character = {
+			first_name = "Jean_z_Husi"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1792.5.14
+			traits = {
+				experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Jean_Jiskra"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1808.6.8
+			traits = {
+				experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Adan"
+			last_name = "von_Trench"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1828.4.28
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Nacerat_z_Rozmberka"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1798.8.1
+			traits = {
+				basic_defensive_strategist cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Otakar_z_Pardubic"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1808.5.8
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Yularen_z_Falkensteina"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1794.2.1
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Tahira"
+			last_name = "de_Aviz"
+			female = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1803.11.6
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Adan_III"
+			last_name = "von_Trench"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1802.11.2
+			traits = {
+				basic_political_operator charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "God_Save_Us_Sokol"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1779.9.12
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Gundakar_Zajic"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1778.9.25
+			traits = {
+				basic_offensive_planner cruel 
+			}
+		}
+
+	}
+}

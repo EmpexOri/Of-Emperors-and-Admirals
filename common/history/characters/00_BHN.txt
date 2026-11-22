@@ -1,0 +1,54 @@
+﻿CHARACTERS = {
+	c:BHN = {
+		create_character = {
+			first_name = "Jahaira"
+			last_name = "al-Said"
+			female = yes
+			culture = cu:mashriqi
+			religion = rel:sunni
+			birth_date = 1811.10.19
+			traits = {
+				direct experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Aisha"
+			last_name = "Najibid"
+			heir = yes
+			female = yes
+			culture = cu:mashriqi
+			religion = rel:sunni
+			birth_date = 1829.6.28
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Mirza_III"
+			last_name = "Najibid"
+			ruler = yes
+			culture = cu:mashriqi
+			religion = rel:sunni
+			birth_date = 1814.6.28
+			traits = {
+				experienced_political_operator tactful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Jabir_Ismail"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1798.6.18
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+	}
+}

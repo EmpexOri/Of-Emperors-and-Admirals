@@ -1,0 +1,117 @@
+﻿CHARACTERS = {
+	c:IDN = {
+		create_character = {
+			first_name = "Hendrik_Natzar"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1809.5.6
+			traits = {
+				explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Dani_Roem"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1790.4.8
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Cudamani_Kyai"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:dutch
+			religion = rel:gelugpa
+			birth_date = 1797.3.2
+			traits = {
+				charismatic experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Marakata_Pangkaja_Kyai"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1790.4.24
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Einkura_Natzar"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1794.1.31
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Sangrama_Vijayatunggavarman_Hamzah"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1797.2.19
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Sri_Indravarman_Mahat"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1791.2.15
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Saladu_Chairul"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1790.2.3
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Hendrik_Amir"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1784.11.29
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Bugu_Batuta"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1797.3.4
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Hugo_Natzar"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1795.6.4
+			traits = {
+				basic_artillery_commander meticulous 
+			}
+		}
+
+	}
+}

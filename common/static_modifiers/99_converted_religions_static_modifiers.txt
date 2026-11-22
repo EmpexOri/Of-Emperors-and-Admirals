@@ -1,0 +1,974 @@
+﻿
+REPLACE_OR_CREATE:adamites_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_adamites_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:adamites_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_adamites_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:adoptianist_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_adoptianist_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:adoptianist_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_adoptianist_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:ajivika_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_ajivika_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:ajivika_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_ajivika_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:alawite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_alawite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:alawite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_alawite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:anglo_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_anglo_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:anglo_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_anglo_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:animist_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_animist_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:animist_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_animist_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:arab_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_arab_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:arab_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_arab_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:arianism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_arianism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:arianism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_arianism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:armenian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_armenian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:armenian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_armenian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:atenism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_atenism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:atenism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_atenism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:atheist_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_atheist_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:atheist_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_atheist_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:aztec_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_aztec_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:aztec_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_aztec_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:baltic_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_baltic_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:baltic_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_baltic_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:barghawata_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_barghawata_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:barghawata_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_barghawata_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:bogomilist_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_bogomilist_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:bogomilist_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_bogomilist_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:bon_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_bon_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:bon_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_bon_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:bosnian_church_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_bosnian_church_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:bosnian_church_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_bosnian_church_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:briton_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_briton_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:briton_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_briton_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:cainitism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_cainitism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:cainitism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_cainitism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:canaanite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_canaanite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:canaanite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_canaanite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:cathar_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_cathar_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:cathar_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_cathar_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:catholic_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_catholic_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:catholic_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_catholic_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:caucasian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_caucasian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:caucasian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_caucasian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:celtiberian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_celtiberian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:celtiberian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_celtiberian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:confucian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_confucian_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:confucian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_confucian_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:converted_dynamic_faith_140_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_converted_dynamic_faith_140_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:converted_dynamic_faith_140_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_converted_dynamic_faith_140_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:converted_dynamic_faith_141_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_converted_dynamic_faith_141_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:converted_dynamic_faith_141_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_converted_dynamic_faith_141_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:cybelene_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_cybelene_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:cybelene_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_cybelene_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:daoshenic_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_daoshenic_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:daoshenic_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_daoshenic_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:druidism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_druidism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:druidism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_druidism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:druze_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_druze_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:druze_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_druze_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:finnish_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_finnish_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:finnish_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_finnish_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:fraticelli_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_fraticelli_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:fraticelli_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_fraticelli_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:gaelic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_gaelic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:gaelic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_gaelic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:gallic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_gallic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:gallic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_gallic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:gayomarthianism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_gayomarthianism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:gayomarthianism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_gayomarthianism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:gelugpa_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_gelugpa_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:gelugpa_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_gelugpa_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:germanic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_germanic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:germanic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_germanic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:gnostic_christianity_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_gnostic_christianity_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:gnostic_christianity_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_gnostic_christianity_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:hattian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_hattian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:hattian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_hattian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:heathenry_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_heathenry_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:heathenry_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_heathenry_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:hellenic_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_hellenic_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:hellenic_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_hellenic_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:hindu_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_hindu_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:hindu_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_hindu_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:hurrian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_hurrian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:hurrian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_hurrian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:hussite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_hussite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:hussite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_hussite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:ibadi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_ibadi_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:ibadi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_ibadi_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:iberian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_iberian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:iberian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_iberian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:iconoclast_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_iconoclast_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:iconoclast_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_iconoclast_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:illyric_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_illyric_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:illyric_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_illyric_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:jain_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_jain_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:jain_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_jain_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:jewish_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_jewish_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:jewish_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_jewish_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:karaite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_karaite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:karaite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_karaite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:kemetism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_kemetism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:kemetism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_kemetism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:khaldic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_khaldic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:khaldic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_khaldic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:kharijite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_kharijite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:kharijite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_kharijite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:khurmazta_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_khurmazta_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:khurmazta_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_khurmazta_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:khurramism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_khurramism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:khurramism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_khurramism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:kitebacilweism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_kitebacilweism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:kitebacilweism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_kitebacilweism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:kushite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_kushite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:kushite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_kushite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:kushitism_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_kushitism_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:kushitism_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_kushitism_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:lollard_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_lollard_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:lollard_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_lollard_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:magyar_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_magyar_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:magyar_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_magyar_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:mahayana_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mahayana_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:mahayana_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mahayana_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:mandaeism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mandaeism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:mandaeism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mandaeism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:manichean_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_manichean_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:manichean_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_manichean_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:mardukism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mardukism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:mardukism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mardukism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:masmudi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_masmudi_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:masmudi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_masmudi_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:mazdaki_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mazdaki_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:mazdaki_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mazdaki_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:megalithic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_megalithic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:megalithic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_megalithic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:meshefaresism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_meshefaresism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:meshefaresism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_meshefaresism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:messalian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_messalian_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:messalian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_messalian_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:mithraism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mithraism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:mithraism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mithraism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:monophysite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_monophysite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:monophysite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_monophysite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:monothelite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_monothelite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:monothelite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_monothelite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:mutazila_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mutazila_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:mutazila_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mutazila_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:nestorian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_nestorian_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:nestorian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_nestorian_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:noreligion_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_noreligion_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:noreligion_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_noreligion_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:norse_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_norse_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:norse_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_norse_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:nuragic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_nuragic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:nuragic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_nuragic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:oriental_orthodox_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_oriental_orthodox_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:oriental_orthodox_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_oriental_orthodox_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:orthodox_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_orthodox_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:orthodox_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_orthodox_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:pagan_religion_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_pagan_religion_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:pagan_religion_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_pagan_religion_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:paulician_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_paulician_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:paulician_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_paulician_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:priscillianism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_priscillianism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:priscillianism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_priscillianism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:protestant_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_protestant_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:protestant_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_protestant_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:qarmatian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_qarmatian_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:qarmatian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_qarmatian_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:quranist_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_quranist_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:quranist_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_quranist_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:ritualistic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_ritualistic_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:ritualistic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_ritualistic_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:samaritan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_samaritan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:samaritan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_samaritan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:scythian_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scythian_pagan_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:scythian_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scythian_pagan_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:sethianism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_sethianism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:sethianism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_sethianism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:shiite_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_shiite_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:shiite_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_shiite_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:shinto_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_shinto_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:shinto_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_shinto_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:siberian_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_siberian_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:siberian_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_siberian_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:sikh_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_sikh_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:sikh_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_sikh_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:slavic_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_slavic_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:slavic_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_slavic_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:sunni_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_sunni_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:sunni_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_sunni_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:tengri_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_tengri_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:tengri_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_tengri_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:theravada_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_theravada_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:theravada_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_theravada_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:valentinianism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_valentinianism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:valentinianism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_valentinianism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:waldensian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_waldensian_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:waldensian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_waldensian_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:west_african_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_west_african_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:west_african_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_west_african_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:yazidi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_yazidi_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:yazidi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_yazidi_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:zamolxism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_zamolxism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:zamolxism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_zamolxism_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:zikri_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_zikri_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:zikri_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_zikri_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:zoroastrian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_zoroastrian_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:zoroastrian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_zoroastrian_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:zun_pagan_reformed_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_zun_pagan_reformed_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:zun_pagan_reformed_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_zun_pagan_reformed_standard_of_living_add = 1
+}
+
+REPLACE_OR_CREATE:zurvanism_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_zurvanism_standard_of_living_add = 1
+}
+REPLACE_OR_CREATE:zurvanism_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_zurvanism_standard_of_living_add = 1
+}
+
+

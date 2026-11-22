@@ -1,0 +1,343 @@
+﻿##Languages appear in the order that they appear in culture_trait_language_map
+
+REPLACE_OR_CREATE:language_coptophone = { #Coptic
+	type = language
+	trait_group = language_group_egyptian
+}
+REPLACE_OR_CREATE:language_thracian = { #Thracian
+	type = language
+	trait_group = language_group_dacian
+}
+REPLACE_OR_CREATE:language_dacian = { #Dacian
+	type = language
+	trait_group = language_group_dacian
+}
+REPLACE_OR_CREATE:language_etruscan = { #Etruscans
+	type = language
+	trait_group = language_group_tyrsenian
+}
+REPLACE_OR_CREATE:language_nuragic = { #Nuragics
+	type = language
+	trait_group = language_group_paleo_sardinian
+}
+REPLACE_OR_CREATE:language_iberic = { #Ancient pre-Roman Iberians of Antiquity
+	type = language
+	trait_group = language_group_paleo_iberian
+}
+REPLACE_OR_CREATE:language_turdetanian = { #Turdetanians
+	type = language
+	trait_group = language_group_paleo_iberian
+}
+REPLACE_OR_CREATE:language_gaulish = { #Gauls
+	type = language
+	trait_group = language_group_celtic
+}
+REPLACE_OR_CREATE:language_galatian = { #Galatians, Celtic invaders of Anatolia
+	type = language
+	trait_group = language_group_celtic
+}
+REPLACE_OR_CREATE:language_celtiberian = { #Celtiberians
+	type = language
+	trait_group = language_group_celtic
+}
+REPLACE_OR_CREATE:language_noric = { #Noricians
+	type = language
+	trait_group = language_group_celtic
+}
+REPLACE_OR_CREATE:language_belgae = { #Belgae / Old Belgians, a mixed Celtic and Germanic people
+	type = language
+	trait_group = language_group_celtic
+}
+REPLACE_OR_CREATE:language_lusitanian = { #Lusitanians, ancient people that branched off before Celtic and Italic split
+	type = language
+	trait_group = language_group_lusitanian
+}
+REPLACE_OR_CREATE:language_hattic = { #Hattians
+	type = language
+	trait_group = language_group_hattian
+}
+REPLACE_OR_CREATE:language_hebrew = { #Jews
+	type = language
+	trait_group = language_group_semitic
+}
+REPLACE_OR_CREATE:language_phrygian = { #Phrygians
+	type = language
+	trait_group = language_group_phrygian
+}
+REPLACE_OR_CREATE:language_luwian = { #Luwians
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_paphlagonian = { #Paphlagonians
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_cilician = { #Cilicians
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_lydian = { #Lydians
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_trojan = { #Trojan
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_kizzuwatnan = { #Ancient Hybrid between Luwian and Hurrian
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_hittite = { #Hittites
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_hurrian = { #Hurrians
+	type = language
+	trait_group = language_group_hurro_urartian
+}
+REPLACE_OR_CREATE:language_illevionophone = { #Goths/Vandals/Old Bugundians
+	type = language
+	trait_group = language_group_germanic
+}
+REPLACE_OR_CREATE:language_ingaevophone = { #Old English/Old Frisian/Old Saxon
+	type = language
+	trait_group = language_group_germanic
+}
+REPLACE_OR_CREATE:language_irminophone = { #Lombards(Langobards)/Suevii/Bavarii/Alemanni
+	type = language
+	trait_group = language_group_germanic
+}
+REPLACE_OR_CREATE:language_istvaeonophone = { #Frankish/Old Franconian (Old Dutch)
+	type = language
+	trait_group = language_group_germanic
+}
+REPLACE_OR_CREATE:language_indo_germanic = { #Germanic tribes which migrated to India, from Invictus
+	type = language
+	trait_group = language_group_germanic
+}
+REPLACE_OR_CREATE:language_old_ligurian = { #Ancient Ligurians of Classical Antiquity, uncertain classification
+	type = language
+	trait_group = language_group_old_ligurian
+}
+REPLACE_OR_CREATE:language_latinophone = { #Romans
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_parnassian = { #Parnassians
+	type = language
+	trait_group = language_group_anatolian
+}
+REPLACE_OR_CREATE:language_minoan = { #Minoans
+	type = language
+	trait_group = language_group_pre_greek
+}
+REPLACE_OR_CREATE:language_cycladic = { #Cycladians
+	type = language
+	trait_group = language_group_pre_greek
+}
+REPLACE_OR_CREATE:language_pelasgian = { #Pelasgians
+	type = language
+	trait_group = language_group_pre_greek
+}
+REPLACE_OR_CREATE:language_phoeniciophone = { #Phoenicians
+	type = language
+	trait_group = language_group_semitic
+}
+REPLACE_OR_CREATE:language_rhaetic = { #Rhaetians
+	type = language
+	trait_group = language_group_tyrsenian
+}
+REPLACE_OR_CREATE:language_scythian = { #Scythians
+	type = language
+	trait_group = language_group_iranic
+}
+REPLACE_OR_CREATE:language_sumerian = { #Sumerians
+	type = language
+	trait_group = language_group_sumerian
+}
+REPLACE_OR_CREATE:language_gutian = { #Gutians, their language remains largely unknown and unclassified
+	type = language
+	trait_group = language_group_gutian
+}
+REPLACE_OR_CREATE:language_ugaritic = { #Ugaritics
+	type = language
+	trait_group = language_group_semitic
+}
+REPLACE_OR_CREATE:language_alasiyan = { #Alasiyans of ancient Cyprus
+	type = language
+	trait_group = language_group_semitic
+}
+REPLACE_OR_CREATE:language_elamite = { #Elamite
+	type = language
+	trait_group = language_group_elamite
+}
+REPLACE_OR_CREATE:language_penutian = { #Penutian
+	type = language
+	trait_group = language_group_penutian
+}
+
+REPLACE_OR_CREATE:language_tocharian = { #Tocharian
+	type = language
+	trait_group = language_group_tocharian
+}
+REPLACE_OR_CREATE:language_sogdian = { #Sogdians
+	type = language
+	trait_group = language_group_iranic
+}
+REPLACE_OR_CREATE:language_neo_mitanni = { #Easter Egg from Imperator:Invictus
+	type = language
+	trait_group = language_group_indo_aryan
+}
+REPLACE_OR_CREATE:language_romano_british = { #Romano-British
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_romano_germanic = { #Romano-Germanic
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_romano_slavic = { #Romano-Slavic
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_afro_romance = { #Romano-African
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_palmyrene = { #Palmyrene
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_oriental_romance = { #Oriental Romance
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_indo_roman = { #Indo-Roman
+	type = language
+	trait_group = language_group_romance
+}
+REPLACE_OR_CREATE:language_atlanto_slavic = { #Atlanto-Slavic
+	type = language
+	trait_group = language_group_slavic
+}
+# Vanilla languages
+#language_guarani = {
+#	type = language
+#	trait_group = language_group_tupian
+#}
+#language_cham = {
+#	type = language
+#	trait_group = language_group_austronesian
+#}
+
+#new
+REPLACE_OR_CREATE:language_avarian = {
+	type = language
+	trait_group = language_group_mongolic #? or tungusic or turkic
+}
+REPLACE_OR_CREATE:language_bahnaric = {
+	type = language
+	trait_group = language_group_austroasiatic
+}
+REPLACE_OR_CREATE:language_embera = {
+	type = language
+	trait_group = language_group_chocoan
+}
+REPLACE_OR_CREATE:language_waikuri = {
+	type = language
+	trait_group = language_group_waikuri
+}
+REPLACE_OR_CREATE:language_khitan = {
+	type = language
+	trait_group = language_group_mongolic
+}
+REPLACE_OR_CREATE:language_lokono = {
+	type = language
+	trait_group = language_group_arawakan
+}
+REPLACE_OR_CREATE:language_taino = {
+	type = language
+	trait_group = language_group_arawakan
+}
+REPLACE_OR_CREATE:language_otomi = {
+	type = language
+	trait_group = language_group_oto_manguean
+}
+REPLACE_OR_CREATE:language_tlapanec = {
+	type = language
+	trait_group = language_group_oto_manguean
+}
+REPLACE_OR_CREATE:language_guaycuru = {
+	type = language
+	trait_group = language_group_chacoan
+}
+REPLACE_OR_CREATE:language_mascoian = {
+	type = language
+	trait_group = language_group_chacoan
+}
+REPLACE_OR_CREATE:language_wichi = {
+	type = language
+	trait_group = language_group_chacoan
+}
+REPLACE_OR_CREATE:language_zamucoan = {
+	type = language
+	trait_group = language_group_chacoan
+}
+REPLACE_OR_CREATE:language_waroid = {
+	type = language
+	trait_group = language_group_waroid
+}
+#Animals
+REPLACE_OR_CREATE:language_equine = { #Horses
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_feline = { #Cats
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_ursine = { #Bears
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_erinaceous = { #Hedgehogs
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_anatidine = { #Ducks
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_canine = { #Canines
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_elephantine = { #Elephants
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_draconic = { #Dragons
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_ailurine = { #Red Pandas
+	type = language
+	trait_group = language_group_animalia
+}
+REPLACE_OR_CREATE:language_ahom = { #for decentralized Assamese
+	type = language
+	trait_group = language_group_daic
+}
+REPLACE_OR_CREATE:language_kamchatkan = {
+	type = language
+	trait_group = language_group_kamchatkan
+}
+REPLACE_OR_CREATE:language_zaghawa = {
+	type = language
+	trait_group = language_group_saharan
+}
+REPLACE_OR_CREATE:language_nupe = {
+	type = language
+	trait_group = language_group_volta_niger
+}

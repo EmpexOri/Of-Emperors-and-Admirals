@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:HAR = {
+		create_character = {
+			first_name = "Sadaf"
+			last_name = "Biyomaal"
+			female = yes
+			culture = cu:somali
+			religion = rel:oriental_orthodox
+			birth_date = 1787.12.3
+			traits = {
+				reckless 
+			}
+		}
+
+		create_character = {
+			first_name = "Mohammed"
+			last_name = "Samaale"
+			heir = yes
+			culture = cu:somali
+			religion = rel:oriental_orthodox
+			birth_date = 1811.5.3
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Hamid_I"
+			last_name = "Samaale"
+			ruler = yes
+			culture = cu:somali
+			religion = rel:oriental_orthodox
+			birth_date = 1783.1.21
+			traits = {
+				basic_political_operator charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

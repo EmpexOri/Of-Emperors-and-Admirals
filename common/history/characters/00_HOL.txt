@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:HOL = {
+		create_character = {
+			first_name = "Sigward"
+			last_name = "von_Eberstein"
+			culture = cu:dynamic-cosmopolitan_french-portugese-culture-num1
+			religion = rel:protestant
+			birth_date = 1803.5.17
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Sigward"
+			last_name = "Anchovis"
+			heir = yes
+			culture = cu:dynamic-cosmopolitan_french-portugese-culture-num1
+			religion = rel:protestant
+			birth_date = 1832.12.12
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Agnes_II"
+			last_name = "Anchovis"
+			ruler = yes
+			female = yes
+			culture = cu:dynamic-cosmopolitan_french-portugese-culture-num1
+			religion = rel:protestant
+			birth_date = 1817.12.12
+			traits = {
+				basic_diplomat hedonist 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Steffen_von_Barner"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1804.9.21
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Steffen_Philip"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1790.1.8
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

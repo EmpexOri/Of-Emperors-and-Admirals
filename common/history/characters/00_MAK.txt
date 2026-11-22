@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:MAK = {
+		create_character = {
+			first_name = "Akkadevi"
+			last_name = "Mihrabanid"
+			female = yes
+			culture = cu:baluchi
+			religion = rel:sunni
+			birth_date = 1792.5.30
+			traits = {
+				basic_colonial_administrator romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Akkadevi"
+			last_name = "Hormozid"
+			heir = yes
+			female = yes
+			culture = cu:baluchi
+			religion = rel:sunni
+			birth_date = 1820.1.19
+			traits = {
+				experienced_colonial_administrator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Feraz_II"
+			last_name = "Hormozid"
+			ruler = yes
+			culture = cu:baluchi
+			religion = rel:sunni
+			birth_date = 1802.5.15
+			traits = {
+				hedonist 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

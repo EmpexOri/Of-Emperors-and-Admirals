@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:MEC = {
+		create_character = {
+			first_name = "Bedrich"
+			last_name = "Premyslid"
+			heir = yes
+			culture = cu:dutch
+			religion = rel:protestant
+			birth_date = 1831.5.25
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Amanda"
+			last_name = "von_Ansbach"
+			female = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1805.4.12
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Bedrich_VI"
+			last_name = "Premyslid"
+			ruler = yes
+			culture = cu:dutch
+			religion = rel:protestant
+			birth_date = 1783.3.10
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Gellert_Bu0acker"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1774.9.2
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,80 @@
+﻿CHARACTERS = {
+	c:W42 = {
+		create_character = {
+			first_name = "Verounica"
+			last_name = "de_Saldanha"
+			female = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1807.5.11
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Abd_al-Jalil"
+			last_name = "Arpad-Montbeliard"
+			heir = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1835.5.20
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Zaghlin_V"
+			last_name = "Arpad-Montbeliard"
+			ruler = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1816.10.4
+			traits = {
+				ambitious experienced_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Khalil_Beni_Isguen"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1811.4.6
+		}
+
+		create_character = {
+			first_name = "Aires_al-Mus_abi"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1793.12.11
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Aires_Tabghurin"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1793.8.1
+			traits = {
+				basic_offensive_planner cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Arualdo_al-Mus_abi"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1775.7.6
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,11 @@
+﻿REPLACE:feminist_britain = {
+	color = "pink"
+	possible = {
+		uses_gbr_characters = yes
+		ruler = {
+			has_ideology = ideology:ideology_feminist
+			is_oppressed_gender = yes
+		}
+		has_law_or_variant = law_type:law_womens_suffrage
+	}
+}

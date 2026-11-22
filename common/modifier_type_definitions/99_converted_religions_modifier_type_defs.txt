@@ -1,0 +1,866 @@
+﻿
+REPLACE_OR_CREATE:state_adamites_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_adoptianist_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_ajivika_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_alawite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_anglo_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_animist_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_arab_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_arianism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_armenian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_atenism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_atheist_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_aztec_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_baltic_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_barghawata_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_bogomilist_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_bon_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_bosnian_church_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_briton_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_cainitism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_canaanite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_cathar_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_catholic_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_caucasian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_celtiberian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_confucian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_converted_dynamic_faith_140_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_converted_dynamic_faith_141_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_cybelene_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_daoshenic_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_druidism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_druze_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_finnish_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_fraticelli_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_gaelic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_gallic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_gayomarthianism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_gelugpa_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_germanic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_gnostic_christianity_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_hattian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_heathenry_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_hellenic_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_hindu_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_hurrian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_hussite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_ibadi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_iberian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_iconoclast_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_illyric_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_jain_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_jewish_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_karaite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_kemetism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_khaldic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_kharijite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_khurmazta_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_khurramism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_kitebacilweism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_kushite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_kushitism_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_lollard_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_magyar_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_mahayana_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_mandaeism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_manichean_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_mardukism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_masmudi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_mazdaki_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_megalithic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_meshefaresism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_messalian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_mithraism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_monophysite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_monothelite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_mutazila_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_nestorian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_noreligion_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_norse_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_nuragic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_oriental_orthodox_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_orthodox_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_pagan_religion_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_paulician_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_priscillianism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_protestant_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_qarmatian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_quranist_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_ritualistic_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_samaritan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_scythian_pagan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_sethianism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_shiite_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_shinto_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_siberian_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_sikh_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_slavic_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_sunni_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_tengri_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_theravada_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_valentinianism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_waldensian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_west_african_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_yazidi_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_zamolxism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_zikri_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_zoroastrian_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_zun_pagan_reformed_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_zurvanism_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+

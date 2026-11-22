@@ -1,0 +1,62 @@
+﻿CHARACTERS = {
+	c:W50 = {
+		create_character = {
+			first_name = "Makaio_Keanu"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1805.8.31
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Ipo_Loe"
+			is_admiral = yes
+			birth_date = 1789.3.14
+			traits = {
+				inexperienced 
+			}
+		}
+
+		create_character = {
+			first_name = "Akamu"
+			last_name = "Kalauokalani"
+			heir = yes
+			culture = cu:hawaiian
+			religion = rel:animist
+			birth_date = 1829.8.25
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Pekelo"
+			last_name = "Kalauokalani"
+			culture = cu:hawaiian
+			religion = rel:animist
+			birth_date = 1792.4.23
+			traits = {
+				experienced_colonial_administrator tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Keala_I"
+			last_name = "Kalauokalani"
+			ruler = yes
+			female = yes
+			culture = cu:hawaiian
+			religion = rel:animist
+			birth_date = 1795.1.10
+			traits = {
+				direct experienced_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

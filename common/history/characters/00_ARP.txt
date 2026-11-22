@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:ARP = {
+		create_character = {
+			first_name = "Senegertta_Multnomah"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1704.11.3
+			traits = {
+				cancer 
+			}
+		}
+
+	}
+}

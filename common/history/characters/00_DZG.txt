@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:DZG = {
+		create_character = {
+			first_name = "Jakusz_von_Taubeneck"
+			ruler = yes
+			culture = cu:polish
+			religion = rel:catholic
+			birth_date = 1796.1.16
+			traits = {
+				basic_political_operator cruel 
+			}
+		}
+
+	}
+}

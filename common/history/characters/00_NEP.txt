@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:NEP = {
+		create_character = {
+			first_name = "Bhavanaga"
+			last_name = "Ghorka"
+			heir = yes
+			female = yes
+			culture = cu:nepali
+			religion = rel:sunni
+			birth_date = 1819.9.25
+			traits = {
+				basic_diplomat cruel 
+			}
+		}
+
+	}
+}

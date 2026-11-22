@@ -1,0 +1,37 @@
+﻿CHARACTERS = {
+	c:ALK = {
+		create_character = {
+			first_name = "Yoshimasa_Uragami"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1801.11.5
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Morinobu_Satomi"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1801.8.7
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Akimichi_Uragami"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:neo-canada_colony-togoku
+			religion = rel:mahayana
+			birth_date = 1774.1.22
+			traits = {
+				compliant masterful_diplomat 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,40 @@
+﻿CHARACTERS = {
+	c:MAL = {
+		create_character = {
+			first_name = "Maammarou_Modibo"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1804.2.19
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Harun"
+			last_name = "Wattara"
+			heir = yes
+			culture = cu:kru
+			religion = rel:sunni
+			birth_date = 1815.11.14
+			traits = {
+				experienced_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Ouati_III"
+			last_name = "Wattara"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:kru
+			religion = rel:sunni
+			birth_date = 1795.10.7
+			traits = {
+				basic_political_operator romantic 
+			}
+		}
+
+	}
+}

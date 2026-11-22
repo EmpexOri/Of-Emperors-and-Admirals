@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MOL = {
+		create_character = {
+			first_name = "Gaspar_Lupu"
+			ruler = yes
+			culture = cu:dynamic-hungarian-slovak-culture-num1
+			religion = rel:catholic
+			birth_date = 1785.1.1
+			traits = {
+				ambitious masterful_diplomat 
+			}
+		}
+
+	}
+}

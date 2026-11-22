@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:AFG = {
+		create_character = {
+			first_name = "Mir_Ways_Rahman"
+			ruler = yes
+			culture = cu:pashtun
+			religion = rel:sunni
+			birth_date = 1790.1.27
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

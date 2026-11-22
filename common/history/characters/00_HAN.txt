@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HAN = {
+		create_character = {
+			first_name = "Adolf_Friedrich"
+			last_name = "von_Rugen"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1816.6.26
+			traits = {
+				ambitious basic_colonial_administrator 
+			}
+		}
+
+	}
+}

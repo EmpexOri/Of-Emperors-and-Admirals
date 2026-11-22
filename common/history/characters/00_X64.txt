@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X64 = {
+		create_character = {
+			first_name = "Shakya_0_II"
+			last_name = "Mkar"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:sunni
+			birth_date = 1794.11.21
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUL = {
+		create_character = {
+			first_name = "Todor_III"
+			last_name = "Terter"
+			ruler = yes
+			culture = cu:bulgarian
+			religion = rel:orthodox
+			birth_date = 1816.11.4
+			traits = {
+				experienced_diplomat tactful 
+			}
+		}
+
+	}
+}

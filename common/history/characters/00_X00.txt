@@ -1,0 +1,45 @@
+﻿CHARACTERS = {
+	c:X00 = {
+		create_character = {
+			first_name = "Turlough_O_Neill"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1816.2.8
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Aedh_MacMahon"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			birth_date = 1817.6.19
+			traits = {
+				explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Diarmuid_O_Donnell"
+			ruler = yes
+			culture = cu:dynamic-irish-culture-num1
+			religion = rel:protestant
+			birth_date = 1786.7.6
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Mael_O_Rourke"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1755.9.11
+			traits = {
+				basic_naval_commander senile 
+			}
+		}
+
+	}
+}

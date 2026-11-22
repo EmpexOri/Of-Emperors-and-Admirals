@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KZM = {
+		create_character = {
+			first_name = "Mwonga_I"
+			last_name = "Loanga"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:catholic
+			birth_date = 1816.11.4
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

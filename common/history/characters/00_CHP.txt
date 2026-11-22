@@ -1,0 +1,57 @@
+﻿CHARACTERS = {
+	c:CHP = {
+		create_character = {
+			first_name = "Rajendradhipativarman_Keola"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1788.5.6
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Shouzhong_Thammavongsa"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1794.2.19
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Shouzhong_Souksomboun"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1811.5.26
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Zhencheng_He"
+			ruler = yes
+			culture = cu:han
+			religion = rel:daoshenic
+			birth_date = 1778.12.13
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Nanjin"
+			last_name = "Yang"
+			heir = yes
+			culture = cu:han
+			religion = rel:daoshenic
+			birth_date = 1820.1.29
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

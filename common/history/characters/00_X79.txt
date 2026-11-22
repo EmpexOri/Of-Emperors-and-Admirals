@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:X79 = {
+		create_character = {
+			first_name = "Arsenios_I"
+			last_name = "Ashraf"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			interest_group = ig_industrialists
+			culture = cu:misri
+			religion = rel:kushite
+			birth_date = 1815.11.4
+			traits = {
+				basic_diplomat imperious 
+			}
+		}
+
+	}
+}

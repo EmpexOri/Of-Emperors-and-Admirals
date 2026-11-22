@@ -1,0 +1,1270 @@
+﻿#AFG = { #Afghanistan, Pashtun/Tajik People
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.5
+#	
+#	ai_will_do = { always = yes }
+#}
+REPLACE_OR_CREATE:AGJ = { #Angola Janga, Afro-Brazilian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.2
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:AIN = { #Ainu Mosur, Ainu People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:AIR = { #Air, Tuareg People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ALB = { #Albania, Albanian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:AMZ = { #Amazonia, Amazonian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+REPLACE_OR_CREATE:APC = { #Apacheria, Apache People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ARM = { #Armenia, Armenian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ASA = { #New Africa, Afro-American People
+	use_culture_states = yes
+
+	required_states_fraction = 0.2
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ASH = { #Ashanti, Akan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ASM = { #Assam, Assamese People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ASS = { #Assyria, Assyrian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ATB = { #Athabaska, Athabaskan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+REPLACE_OR_CREATE:AWA = { #Awadh, Avadhi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:AWS = { #Aussa, Afar People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:AYM = { #Aymara, Aimara People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:AZB = { #Azerbaijani, Azerbaijani People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BAL = { #Bali, Bali/Moluccan People
+	states = {
+		STATE_SUNDA_ISLANDS
+	}
+
+	required_states_fraction = 0.2
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BEN = { #Benin, Edo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BGI = { #Bagirmi, Baguirmi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+#BGL = { #Bengal, Bengali/Bihari People
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.5
+#	
+#	ai_will_do = { always = yes }
+#}
+REPLACE_OR_CREATE:BJA = { #Beja, Beja People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BRD = { #Burundi, Rundi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BRI = { #Brittany, Breton People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BRU = { #Brunei, Bornean People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BST = { #Besotho, Sotho People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+#BOH, Bohemia is not listed because CZH is of the same rank (Kingdom) and is a strictly better country
+REPLACE_OR_CREATE:BOS = { #Bosnia, Bosniak People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BUK = { #Bukhara, Uzbek People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BUL = { #Bulgaria, Bulgarian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BUN = { #Bundelkhand, Kanauji People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BUR = { #Burma, Burmese People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BSS = { #Bassa, Bassa People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BTG = { #Batonga, Tonga People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:BYE = { #Belarus, Byelorussian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CAM = { #Cambodia, Khmer People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CAT = { #Catalonia, Catalan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CCM = { #O'odham Country, O'odham People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+REPLACE_OR_CREATE:CEY = { #Ceylon/Sri Lanka, Sinhala People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CHE = { #Cherokee, Cherokee People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CHW = { #Chewa, Chewa People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CIR = { #Circassia, Circassian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:COM = { #Comanche, Comanche People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CSA = { #CSA, Dixie People
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CTF = { #Council of Three Fires (Niswa-mishkodewinan), Algonquian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:COR = { #Corsica, Corsican People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CRI = { #Crimea, Tatar People
+	states = {
+		STATE_CRIMEA
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:CRO = { #Croatia, Croat People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:DAI = { #Dai Viet, Vietnamese People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:DEN = { #Denmark, Danish People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:DFR = { #Darfur, Fur People, Includes Bedouin so must be limited by state
+	states = {
+		STATE_DARFUR
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:DKT = { #Dakota, Dakota People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:DNK = { #Dinka, Dinka People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+REPLACE_OR_CREATE:EGY = { #Egypt, Egyptian (Misri) People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:EST = { #Estonia, Estonian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:EWE = { #Ewe, Ewe People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:DAH = { #Dahomey, Fon People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:IRQ = { #Iraq, Iraqi People (Mashriqi is widespread, so this is a localized formation)
+	states = {
+		STATE_BAGHDAD
+		STATE_BASRA
+		STATE_HAIL
+		STATE_KHUZESTAN
+		STATE_MOSUL
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:IRO = { #Haudenosaunee, Iroquois people
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:EQU = { #Equatoria, Nilotic people
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:FNG = { #Fang, Fang people
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:FIN = { #Finland, Finnish People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:FLA = { #Flanders, Flemish People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:GEO = { #Georgia, Georgian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:GLI = { #Galicia, Galician People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:GRE = { #Greece, Greek People
+	use_culture_states = yes
+
+	required_states_fraction = 0.25
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:GRI = { #Guarani, Guarani People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:HAW = { #Hawaii, Hawaiian People
+	states = {
+		STATE_HAWAIIAN_ISLANDS
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:HRO = { #Herero, Herero/Khoisan People
+	states = {
+		STATE_HEREROLAND
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:HTH = { #Hanthawaddy, Mon People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:HUN = { #Hungary, Magyar People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+REPLACE_OR_CREATE:HZJ = { #Hazarajat, Hazara People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ICL = { #Iceland, Icelandic People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ISR = { #Israel, Jewish People
+	states = {
+		STATE_PALESTINE
+	}
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:JAP = { #Japan, Japanese People
+	use_culture_states = yes
+
+	required_states_fraction = 0.8
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:JAV = { #Java, Javan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:HAU = { #Hausa, Hausa People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:IBL = { #Ibibioland, Ibibio People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:IBO = { #Ibo, Ibo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:JLF = { #Jolof, Wolof People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KAS = { #Kashmir, Kashmiri People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KHM = { #Khmu, Khmu People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KHN = { #Kachin, Kachin People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KKY = { #Kikuyu, Kikuyu People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KLM = { #Kalmykia, Kalmyk People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KNG = { #Kong, Dyula/Senufo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KON = { #Kongo, Bakongo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KOK = { #Kokand, Kirgiz People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KOR = { #Korea, Korean People
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KRN = { #Karen, Karen People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KRU = { #Kru, Kru People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KSS = { #Kissi, Kissi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:KUR = { #Kurdistan, Kurdish People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LAT = { #Latvia, Latvian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LBA = { #Luba, Luba People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LND = { #Lunda, Lunda/Ovimbundu  People
+	use_culture_states = yes
+
+	required_states_fraction = 0.25
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LIT = { #Lithuania, Lithuanian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LMW = { #Lomwe, Lomwe People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LOU = { #Louisiana, Cajun/Afro-Antillean People
+	states = {
+		STATE_LOUISIANA
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:LUO = { #Luo, Luo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MAD = { #Madagascar, Malagasy People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MAY = { #Maya, Mayan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MDK = { #Mandinka, Mande People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MCH = { #Manchu, Manchu People
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MCR = { #Micronesia, Micronesian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+REPLACE_OR_CREATE:MGL = { #Mongolia, Mongolian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MKT = { #Miskito, Miskito People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MKU = { #Makua, Makua People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MLT = { #Malta, Maltese People
+	use_culture_states = yes
+
+	required_states_fraction = 0.1
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MNP = { #Manipur, Manipuri People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MOS = { #Mossi, Mossi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MSI = { #Maasai, Maasai People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MTC = { #Metis, Metis People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:MUI = { #Muisca, Muisca People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NAV = { #Navarra, Basque People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NBA = { #Nuba, Nuba People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NCA = { #Mountain Republic, Northern Caucasian Peoples
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NEP = { #Nepal, Nepali Peoples
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NET = { #Netherlands, Dutch People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NNV = { #Nunavut, Inuit People
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+REPLACE_OR_CREATE:NOR = { #Norway, Norwegian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NUE = { #Nuer, Nuer People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NVJ = { #Navajo, Navajo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NYM = { #Unyamwezi, Nyamwezi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:NZP = { #Nez Perce, Nez Perce People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:OCC = { #Occitania, Occitan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ORI = { #Orissa, Oriya People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:OVM = { #Ovimbundu, Ovimbundu People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:OYO = { #Oyo, Yoruba People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+#PAN = { #Punjab, Panjabi People
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.75
+#	
+#	ai_will_do = { always = yes }
+#}
+REPLACE_OR_CREATE:PER = { #Persia, Persian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:POR = { #Portugal, Portuguese People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:PRM = { #Perm, Ugrian People
+	states = {
+		STATE_PERM
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:PUE = { #Pueblo, Pueblo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:QUE = { #Quebec, Quebecois People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:RWD = { #Rwanda, Ruanda People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SAV = { #Savoy, Franco-provencal People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SCO = { #Scotland, Scottish People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SDM = { #Sidamo, Sidamo People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SNA = { #Sena, Sena People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SER = { #Serbia, Serb People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SIA = { #Siam, Thai People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SIB = { #Siberia, Siberian Peoples
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+REPLACE_OR_CREATE:SIN = { #Sindh, Sindi People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SKM = { #Usukuma, Sukuma People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SLO = { #Slovenia, Slovene People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SOK = { #Sokoto, Hausa/Fulbe People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SRB = { #Sorbia, Sorb People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SUD = { #Sudan, Sudanese/Beja People, Includes Bedouin so must be limited by state
+	states = {
+		STATE_BLUE_NILE
+		STATE_DONGOLA
+		STATE_KORDOFAN
+	}
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SLV = { #Slovakia, Slovak People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SMI = { #Sapmi, Sami People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SRA = { #Sara, Sara People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:SWI = { #Switzerland, Swiss People
+	states = {
+		STATE_EAST_SWITZERLAND
+		STATE_WEST_SWITZERLAND
+	}
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TIB = { #Tibet, Tibetan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+REPLACE_OR_CREATE:TIV = { #Tivland, Tiv People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TOB = { #Toba, Batak Toba People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TPI = { #Tupinamba, Tupinamba People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TRC = { #Turkmenia, Turkmen People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TSW = { #Tswama, Tswana People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TUR = { #Turkey, Turkish People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TUV = { #Tuva, Tuvan People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:TWT = { #Tawantinsuyu (Incan Empire), Quechua People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:UKR = { #Ukraine, Ukrainian People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:UYA = { #Uyao, Yao People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:WLL = { #Wallonia, Walloon People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:WLS = { #Wales, Welsh People
+	use_culture_states = yes
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:XHO = { #Xhosa, Xhosa People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:XIN = { #Uyghuristan, Uighur People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:YAK = { #Yakutia, Yakut People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:YUE = { #Yue, Yue People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:YUZ = { #Yuanzhumin, Yuanzhumin People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ZND = { #Azande, Azande People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+REPLACE_OR_CREATE:ZUL = { #Zulu, Zulu People
+	use_culture_states = yes
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+#------------------
+##Converter Defined Nations
+REPLACE_OR_CREATE:UT0 = { #United Tribes of Australia, Aborigine Peoples
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}

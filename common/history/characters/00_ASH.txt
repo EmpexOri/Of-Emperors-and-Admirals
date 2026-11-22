@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ASH = {
+		create_character = {
+			first_name = "Luro_I"
+			last_name = "Bonohene"
+			ruler = yes
+			culture = cu:akan
+			religion = rel:sunni
+			birth_date = 1815.11.4
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+	}
+}

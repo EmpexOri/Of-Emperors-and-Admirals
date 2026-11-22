@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:ORI = {
+		create_character = {
+			first_name = "Janmejaya_Uria"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1793.8.26
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Tundaka"
+			last_name = "Aravidu"
+			female = yes
+			culture = cu:dynamic-oriya-telegu-culture-num1
+			religion = rel:hindu
+			birth_date = 1772.10.1
+			traits = {
+				wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Bhandanaditya"
+			last_name = "Patra"
+			heir = yes
+			culture = cu:dynamic-oriya-telegu-culture-num1
+			religion = rel:hindu
+			birth_date = 1795.8.10
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Bhandanaditya_IV"
+			last_name = "Patra"
+			ruler = yes
+			culture = cu:dynamic-oriya-telegu-culture-num1
+			religion = rel:hindu
+			birth_date = 1767.10.13
+			traits = {
+				experienced_colonial_administrator innovative 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

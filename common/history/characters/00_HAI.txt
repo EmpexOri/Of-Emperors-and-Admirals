@@ -1,0 +1,56 @@
+﻿CHARACTERS = {
+	c:HAI = {
+		create_character = {
+			first_name = "Alastair_Castelo_Branco"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:neo-caribbean_colony-portugese
+			religion = rel:catholic
+			birth_date = 1784.1.8
+			traits = {
+				reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Abraham_Leite"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1787.2.9
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Adalgod_Cardoso"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1790.4.9
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Geraud_Moraes"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1797.1.13
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Abril_Caldas"
+			is_admiral = yes
+			birth_date = 1777.5.31
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

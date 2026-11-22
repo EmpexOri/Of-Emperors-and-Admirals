@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X92 = {
+		create_character = {
+			first_name = "Kamadeva_I"
+			last_name = "Gaitonde"
+			ruler = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1815.11.28
+			traits = {
+				basic_colonial_administrator pious 
+			}
+		}
+
+	}
+}

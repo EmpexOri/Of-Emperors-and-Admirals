@@ -1,0 +1,19 @@
+﻿REPLACE_OR_CREATE:heritage_mazdan = {
+	type = heritage
+	trait_group = heritage_group_iranian
+}
+
+REPLACE_OR_CREATE:heritage_gnostic = {
+	type = heritage
+	trait_group = heritage_group_abrahamic
+}
+
+REPLACE_OR_CREATE:heritage_yazidi = {
+	type = heritage
+	trait_group = heritage_group_iranian
+}
+
+REPLACE_OR_CREATE:heritage_vedic = {
+	type = heritage
+	trait_group = heritage_group_eastern
+}

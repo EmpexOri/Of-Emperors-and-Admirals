@@ -1,0 +1,55 @@
+﻿CHARACTERS = {
+	c:LUX = {
+		create_character = {
+			first_name = "Magdolna"
+			last_name = "de_Dreux"
+			female = yes
+			culture = cu:dynamic-hungarian-slovak-culture-num1
+			religion = rel:protestant
+			birth_date = 1798.1.14
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Aymar"
+			last_name = "Arpad-Dizier"
+			heir = yes
+			culture = cu:dynamic-hungarian-slovak-culture-num1
+			religion = rel:protestant
+			birth_date = 1822.10.9
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Heinrich_III"
+			last_name = "Arpad-Dizier"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:dynamic-hungarian-slovak-culture-num1
+			religion = rel:protestant
+			birth_date = 1802.3.29
+			traits = {
+				basic_offensive_planner bigoted experienced_political_operator romantic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Benoit_Maussen"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1770.12.3
+			traits = {
+				basic_defensive_strategist charismatic 
+			}
+		}
+
+	}
+}

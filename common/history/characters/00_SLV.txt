@@ -1,0 +1,91 @@
+﻿CHARACTERS = {
+	c:SLV = {
+		create_character = {
+			first_name = "Boldizsar_Veseleni"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1801.1.13
+		}
+
+		create_character = {
+			first_name = "Alicja"
+			last_name = "Arpad-Zvolen"
+			heir = yes
+			female = yes
+			culture = cu:dynamic-lithuanian-russian_culture-culture-num2
+			religion = rel:protestant
+			birth_date = 1824.9.2
+			traits = {
+				experienced_colonial_administrator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Svatopluk_Kollar"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1786.3.11
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "MONARCH_NAME_ULASZLO"
+			last_name = "von_Trench"
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1799.3.10
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Alicja_VI"
+			last_name = "Arpad-Zvolen"
+			ruler = yes
+			female = yes
+			culture = cu:dynamic-lithuanian-russian_culture-culture-num2
+			religion = rel:protestant
+			birth_date = 1773.12.11
+			traits = {
+				arrogant 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Svetimir_Kollar"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1788.6.17
+			traits = {
+				bigoted resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Laszlo_Pongrac"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1783.6.11
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Kalman_Veseleni"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1780.3.20
+			traits = {
+				meticulous resupply_commander 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:WAD = {
+		create_character = {
+			first_name = "Aikach0"
+			last_name = "Madawa"
+			female = yes
+			culture = cu:fur
+			religion = rel:kushite
+			birth_date = 1788.9.8
+			traits = {
+				basic_diplomat imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Aich0"
+			last_name = "Wadawa"
+			heir = yes
+			female = yes
+			culture = cu:fur
+			religion = rel:kushite
+			birth_date = 1813.5.5
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Tsh0roma_I"
+			last_name = "Wadawa"
+			ruler = yes
+			culture = cu:fur
+			religion = rel:kushite
+			birth_date = 1795.2.2
+			traits = {
+				honorable 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

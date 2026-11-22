@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BLF = {
+		create_character = {
+			first_name = "Sotenah_Inuksikahpowaiks"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1665.9.7
+			traits = {
+				cancer experienced_political_operator 
+			}
+		}
+
+	}
+}

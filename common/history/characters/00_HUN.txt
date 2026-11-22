@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:HUN = {
+		create_character = {
+			first_name = "Istv0n"
+			last_name = "Bethlen"
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1799.8.8
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Agnes"
+			last_name = "von_Trench"
+			heir = yes
+			female = yes
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1822.9.23
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Agnes_I"
+			last_name = "von_Trench"
+			ruler = yes
+			female = yes
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1799.1.20
+			traits = {
+				basic_political_operator cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

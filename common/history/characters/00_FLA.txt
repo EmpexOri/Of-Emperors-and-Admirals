@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:FLA = {
+		create_character = {
+			first_name = "Willem_III"
+			last_name = "van_Serooskerken"
+			ruler = yes
+			culture = cu:flemish
+			religion = rel:catholic
+			birth_date = 1815.11.28
+			traits = {
+				basic_political_operator bigoted 
+			}
+		}
+
+	}
+}

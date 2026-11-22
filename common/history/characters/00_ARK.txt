@@ -1,0 +1,75 @@
+﻿CHARACTERS = {
+	c:ARK = {
+		create_character = {
+			first_name = "Nagathuriya_Sawbwa"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1807.8.10
+			traits = {
+				imposing 
+			}
+		}
+
+		create_character = {
+			first_name = "Bibibai"
+			last_name = "Ilyas_Shahi"
+			female = yes
+			culture = cu:bengali
+			religion = rel:theravada
+			birth_date = 1797.1.23
+			traits = {
+				cautious experienced_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Minyinpyu"
+			last_name = "Kale-Sandoway"
+			heir = yes
+			culture = cu:bengali
+			religion = rel:theravada
+			birth_date = 1820.11.10
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Minpyugyi_Sawbwa"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1792.6.10
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Suriyataingchandra_III"
+			last_name = "Kale-Sandoway"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:bengali
+			religion = rel:theravada
+			birth_date = 1800.9.28
+			traits = {
+				experienced_diplomat tactful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Minnangyi_Me"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1794.11.13
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:BRG = {
+		create_character = {
+			first_name = "Azzah"
+			last_name = "Seku"
+			female = yes
+			culture = cu:bambara
+			religion = rel:sunni
+			birth_date = 1812.9.30
+			traits = {
+				experienced_diplomat honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Adejola"
+			last_name = "Busa"
+			heir = yes
+			culture = cu:bambara
+			religion = rel:sunni
+			birth_date = 1834.4.17
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Labidiedo_V"
+			last_name = "Busa"
+			ruler = yes
+			culture = cu:bambara
+			religion = rel:sunni
+			birth_date = 1818.5.22
+			traits = {
+				wrathful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

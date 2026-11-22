@@ -1,0 +1,134 @@
+﻿REPLACE_OR_CREATE:heritage_continental_celtic = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+
+REPLACE_OR_CREATE:heritage_egyptian = {
+	type = heritage
+	trait_group = heritage_group_african
+}
+
+REPLACE_OR_CREATE:heritage_guarani = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+REPLACE_OR_CREATE:heritage_gutian = {
+	type = heritage
+	trait_group = heritage_group_central_asian
+}
+
+REPLACE_OR_CREATE:heritage_hebrew = {
+	type = heritage
+	trait_group = heritage_group_middle_eastern
+}
+
+REPLACE_OR_CREATE:heritage_hurrian = {
+	type = heritage
+	trait_group = heritage_group_middle_eastern
+}
+
+REPLACE_OR_CREATE:heritage_old_anatolian = {
+	type = heritage
+	trait_group = heritage_group_middle_eastern
+}
+
+REPLACE_OR_CREATE:heritage_pelasgian = { #Pre-Greeks
+	type = heritage
+	trait_group = heritage_group_european
+}
+
+REPLACE_OR_CREATE:heritage_scythian = {
+	type = heritage
+	trait_group = heritage_group_central_asian
+}
+
+REPLACE_OR_CREATE:heritage_tocharian = {
+	type = heritage
+	trait_group = heritage_group_central_asian
+}
+
+REPLACE_OR_CREATE:heritage_thracian = { # Daco-thracian
+	type = heritage
+	trait_group = heritage_group_european
+}
+
+#Animals
+REPLACE_OR_CREATE:heritage_equine = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_feline = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_ursine = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_erinaceous = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_anatidine = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_canine = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_elephantine = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_draconic = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+REPLACE_OR_CREATE:heritage_ailurine = {
+	type = heritage
+	trait_group = heritage_group_animal
+}
+
+###########
+
+REPLACE_OR_CREATE:heritage_bahnaric = {
+	type = heritage
+	trait_group = heritage_group_southeast_asian
+}
+
+REPLACE_OR_CREATE:heritage_embera = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+REPLACE_OR_CREATE:heritage_guaycuri = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+REPLACE_OR_CREATE:heritage_guaycuru = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+REPLACE_OR_CREATE:heritage_mascoian = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+REPLACE_OR_CREATE:heritage_wichi = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+REPLACE_OR_CREATE:heritage_sumerian = {
+	type = heritage
+	trait_group = heritage_group_middle_eastern
+}
+
+REPLACE_OR_CREATE:heritage_zamucoan = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}

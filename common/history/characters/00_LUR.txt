@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:LUR = {
+		create_character = {
+			first_name = "Abdulla"
+			last_name = "Meyvand"
+			heir = yes
+			culture = cu:luri
+			religion = rel:sunni
+			birth_date = 1796.10.12
+			traits = {
+				basic_political_operator cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Husayn_I"
+			last_name = "Meyvand"
+			ruler = yes
+			culture = cu:luri
+			religion = rel:sunni
+			birth_date = 1778.10.12
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

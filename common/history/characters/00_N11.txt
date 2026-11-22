@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:N11 = {
+		create_character = {
+			first_name = "Quirebooset_I"
+			last_name = "Papinachois"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1671.4.8
+			traits = {
+				senile 
+			}
+		}
+
+	}
+}

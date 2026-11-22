@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LBA = {
+		create_character = {
+			first_name = "Kongolo_Maniema_I"
+			last_name = "Kikondja"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:catholic
+			birth_date = 1814.11.4
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}

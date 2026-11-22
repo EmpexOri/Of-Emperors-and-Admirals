@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:QUE = {
+		create_character = {
+			first_name = "Cormac_O_Molloy"
+			ruler = yes
+			interest_group = ig_industrialists
+			culture = cu:neo-canada_colony-dynamic-irish-culture-num1
+			religion = rel:protestant
+			birth_date = 1799.11.8
+			traits = {
+				bigoted 
+			}
+		}
+
+		create_character = {
+			first_name = "Diarmuid_MacCarthy"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1800.1.13
+			traits = {
+				inept 
+			}
+		}
+
+		create_character = {
+			first_name = "Conn_O_Donnell"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1796.3.7
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Conn_O_Duffy"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1783.7.22
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Aedh_MacCarthy_Reagh"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1799.8.2
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Ruaidri_O_Rourke"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1776.9.12
+		}
+
+	}
+}

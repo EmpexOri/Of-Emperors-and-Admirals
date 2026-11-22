@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W75 = {
+		create_character = {
+			first_name = "Maximilian_Franz_I"
+			last_name = "z_Pomorza"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1782.10.7
+			traits = {
+				basic_colonial_administrator hedonist 
+			}
+		}
+
+	}
+}

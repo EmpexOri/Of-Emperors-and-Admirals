@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MSC = {
+		create_character = {
+			first_name = "Soholoesee_Chitto"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1799.7.1
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

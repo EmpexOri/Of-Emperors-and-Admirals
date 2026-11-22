@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:PAN = {
+		create_character = {
+			first_name = "Lahina"
+			last_name = "Janda"
+			heir = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:panjabi
+			religion = rel:hindu
+			birth_date = 1793.7.28
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Bhag_I"
+			last_name = "Janda"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:panjabi
+			religion = rel:hindu
+			birth_date = 1776.4.7
+			traits = {
+				basic_colonial_administrator direct 
+			}
+		}
+
+	}
+}

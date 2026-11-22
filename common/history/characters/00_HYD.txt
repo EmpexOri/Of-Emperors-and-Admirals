@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:HYD = {
+		create_character = {
+			first_name = "Adelheid"
+			last_name = "Hoysala"
+			female = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1805.5.23
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Adelheid"
+			last_name = "Kalachuri"
+			heir = yes
+			female = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1827.6.6
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Madhura_V"
+			last_name = "Kalachuri"
+			ruler = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1810.5.3
+			traits = {
+				direct expert_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

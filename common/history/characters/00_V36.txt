@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:V36 = {
+		create_character = {
+			first_name = "Baldomar"
+			last_name = "von_Keller"
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1796.12.29
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Baldomar"
+			last_name = "von_Habsburg"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1823.3.1
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Adela_VI"
+			last_name = "von_Habsburg"
+			ruler = yes
+			female = yes
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1795.3.2
+			traits = {
+				charismatic experienced_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

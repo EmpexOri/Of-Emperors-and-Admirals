@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KSN = {
+		create_character = {
+			first_name = "Afonso_I"
+			last_name = "Lukeni"
+			ruler = yes
+			culture = cu:bakongo
+			religion = rel:animist
+			birth_date = 1604.8.11
+			traits = {
+				experienced_political_operator hedonist 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KON = {
+		create_character = {
+			first_name = "Garcia_III"
+			last_name = "Kuba"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:catholic
+			birth_date = 1816.11.4
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

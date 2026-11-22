@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:TIP = {
+		create_character = {
+			first_name = "Srimanta_Narayan"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1805.9.5
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Ekari"
+			last_name = "Prome"
+			female = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1798.7.18
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Zarni"
+			last_name = "Haihaya"
+			heir = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1823.7.24
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Bahkt_Buland_I"
+			last_name = "Haihaya"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1781.1.17
+			traits = {
+				basic_political_operator honorable 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

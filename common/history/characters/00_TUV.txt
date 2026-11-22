@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TUV = {
+		create_character = {
+			first_name = "Adam"
+			last_name = "Khorints"
+			heir = yes
+			culture = cu:tuvan
+			religion = rel:sunni
+			birth_date = 1832.12.16
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Adam"
+			last_name = "Khorints"
+			ruler = yes
+			culture = cu:tuvan
+			religion = rel:sunni
+			birth_date = 1797.9.6
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

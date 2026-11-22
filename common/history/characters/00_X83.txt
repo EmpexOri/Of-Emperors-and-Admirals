@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X83 = {
+		create_character = {
+			first_name = "Shao_en_I"
+			last_name = "Na_Naxi"
+			ruler = yes
+			culture = cu:han
+			religion = rel:daoshenic
+			birth_date = 1816.11.28
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

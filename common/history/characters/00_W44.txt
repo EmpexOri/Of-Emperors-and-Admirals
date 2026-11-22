@@ -1,0 +1,52 @@
+﻿CHARACTERS = {
+	c:W44 = {
+		create_character = {
+			first_name = "Sheo_Singh_Santhal"
+			is_general = yes
+			birth_date = 1769.3.17
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Ranjit"
+			last_name = "Janda"
+			heir = yes
+			culture = cu:panjabi
+			religion = rel:hindu
+			birth_date = 1781.4.17
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Bibibai"
+			last_name = "Kale-Sandoway"
+			female = yes
+			culture = cu:bengali
+			religion = rel:theravada
+			birth_date = 1773.5.11
+			traits = {
+				basic_colonial_administrator cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Ajit_Singh_I"
+			last_name = "Raksel"
+			ruler = yes
+			culture = cu:bihari
+			religion = rel:hindu
+			birth_date = 1776.1.9
+			traits = {
+				experienced_political_operator imposing 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

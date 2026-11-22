@@ -1,0 +1,64 @@
+﻿CHARACTERS = {
+	c:ETH = {
+		create_character = {
+			first_name = "Tessema_Dereje"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1804.9.23
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Degna_Djan"
+			last_name = "Ashraf"
+			heir = yes
+			culture = cu:misri
+			religion = rel:kushite
+			birth_date = 1823.9.13
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Al-Hakim_II"
+			last_name = "Ashraf"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:misri
+			religion = rel:kushite
+			birth_date = 1803.9.13
+			traits = {
+				hedonist imposing 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Nishan"
+			last_name = "Marisid"
+			female = yes
+			culture = cu:amhara
+			religion = rel:kushite
+			birth_date = 1795.10.14
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Tessema_Ezana"
+			is_admiral = yes
+			birth_date = 1789.1.9
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}

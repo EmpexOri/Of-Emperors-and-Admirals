@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:JUN = {
+		create_character = {
+			first_name = "Ranakadevi"
+			last_name = "Bhil"
+			female = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1803.11.28
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Mandalika"
+			last_name = "Rawal"
+			heir = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1833.1.23
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Ajoji__II"
+			last_name = "Rawal"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1814.3.16
+			traits = {
+				bigoted 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Meliga_Chudasama"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1798.8.26
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Mahipala_Pratap"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1800.1.5
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

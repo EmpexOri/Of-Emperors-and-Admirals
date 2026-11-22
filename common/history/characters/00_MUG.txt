@@ -1,0 +1,94 @@
+﻿CHARACTERS = {
+	c:MUG = {
+		create_character = {
+			first_name = "Abdullah"
+			last_name = "Harti"
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1796.10.10
+			traits = {
+				basic_diplomat meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Aasha"
+			last_name = "Shaybanid-Mandavyapura"
+			heir = yes
+			female = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1825.4.1
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Aasha_VII"
+			last_name = "Shaybanid-Mandavyapura"
+			ruler = yes
+			female = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1802.3.11
+			traits = {
+				basic_political_operator imposing 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Gopala_Mirza"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1802.5.27
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Farhang_Shahabuddin"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1783.11.8
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Dagale_Beg"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1787.3.16
+			traits = {
+				inept 
+			}
+		}
+
+		create_character = {
+			first_name = "Abram_Wazirun"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1773.9.13
+			traits = {
+				ruthless 
+			}
+		}
+
+		create_character = {
+			first_name = "Ajmal_Mirza"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1763.8.3
+			traits = {
+				senile 
+			}
+		}
+
+	}
+}

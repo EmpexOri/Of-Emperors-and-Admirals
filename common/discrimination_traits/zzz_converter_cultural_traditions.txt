@@ -1,0 +1,15 @@
+﻿REPLACE_OR_CREATE:tradition_oviparity ={
+	type = tradition
+}
+REPLACE_OR_CREATE:tradition_vivaparity = {
+	type = tradition
+}
+REPLACE_OR_CREATE:tradition_matriarchal = {
+	type = tradition
+}
+REPLACE_OR_CREATE:tradition_feminist = {
+	type = tradition
+}
+REPLACE_OR_CREATE:tradition_egalitarian = {
+	type = tradition
+}

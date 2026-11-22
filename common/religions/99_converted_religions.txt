@@ -1,0 +1,567 @@
+﻿
+REPLACE_OR_CREATE:adamites = {
+	icon = "gfx/interface/icons/religion_icons/adamite.dds"
+	heritage = "heritage_christian"
+	color = { 153 204 153 }
+	taboos = { clothes luxury_clothes }
+}
+REPLACE_OR_CREATE:adoptianist = {
+	icon = "gfx/interface/icons/religion_icons/adoptianist.dds"
+	heritage = "heritage_christian"
+	color = { 255 51 51 }
+}
+REPLACE_OR_CREATE:ajivika = {
+	icon = "gfx/interface/icons/religion_icons/gelugpa.dds"
+	heritage = "heritage_dharmic"
+	color = { 26 153 0 }
+}
+REPLACE_OR_CREATE:alawite = {
+	icon = "gfx/interface/icons/religion_icons/alawite.dds"
+	heritage = "heritage_islamic"
+	color = { 51 102 26 }
+}
+REPLACE_OR_CREATE:anglo_pagan = {
+	icon = "gfx/interface/icons/religion_icons/anglo.dds"
+	heritage = "heritage_indigenous"
+	color = { 0 80 0 }
+}
+REPLACE_OR_CREATE:animist = {
+	icon = "gfx/interface/icons/religion_icons/animist.dds"
+	heritage = "heritage_indigenous"
+	color = { 153 77 51 }
+}
+REPLACE_OR_CREATE:arab_pagan = {
+	icon = "gfx/interface/icons/religion_icons/arab.dds"
+	heritage = "heritage_indigenous"
+	color = { 140 20 50 }
+}
+REPLACE_OR_CREATE:arianism = {
+	icon = "gfx/interface/icons/religion_icons/insular_celtic.dds"
+	heritage = "heritage_christian"
+	color = { 120 120 0 }
+}
+REPLACE_OR_CREATE:armenian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/armenian.dds"
+	heritage = "heritage_indigenous"
+	color = { 84 107 46 }
+}
+REPLACE_OR_CREATE:atenism = {
+	icon = "gfx/interface/icons/religion_icons/atenism.dds"
+	heritage = "heritage_indigenous"
+	color = { 230 204 102 }
+}
+REPLACE_OR_CREATE:atheist = {
+	icon = "gfx/interface/icons/religion_icons/atheist.dds"
+	heritage = "heritage_materialist"
+	color = { 255 255 255 }
+}
+REPLACE_OR_CREATE:aztec_pagan = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 81 101 81 }
+}
+REPLACE_OR_CREATE:baltic_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/baltic_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 192 128 90 }
+}
+REPLACE_OR_CREATE:barghawata = {
+	icon = "gfx/interface/icons/religion_icons/kharijite.dds"
+	heritage = "heritage_islamic"
+	color = { 25 100 63 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:bogomilist = {
+	icon = "gfx/interface/icons/religion_icons/monophysite.dds"
+	heritage = "heritage_christian"
+	color = { 178 0 51 }
+	taboos = { fine_art groceries }
+}
+REPLACE_OR_CREATE:bon = {
+	icon = "gfx/interface/icons/religion_icons/boen.dds"
+	heritage = "heritage_indigenous"
+	color = { 6 116 108 }
+}
+REPLACE_OR_CREATE:bosnian_church = {
+	icon = "gfx/interface/icons/religion_icons/bosnian.dds"
+	heritage = "heritage_christian"
+	color = { 153 117 134 }
+}
+REPLACE_OR_CREATE:briton_pagan = {
+	icon = "gfx/interface/icons/religion_icons/briton.dds"
+	heritage = "heritage_indigenous"
+	color = { 26 26 153 }
+}
+REPLACE_OR_CREATE:cainitism = {
+	icon = "gfx/interface/icons/religion_icons/cainitism.dds"
+	heritage = "heritage_gnostic"
+	color = { 254 132 10 }
+}
+REPLACE_OR_CREATE:canaanite = {
+	icon = "gfx/interface/icons/religion_icons/canaanite.dds"
+	heritage = "heritage_indigenous"
+	color = { 144 186 19 }
+}
+REPLACE_OR_CREATE:cathar = {
+	icon = "gfx/interface/icons/religion_icons/cathar.dds"
+	heritage = "heritage_christian"
+	color = { 128 128 230 }
+}
+REPLACE_OR_CREATE:catholic = {
+	icon = "gfx/interface/icons/religion_icons/catholic.dds"
+	heritage = "heritage_christian"
+	color = { 204 140 51 }
+}
+REPLACE_OR_CREATE:caucasian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/caucasian.dds"
+	heritage = "heritage_indigenous"
+	color = { 204 51 51 }
+}
+REPLACE_OR_CREATE:celtiberian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/celtiberian.dds"
+	heritage = "heritage_indigenous"
+	color = { 51 179 51 }
+}
+REPLACE_OR_CREATE:confucian = {
+	icon = "gfx/interface/icons/religion_icons/confucianism.dds"
+	heritage = "heritage_taoic"
+	color = { 255 166 102 }
+}
+REPLACE_OR_CREATE:converted_dynamic_faith_140 = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 207 73 102 }
+}
+REPLACE_OR_CREATE:converted_dynamic_faith_141 = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 2 136 99 }
+}
+REPLACE_OR_CREATE:cybelene = {
+	icon = "gfx/interface/icons/religion_icons/cybelene.dds"
+	heritage = "heritage_indigenous"
+	color = { 155 13 81 }
+}
+REPLACE_OR_CREATE:daoshenic = {
+	icon = "gfx/interface/icons/religion_icons/gelugpa.dds"
+	heritage = "heritage_dharmic"
+	color = { 207 73 102 }
+}
+REPLACE_OR_CREATE:druidism = {
+	icon = "gfx/interface/icons/religion_icons/druidism.dds"
+	heritage = "heritage_indigenous"
+	color = { 102 66 31 }
+}
+REPLACE_OR_CREATE:druze = {
+	icon = "gfx/interface/icons/religion_icons/druze.dds"
+	heritage = "heritage_islamic"
+	color = { 0 230 102 }
+	taboos = { liquor opium tobacco wine }
+}
+REPLACE_OR_CREATE:finnish_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/finnish_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 166 166 26 }
+}
+REPLACE_OR_CREATE:fraticelli = {
+	icon = "gfx/interface/icons/religion_icons/fraticelli.dds"
+	heritage = "heritage_christian"
+	color = { 179 179 102 }
+	taboos = { luxury_clothes luxury_furniture }
+}
+REPLACE_OR_CREATE:gaelic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/gaelic.dds"
+	heritage = "heritage_indigenous"
+	color = { 26 102 26 }
+}
+REPLACE_OR_CREATE:gallic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/gallic.dds"
+	heritage = "heritage_indigenous"
+	color = { 26 153 26 }
+}
+REPLACE_OR_CREATE:gayomarthianism = {
+	icon = "gfx/interface/icons/religion_icons/gayomarthianism.dds"
+	heritage = "heritage_mazdan"
+	color = { 102 204 102 }
+}
+REPLACE_OR_CREATE:gelugpa = {
+	icon = "gfx/interface/icons/religion_icons/gelugpa.dds"
+	heritage = "heritage_dharmic"
+	color = { 26 102 230 }
+}
+REPLACE_OR_CREATE:germanic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/germanic.dds"
+	heritage = "heritage_indigenous"
+	color = { 180 180 180 }
+}
+REPLACE_OR_CREATE:gnostic_christianity = {
+	icon = "gfx/interface/icons/religion_icons/dualism.dds"
+	heritage = "heritage_christian"
+	color = { 124 25 26 }
+	taboos = { luxury_clothes luxury_furniture }
+}
+REPLACE_OR_CREATE:hattian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 199 199 199 }
+}
+REPLACE_OR_CREATE:heathenry = {
+	icon = "gfx/interface/icons/religion_icons/germanic.dds"
+	heritage = "heritage_indigenous"
+	color = { 191 180 0 }
+}
+REPLACE_OR_CREATE:hellenic_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/hellenic_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 190 32 32 }
+}
+REPLACE_OR_CREATE:hindu = {
+	icon = "gfx/interface/icons/religion_icons/hindu.dds"
+	heritage = "heritage_dharmic"
+	color = { 204 51 77 }
+	taboos = { meat }
+}
+REPLACE_OR_CREATE:hurrian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 89 92 209 }
+}
+REPLACE_OR_CREATE:hussite = {
+	icon = "gfx/interface/icons/religion_icons/iconoclast.dds"
+	heritage = "heritage_christian"
+	color = { 244 55 9 }
+}
+REPLACE_OR_CREATE:ibadi = {
+	icon = "gfx/interface/icons/religion_icons/ibadi.dds"
+	heritage = "heritage_islamic"
+	color = { 64 153 26 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:iberian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/iberian.dds"
+	heritage = "heritage_indigenous"
+	color = { 232 181 209 }
+}
+REPLACE_OR_CREATE:iconoclast = {
+	icon = "gfx/interface/icons/religion_icons/iconoclast.dds"
+	heritage = "heritage_christian"
+	color = { 128 51 102 }
+	taboos = { fine_art }
+}
+REPLACE_OR_CREATE:illyric_pagan = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 13 92 128 }
+}
+REPLACE_OR_CREATE:jain = {
+	icon = "gfx/interface/icons/religion_icons/jainism.dds"
+	heritage = "heritage_dharmic"
+	color = { 0 76 153 }
+	taboos = { fish meat }
+}
+REPLACE_OR_CREATE:jewish = {
+	icon = "gfx/interface/icons/religion_icons/jewish.dds"
+	heritage = "heritage_jewish"
+	color = { 140 217 250 }
+	taboos = { groceries }
+}
+REPLACE_OR_CREATE:karaite = {
+	icon = "gfx/interface/icons/religion_icons/jewish_yellow.dds"
+	heritage = "heritage_jewish"
+	color = { 250 80 250 }
+	taboos = { groceries }
+}
+REPLACE_OR_CREATE:kemetism = {
+	icon = "gfx/interface/icons/religion_icons/kemetism.dds"
+	heritage = "heritage_indigenous"
+	color = { 179 45 0 }
+}
+REPLACE_OR_CREATE:khaldic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/custom_65.dds"
+	heritage = "heritage_indigenous"
+	color = { 97 94 33 }
+}
+REPLACE_OR_CREATE:kharijite = {
+	icon = "gfx/interface/icons/religion_icons/kharijite.dds"
+	heritage = "heritage_islamic"
+	color = { 102 204 153 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:khurmazta = {
+	icon = "gfx/interface/icons/religion_icons/khurmazta.dds"
+	heritage = "heritage_mazdan"
+	color = { 128 153 76 }
+}
+REPLACE_OR_CREATE:khurramism = {
+	icon = "gfx/interface/icons/religion_icons/khurramism.dds"
+	heritage = "heritage_mazdan"
+	color = { 26 178 51 }
+}
+REPLACE_OR_CREATE:kitebacilweism = {
+	icon = "gfx/interface/icons/religion_icons/kitebacilweism.dds"
+	heritage = "heritage_yazidi"
+	color = { 3 105 151 }
+}
+REPLACE_OR_CREATE:kushite = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 75 45 31 }
+}
+REPLACE_OR_CREATE:kushitism_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/kemetism.dds"
+	heritage = "heritage_indigenous"
+	color = { 0 255 255 }
+}
+REPLACE_OR_CREATE:lollard = {
+	icon = "gfx/interface/icons/religion_icons/lollard.dds"
+	heritage = "heritage_christian"
+	color = { 128 204 204 }
+}
+REPLACE_OR_CREATE:magyar_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/magyar_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 212 106 80 }
+}
+REPLACE_OR_CREATE:mahayana = {
+	icon = "gfx/interface/icons/religion_icons/mahayana.dds"
+	heritage = "heritage_dharmic"
+	color = { 179 89 26 }
+}
+REPLACE_OR_CREATE:mandaeism = {
+	icon = "gfx/interface/icons/religion_icons/mandaeism.dds"
+	heritage = "heritage_gnostic"
+	color = { 212 171 56 }
+	taboos = { liquor }
+}
+REPLACE_OR_CREATE:manichean = {
+	icon = "gfx/interface/icons/religion_icons/manichean.dds"
+	heritage = "heritage_gnostic"
+	color = { 208 183 0 }
+}
+REPLACE_OR_CREATE:mardukism = {
+	icon = "gfx/interface/icons/religion_icons/mardukism.dds"
+	heritage = "heritage_indigenous"
+	color = { 128 11 0 }
+}
+REPLACE_OR_CREATE:masmudi = {
+	icon = "gfx/interface/icons/religion_icons/masmudi.dds"
+	heritage = "heritage_islamic"
+	color = { 0 153 51 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:mazdaki = {
+	icon = "gfx/interface/icons/religion_icons/mazdaki.dds"
+	heritage = "heritage_mazdan"
+	color = { 128 178 51 }
+	taboos = { luxury_clothes luxury_furniture meat }
+}
+REPLACE_OR_CREATE:megalithic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/custom_72.dds"
+	heritage = "heritage_indigenous"
+	color = { 110 33 18 }
+}
+REPLACE_OR_CREATE:meshefaresism = {
+	icon = "gfx/interface/icons/religion_icons/meshefaresism.dds"
+	heritage = "heritage_yazidi"
+	color = { 0 76 128 }
+}
+REPLACE_OR_CREATE:messalian = {
+	icon = "gfx/interface/icons/religion_icons/messalian.dds"
+	heritage = "heritage_christian"
+	color = { 153 25 102 }
+}
+REPLACE_OR_CREATE:mithraism = {
+	icon = "gfx/interface/icons/religion_icons/mithraism.dds"
+	heritage = "heritage_indigenous"
+	color = { 210 0 0 }
+}
+REPLACE_OR_CREATE:monophysite = {
+	icon = "gfx/interface/icons/religion_icons/monophysite.dds"
+	heritage = "heritage_christian"
+	color = { 204 102 26 }
+}
+REPLACE_OR_CREATE:monothelite = {
+	icon = "gfx/interface/icons/religion_icons/monothelite.dds"
+	heritage = "heritage_christian"
+	color = { 128 0 76 }
+}
+REPLACE_OR_CREATE:mutazila = {
+	icon = "gfx/interface/icons/religion_icons/mutazila.dds"
+	heritage = "heritage_islamic"
+	color = { 0 178 128 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:nestorian = {
+	icon = "gfx/interface/icons/religion_icons/nestorian.dds"
+	heritage = "heritage_christian"
+	color = { 214 112 153 }
+}
+REPLACE_OR_CREATE:noreligion = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_materialist"
+	color = { 200 200 200 }
+}
+REPLACE_OR_CREATE:norse_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/norse_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 191 191 191 }
+}
+REPLACE_OR_CREATE:nuragic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 120 128 95 }
+}
+REPLACE_OR_CREATE:oriental_orthodox = {
+	icon = "gfx/interface/icons/religion_icons/coptic.dds"
+	heritage = "heritage_christian"
+	color = { 26 128 153 }
+}
+REPLACE_OR_CREATE:orthodox = {
+	icon = "gfx/interface/icons/religion_icons/orthodox.dds"
+	heritage = "heritage_christian"
+	color = { 115 64 128 }
+}
+REPLACE_OR_CREATE:pagan_religion_reformed = {
+	icon = "gfx/interface/icons/religion_icons/pagan.dds"
+	heritage = "heritage_indigenous"
+	color = { 127 127 127 }
+}
+REPLACE_OR_CREATE:paulician = {
+	icon = "gfx/interface/icons/religion_icons/paulician.dds"
+	heritage = "heritage_christian"
+	color = { 214 0 147 }
+	taboos = { fine_art }
+}
+REPLACE_OR_CREATE:priscillianism = {
+	icon = "gfx/interface/icons/religion_icons/priscillianism.dds"
+	heritage = "heritage_gnostic"
+	color = { 235 181 29 }
+	taboos = { liquor meat wine }
+}
+REPLACE_OR_CREATE:protestant = {
+	icon = "gfx/interface/icons/religion_icons/protestant.dds"
+	heritage = "heritage_christian"
+	color = { 51 77 140 }
+}
+REPLACE_OR_CREATE:qarmatian = {
+	icon = "gfx/interface/icons/religion_icons/qarmatian.dds"
+	heritage = "heritage_islamic"
+	color = { 51 178 26 }
+	taboos = { fine_art liquor wine }
+}
+REPLACE_OR_CREATE:quranist = {
+	icon = "gfx/interface/icons/religion_icons/quranist.dds"
+	heritage = "heritage_islamic"
+	color = { 51 178 26 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:ritualistic_pagan = {
+	icon = "gfx/interface/icons/religion_icons/custom_96.dds"
+	heritage = "heritage_indigenous"
+	color = { 13 54 18 }
+}
+REPLACE_OR_CREATE:samaritan = {
+	icon = "gfx/interface/icons/religion_icons/samaritan.dds"
+	heritage = "heritage_jewish"
+	color = { 200 0 200 }
+	taboos = { groceries }
+}
+REPLACE_OR_CREATE:scythian_pagan = {
+	icon = "gfx/interface/icons/religion_icons/magyar.dds"
+	heritage = "heritage_indigenous"
+	color = { 128 48 51 }
+}
+REPLACE_OR_CREATE:sethianism = {
+	icon = "gfx/interface/icons/religion_icons/sethianism.dds"
+	heritage = "heritage_gnostic"
+	color = { 216 140 76 }
+}
+REPLACE_OR_CREATE:shiite = {
+	icon = "gfx/interface/icons/religion_icons/shiite.dds"
+	heritage = "heritage_islamic"
+	color = { 102 179 77 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:shinto = {
+	icon = "gfx/interface/icons/religion_icons/shinto.dds"
+	heritage = "heritage_taoic"
+	color = { 102 26 51 }
+}
+REPLACE_OR_CREATE:siberian_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/siberian_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 179 179 230 }
+}
+REPLACE_OR_CREATE:sikh = {
+	icon = "gfx/interface/icons/religion_icons/sikh.dds"
+	heritage = "heritage_dharmic"
+	color = { 255 255 26 }
+}
+REPLACE_OR_CREATE:slavic_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/slavic_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 216 186 102 }
+}
+REPLACE_OR_CREATE:sunni = {
+	icon = "gfx/interface/icons/religion_icons/sunni.dds"
+	heritage = "heritage_islamic"
+	color = { 26 128 77 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:tengri_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/tengri_2.dds"
+	heritage = "heritage_indigenous"
+	color = { 25 76 217 }
+}
+REPLACE_OR_CREATE:theravada = {
+	icon = "gfx/interface/icons/religion_icons/theravada.dds"
+	heritage = "heritage_dharmic"
+	color = { 179 102 153 }
+}
+REPLACE_OR_CREATE:valentinianism = {
+	icon = "gfx/interface/icons/religion_icons/valentinianism.dds"
+	heritage = "heritage_gnostic"
+	color = { 204 153 102 }
+}
+REPLACE_OR_CREATE:waldensian = {
+	icon = "gfx/interface/icons/religion_icons/waldensian.dds"
+	heritage = "heritage_christian"
+	color = { 102 102 178 }
+}
+REPLACE_OR_CREATE:west_african_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/fetishist.dds"
+	heritage = "heritage_indigenous"
+	color = { 255 160 0 }
+}
+REPLACE_OR_CREATE:yazidi = {
+	icon = "gfx/interface/icons/religion_icons/yazidi.dds"
+	heritage = "heritage_yazidi"
+	color = { 0 73 162 }
+}
+REPLACE_OR_CREATE:zamolxism = {
+	icon = "gfx/interface/icons/religion_icons/zamolxism.dds"
+	heritage = "heritage_indigenous"
+	color = { 0 0 100 }
+}
+REPLACE_OR_CREATE:zikri = {
+	icon = "gfx/interface/icons/religion_icons/zikri.dds"
+	heritage = "heritage_islamic"
+	color = { 51 153 51 }
+	taboos = { liquor wine }
+}
+REPLACE_OR_CREATE:zoroastrian = {
+	icon = "gfx/interface/icons/religion_icons/zoroastrian_2.dds"
+	heritage = "heritage_mazdan"
+	color = { 127 178 51 }
+}
+REPLACE_OR_CREATE:zun_pagan_reformed = {
+	icon = "gfx/interface/icons/religion_icons/zun.dds"
+	heritage = "heritage_indigenous"
+	color = { 230 255 0 }
+}
+REPLACE_OR_CREATE:zurvanism = {
+	icon = "gfx/interface/icons/religion_icons/zurvanism.dds"
+	heritage = "heritage_mazdan"
+	color = { 76 153 102 }
+}
+

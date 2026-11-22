@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X90 = {
+		create_character = {
+			first_name = "Sigisbert_I"
+			last_name = "von_Trench"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1815.11.28
+			traits = {
+				experienced_diplomat persistent 
+			}
+		}
+
+	}
+}

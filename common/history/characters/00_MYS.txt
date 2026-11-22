@@ -1,0 +1,42 @@
+﻿CHARACTERS = {
+	c:MYS = {
+		create_character = {
+			first_name = "Bir_Sah"
+			last_name = "Haihaya"
+			heir = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1796.9.26
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Bettada_Devaraja_II"
+			last_name = "Chowta"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1799.7.26
+			traits = {
+				persistent 
+			}
+		}
+
+		create_character = {
+			first_name = "Krishnaraja_Vaidya"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1749.5.4
+			traits = {
+				cancer charismatic 
+			}
+		}
+
+	}
+}

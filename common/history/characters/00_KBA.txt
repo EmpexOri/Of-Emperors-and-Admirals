@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:KBA = {
+		create_character = {
+			first_name = "Bope_Mobinji_Boke_Pianga"
+			ruler = yes
+			culture = cu:mongo
+			religion = rel:animist
+			birth_date = 1803.2.15
+			traits = {
+				imposing 
+			}
+		}
+
+		create_character = {
+			first_name = "Mikope_Mobinji_Pianga"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1785.9.17
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

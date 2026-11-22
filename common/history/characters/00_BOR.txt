@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BOR = {
+		create_character = {
+			first_name = "Sougou_II"
+			last_name = "Kanemi"
+			ruler = yes
+			culture = cu:kanuri
+			religion = rel:catholic
+			birth_date = 1816.11.4
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

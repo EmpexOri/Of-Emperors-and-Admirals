@@ -1,0 +1,66 @@
+﻿CHARACTERS = {
+	c:CAM = {
+		create_character = {
+			first_name = "Siqi_Mok"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1814.3.26
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Udayadityavarman_Preap"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1788.3.10
+			traits = {
+				inexperienced 
+			}
+		}
+
+		create_character = {
+			first_name = "Duanhui"
+			last_name = "Kale-Sandoway"
+			heir = yes
+			female = yes
+			culture = cu:bengali
+			religion = rel:theravada
+			birth_date = 1818.10.17
+			traits = {
+				compliant 
+			}
+		}
+
+		create_character = {
+			first_name = "Chenda"
+			last_name = "Wareru"
+			female = yes
+			culture = cu:mon
+			religion = rel:theravada
+			birth_date = 1779.3.25
+			traits = {
+				basic_political_operator honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Harshavarman_V"
+			last_name = "Kale-Sandoway"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:bengali
+			religion = rel:theravada
+			birth_date = 1784.6.6
+			traits = {
+				basic_political_operator cautious direct 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HES = {
+		create_character = {
+			first_name = "Peter_II"
+			last_name = "von_Corvey"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1816.11.28
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

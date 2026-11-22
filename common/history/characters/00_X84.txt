@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X84 = {
+		create_character = {
+			first_name = "Kibar_I"
+			last_name = "Na_Naxi"
+			ruler = yes
+			culture = cu:han
+			religion = rel:daoshenic
+			birth_date = 1817.11.28
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

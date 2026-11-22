@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V17 = {
+		create_character = {
+			first_name = "Ajinai"
+			last_name = "Enkhjargal"
+			heir = yes
+			culture = cu:mongol
+			religion = rel:sunni
+			birth_date = 1818.8.27
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Ajinai_I"
+			last_name = "Enkhjargal"
+			ruler = yes
+			culture = cu:mongol
+			religion = rel:sunni
+			birth_date = 1783.3.23
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

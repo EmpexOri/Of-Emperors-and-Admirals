@@ -1,0 +1,64 @@
+﻿CHARACTERS = {
+	c:X22 = {
+		create_character = {
+			first_name = "Sri_Indravarman_Batuta"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1791.3.3
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Frederik_Chairul"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1810.10.20
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Dharanindra_Amir"
+			ruler = yes
+			culture = cu:dutch
+			religion = rel:gelugpa
+			birth_date = 1789.8.20
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Bugu_Najamuddin"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1782.4.29
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Frederik_Hasanuddin"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1783.10.4
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Frederik_Amir"
+			is_general = yes
+			birth_date = 1756.12.24
+			traits = {
+				cocaine_addiction kidney_stones 
+			}
+		}
+
+	}
+}

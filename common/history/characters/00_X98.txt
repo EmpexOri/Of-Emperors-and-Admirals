@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X98 = {
+		create_character = {
+			first_name = "Yalkus_Cathlapotle"
+			ruler = yes
+			culture = cu:pueblo
+			religion = rel:catholic
+			birth_date = 1797.8.23
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

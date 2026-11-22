@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUG = {
+		create_character = {
+			first_name = "Jjunju_I"
+			last_name = "Ffumbe"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1750.10.29
+			traits = {
+				hedonist kidney_stones 
+			}
+		}
+
+	}
+}

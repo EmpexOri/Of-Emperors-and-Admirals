@@ -1,0 +1,13 @@
+﻿# fix for PDX typo
+REPLACE_OR_CREATE:new_orleans_league = {
+	trigger = {
+		scope:selected_identity = identity:identity_trade_league
+	    OR = {
+			AND = {
+				c:USA ?= this
+				any_scope_state = { state_region = s:STATE_LOUISIANA }
+			}
+	    	c:LOU ?= this
+	    }
+	}
+}

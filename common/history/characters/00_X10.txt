@@ -1,0 +1,61 @@
+﻿CHARACTERS = {
+	c:X10 = {
+		create_character = {
+			first_name = "Wido_Sfondrati"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1806.11.5
+		}
+
+		create_character = {
+			first_name = "Vilfredo_Medici_di_Marignano"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1805.3.10
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Werner"
+			last_name = "Arpad-Dizier"
+			heir = yes
+			culture = cu:dynamic-hungarian-slovak-culture-num1
+			religion = rel:protestant
+			birth_date = 1824.7.21
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Lajos"
+			last_name = "von_Trench"
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1804.8.2
+			traits = {
+				experienced_colonial_administrator honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Amalberga_IV"
+			last_name = "Arpad-Dizier"
+			ruler = yes
+			female = yes
+			interest_group = ig_industrialists
+			culture = cu:dynamic-hungarian-slovak-culture-num1
+			religion = rel:protestant
+			birth_date = 1806.11.15
+			traits = {
+				basic_colonial_administrator charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

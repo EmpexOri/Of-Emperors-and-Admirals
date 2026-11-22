@@ -1,0 +1,259 @@
+﻿geographic_region_converter_colonial_canada = {
+	short_key = "converter_colonial_canada"
+
+	strategic_regions = {
+		sr:region_canada
+	}
+
+	state_regions = {
+		STATE_NEW_BRUNSWICK
+		#STATE_SASKATCHEWAN # part of region_canada now
+		STATE_ALBERTA
+		STATE_BRITISH_COLUMBIA
+		STATE_YUKON_TERRITORY
+	}
+}
+
+geographic_region_converter_colonial_48 = {
+	short_key = "converter_colonial_48"
+
+	strategic_regions = {
+		sr:region_great_plains #parts of midwest and dixie
+		#sr:region_dixie
+	}
+
+	state_regions = {
+		#atlantic
+		STATE_ALABAMA
+		STATE_CONNECTICUT
+		STATE_DELAWARE
+		STATE_DISTRICT_OF_COLUMBIA
+		STATE_FLORIDA
+		STATE_GEORGIA
+		STATE_ILLINOIS
+		STATE_INDIANA
+		STATE_KENTUCKY
+		STATE_MAINE
+		STATE_MARYLAND
+		STATE_MASSACHUSETTS
+		STATE_MICHIGAN
+		STATE_MISSISSIPPI
+		STATE_NEW_BRUNSWICK
+		STATE_NEW_HAMPSHIRE
+		STATE_NEW_JERSEY
+		STATE_NEW_YORK
+		STATE_NORTH_CAROLINA
+		STATE_OHIO
+		STATE_PENNSYLVANIA
+		STATE_RHODE_ISLAND
+		STATE_SOUTH_CAROLINA
+		STATE_TENNESSEE
+		STATE_VERMONT
+		STATE_VIRGINIA
+		STATE_WEST_VIRGINIA
+		STATE_WISCONSIN
+		#pacific
+		STATE_ARIZONA
+		STATE_CALIFORNIA
+		STATE_IDAHO
+		STATE_NEVADA
+		STATE_OREGON
+		STATE_UTAH
+		STATE_WASHINGTON
+	}
+}
+
+geographic_region_converter_colonial_america = {
+	short_key = "converter_colonial_america"
+
+	state_regions = {
+		#atlantic
+		STATE_ALABAMA
+		STATE_CONNECTICUT
+		STATE_DELAWARE
+		STATE_DISTRICT_OF_COLUMBIA
+		STATE_FLORIDA
+		STATE_GEORGIA
+		STATE_ILLINOIS
+		STATE_INDIANA
+		STATE_KENTUCKY
+		STATE_MAINE
+		STATE_MARYLAND
+		STATE_MASSACHUSETTS
+		STATE_MICHIGAN
+		STATE_MISSISSIPPI
+		STATE_NEW_BRUNSWICK
+		STATE_NEW_HAMPSHIRE
+		STATE_NEW_JERSEY
+		STATE_NEW_YORK
+		STATE_NORTH_CAROLINA
+		STATE_OHIO
+		STATE_PENNSYLVANIA
+		STATE_RHODE_ISLAND
+		STATE_SOUTH_CAROLINA
+		STATE_TENNESSEE
+		STATE_VERMONT
+		STATE_VIRGINIA
+		STATE_WEST_VIRGINIA
+		STATE_WISCONSIN
+		#midwest
+		STATE_MINNESOTA
+		STATE_IOWA
+		STATE_MISSOURI
+		#dixie
+		STATE_ARKANSAS
+		STATE_LOUISIANA
+		STATE_OKLAHOMA
+		STATE_TEXAS
+	}
+}
+
+geographic_region_converter_colonial_new_england = {
+	short_key = "converter_colonial_new_england"
+
+	state_regions = {
+		STATE_MASSACHUSETTS
+		STATE_MAINE
+		STATE_CONNECTICUT
+		STATE_RHODE_ISLAND
+		STATE_VERMONT
+		STATE_NEW_HAMPSHIRE
+		STATE_PENNSYLVANIA
+		STATE_NEW_YORK
+		STATE_NEW_JERSEY
+	}
+}
+
+geographic_region_converter_colonial_california = {
+	short_key = "converter_colonial_california"
+
+	state_regions = {
+		STATE_WASHINGTON
+		STATE_OREGON
+		STATE_IDAHO
+		STATE_MONTANA
+		STATE_WYOMING
+		STATE_CALIFORNIA
+		STATE_NEVADA
+		STATE_UTAH
+		STATE_ARIZONA
+		STATE_NEW_MEXICO
+		STATE_COLORADO
+		STATE_NEBRASKA
+		STATE_KANSAS
+	}
+}
+
+geographic_region_converter_colonial_mexico = {
+	short_key = "converter_colonial_mexico"
+
+	state_regions = {
+		STATE_BAJA_CALIFORNIA
+		STATE_BAJIO
+		STATE_CHIAPAS
+		STATE_CHIHUAHUA
+		STATE_COSTA_RICA
+		STATE_DURANGO
+		STATE_GUATEMALA
+		STATE_GUERRERO
+		STATE_HONDURAS
+		STATE_JALISCO
+		STATE_MEXICO
+		STATE_NICARAGUA
+		STATE_OAXACA
+		STATE_RIO_GRANDE
+		STATE_SAN_SALVADOR
+		STATE_SINALOA
+		STATE_SONORA
+		STATE_VERACRUZ
+		STATE_YUCATAN
+		STATE_ZACATECAS
+	}
+}
+
+geographic_region_converter_colonial_caribbean = {
+	short_key = "converter_colonial_caribbean"
+
+	state_regions = {
+		STATE_BAHAMAS
+		STATE_BERMUDA
+		STATE_CENTRAL_CUBA
+		STATE_EASTERN_CUBA
+		STATE_HAITI
+		STATE_JAMAICA
+		STATE_PUERTO_RICO
+		STATE_SANTO_DOMINGO
+		STATE_WEST_INDIES
+		STATE_WESTERN_CUBA
+	}
+}
+
+geographic_region_converter_colonial_gran_colombia = {
+	short_key = "converter_colonial_gran_colombia"
+
+	strategic_regions = {
+		sr:region_gran_colombia
+	}
+
+	state_regions = {
+		STATE_PANAMA
+	}
+}
+
+geographic_region_converter_colonial_argentina = {
+	short_key = "converter_colonial_argentina"
+
+	state_regions = {
+		STATE_RIO_NEGRO
+		STATE_LA_PAMPA
+		STATE_SANTA_FE
+		STATE_CORRIENTES
+		STATE_TUCUMAN
+		STATE_CHACO
+		STATE_BUENOS_AIRES
+		STATE_ALTO_PARAGUAY
+		STATE_BAJO_PARAGUAY
+		STATE_LOS_RIOS
+		STATE_ARAUCANIA
+		STATE_PATAGONIA
+		STATE_SANTIAGO
+	}
+}
+
+geographic_region_converter_colonial_oceania = {
+	short_key = "converter_colonial_oceania"
+
+	strategic_regions = {
+		sr:region_oceania
+	}
+}
+
+geographic_region_converter_colonial_australia = {
+	short_key = "converter_colonial_australia"
+
+	state_regions = {
+		STATE_NEW_SOUTH_WALES
+		STATE_VICTORIA
+		STATE_QUEENSLAND
+		STATE_SOUTH_AUSTRALIA
+		STATE_WESTERN_AUSTRALIA
+		STATE_NORTHERN_TERRITORY
+		STATE_TASMANIA
+		STATE_NORTH_ISLAND
+		STATE_SOUTH_ISLAND
+	}
+}
+
+geographic_region_converter_caucasus = {
+	short_key = "converter_caucasus"
+
+	state_regions = {
+		STATE_ARMENIA
+		STATE_AZERBAIJAN
+		STATE_DAGESTAN
+		STATE_KUBAN
+		STATE_GREATER_CAUCASUS
+		STATE_NORTH_CAUCASUS
+		STATE_ELIZAVETPOL
+	}
+}
