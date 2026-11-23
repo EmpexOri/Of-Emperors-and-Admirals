@@ -1,0 +1,154 @@
+JAP = { # Japan
+	flag_definition = {
+		coa = JAP
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = JAP_subject
+		subject_canton = JAP
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = JAP_absolute_monarchy
+		subject_canton = JAP_absolute_monarchy
+		priority = 20
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_neo_absolutism
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_monarchy
+				}
+				NOT = {
+					has_law = law_type:law_bakufu
+					has_law = law_type:law_choninbakufu
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_constitutional_monarchy
+		subject_canton = JAP_constitutional_monarchy
+		priority = 20
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_neo_absolutism
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_monarchy
+				}
+				NOT = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_neo_absolutism
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_bakufu
+					has_law = law_type:law_choninbakufu
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP
+		subject_canton = JAP
+		priority = 25
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_social_monarchy
+				}
+				NOT = {
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_neo_absolutism
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_bakufu
+					has_law = law_type:law_choninbakufu
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_republican
+		subject_canton = JAP_republican
+		priority = 20
+		trigger = {
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+				OR = {
+					has_law = law_type:law_universal_suffrage
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_landed_voting
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_comm
+		subject_canton = JAP_comm
+		priority = 150000
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_council_republic
+				}
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_choninbakufu
+		subject_canton = JAP_choninbakufu
+		priority = 100
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_choninbakufu
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_rising_sun
+		subject_canton = JAP_rising_sun
+		priority = 40
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+				}
+				NOT = {
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_theocracy
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_theocracy_shinto
+		subject_canton = JAP_theocracy_shinto
+		priority = 50
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_theocracy
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+
+JAP_choninbakufu = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.098 0.098 0.098 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_JAP_Flag_custom_14zw54zehlnp6.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.4941 0.7412 } }
+	}
+}
+
+JAP_constitutional_monarchy = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = rgb { 0.643 0.224 0.259 }
+	color2 = rgb { 0.996 0.710 0.157 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = rgb { 0.643 0.224 0.259 }
+		color2 = rgb { 0.051 0.051 0.051 }
+		color3 = rgb { 1.000 1.000 1.000 }
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_JAP_taikunate_added_a8m4zw1pqilfz.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }
+	}
+}
+
+JAP_republican = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.902 0.902 0.902 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_JAP_republican_added_8ejf5c687q1j.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.75 0.75 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_JAP_republican_custom_s10xln8969l0.tga"
+		instance = { position = { 0.4992 0.4977 } scale = { 0.3984 0.5497 } }
+	}
+}
+
+JAP_comm = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.737 0.000 0.176 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_JAP_communism_added_10bymx51kvm1ct.tga"
+		instance = { position = { 0.5 0.25 } scale = { 0.5 0.5 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_JAP_communism_copy_vyca9oc3hcb4.tga"
+		instance = { position = { 0.5 0.75 } scale = { 0.5 0.5 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_JAP_communism_custom_nnu5d22q36pm.tga"
+		instance = { position = { 0.5002 0.5 } scale = { 0.4263 0.6389 } }
+	}
+}
+

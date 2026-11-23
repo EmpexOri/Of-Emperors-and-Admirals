@@ -1,0 +1,77 @@
+JAP = {
+	# Chōninbakufu
+	dynamic_country_name = {
+		name = dyn_c_jap_choninbakufu
+		adjective = JAP_ADJ
+		priority = 75
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_choninbakufu
+			}
+		}
+	}
+
+	# Empire of Japan
+	dynamic_country_name = {
+		name = dyn_c_jap_empire
+		adjective = JAP_ADJ
+		priority = 30
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				country_has_monarchy_law = yes
+				NOT = {
+					has_law = law_type:law_choninbakufu
+				}
+			}
+		}
+	}
+
+	# Japanese Council Republic
+	dynamic_country_name = {
+		name = dyn_c_jap_council_republic
+		adjective = JAP_ADJ
+		priority = 30
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	# Imperial Divine State of Japan
+	dynamic_country_name = {
+		name = dyn_c_jap_theocracy
+		adjective = JAP_ADJ
+		priority = 30
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	# Great Republic of Japan
+	dynamic_country_name = {
+		name = dyn_c_jap_republic
+		adjective = JAP_ADJ
+		priority = 25
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+}

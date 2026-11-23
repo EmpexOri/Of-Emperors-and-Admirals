@@ -1,6 +1,6 @@
 
 gov_chonininate = {
-	transfer_of_power = hereditary
+	transfer_of_power = dictatorial
 
 	male_ruler = "RULER_TITLE_TORYO"
 	female_ruler = "RULER_TITLE_TORYO"
