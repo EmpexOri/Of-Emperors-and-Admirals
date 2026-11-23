@@ -10428,7 +10428,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 858166
+				size = 458166
 			}
 			create_pop = {
 				culture = japanese
@@ -19188,7 +19188,7 @@
 			create_pop = {
 				culture = japanese
 				religion = gelugpa
-				size = 354663
+				size = 154663
 			}
 			create_pop = {
 				culture = japanese
@@ -22142,7 +22142,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 615114
+				size = 215114
 			}
 			create_pop = {
 				culture = japanese
@@ -22240,7 +22240,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 641784
+				size = 441784
 			}
 			create_pop = {
 				culture = japanese
@@ -24426,7 +24426,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 592795
+				size = 192795
 			}
 			create_pop = {
 				culture = japanese
@@ -43868,7 +43868,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 876712
+				size = 676712
 			}
 			create_pop = {
 				culture = japanese
@@ -48430,7 +48430,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 433043
+				size = 233043
 			}
 			create_pop = {
 				culture = japanese
@@ -48484,7 +48484,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 570980
+				size = 170980
 			}
 			create_pop = {
 				culture = japanese
