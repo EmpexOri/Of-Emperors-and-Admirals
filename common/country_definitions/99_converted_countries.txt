@@ -3881,7 +3881,7 @@ REPLACE_OR_CREATE:IDA ?= {
 }
 
 REPLACE_OR_CREATE:IDN ?= {
-	color = { 0 128 128 }
+	color = { 78 22 128 }
 	country_type = recognized
 	tier = empire
 	cultures = { dutch }
@@ -4861,17 +4861,8 @@ REPLACE_OR_CREATE:KON ?= {
 	capital = STATE_BAS_CONGO
 }
 
-REPLACE_OR_CREATE:KOR ?= {
-	color = { 157 144 97 }
-	country_type = unrecognized
-	tier = kingdom
-	cultures = { korean }
-	religion = confucian
-	capital = STATE_PYONGYANG
-}
-
 REPLACE_OR_CREATE:KOT ?= {
-	color = { 123 44 0 }
+	color = { 123 94 150 }
 	country_type = unrecognized
 	tier = principality
 	cultures = { rajput }
@@ -7937,7 +7928,7 @@ REPLACE_OR_CREATE:RSM ?= {
 }
 
 REPLACE_OR_CREATE:RUS ?= {
-	color = { 47 91 18 }
+	color = { 102 162 212 }
 	country_type = recognized
 	tier = empire
 	cultures = { russian }
@@ -10095,7 +10086,7 @@ REPLACE_OR_CREATE:V22 ?= {
 }
 
 REPLACE_OR_CREATE:V23 ?= {
-	color = { 91 10 100 }
+	color = { 62 73 87 }
 	country_type = unrecognized
 	tier = principality
 	cultures = { japanese }

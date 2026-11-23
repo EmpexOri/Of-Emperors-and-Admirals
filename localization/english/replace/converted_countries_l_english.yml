@@ -37,6 +37,17 @@
  dyn_c_jap_republic: "Great Republic of Japan"
  JAP_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
 
+ KOR: "Korea"
+ dyn_c_korea_Daeseon: "Daeseon"
+ dyn_c_empire_of_korea: "Empire of Daeseon"
+ dyn_c_korea_republic: "Republic of Korea"
+ dyn_c_korea_communist: "Democratic Peoples Republic of Korea"
+ dyn_c_korea_fasc: "Daeseon Paegwonguk"
+ KOR_ADJ: "Korean"
+ KOR_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
+
+ N27: "Yakustsk"
+
  A00_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  A01_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  A02_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
@@ -618,7 +629,6 @@
  KNT_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  KOK_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  KON_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
- KOR_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  KOT_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  KPR_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  KRA_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"

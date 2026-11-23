@@ -1,0 +1,59 @@
+on_game_started = {
+	effect = {
+		c:JAP ?= {
+			every_scope_pop = {
+				set_pop_literacy = {
+					literacy_rate = {
+						value = 0.315
+						# Educated professions ~85%
+						if = {
+							limit = {
+								OR = {
+									is_pop_type = bureaucrats
+									is_pop_type = academics
+									is_pop_type = clergymen
+									is_pop_type = engineers
+								}
+							}
+							add = 0.535
+						}
+						# Upper strata ~65%
+						if = {
+							limit = {
+								strata = upper
+							}
+							add = 0.335
+						}
+						# Clerks and shopkeepers ~45%
+						if = {
+							limit = {
+								OR = {
+									is_pop_type = clerks
+									is_pop_type = shopkeepers
+								}
+							}
+							add = 0.135
+						}
+						# Subsistence peasants ~21.5%
+						if = {
+							limit = {
+								OR = {
+									pop_employment_building_group = bg_subsistence_agriculture
+									pop_employment_building_group = bg_subsistence_ranching
+								}
+							}
+							add = -0.10
+						}
+						# Unincorporated territories halved
+						if = {
+							limit = {
+								state = { is_incorporated = no }
+							}
+							multiply = 0.5
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -75,3 +75,82 @@ JAP = {
 		}
 	}
 }
+
+KOR = { # Korea
+	dynamic_country_name = { # Joseon
+		name = dyn_c_korea_Daeseon
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= { country_has_monarchy_law = yes }
+		}
+	}
+	dynamic_country_name = { # Korean Empire
+		name = dyn_c_empire_of_korea
+		adjective = dyn_c_empire_of_korea
+
+		is_main_tag_only = yes
+		priority = 25
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = KOR_korean_empire_declared
+				country_has_monarchy_law = yes
+			}
+		}
+	}
+	dynamic_country_name = { # Republic
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Council Republic
+		name = dyn_c_korea_communist
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 25
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Nationalist
+		name = dyn_c_korea_fasc
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 25
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+				has_law = law_type:law_corporate_state
+			}
+		}
+	}
+}
