@@ -69,4 +69,27 @@ JAP_comm = {
 		instance = { position = { 0.5002 0.5 } scale = { 0.4263 0.6389 } }
 	}
 }
+	
+JAP_fasc = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.902 0.902 0.902 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_JAP_fasc_added_10io5csjr9hk7.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_JAP_fasc_added_9xi2al72nuxt.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_JAP_fasc_custom_smkboz1cyu21h.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.4043 0.6064 } }
+	}
+}
+
 

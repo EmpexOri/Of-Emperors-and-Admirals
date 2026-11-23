@@ -111,7 +111,7 @@ JAP = { # Japan
 	flag_definition = {
 		coa = JAP_choninbakufu
 		subject_canton = JAP_choninbakufu
-		priority = 100
+		priority = 10000
 		trigger = {
 			scope:actor ?= {
 				has_law = law_type:law_choninbakufu
@@ -148,6 +148,23 @@ JAP = { # Japan
 				OR = {
 					has_law = law_type:law_theocracy
 				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = JAP_fasc
+		subject_canton = JAP_fasc
+		priority = 150000
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+				has_law = law_type:law_corporate_state
 			}
 		}
 	}

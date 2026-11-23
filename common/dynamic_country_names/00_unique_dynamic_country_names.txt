@@ -3,7 +3,7 @@ JAP = {
 	dynamic_country_name = {
 		name = dyn_c_jap_choninbakufu
 		adjective = JAP_ADJ
-		priority = 75
+		priority = 10000
 		is_main_tag_only = yes
 
 		trigger = {
