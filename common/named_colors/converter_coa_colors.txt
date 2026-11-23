@@ -1,3 +1,7 @@
 colors = {
     white_dark = hsv360 { 20 0 75 }
 }
+
+colors = {
+	korea_pink = rgb { 222 113 180 }
+}

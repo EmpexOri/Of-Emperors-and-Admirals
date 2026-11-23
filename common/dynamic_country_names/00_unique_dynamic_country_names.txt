@@ -82,7 +82,7 @@ KOR = { # Korea
 		adjective = KOR_ADJ
 
 		is_main_tag_only = yes
-		priority = 10
+		priority = 50000
 
 		trigger = {
 			exists = scope:actor
@@ -94,7 +94,7 @@ KOR = { # Korea
 		adjective = dyn_c_empire_of_korea
 
 		is_main_tag_only = yes
-		priority = 25
+		priority = 60000
 
 		trigger = {
 			exists = scope:actor
@@ -109,7 +109,7 @@ KOR = { # Korea
 		adjective = KOR_ADJ
 
 		is_main_tag_only = yes
-		priority = 10
+		priority = 50000
 
 		trigger = {
 			scope:actor ?= {
@@ -126,7 +126,7 @@ KOR = { # Korea
 		adjective = KOR_ADJ
 
 		is_main_tag_only = yes
-		priority = 25
+		priority = 50000
 
 		trigger = {
 			scope:actor ?= {
@@ -140,7 +140,7 @@ KOR = { # Korea
 		adjective = KOR_ADJ
 
 		is_main_tag_only = yes
-		priority = 25
+		priority = 60000
 
 		trigger = {
 			scope:actor ?= {

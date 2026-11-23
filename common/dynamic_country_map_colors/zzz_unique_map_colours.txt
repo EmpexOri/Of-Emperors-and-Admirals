@@ -73,6 +73,15 @@ korea_monarchy_blue = {
 	}
 }
 
+korea_custom_pink = {
+	color = "korea_pink"
+
+	possible = {
+		exists = c:KOR
+		c:KOR ?= THIS
+	}
+}
+
 japanese_shogunate = {
 	color = "tokugawa_green"
 	possible = {
