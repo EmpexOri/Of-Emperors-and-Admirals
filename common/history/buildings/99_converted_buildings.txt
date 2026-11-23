@@ -792,22 +792,11 @@
 	s:STATE_ALASKA = {
 		region_state:ALK = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:ALK
-						levels = 4
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:ALK
-						levels = 2
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -838,56 +827,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_livestock_ranch"
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:ALK
-						levels = 1
-						region = STATE_ALASKA
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_fishing_wharf"
-				add_ownership = {
-					building = {
-						type = building_fishing_wharf
-						country = c:ALK
-						levels = 3
-						region = STATE_ALASKA
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_furniture_manufactory"
-				add_ownership = {
-					building = {
-						type = building_furniture_manufactory
-						country = c:ALK
-						levels = 1
-						region = STATE_ALASKA
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_handcrafted_furniture" }
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:ALK
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 			create_building = {
 				building = "building_port"
@@ -3018,17 +2957,6 @@
 	s:STATE_ARIZONA = {
 		region_state:CAL = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 3
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
@@ -3057,19 +2985,6 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:CAL
-						levels = 4
-						region = STATE_ARIZONA
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_paper_mill"
-				add_ownership = {
-					building = {
-						type = building_paper_mill
 						country = c:CAL
 						levels = 1
 						region = STATE_ARIZONA
@@ -4818,17 +4733,6 @@
 	s:STATE_BAJA_CALIFORNIA = {
 		region_state:CAL = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_whaling_station"
 				add_ownership = {
 					building = {
@@ -4866,17 +4770,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barrack"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 10
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
 			}
 			create_building = {
 				building = "building_port"
@@ -8036,17 +7929,6 @@
 	s:STATE_BRITISH_COLUMBIA = {
 		region_state:ALK = {
 			create_building = {
-				building = "building_barrack"
-				add_ownership = {
-					country = {
-						country = c:ALK
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
-			}
-			create_building = {
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
@@ -8060,19 +7942,6 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_shipyard"
-				add_ownership = {
-					building = {
-						type = building_shipyard
-						country = c:ALK
-						levels = 1
-						region = STATE_BRITISH_COLUMBIA
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_basic_shipbuilding" }
-			}
-			create_building = {
 				building = "building_port"
 				add_ownership = {
 					country = {
@@ -8082,6 +7951,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:ALK
+						levels = 1
+						region = STATE_BRITISH_COLUMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
 		}
 		region_state:X31 = {
@@ -21780,17 +21662,6 @@
 	s:STATE_HOKKAIDO = {
 		region_state:JAP = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:JAP
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
@@ -21809,7 +21680,7 @@
 					building = {
 						type = building_manor_house
 						country = c:JAP
-						levels = 7
+						levels = 2
 						region = STATE_HOKKAIDO
 					}
 				}
@@ -21822,7 +21693,7 @@
 					building = {
 						type = building_manor_house
 						country = c:JAP
-						levels = 12
+						levels = 1
 						region = STATE_HOKKAIDO
 					}
 				}
@@ -21878,17 +21749,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_samurai_training" }
-			}
-			create_building = {
-				building = "building_trade_center"
-				add_ownership = {
-					country = {
-						country = c:JAP
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_silk_plantation"
@@ -22715,34 +22575,12 @@
 	s:STATE_IDAHO = {
 		region_state:CAL = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 4
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barrack"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 6
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
-			}
-			create_building = {
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
 						type = building_manor_house
 						country = c:CAL
-						levels = 3
+						levels = 2
 						region = STATE_IDAHO
 					}
 				}
@@ -22761,17 +22599,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 		region_state:X31 = {
@@ -25337,6 +25164,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_samurai_training" }
+			}
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 15
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -33543,28 +33381,6 @@
 	}
 	s:STATE_MONTANA = {
 		region_state:CAL = {
-			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 3
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barrack"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
-			}
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
@@ -46801,17 +46617,6 @@
 	s:STATE_SONORA = {
 		region_state:CAL = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 3
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -57039,28 +56844,6 @@
 	}
 	s:STATE_WYOMING = {
 		region_state:CAL = {
-			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barrack"
-				add_ownership = {
-					country = {
-						country = c:CAL
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
-			}
 			create_building = {
 				building = "building_coal_mine"
 				add_ownership = {

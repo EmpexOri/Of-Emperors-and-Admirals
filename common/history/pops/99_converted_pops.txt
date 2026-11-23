@@ -19156,7 +19156,7 @@
 			create_pop = {
 				culture = japanese
 				religion = mahayana
-				size = 6328
+				size = 60328
 			}
 			create_pop = {
 				culture = japanese
