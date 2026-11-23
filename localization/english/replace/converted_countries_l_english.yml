@@ -27,6 +27,16 @@
  HAP_ADJ: "Handan Prefecture"
  HAP_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
 
+ JAP: "Japan"
+ JAP_ADJ: "Japanese"
+ dyn_c_jap_choninbakufu: "Japanese Chōninate"
+ dyn_c_jap_empire: "Japanese Empire"
+ dyn_c_jap_shogunate: "Japanese Shogunate"
+ dyn_c_jap_council_republic: "Japanese Democratic Republic"
+ dyn_c_jap_theocracy: "Imperial Divine State of Japan"
+ dyn_c_jap_republic: "Great Republic of Japan"
+ JAP_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
+
  A00_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  A01_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  A02_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
