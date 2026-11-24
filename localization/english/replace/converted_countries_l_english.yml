@@ -1,5 +1,11 @@
 ﻿l_english:
  LUS: "Lusitania"
+ dyn_c_imperial_junta_lus: "Imperial State of Lusitania"
+ dyn_c_imperial_lus: "Lusitanian Empire"
+ dyn_c_council_republic_lus: "Union of Lusitanian Socialist Republics"
+ dyn_c_republic_lus: "Lusitanian Commonwealth"
+ dyn_c_lus_theocracy: "Apostolic Commonwealth of Lusitania"
+ dyn_c_lus_nationalist: "Lusitanian Social Republic"
  LUS_ADJ: "Lusitania"
  LUS_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
 

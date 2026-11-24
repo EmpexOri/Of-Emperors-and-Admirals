@@ -1,4 +1,4 @@
-REPLACE_OR_CREATE:KOR = {
+﻿REPLACE_OR_CREATE:KOR = {
 	color = { 222 113 180 }
 	country_type = unrecognized
 	tier = kingdom

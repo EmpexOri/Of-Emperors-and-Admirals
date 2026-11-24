@@ -66,7 +66,7 @@ imperial_korea = {
 }
 
 korea_monarchy_blue = {
-	color = "joseon_blue"
+	color = "korea_pink"
 
 	possible = {
 		always = no

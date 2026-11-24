@@ -6,6 +6,9 @@
     LUS_LADY_ADMIRAL:0 "Lady Admiral"
     law_almirantado_junta:0 "Almirantado Junta"
     law_almirantado_junta_desc:0 "The Almirantado Junta establishes a political order dominated by the Grand Admiral and the naval high command. Aristocratic families and wealthy commercial interests retain considerable influence, but the Officer Corps forms the backbone of the state."
+    law_nueva_encomienda:0 "Nueva Encomienda"
+    law_nueva_encomienda_desc:0 "The Nueva Encomienda law restructures land ownership, granting military officials and large landowners significant control over agricultural production while imposing obligations on tenant farmers. It aims to balance the interests of the landed elite with the economic needs of the state."
+
 
     law_choninbakufu:0 "Chōninbakufu"
     law_choninbakufu_desc:0 "The Chōninbakufu is a merchant-led shogunate in which powerful commercial houses, wealthy landowning families, and industrial capitalists dominate the state. The merchant houses finance the regime, while the traditional landed elite retain their privileged position. Political influence and investment are concentrated in the hands of the wealthy."

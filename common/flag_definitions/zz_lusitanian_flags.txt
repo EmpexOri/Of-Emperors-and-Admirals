@@ -1,0 +1,98 @@
+﻿LUS = { # LUSitanian flags
+	flag_definition = {
+		coa = LUS
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = LUS_subject
+		subject_canton = LUS
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = LUS_junta
+		subject_canton = LUS_junta
+		priority = 50000
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+				}
+				OR = {
+					has_law = law_type:law_almirantado_junta
+					has_variable = lus_admiralty_active
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = LUS_imperial
+		subject_canton = LUS_imperial
+		priority = 40000
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+				}
+                NOT = {
+                    OR = {
+                        has_law = law_type:law_almirantado_junta
+                        has_variable = lus_admiralty_active
+                    }
+                }
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = LUS_monarchy
+		subject_canton = LUS_monarchy
+		priority = 45000
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_neo_absolutism
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_monarchy
+				}
+				NOT = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_neo_absolutism
+					has_law = law_type:law_oligarchy
+				}
+                NOT = {
+                    OR = {
+                        has_law = law_type:law_almirantado_junta
+                        has_variable = lus_admiralty_active
+                    }
+                }
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = LUS_republic
+		subject_canton = LUS_republic
+		priority = 50000
+		trigger = {
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = LUS_communist
+		subject_canton = LUS_communist
+		priority = 150000
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_council_republic
+				}
+			}
+		}
+	}
+}
