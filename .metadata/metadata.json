@@ -29,7 +29,10 @@
 			"common/history/states",
 			"common/history/trade",
 			"common/history/treaties",
-			"common/religions"
+			"common/religions",
+			"common/dynamic_country_map_colors",
+			"common/dynamic_country_names",
+			"common/production_methods"
 		]
 	}
 }
