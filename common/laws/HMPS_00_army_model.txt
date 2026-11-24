@@ -62,6 +62,7 @@ INJECT:law_professional_army = {
 		state_conscription_rate_add = -0.01
 		state_building_barrack_max_level_add = -100
 		state_building_conscription_center_max_level_add = -50
+		#state_conscription_rate_mult = -0.25
 	}
 	
 	institution = institution_army_model

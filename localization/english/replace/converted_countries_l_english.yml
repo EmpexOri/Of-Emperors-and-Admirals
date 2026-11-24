@@ -46,6 +46,17 @@
  KOR_ADJ: "Korean"
  KOR_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
 
+ RUS: "North Kyivan Ruthenia"
+ dyn_c_russia_empire: "North Kyivan Ruthenia"
+ dyn_c_russia_kyivan_rus: "Tsardom of Kyivan Rus'"
+ dyn_c_soviet_union: "Union of Ruthenian People's Republic"
+ dyn_c_russian_soviet_republic: "Ruthenian Soviet Republic"
+ dyn_c_russian_republic: "North Kyivan Republic"
+ dyn_c_russia_theocracy: "Metropolitanate of Kyiv"
+ dyn_c_russia_nationalist: "North Kyivan Voivodeship"
+ RUS_ADJ: "Russian"
+ RUS_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
+
  N27: "Yakustsk"
 
  A00_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
@@ -993,7 +1004,6 @@
  RIO_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  ROM_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  RSM_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
- RUS_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  RWD_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  RYU_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  S00_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"

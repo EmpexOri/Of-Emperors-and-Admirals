@@ -1,0 +1,268 @@
+JAP = {
+	# Chōninbakufu
+	dynamic_country_name = {
+		name = dyn_c_jap_choninbakufu
+		adjective = JAP_ADJ
+		priority = 10000
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_choninbakufu
+			}
+		}
+	}
+
+	# Empire of Japan
+	dynamic_country_name = {
+		name = dyn_c_jap_empire
+		adjective = JAP_ADJ
+		priority = 30
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				country_has_monarchy_law = yes
+				NOT = {
+					has_law = law_type:law_choninbakufu
+				}
+			}
+		}
+	}
+
+	# Japanese Council Republic
+	dynamic_country_name = {
+		name = dyn_c_jap_council_republic
+		adjective = JAP_ADJ
+		priority = 30
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	# Imperial Divine State of Japan
+	dynamic_country_name = {
+		name = dyn_c_jap_theocracy
+		adjective = JAP_ADJ
+		priority = 30
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	# Great Republic of Japan
+	dynamic_country_name = {
+		name = dyn_c_jap_republic
+		adjective = JAP_ADJ
+		priority = 25
+		is_main_tag_only = yes
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+}
+
+KOR = { # Korea
+	dynamic_country_name = { # Joseon
+		name = dyn_c_korea_Daeseon
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 50000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= { has_law = law_type:law_monarchy }
+		}
+	}
+	dynamic_country_name = { # Korean Empire
+		name = dyn_c_empire_of_korea
+		adjective = dyn_c_empire_of_korea
+
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = KOR_korean_empire_declared
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = { # Republic
+		name = dyn_c_korea_republic
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 50000
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Council Republic
+		name = dyn_c_korea_communist
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 50000
+
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Nationalist
+		name = dyn_c_korea_fasc
+		adjective = KOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+				has_law = law_type:law_corporate_state
+			}
+		}
+	}
+}
+
+RUS = {
+    # Fall Back Kingdom
+    dynamic_country_name = {
+        name = dyn_c_russia_empire
+        adjective = RUS_ADJ
+        is_main_tag_only = yes
+        priority = 30000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= { 
+				NOT = { 
+					has_variable = RUS_empire_proclaimed 
+				}
+				has_law = law_type:law_monarchy
+			}
+        }
+    }
+
+    # Kyivan Rus
+    dynamic_country_name = {
+        name = dyn_c_russia_kyivan_rus
+        adjective = RUS_ADJ
+        is_main_tag_only = yes
+        priority = 60000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= {
+                has_variable = RUS_empire_proclaimed
+                has_law = law_type:law_monarchy
+            }
+        }
+    }
+
+    # Soviet Union
+    dynamic_country_name = {
+        name = dyn_c_soviet_union
+        adjective = SOV_ADJ
+        is_main_tag_only = yes
+        priority = 50000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= {
+                has_law = law_type:law_council_republic
+                owns_number_of_states = {
+                    count >= 15
+                    is_homeland_of_country_cultures = no
+                }
+            }
+        }
+    }
+
+    # Russian Soviet Republic
+    dynamic_country_name = {
+        name = dyn_c_russian_soviet_republic
+        adjective = RUS_ADJ
+        is_main_tag_only = yes
+        priority = 40000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= { has_law = law_type:law_council_republic }
+        }
+    }
+
+    # Russian Republic 
+    dynamic_country_name = {
+        name = dyn_c_russian_republic
+        adjective = RUS_ADJ
+        is_main_tag_only = yes
+        priority = 30000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= {
+                OR = {
+                    has_law = law_type:law_presidential_republic
+                    has_law = law_type:law_parliamentary_republic
+                }
+            }
+        }
+    }
+
+    # 6. Theocracy / Divine State 
+    dynamic_country_name = {
+        name = dyn_c_russia_theocracy
+        adjective = RUS_ADJ
+        is_main_tag_only = yes
+        priority = 25000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= { has_law = law_type:law_theocracy }
+        }
+    }
+
+    # 7. Nationalist / Fascist Russia 
+    dynamic_country_name = {
+        name = dyn_c_russia_nationalist
+        adjective = RUS_ADJ
+        is_main_tag_only = yes
+        priority = 60000
+        trigger = {
+            exists = scope:actor
+            scope:actor ?= {
+                has_law = law_type:law_corporate_state
+                OR = {
+                    has_law = law_type:law_oligarchy
+                    has_law = law_type:law_autocracy
+                    has_law = law_type:law_single_party_state
+                }
+            }
+        }
+    }
+}

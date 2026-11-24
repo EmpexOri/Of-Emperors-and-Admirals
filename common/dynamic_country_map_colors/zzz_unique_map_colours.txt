@@ -1,4 +1,4 @@
-#
+﻿#
 # Note: the triggers are checked at certain key points in the code, not all the time
 # color_key = {
 #    color = "black"      # the map color

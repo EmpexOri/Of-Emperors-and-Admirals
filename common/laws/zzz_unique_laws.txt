@@ -1,4 +1,4 @@
-law_almirantado_junta = {
+﻿law_almirantado_junta = {
     group = lawgroup_distribution_of_power
     parent = law_oligarchy
 

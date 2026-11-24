@@ -1,4 +1,4 @@
-COUNTRIES = { 
+﻿COUNTRIES = { 
 		c:HAP ?= {
 			activate_law = law_type:law_monarchy
 			activate_law = law_type:law_autocracy

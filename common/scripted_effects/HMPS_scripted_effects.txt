@@ -1,0 +1,1675 @@
+﻿assign_opium_addiction_penalty = { #Paradox does not allow for variables to be used when setting the duration of modifiers, so this is what we must do :(
+	if = { limit = { year <= 1836 } add_modifier = { name = chinese_opium_addiction years = 60 is_decaying = yes multiplier = 1.000 } }
+	else_if = { limit = { year <= 1837 } add_modifier = { name = chinese_opium_addiction years = 59 is_decaying = yes multiplier = 0.983 } }
+	else_if = { limit = { year <= 1838 } add_modifier = { name = chinese_opium_addiction years = 58 is_decaying = yes multiplier = 0.967 } }
+	else_if = { limit = { year <= 1839 } add_modifier = { name = chinese_opium_addiction years = 57 is_decaying = yes multiplier = 0.950 } }
+	else_if = { limit = { year <= 1840 } add_modifier = { name = chinese_opium_addiction years = 56 is_decaying = yes multiplier = 0.933 } }
+	else_if = { limit = { year <= 1841 } add_modifier = { name = chinese_opium_addiction years = 55 is_decaying = yes multiplier = 0.917 } }
+	else_if = { limit = { year <= 1842 } add_modifier = { name = chinese_opium_addiction years = 54 is_decaying = yes multiplier = 0.900 } }
+	else_if = { limit = { year <= 1843 } add_modifier = { name = chinese_opium_addiction years = 53 is_decaying = yes multiplier = 0.883 } }
+	else_if = { limit = { year <= 1844 } add_modifier = { name = chinese_opium_addiction years = 52 is_decaying = yes multiplier = 0.867 } }
+	else_if = { limit = { year <= 1845 } add_modifier = { name = chinese_opium_addiction years = 51 is_decaying = yes multiplier = 0.850 } }
+	else_if = { limit = { year <= 1846 } add_modifier = { name = chinese_opium_addiction years = 50 is_decaying = yes multiplier = 0.833 } }
+	else_if = { limit = { year <= 1847 } add_modifier = { name = chinese_opium_addiction years = 49 is_decaying = yes multiplier = 0.817 } }
+	else_if = { limit = { year <= 1848 } add_modifier = { name = chinese_opium_addiction years = 48 is_decaying = yes multiplier = 0.800 } }
+	else_if = { limit = { year <= 1849 } add_modifier = { name = chinese_opium_addiction years = 47 is_decaying = yes multiplier = 0.783 } }
+	else_if = { limit = { year <= 1850 } add_modifier = { name = chinese_opium_addiction years = 46 is_decaying = yes multiplier = 0.767 } }
+	else_if = { limit = { year <= 1851 } add_modifier = { name = chinese_opium_addiction years = 45 is_decaying = yes multiplier = 0.750 } }
+	else_if = { limit = { year <= 1852 } add_modifier = { name = chinese_opium_addiction years = 44 is_decaying = yes multiplier = 0.733 } }
+	else_if = { limit = { year <= 1853 } add_modifier = { name = chinese_opium_addiction years = 43 is_decaying = yes multiplier = 0.717 } }
+	else_if = { limit = { year <= 1854 } add_modifier = { name = chinese_opium_addiction years = 42 is_decaying = yes multiplier = 0.700 } }
+	else_if = { limit = { year <= 1855 } add_modifier = { name = chinese_opium_addiction years = 41 is_decaying = yes multiplier = 0.683 } }
+	else_if = { limit = { year <= 1856 } add_modifier = { name = chinese_opium_addiction years = 40 is_decaying = yes multiplier = 0.667 } }
+	else_if = { limit = { year <= 1857 } add_modifier = { name = chinese_opium_addiction years = 39 is_decaying = yes multiplier = 0.650 } }
+	else_if = { limit = { year <= 1858 } add_modifier = { name = chinese_opium_addiction years = 38 is_decaying = yes multiplier = 0.633 } }
+	else_if = { limit = { year <= 1859 } add_modifier = { name = chinese_opium_addiction years = 37 is_decaying = yes multiplier = 0.617 } }
+	else_if = { limit = { year <= 1860 } add_modifier = { name = chinese_opium_addiction years = 36 is_decaying = yes multiplier = 0.600 } }
+	else_if = { limit = { year <= 1861 } add_modifier = { name = chinese_opium_addiction years = 35 is_decaying = yes multiplier = 0.583 } }
+	else_if = { limit = { year <= 1862 } add_modifier = { name = chinese_opium_addiction years = 34 is_decaying = yes multiplier = 0.567 } }
+	else_if = { limit = { year <= 1863 } add_modifier = { name = chinese_opium_addiction years = 33 is_decaying = yes multiplier = 0.550 } }
+	else_if = { limit = { year <= 1864 } add_modifier = { name = chinese_opium_addiction years = 32 is_decaying = yes multiplier = 0.533 } }
+	else_if = { limit = { year <= 1865 } add_modifier = { name = chinese_opium_addiction years = 31 is_decaying = yes multiplier = 0.517 } }
+	else_if = { limit = { year <= 1866 } add_modifier = { name = chinese_opium_addiction years = 30 is_decaying = yes multiplier = 0.500 } }
+	else_if = { limit = { year <= 1867 } add_modifier = { name = chinese_opium_addiction years = 29 is_decaying = yes multiplier = 0.483 } }
+	else_if = { limit = { year <= 1868 } add_modifier = { name = chinese_opium_addiction years = 28 is_decaying = yes multiplier = 0.467 } }
+	else_if = { limit = { year <= 1869 } add_modifier = { name = chinese_opium_addiction years = 27 is_decaying = yes multiplier = 0.450 } }
+	else_if = { limit = { year <= 1870 } add_modifier = { name = chinese_opium_addiction years = 26 is_decaying = yes multiplier = 0.433 } }
+	else_if = { limit = { year <= 1871 } add_modifier = { name = chinese_opium_addiction years = 25 is_decaying = yes multiplier = 0.417 } }
+	else_if = { limit = { year <= 1872 } add_modifier = { name = chinese_opium_addiction years = 24 is_decaying = yes multiplier = 0.400 } }
+	else_if = { limit = { year <= 1873 } add_modifier = { name = chinese_opium_addiction years = 23 is_decaying = yes multiplier = 0.383 } }
+	else_if = { limit = { year <= 1874 } add_modifier = { name = chinese_opium_addiction years = 22 is_decaying = yes multiplier = 0.367 } }
+	else_if = { limit = { year <= 1875 } add_modifier = { name = chinese_opium_addiction years = 21 is_decaying = yes multiplier = 0.350 } }
+	else_if = { limit = { year <= 1876 } add_modifier = { name = chinese_opium_addiction years = 20 is_decaying = yes multiplier = 0.333 } }
+	else_if = { limit = { year <= 1877 } add_modifier = { name = chinese_opium_addiction years = 19 is_decaying = yes multiplier = 0.317 } }
+	else_if = { limit = { year <= 1878 } add_modifier = { name = chinese_opium_addiction years = 18 is_decaying = yes multiplier = 0.300 } }
+	else_if = { limit = { year <= 1879 } add_modifier = { name = chinese_opium_addiction years = 17 is_decaying = yes multiplier = 0.283 } }
+	else_if = { limit = { year <= 1880 } add_modifier = { name = chinese_opium_addiction years = 16 is_decaying = yes multiplier = 0.267 } }
+	else_if = { limit = { year <= 1881 } add_modifier = { name = chinese_opium_addiction years = 15 is_decaying = yes multiplier = 0.250 } }
+	else_if = { limit = { year <= 1882 } add_modifier = { name = chinese_opium_addiction years = 14 is_decaying = yes multiplier = 0.233 } }
+	else_if = { limit = { year <= 1883 } add_modifier = { name = chinese_opium_addiction years = 13 is_decaying = yes multiplier = 0.217 } }
+	else_if = { limit = { year <= 1884 } add_modifier = { name = chinese_opium_addiction years = 12 is_decaying = yes multiplier = 0.200 } }
+	else_if = { limit = { year <= 1885 } add_modifier = { name = chinese_opium_addiction years = 11 is_decaying = yes multiplier = 0.183 } }
+	else_if = { limit = { year <= 1886 } add_modifier = { name = chinese_opium_addiction years = 10 is_decaying = yes multiplier = 0.167 } }
+	else_if = { limit = { year <= 1887 } add_modifier = { name = chinese_opium_addiction years = 9 is_decaying = yes multiplier = 0.150 } }
+	else_if = { limit = { year <= 1888 } add_modifier = { name = chinese_opium_addiction years = 8 is_decaying = yes multiplier = 0.133 } }
+	else_if = { limit = { year <= 1889 } add_modifier = { name = chinese_opium_addiction years = 7 is_decaying = yes multiplier = 0.117 } }
+	else_if = { limit = { year <= 1890 } add_modifier = { name = chinese_opium_addiction years = 6 is_decaying = yes multiplier = 0.100 } }
+	else_if = { limit = { year <= 1891 } add_modifier = { name = chinese_opium_addiction years = 5 is_decaying = yes multiplier = 0.083 } }
+	else_if = { limit = { year <= 1892 } add_modifier = { name = chinese_opium_addiction years = 4 is_decaying = yes multiplier = 0.067 } }
+	else_if = { limit = { year <= 1893 } add_modifier = { name = chinese_opium_addiction years = 3 is_decaying = yes multiplier = 0.050 } }
+	else_if = { limit = { year <= 1894 } add_modifier = { name = chinese_opium_addiction years = 2 is_decaying = yes multiplier = 0.033 } }
+	else_if = { limit = { year <= 1895 } add_modifier = { name = chinese_opium_addiction years = 1 is_decaying = yes multiplier = 0.017 } }
+}
+
+assign_early_warlords_penalty = { # Paradox does not allow for variables to be used when setting the duration of modifiers, so this is what we must do :(
+	if = { limit = { year <= 1836 } add_modifier = { name = early_warlords_collapse years = 80 is_decaying = yes multiplier = 80 } }
+	else_if = { limit = { year <= 1837 } add_modifier = { name = early_warlords_collapse years = 79 is_decaying = yes multiplier = 79 } }
+	else_if = { limit = { year <= 1838 } add_modifier = { name = early_warlords_collapse years = 78 is_decaying = yes multiplier = 78 } }
+	else_if = { limit = { year <= 1839 } add_modifier = { name = early_warlords_collapse years = 77 is_decaying = yes multiplier = 77 } }
+	else_if = { limit = { year <= 1840 } add_modifier = { name = early_warlords_collapse years = 76 is_decaying = yes multiplier = 76 } }
+	else_if = { limit = { year <= 1841 } add_modifier = { name = early_warlords_collapse years = 75 is_decaying = yes multiplier = 75 } }
+	else_if = { limit = { year <= 1842 } add_modifier = { name = early_warlords_collapse years = 74 is_decaying = yes multiplier = 74 } }
+	else_if = { limit = { year <= 1843 } add_modifier = { name = early_warlords_collapse years = 73 is_decaying = yes multiplier = 73 } }
+	else_if = { limit = { year <= 1844 } add_modifier = { name = early_warlords_collapse years = 72 is_decaying = yes multiplier = 72 } }
+	else_if = { limit = { year <= 1845 } add_modifier = { name = early_warlords_collapse years = 71 is_decaying = yes multiplier = 71 } }
+	else_if = { limit = { year <= 1846 } add_modifier = { name = early_warlords_collapse years = 70 is_decaying = yes multiplier = 70 } }
+	else_if = { limit = { year <= 1847 } add_modifier = { name = early_warlords_collapse years = 69 is_decaying = yes multiplier = 69 } }
+	else_if = { limit = { year <= 1848 } add_modifier = { name = early_warlords_collapse years = 68 is_decaying = yes multiplier = 68 } }
+	else_if = { limit = { year <= 1849 } add_modifier = { name = early_warlords_collapse years = 67 is_decaying = yes multiplier = 67 } }
+	else_if = { limit = { year <= 1850 } add_modifier = { name = early_warlords_collapse years = 66 is_decaying = yes multiplier = 66 } }
+	else_if = { limit = { year <= 1851 } add_modifier = { name = early_warlords_collapse years = 65 is_decaying = yes multiplier = 65 } }
+	else_if = { limit = { year <= 1852 } add_modifier = { name = early_warlords_collapse years = 64 is_decaying = yes multiplier = 64 } }
+	else_if = { limit = { year <= 1853 } add_modifier = { name = early_warlords_collapse years = 63 is_decaying = yes multiplier = 63 } }
+	else_if = { limit = { year <= 1854 } add_modifier = { name = early_warlords_collapse years = 62 is_decaying = yes multiplier = 62 } }
+	else_if = { limit = { year <= 1855 } add_modifier = { name = early_warlords_collapse years = 61 is_decaying = yes multiplier = 61 } }
+	else_if = { limit = { year <= 1856 } add_modifier = { name = early_warlords_collapse years = 60 is_decaying = yes multiplier = 60 } }
+	else_if = { limit = { year <= 1857 } add_modifier = { name = early_warlords_collapse years = 59 is_decaying = yes multiplier = 59 } }
+	else_if = { limit = { year <= 1858 } add_modifier = { name = early_warlords_collapse years = 58 is_decaying = yes multiplier = 58 } }
+	else_if = { limit = { year <= 1859 } add_modifier = { name = early_warlords_collapse years = 57 is_decaying = yes multiplier = 57 } }
+	else_if = { limit = { year <= 1860 } add_modifier = { name = early_warlords_collapse years = 56 is_decaying = yes multiplier = 56 } }
+	else_if = { limit = { year <= 1861 } add_modifier = { name = early_warlords_collapse years = 55 is_decaying = yes multiplier = 55 } }
+	else_if = { limit = { year <= 1862 } add_modifier = { name = early_warlords_collapse years = 54 is_decaying = yes multiplier = 54 } }
+	else_if = { limit = { year <= 1863 } add_modifier = { name = early_warlords_collapse years = 53 is_decaying = yes multiplier = 53 } }
+	else_if = { limit = { year <= 1864 } add_modifier = { name = early_warlords_collapse years = 52 is_decaying = yes multiplier = 52 } }
+	else_if = { limit = { year <= 1865 } add_modifier = { name = early_warlords_collapse years = 51 is_decaying = yes multiplier = 51 } }
+	else_if = { limit = { year <= 1866 } add_modifier = { name = early_warlords_collapse years = 50 is_decaying = yes multiplier = 50 } }
+	else_if = { limit = { year <= 1867 } add_modifier = { name = early_warlords_collapse years = 49 is_decaying = yes multiplier = 49 } }
+	else_if = { limit = { year <= 1868 } add_modifier = { name = early_warlords_collapse years = 48 is_decaying = yes multiplier = 48 } }
+	else_if = { limit = { year <= 1869 } add_modifier = { name = early_warlords_collapse years = 47 is_decaying = yes multiplier = 47 } }
+	else_if = { limit = { year <= 1870 } add_modifier = { name = early_warlords_collapse years = 46 is_decaying = yes multiplier = 46 } }
+	else_if = { limit = { year <= 1871 } add_modifier = { name = early_warlords_collapse years = 45 is_decaying = yes multiplier = 45 } }
+	else_if = { limit = { year <= 1872 } add_modifier = { name = early_warlords_collapse years = 44 is_decaying = yes multiplier = 44 } }
+	else_if = { limit = { year <= 1873 } add_modifier = { name = early_warlords_collapse years = 43 is_decaying = yes multiplier = 43 } }
+	else_if = { limit = { year <= 1874 } add_modifier = { name = early_warlords_collapse years = 42 is_decaying = yes multiplier = 42 } }
+	else_if = { limit = { year <= 1875 } add_modifier = { name = early_warlords_collapse years = 41 is_decaying = yes multiplier = 41 } }
+	else_if = { limit = { year <= 1876 } add_modifier = { name = early_warlords_collapse years = 40 is_decaying = yes multiplier = 40 } }
+	else_if = { limit = { year <= 1877 } add_modifier = { name = early_warlords_collapse years = 39 is_decaying = yes multiplier = 39 } }
+	else_if = { limit = { year <= 1878 } add_modifier = { name = early_warlords_collapse years = 38 is_decaying = yes multiplier = 38 } }
+	else_if = { limit = { year <= 1879 } add_modifier = { name = early_warlords_collapse years = 37 is_decaying = yes multiplier = 37 } }
+	else_if = { limit = { year <= 1880 } add_modifier = { name = early_warlords_collapse years = 36 is_decaying = yes multiplier = 36 } }
+	else_if = { limit = { year <= 1881 } add_modifier = { name = early_warlords_collapse years = 35 is_decaying = yes multiplier = 35 } }
+	else_if = { limit = { year <= 1882 } add_modifier = { name = early_warlords_collapse years = 34 is_decaying = yes multiplier = 34 } }
+	else_if = { limit = { year <= 1883 } add_modifier = { name = early_warlords_collapse years = 33 is_decaying = yes multiplier = 33 } }
+	else_if = { limit = { year <= 1884 } add_modifier = { name = early_warlords_collapse years = 32 is_decaying = yes multiplier = 32 } }
+	else_if = { limit = { year <= 1885 } add_modifier = { name = early_warlords_collapse years = 31 is_decaying = yes multiplier = 31 } }
+	else_if = { limit = { year <= 1886 } add_modifier = { name = early_warlords_collapse years = 30 is_decaying = yes multiplier = 30 } }
+	else_if = { limit = { year <= 1887 } add_modifier = { name = early_warlords_collapse years = 29 is_decaying = yes multiplier = 29 } }
+	else_if = { limit = { year <= 1888 } add_modifier = { name = early_warlords_collapse years = 28 is_decaying = yes multiplier = 28 } }
+	else_if = { limit = { year <= 1889 } add_modifier = { name = early_warlords_collapse years = 27 is_decaying = yes multiplier = 27 } }
+	else_if = { limit = { year <= 1890 } add_modifier = { name = early_warlords_collapse years = 26 is_decaying = yes multiplier = 26 } }
+	else_if = { limit = { year <= 1891 } add_modifier = { name = early_warlords_collapse years = 25 is_decaying = yes multiplier = 25 } }
+	else_if = { limit = { year <= 1892 } add_modifier = { name = early_warlords_collapse years = 24 is_decaying = yes multiplier = 24 } }
+	else_if = { limit = { year <= 1893 } add_modifier = { name = early_warlords_collapse years = 23 is_decaying = yes multiplier = 23 } }
+	else_if = { limit = { year <= 1894 } add_modifier = { name = early_warlords_collapse years = 22 is_decaying = yes multiplier = 22 } }
+	else_if = { limit = { year <= 1895 } add_modifier = { name = early_warlords_collapse years = 21 is_decaying = yes multiplier = 21 } }
+	else_if = { limit = { year <= 1896 } add_modifier = { name = early_warlords_collapse years = 20 is_decaying = yes multiplier = 20 } }
+	else_if = { limit = { year <= 1897 } add_modifier = { name = early_warlords_collapse years = 19 is_decaying = yes multiplier = 19 } }
+	else_if = { limit = { year <= 1898 } add_modifier = { name = early_warlords_collapse years = 18 is_decaying = yes multiplier = 18 } }
+	else_if = { limit = { year <= 1899 } add_modifier = { name = early_warlords_collapse years = 17 is_decaying = yes multiplier = 17 } }
+	else_if = { limit = { year <= 1900 } add_modifier = { name = early_warlords_collapse years = 16 is_decaying = yes multiplier = 16 } }
+	else_if = { limit = { year <= 1901 } add_modifier = { name = early_warlords_collapse years = 15 is_decaying = yes multiplier = 15 } }
+	else_if = { limit = { year <= 1902 } add_modifier = { name = early_warlords_collapse years = 14 is_decaying = yes multiplier = 14 } }
+	else_if = { limit = { year <= 1903 } add_modifier = { name = early_warlords_collapse years = 13 is_decaying = yes multiplier = 13 } }
+	else_if = { limit = { year <= 1904 } add_modifier = { name = early_warlords_collapse years = 12 is_decaying = yes multiplier = 12 } }
+	else_if = { limit = { year <= 1905 } add_modifier = { name = early_warlords_collapse years = 11 is_decaying = yes multiplier = 11 } }
+	else_if = { limit = { year <= 1906 } add_modifier = { name = early_warlords_collapse years = 10 is_decaying = yes multiplier = 10 } }
+	else_if = { limit = { year <= 1907 } add_modifier = { name = early_warlords_collapse years = 9 is_decaying = yes multiplier = 9 } }
+	else_if = { limit = { year <= 1908 } add_modifier = { name = early_warlords_collapse years = 8 is_decaying = yes multiplier = 8 } }
+	else_if = { limit = { year <= 1909 } add_modifier = { name = early_warlords_collapse years = 7 is_decaying = yes multiplier = 7 } }
+	else_if = { limit = { year <= 1910 } add_modifier = { name = early_warlords_collapse years = 6 is_decaying = yes multiplier = 6 } }
+	else_if = { limit = { year <= 1911 } add_modifier = { name = early_warlords_collapse years = 5 is_decaying = yes multiplier = 5 } }
+	else_if = { limit = { year <= 1912 } add_modifier = { name = early_warlords_collapse years = 4 is_decaying = yes multiplier = 4 } }
+	else_if = { limit = { year <= 1913 } add_modifier = { name = early_warlords_collapse years = 3 is_decaying = yes multiplier = 3 } }
+	else_if = { limit = { year <= 1914 } add_modifier = { name = early_warlords_collapse years = 2 is_decaying = yes multiplier = 2 } }
+	else_if = { limit = { year <= 1915 } add_modifier = { name = early_warlords_collapse years = 1 is_decaying = yes multiplier = 1 } }
+}
+
+force_single_market = {
+	if = {
+		limit = {
+			is_subject = yes
+			overlord = {
+				market = prev.market
+				NOT = {
+					has_diplomatic_pact = {
+						who = prev
+						type = grant_own_market
+					}
+				}
+			}
+		}
+		overlord = {
+			create_diplomatic_pact = {
+				country = prev
+				type = grant_own_market
+			}
+		}
+	}
+}
+
+calculate_tpg_reconstruction_law_progress = {
+	# From Laws
+	set_variable = { name = tpg_reconstruction_from_laws value = 0 }
+	# Cops
+	set_variable = { name = temp_policing_var_contribution value = institution:institution_police.investment }
+	if = {
+		limit = {
+			has_law = law_type:law_no_police
+		}
+		change_variable = { name = temp_policing_var_contribution add = 0 }
+	}
+	else_if = {
+		limit = {
+			has_law = law_type:law_local_police
+		}
+		change_variable = { name = temp_policing_var_contribution multiply = 0.1 }
+	}
+	else_if = {
+		limit = {
+			has_law = law_type:law_dedicated_police
+		}
+		change_variable = { name = temp_policing_var_contribution multiply = 0.2 }
+	}
+	else_if = {
+		limit = {
+			has_law = law_type:law_militarized_police
+		}
+		change_variable = { name = temp_policing_var_contribution multiply = 0.3 }
+	}
+	
+	# Internal Affairs
+	set_variable = { name = temp_ha_var_contribution value = institution:institution_home_affairs.investment }
+	if = {
+		limit = {
+			has_law = law_type:law_no_home_affairs
+		}
+		change_variable = { name = temp_ha_var_contribution add = 0 }
+	}
+	else_if = {
+		limit = {
+			has_law = law_type:law_guaranteed_liberties
+		}
+		change_variable = { name = temp_ha_var_contribution multiply = 0.1 }
+	}
+	else_if = {
+		limit = {
+			has_law = law_type:law_national_guard
+		}
+		change_variable = { name = temp_ha_var_contribution multiply = 0.2 }
+	}
+	else_if = {
+		limit = {
+			has_law = law_type:law_secret_police
+		}
+		change_variable = { name = temp_ha_var_contribution multiply = 0.3 }
+	}
+	change_variable = { name = tpg_reconstruction_from_laws add = var:temp_policing_var_contribution }
+	change_variable = { name = tpg_reconstruction_from_laws add = var:temp_ha_var_contribution }
+	remove_variable = temp_policing_var_contribution
+	remove_variable = temp_ha_var_contribution
+}
+
+# HMPS: Replaces transition_off_of_monarchy_effects in the republic/corporate state on_activate blocks.
+# The base effect adds Stamp Out Monarchism to every country activating these laws, including every country that starts as a republic.
+# country_was_monarchy_var is set by the monarchy/social monarchy on_activate and cleared by every other governance law's on_activate.
+hmps_transition_off_of_monarchy_effects = {
+	if = {
+		limit = {
+			has_variable = country_was_monarchy_var
+			game_date > 1836.1.1 # Laws activated during game setup (e.g. a default Monarchy before history sets a republic) don't count
+		}
+		transition_off_of_monarchy_effects = yes
+	}
+	else = {
+		crown_land_republic_effect = yes
+		transition_off_of_monarchy_law_effects = yes
+	}
+	remove_variable = country_was_monarchy_var
+}
+
+# HMPS: Called from the immediate of je_law_imposition and je_british_dictate_law (REPLACE_HMPS_00_impose_law.txt, REPLACE_HMPS_04_india_british_dictates.txt). Root = country imposed upon.
+# Puppet, Colony and Crown Land pacts give the subject +10% imposed-law enactment success; player subjects don't get it.
+# The modifier sits on the journal entry, so it ends when the imposition does.
+hmps_player_subject_imposition_effect = {
+	if = {
+		limit = {
+			is_player = yes
+			OR = {
+				is_subject_type = subject_type_puppet
+				is_subject_type = subject_type_colony
+				is_subject_type = subject_type_crown_land
+			}
+		}
+		scope:journal_entry = {
+			add_modifier = hmps_player_subject_imposition
+		}
+	}
+}
+
+# HMPS Congo Conference (je_congo_conference, events/HMPS_00_Congo_Voting.txt)
+
+# SLOT = nominee slot number, NOMINEE = global variable that points to the slot's country (used in loc)
+hmps_congo_pick_nominee = {
+	ordered_country = {
+		limit = {
+			hmps_congo_nominee_eligible = yes
+		}
+		order_by = country_rank
+		position = 0
+		check_range_bounds = no
+
+		set_variable = {
+			name = congo_nominee
+			value = $SLOT$
+		}
+		set_global_variable = {
+			name = $NOMINEE$
+			value = THIS
+		}
+	}
+}
+
+# Run after the nominee list changes: no nominees ends the conference, one nominee is named in the JE
+hmps_congo_update_nominees = {
+	if = {
+		limit = {
+			NOT = {
+				any_country = {
+					has_variable = congo_nominee
+				}
+			}
+		}
+		set_global_variable = congo_no_nominees
+		set_global_variable = congo_conference_collapsed
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				any_country = {
+					count >= 2
+					has_variable = congo_nominee
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				has_variable = congo_nominee
+			}
+			set_global_variable = {
+				name = congo_sole_nominee
+				value = THIS
+			}
+		}
+	}
+}
+
+# Country scope: SLOT = option number (0 = leave unorganized), VOTES = global tally of that option. A changed vote is taken off the old option first.
+# Each vote locks the country's vote for a month (hmps_congo_can_vote)
+hmps_congo_cast_vote = {
+	if = {
+		limit = {
+			has_variable = congo_vote
+		}
+		if = {
+			limit = { var:congo_vote = 0 }
+			change_global_variable = { name = congo_votes_0 add = -1 }
+		}
+		else_if = {
+			limit = { var:congo_vote = 1 }
+			change_global_variable = { name = congo_votes_1 add = -1 }
+		}
+		else_if = {
+			limit = { var:congo_vote = 2 }
+			change_global_variable = { name = congo_votes_2 add = -1 }
+		}
+		else_if = {
+			limit = { var:congo_vote = 3 }
+			change_global_variable = { name = congo_votes_3 add = -1 }
+		}
+		else_if = {
+			limit = { var:congo_vote = 4 }
+			change_global_variable = { name = congo_votes_4 add = -1 }
+		}
+		else_if = {
+			limit = { var:congo_vote = 5 }
+			change_global_variable = { name = congo_votes_5 add = -1 }
+		}
+		else_if = {
+			limit = { var:congo_vote = 6 }
+			change_global_variable = { name = congo_votes_6 add = -1 }
+		}
+	}
+	set_variable = {
+		name = congo_vote
+		value = $SLOT$
+	}
+	set_variable = {
+		name = congo_vote_cooldown
+		months = 1
+	}
+	change_global_variable = {
+		name = $VOTES$
+		add = 1
+	}
+}
+
+# SLOT, VOTES as above. Options are checked top to bottom and only a strictly higher tally takes the lead, so ties go to the higher option
+hmps_congo_check_slot = {
+	if = {
+		limit = {
+			hmps_congo_nominee_active = { SLOT = $SLOT$ }
+			global_var:$VOTES$ > global_var:congo_best_votes
+		}
+		set_global_variable = {
+			name = congo_best_slot
+			value = $SLOT$
+		}
+		set_global_variable = {
+			name = congo_best_votes
+			value = global_var:$VOTES$
+		}
+	}
+}
+
+# Country scope: an AI Great Power casts its vote. Belgium always votes for itself while it is a nominee (it can only hold slot 1);
+# everyone else picks with the weights of the old vote event. Called weekly by je_congo_conference and at the deadline
+hmps_congo_ai_vote = {
+	if = {
+		limit = {
+			c:BEL ?= THIS
+			has_variable = congo_nominee
+		}
+		hmps_congo_cast_vote = { SLOT = 1 VOTES = congo_votes_1 }
+	}
+	else = {
+		random_list = {
+			10 = {
+				hmps_congo_cast_vote = { SLOT = 0 VOTES = congo_votes_0 }
+			}
+			35 = {
+				trigger = { hmps_congo_nominee_active = { SLOT = 1 } }
+				hmps_congo_cast_vote = { SLOT = 1 VOTES = congo_votes_1 }
+			}
+			10 = {
+				trigger = { hmps_congo_nominee_active = { SLOT = 2 } }
+				hmps_congo_cast_vote = { SLOT = 2 VOTES = congo_votes_2 }
+			}
+			20 = {
+				trigger = { hmps_congo_nominee_active = { SLOT = 3 } }
+				hmps_congo_cast_vote = { SLOT = 3 VOTES = congo_votes_3 }
+			}
+			10 = {
+				trigger = { hmps_congo_nominee_active = { SLOT = 4 } }
+				hmps_congo_cast_vote = { SLOT = 4 VOTES = congo_votes_4 }
+			}
+			5 = {
+				trigger = { hmps_congo_nominee_active = { SLOT = 5 } }
+				hmps_congo_cast_vote = { SLOT = 5 VOTES = congo_votes_5 }
+			}
+			5 = {
+				trigger = { hmps_congo_nominee_active = { SLOT = 6 } }
+				hmps_congo_cast_vote = { SLOT = 6 VOTES = congo_votes_6 }
+			}
+		}
+	}
+}
+
+# Counts the votes and hands over the Congo. Runs once, from whichever country's JE ends first
+hmps_congo_resolve_conference = {
+	if = {
+		limit = {
+			NOT = { has_global_variable = congo_resolved }
+		}
+		set_global_variable = congo_resolved
+
+		# AI Great Powers that have not voted by the deadline vote now
+		every_country = {
+			limit = {
+				has_variable = congo_voter
+				is_player = no
+				NOT = { has_variable = congo_vote }
+			}
+			hmps_congo_ai_vote = yes
+		}
+
+		# "Leave unorganized" starts in the lead; votes for nominees that no longer exist are ignored
+		set_global_variable = {
+			name = congo_best_slot
+			value = 0
+		}
+		set_global_variable = {
+			name = congo_best_votes
+			value = global_var:congo_votes_0
+		}
+		hmps_congo_check_slot = { SLOT = 1 VOTES = congo_votes_1 }
+		hmps_congo_check_slot = { SLOT = 2 VOTES = congo_votes_2 }
+		hmps_congo_check_slot = { SLOT = 3 VOTES = congo_votes_3 }
+		hmps_congo_check_slot = { SLOT = 4 VOTES = congo_votes_4 }
+		hmps_congo_check_slot = { SLOT = 5 VOTES = congo_votes_5 }
+		hmps_congo_check_slot = { SLOT = 6 VOTES = congo_votes_6 }
+
+		if = {
+			limit = {
+				global_var:congo_best_slot > 0
+			}
+			random_country = {
+				limit = {
+					has_variable = congo_nominee
+					var:congo_nominee = global_var:congo_best_slot
+				}
+				save_scope_as = congo_winner_scope
+				set_variable = congo_winner
+				set_global_variable = {
+					name = congo_winner
+					value = THIS
+				}
+				add_modifier = {
+					name = received_congo
+					months = 241
+				}
+			}
+			# Every Congo state except those kept with "Keep Our Congo States"
+			every_state = {
+				limit = {
+					hmps_is_congo_state = yes
+					NOT = { has_variable = greedy_power }
+					NOT = { owner = scope:congo_winner_scope }
+				}
+				set_state_owner = scope:congo_winner_scope
+			}
+		}
+		else = {
+			set_global_variable = congo_no_winner
+		}
+
+		# Every remaining nominee gains 20 relations with each power whose final vote was for it, and learns who they were
+		every_country = {
+			limit = {
+				has_variable = congo_nominee
+			}
+			save_scope_as = congo_nominee_scope
+			every_country = {
+				limit = {
+					has_variable = congo_vote
+					var:congo_vote = scope:congo_nominee_scope.var:congo_nominee
+					NOT = { THIS = scope:congo_nominee_scope }
+				}
+				change_relations = {
+					country = scope:congo_nominee_scope
+					value = 20
+				}
+			}
+			trigger_event = {
+				id = congo_free_state.3
+				days = 1
+				popup = yes
+			}
+		}
+	}
+}
+
+# Scramble for Africa events place themselves on scope:african_colony_state. If the country has no unincorporated African state, use any African state it owns, then one of its African subjects' states, then its capital
+hmps_save_african_colony_state_fallback = {
+	if = {
+		limit = {
+			NOT = { exists = scope:african_colony_state }
+			any_scope_state = {
+				is_in_geographic_region = geographic_region_africa
+			}
+		}
+		random_scope_state = {
+			limit = {
+				is_in_geographic_region = geographic_region_africa
+			}
+			save_scope_as = african_colony_state
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { exists = scope:african_colony_state }
+			any_subject_or_below = {
+				any_scope_state = {
+					is_in_geographic_region = geographic_region_africa
+				}
+			}
+		}
+		random_subject_or_below = {
+			limit = {
+				any_scope_state = {
+					is_in_geographic_region = geographic_region_africa
+				}
+			}
+			random_scope_state = {
+				limit = {
+					is_in_geographic_region = geographic_region_africa
+				}
+				save_scope_as = african_colony_state
+			}
+		}
+	}
+	else_if = { # Great Powers can join the Scramble with nothing in Africa: use the capital
+		limit = {
+			NOT = { exists = scope:african_colony_state }
+		}
+		capital = {
+			save_scope_as = african_colony_state
+		}
+	}
+}
+
+# HMPS Balance of Trade. Country scope; root must be the country (add_modifier's multiplier reads var: from root), so it is
+# only called from the hidden event hmps_bot.1 (events/00_HMPS_utility.txt), fired for every country on day 0
+# (HMPS_balance_of_trade_start, common/on_actions/HMPS_on_action.txt) and weekly by HMPS_utility_je (common/journal_entries/z_HMPS_utility.txt).
+# Measured per market: net trade = the market's yearly exports - yearly imports (summed over every country whose market = root.market,
+# weekly x 52), as a share of the market's summed yearly GDP. Every member computes the same totals and gets the same modifier.
+# Within +-1% of GDP: no effect. Beyond: the leading side loses 5% advantage per 1% of GDP (cap -50%) and the other side
+# gains 2.5% per 1% of GDP (cap +25%); both caps are reached at 10% of GDP.
+# A surplus lowers export and raises import advantage; a deficit lowers import and raises export advantage.
+# Any future Balance of Trade flavor (decisions, events) should target the market owner.
+# The variables are shown in the Market panel's trade tab (gui/00_trade_partners_market_panel.gui).
+# Exports are scaled by the world's imports / exports (global_var:hmps_bot_world_ratio, set by
+# hmps_balance_of_trade_world_totals_effect) because the game values imports above exports, which left almost every
+# market in deficit. After scaling, the world's balances sum to zero.
+hmps_balance_of_trade_world_totals_effect = {
+	set_global_variable = { name = hmps_bot_world_exports value = 0 }
+	set_global_variable = { name = hmps_bot_world_imports value = 0 }
+	# Each market's weekly exports, imports and GDP are summed here once, onto the market owner, and hmps_balance_of_trade_update_effect
+	# reads them for every member (one pass over the countries instead of three per country). A country that no longer owns a market drops its sums
+	every_country = {
+		if = {
+			limit = { market.owner ?= this }
+			set_variable = { name = hmps_bot_market_exports_weekly value = 0 }
+			set_variable = { name = hmps_bot_market_imports_weekly value = 0 }
+			set_variable = { name = hmps_bot_market_gdp value = 0 }
+		}
+		else_if = {
+			limit = { has_variable = hmps_bot_market_gdp }
+			remove_variable = hmps_bot_market_exports_weekly
+			remove_variable = hmps_bot_market_imports_weekly
+			remove_variable = hmps_bot_market_gdp
+		}
+	}
+	every_country = {
+		change_global_variable = { name = hmps_bot_world_exports add = total_export_value }
+		change_global_variable = { name = hmps_bot_world_imports add = total_import_value }
+		save_temporary_scope_as = hmps_bot_member
+		market.owner ?= {
+			change_variable = { name = hmps_bot_market_exports_weekly add = scope:hmps_bot_member.total_export_value }
+			change_variable = { name = hmps_bot_market_imports_weekly add = scope:hmps_bot_member.total_import_value }
+			change_variable = { name = hmps_bot_market_gdp add = scope:hmps_bot_member.gdp }
+		}
+	}
+	if = {
+		limit = { global_var:hmps_bot_world_exports > 0 }
+		set_global_variable = {
+			name = hmps_bot_world_ratio
+			value = {
+				value = global_var:hmps_bot_world_imports
+				divide = global_var:hmps_bot_world_exports
+			}
+		}
+	}
+	else = {
+		set_global_variable = { name = hmps_bot_world_ratio value = 1 }
+	}
+
+	# Ledger sorting: the engine sorts the Ledger's Markets list only by name and GDP, so its Imports, Exports and Balance
+	# columns sort from these global lists of market owners, rebuilt here weekly in order: largest first, the _asc lists
+	# smallest first (gui/map_list_panel.gui, markets_map_list_panel). The world ratio only scales exports, so it is
+	# needed for the balance alone. Decentralized markets are left out, as in the Ledger
+	clear_global_variable_list = hmps_ledger_imports
+	clear_global_variable_list = hmps_ledger_imports_asc
+	clear_global_variable_list = hmps_ledger_exports
+	clear_global_variable_list = hmps_ledger_exports_asc
+	clear_global_variable_list = hmps_ledger_balance
+	clear_global_variable_list = hmps_ledger_balance_asc
+	ordered_market = {
+		limit = { exists = owner NOT = { owner = { is_country_type = decentralized } } }
+		order_by = owner.var:hmps_bot_market_imports_weekly
+		max = 1000
+		check_range_bounds = no
+		add_to_global_variable_list = { name = hmps_ledger_imports target = owner }
+	}
+	ordered_market = {
+		limit = { exists = owner NOT = { owner = { is_country_type = decentralized } } }
+		order_by = {
+			value = owner.var:hmps_bot_market_imports_weekly
+			multiply = -1
+		}
+		max = 1000
+		check_range_bounds = no
+		add_to_global_variable_list = { name = hmps_ledger_imports_asc target = owner }
+	}
+	ordered_market = {
+		limit = { exists = owner NOT = { owner = { is_country_type = decentralized } } }
+		order_by = owner.var:hmps_bot_market_exports_weekly
+		max = 1000
+		check_range_bounds = no
+		add_to_global_variable_list = { name = hmps_ledger_exports target = owner }
+	}
+	ordered_market = {
+		limit = { exists = owner NOT = { owner = { is_country_type = decentralized } } }
+		order_by = {
+			value = owner.var:hmps_bot_market_exports_weekly
+			multiply = -1
+		}
+		max = 1000
+		check_range_bounds = no
+		add_to_global_variable_list = { name = hmps_ledger_exports_asc target = owner }
+	}
+	ordered_market = {
+		limit = { exists = owner NOT = { owner = { is_country_type = decentralized } } }
+		order_by = {
+			value = owner.var:hmps_bot_market_exports_weekly
+			multiply = global_var:hmps_bot_world_ratio
+			subtract = owner.var:hmps_bot_market_imports_weekly
+		}
+		max = 1000
+		check_range_bounds = no
+		add_to_global_variable_list = { name = hmps_ledger_balance target = owner }
+	}
+	ordered_market = {
+		limit = { exists = owner NOT = { owner = { is_country_type = decentralized } } }
+		order_by = {
+			value = owner.var:hmps_bot_market_imports_weekly
+			subtract = {
+				value = owner.var:hmps_bot_market_exports_weekly
+				multiply = global_var:hmps_bot_world_ratio
+			}
+		}
+		max = 1000
+		check_range_bounds = no
+		add_to_global_variable_list = { name = hmps_ledger_balance_asc target = owner }
+	}
+}
+
+hmps_balance_of_trade_update_effect = {
+	# Graph history: before this week's balance replaces it, last week's moves into the market owner's history
+	if = {
+		limit = {
+			market.owner = root
+			has_variable = hmps_bot_hist_51
+			has_variable = hmps_bot_balance
+		}
+		hmps_bot_history_shift_effect = yes
+	}
+
+	# The market's sums, from hmps_balance_of_trade_world_totals_effect
+	set_variable = {
+		name = hmps_bot_exports_weekly
+		value = market.owner.var:hmps_bot_market_exports_weekly
+	}
+	set_variable = {
+		name = hmps_bot_exports
+		value = {
+			value = var:hmps_bot_exports_weekly
+			multiply = 52
+			multiply = global_var:hmps_bot_world_ratio
+		}
+	}
+	set_variable = {
+		name = hmps_bot_imports_weekly
+		value = market.owner.var:hmps_bot_market_imports_weekly
+	}
+	set_variable = {
+		name = hmps_bot_imports
+		value = {
+			value = var:hmps_bot_imports_weekly
+			multiply = 52
+		}
+	}
+	set_variable = {
+		name = hmps_bot_balance
+		value = {
+			value = var:hmps_bot_exports
+			subtract = var:hmps_bot_imports
+		}
+	}
+	set_variable = {
+		name = hmps_bot_gdp
+		value = market.owner.var:hmps_bot_market_gdp
+	}
+	if = {
+		limit = { var:hmps_bot_gdp > 0 }
+		set_variable = {
+			name = hmps_bot_share
+			value = {
+				value = var:hmps_bot_balance
+				divide = var:hmps_bot_gdp
+			}
+		}
+	}
+	else = {
+		set_variable = { name = hmps_bot_share value = 0 }
+	}
+
+	# Penalty in percentage points: 5 per 1% of GDP (500 per 1.0 share), max 50
+	set_variable = { name = hmps_bot_penalty value = 0 }
+	if = {
+		limit = { var:hmps_bot_share > 0.01 }
+		set_variable = {
+			name = hmps_bot_penalty
+			value = {
+				value = var:hmps_bot_share
+				multiply = 500
+				max = 50
+			}
+		}
+	}
+	else_if = {
+		limit = { var:hmps_bot_share < -0.01 }
+		set_variable = {
+			name = hmps_bot_penalty
+			value = {
+				value = var:hmps_bot_share
+				multiply = -500
+				max = 50
+			}
+		}
+	}
+
+	# Buff on the other side: half the penalty (max 25)
+	set_variable = {
+		name = hmps_bot_buff
+		value = {
+			value = var:hmps_bot_penalty
+			divide = 2
+		}
+	}
+
+	# The modifier is only swapped when the penalty changed (re-adding it makes the game recalculate the country's modifiers).
+	# hmps_bot_applied_penalty is the penalty in place: positive for a surplus, negative for a deficit, 0 for none
+	set_variable = { name = hmps_bot_signed_penalty value = 0 }
+	if = {
+		limit = { var:hmps_bot_share > 0.01 }
+		set_variable = { name = hmps_bot_signed_penalty value = var:hmps_bot_penalty }
+	}
+	else_if = {
+		limit = { var:hmps_bot_share < -0.01 }
+		set_variable = {
+			name = hmps_bot_signed_penalty
+			value = {
+				value = var:hmps_bot_penalty
+				multiply = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				NOT = { has_variable = hmps_bot_applied_penalty }
+				var:hmps_bot_applied_penalty != var:hmps_bot_signed_penalty
+			}
+		}
+		if = {
+			limit = { has_modifier = hmps_trade_surplus_penalty }
+			remove_modifier = hmps_trade_surplus_penalty
+		}
+		if = {
+			limit = { has_modifier = hmps_trade_deficit_penalty }
+			remove_modifier = hmps_trade_deficit_penalty
+		}
+		if = {
+			limit = { var:hmps_bot_share > 0.01 }
+			add_modifier = {
+				name = hmps_trade_surplus_penalty
+				multiplier = var:hmps_bot_penalty
+			}
+		}
+		else_if = {
+			limit = { var:hmps_bot_share < -0.01 }
+			add_modifier = {
+				name = hmps_trade_deficit_penalty
+				multiplier = var:hmps_bot_penalty
+			}
+		}
+		set_variable = { name = hmps_bot_applied_penalty value = var:hmps_bot_signed_penalty }
+	}
+	remove_variable = hmps_bot_signed_penalty
+
+	# Graph history (hmps_bot_history_shift_effect) is kept only on the market owner: start it empty when a country becomes
+	# one, and drop it when it stops being one so an old history is never shown later
+	if = {
+		limit = { market.owner = root }
+		if = {
+			limit = { NOT = { has_variable = hmps_bot_hist_51 } }
+			hmps_bot_history_start_effect = yes
+		}
+		hmps_bot_history_scale_effect = yes
+	}
+	else_if = {
+		limit = { has_variable = hmps_bot_hist_51 }
+		hmps_bot_history_clear_effect = yes
+	}
+}
+
+# HMPS Balance of Trade graph (topbar tooltip, gui/topbar.gui): 52 weekly columns. The last is the live hmps_bot_balance;
+# hmps_bot_hist_1 (oldest) to hmps_bot_hist_51 (last week) hold the balances of the 51 weeks before it (0 until recorded),
+# and hmps_bot_hist_max is the largest size of all 52 (at least 1) for the graph's scale. Market owner only; moved on
+# weekly by hmps_balance_of_trade_update_effect.
+hmps_bot_history_shift_effect = {
+	hmps_bot_history_step_effect = { K = 1 NEXT = 2 }
+	hmps_bot_history_step_effect = { K = 2 NEXT = 3 }
+	hmps_bot_history_step_effect = { K = 3 NEXT = 4 }
+	hmps_bot_history_step_effect = { K = 4 NEXT = 5 }
+	hmps_bot_history_step_effect = { K = 5 NEXT = 6 }
+	hmps_bot_history_step_effect = { K = 6 NEXT = 7 }
+	hmps_bot_history_step_effect = { K = 7 NEXT = 8 }
+	hmps_bot_history_step_effect = { K = 8 NEXT = 9 }
+	hmps_bot_history_step_effect = { K = 9 NEXT = 10 }
+	hmps_bot_history_step_effect = { K = 10 NEXT = 11 }
+	hmps_bot_history_step_effect = { K = 11 NEXT = 12 }
+	hmps_bot_history_step_effect = { K = 12 NEXT = 13 }
+	hmps_bot_history_step_effect = { K = 13 NEXT = 14 }
+	hmps_bot_history_step_effect = { K = 14 NEXT = 15 }
+	hmps_bot_history_step_effect = { K = 15 NEXT = 16 }
+	hmps_bot_history_step_effect = { K = 16 NEXT = 17 }
+	hmps_bot_history_step_effect = { K = 17 NEXT = 18 }
+	hmps_bot_history_step_effect = { K = 18 NEXT = 19 }
+	hmps_bot_history_step_effect = { K = 19 NEXT = 20 }
+	hmps_bot_history_step_effect = { K = 20 NEXT = 21 }
+	hmps_bot_history_step_effect = { K = 21 NEXT = 22 }
+	hmps_bot_history_step_effect = { K = 22 NEXT = 23 }
+	hmps_bot_history_step_effect = { K = 23 NEXT = 24 }
+	hmps_bot_history_step_effect = { K = 24 NEXT = 25 }
+	hmps_bot_history_step_effect = { K = 25 NEXT = 26 }
+	hmps_bot_history_step_effect = { K = 26 NEXT = 27 }
+	hmps_bot_history_step_effect = { K = 27 NEXT = 28 }
+	hmps_bot_history_step_effect = { K = 28 NEXT = 29 }
+	hmps_bot_history_step_effect = { K = 29 NEXT = 30 }
+	hmps_bot_history_step_effect = { K = 30 NEXT = 31 }
+	hmps_bot_history_step_effect = { K = 31 NEXT = 32 }
+	hmps_bot_history_step_effect = { K = 32 NEXT = 33 }
+	hmps_bot_history_step_effect = { K = 33 NEXT = 34 }
+	hmps_bot_history_step_effect = { K = 34 NEXT = 35 }
+	hmps_bot_history_step_effect = { K = 35 NEXT = 36 }
+	hmps_bot_history_step_effect = { K = 36 NEXT = 37 }
+	hmps_bot_history_step_effect = { K = 37 NEXT = 38 }
+	hmps_bot_history_step_effect = { K = 38 NEXT = 39 }
+	hmps_bot_history_step_effect = { K = 39 NEXT = 40 }
+	hmps_bot_history_step_effect = { K = 40 NEXT = 41 }
+	hmps_bot_history_step_effect = { K = 41 NEXT = 42 }
+	hmps_bot_history_step_effect = { K = 42 NEXT = 43 }
+	hmps_bot_history_step_effect = { K = 43 NEXT = 44 }
+	hmps_bot_history_step_effect = { K = 44 NEXT = 45 }
+	hmps_bot_history_step_effect = { K = 45 NEXT = 46 }
+	hmps_bot_history_step_effect = { K = 46 NEXT = 47 }
+	hmps_bot_history_step_effect = { K = 47 NEXT = 48 }
+	hmps_bot_history_step_effect = { K = 48 NEXT = 49 }
+	hmps_bot_history_step_effect = { K = 49 NEXT = 50 }
+	hmps_bot_history_step_effect = { K = 50 NEXT = 51 }
+	set_variable = { name = hmps_bot_hist_51 value = var:hmps_bot_balance }
+}
+
+hmps_bot_history_step_effect = {
+	set_variable = { name = hmps_bot_hist_$K$ value = var:hmps_bot_hist_$NEXT$ }
+}
+
+hmps_bot_history_scale_effect = {
+	set_variable = { name = hmps_bot_hist_max value = 1 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_balance }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_1 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_2 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_3 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_4 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_5 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_6 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_7 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_8 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_9 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_10 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_11 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_12 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_13 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_14 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_15 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_16 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_17 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_18 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_19 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_20 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_21 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_22 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_23 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_24 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_25 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_26 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_27 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_28 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_29 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_30 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_31 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_32 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_33 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_34 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_35 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_36 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_37 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_38 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_39 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_40 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_41 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_42 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_43 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_44 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_45 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_46 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_47 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_48 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_49 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_50 }
+	hmps_bot_history_scale_step_effect = { VAR = hmps_bot_hist_51 }
+	remove_variable = hmps_bot_hist_abs
+}
+
+# Widens the graph's scale to VAR's size if it is larger
+hmps_bot_history_scale_step_effect = {
+	set_variable = {
+		name = hmps_bot_hist_abs
+		value = {
+			value = var:$VAR$
+			abs = yes
+		}
+	}
+	if = {
+		limit = { var:hmps_bot_hist_abs > var:hmps_bot_hist_max }
+		set_variable = { name = hmps_bot_hist_max value = var:hmps_bot_hist_abs }
+	}
+}
+
+hmps_bot_history_start_effect = {
+	set_variable = { name = hmps_bot_hist_1 value = 0 }
+	set_variable = { name = hmps_bot_hist_2 value = 0 }
+	set_variable = { name = hmps_bot_hist_3 value = 0 }
+	set_variable = { name = hmps_bot_hist_4 value = 0 }
+	set_variable = { name = hmps_bot_hist_5 value = 0 }
+	set_variable = { name = hmps_bot_hist_6 value = 0 }
+	set_variable = { name = hmps_bot_hist_7 value = 0 }
+	set_variable = { name = hmps_bot_hist_8 value = 0 }
+	set_variable = { name = hmps_bot_hist_9 value = 0 }
+	set_variable = { name = hmps_bot_hist_10 value = 0 }
+	set_variable = { name = hmps_bot_hist_11 value = 0 }
+	set_variable = { name = hmps_bot_hist_12 value = 0 }
+	set_variable = { name = hmps_bot_hist_13 value = 0 }
+	set_variable = { name = hmps_bot_hist_14 value = 0 }
+	set_variable = { name = hmps_bot_hist_15 value = 0 }
+	set_variable = { name = hmps_bot_hist_16 value = 0 }
+	set_variable = { name = hmps_bot_hist_17 value = 0 }
+	set_variable = { name = hmps_bot_hist_18 value = 0 }
+	set_variable = { name = hmps_bot_hist_19 value = 0 }
+	set_variable = { name = hmps_bot_hist_20 value = 0 }
+	set_variable = { name = hmps_bot_hist_21 value = 0 }
+	set_variable = { name = hmps_bot_hist_22 value = 0 }
+	set_variable = { name = hmps_bot_hist_23 value = 0 }
+	set_variable = { name = hmps_bot_hist_24 value = 0 }
+	set_variable = { name = hmps_bot_hist_25 value = 0 }
+	set_variable = { name = hmps_bot_hist_26 value = 0 }
+	set_variable = { name = hmps_bot_hist_27 value = 0 }
+	set_variable = { name = hmps_bot_hist_28 value = 0 }
+	set_variable = { name = hmps_bot_hist_29 value = 0 }
+	set_variable = { name = hmps_bot_hist_30 value = 0 }
+	set_variable = { name = hmps_bot_hist_31 value = 0 }
+	set_variable = { name = hmps_bot_hist_32 value = 0 }
+	set_variable = { name = hmps_bot_hist_33 value = 0 }
+	set_variable = { name = hmps_bot_hist_34 value = 0 }
+	set_variable = { name = hmps_bot_hist_35 value = 0 }
+	set_variable = { name = hmps_bot_hist_36 value = 0 }
+	set_variable = { name = hmps_bot_hist_37 value = 0 }
+	set_variable = { name = hmps_bot_hist_38 value = 0 }
+	set_variable = { name = hmps_bot_hist_39 value = 0 }
+	set_variable = { name = hmps_bot_hist_40 value = 0 }
+	set_variable = { name = hmps_bot_hist_41 value = 0 }
+	set_variable = { name = hmps_bot_hist_42 value = 0 }
+	set_variable = { name = hmps_bot_hist_43 value = 0 }
+	set_variable = { name = hmps_bot_hist_44 value = 0 }
+	set_variable = { name = hmps_bot_hist_45 value = 0 }
+	set_variable = { name = hmps_bot_hist_46 value = 0 }
+	set_variable = { name = hmps_bot_hist_47 value = 0 }
+	set_variable = { name = hmps_bot_hist_48 value = 0 }
+	set_variable = { name = hmps_bot_hist_49 value = 0 }
+	set_variable = { name = hmps_bot_hist_50 value = 0 }
+	set_variable = { name = hmps_bot_hist_51 value = 0 }
+	set_variable = { name = hmps_bot_hist_max value = 1 }
+}
+
+hmps_bot_history_clear_effect = {
+	remove_variable = hmps_bot_hist_1
+	remove_variable = hmps_bot_hist_2
+	remove_variable = hmps_bot_hist_3
+	remove_variable = hmps_bot_hist_4
+	remove_variable = hmps_bot_hist_5
+	remove_variable = hmps_bot_hist_6
+	remove_variable = hmps_bot_hist_7
+	remove_variable = hmps_bot_hist_8
+	remove_variable = hmps_bot_hist_9
+	remove_variable = hmps_bot_hist_10
+	remove_variable = hmps_bot_hist_11
+	remove_variable = hmps_bot_hist_12
+	remove_variable = hmps_bot_hist_13
+	remove_variable = hmps_bot_hist_14
+	remove_variable = hmps_bot_hist_15
+	remove_variable = hmps_bot_hist_16
+	remove_variable = hmps_bot_hist_17
+	remove_variable = hmps_bot_hist_18
+	remove_variable = hmps_bot_hist_19
+	remove_variable = hmps_bot_hist_20
+	remove_variable = hmps_bot_hist_21
+	remove_variable = hmps_bot_hist_22
+	remove_variable = hmps_bot_hist_23
+	remove_variable = hmps_bot_hist_24
+	remove_variable = hmps_bot_hist_25
+	remove_variable = hmps_bot_hist_26
+	remove_variable = hmps_bot_hist_27
+	remove_variable = hmps_bot_hist_28
+	remove_variable = hmps_bot_hist_29
+	remove_variable = hmps_bot_hist_30
+	remove_variable = hmps_bot_hist_31
+	remove_variable = hmps_bot_hist_32
+	remove_variable = hmps_bot_hist_33
+	remove_variable = hmps_bot_hist_34
+	remove_variable = hmps_bot_hist_35
+	remove_variable = hmps_bot_hist_36
+	remove_variable = hmps_bot_hist_37
+	remove_variable = hmps_bot_hist_38
+	remove_variable = hmps_bot_hist_39
+	remove_variable = hmps_bot_hist_40
+	remove_variable = hmps_bot_hist_41
+	remove_variable = hmps_bot_hist_42
+	remove_variable = hmps_bot_hist_43
+	remove_variable = hmps_bot_hist_44
+	remove_variable = hmps_bot_hist_45
+	remove_variable = hmps_bot_hist_46
+	remove_variable = hmps_bot_hist_47
+	remove_variable = hmps_bot_hist_48
+	remove_variable = hmps_bot_hist_49
+	remove_variable = hmps_bot_hist_50
+	remove_variable = hmps_bot_hist_51
+	remove_variable = hmps_bot_hist_max
+}
+
+# Oregon Trail (oregon.5): gives PROVINCE (ID without p:, e.g. xE5842F) to the USA only if a decentralized country owns it
+hmps_oregon_trail_take_province = {
+	if = {
+		limit = {
+			exists = c:USA
+			exists = p:$PROVINCE$.state
+			p:$PROVINCE$.state.owner = {
+				is_country_type = decentralized
+			}
+		}
+		p:$PROVINCE$.state.state_region = {
+			set_owner_of_provinces = {
+				country = c:USA
+				provinces = { $PROVINCE$ }
+			}
+		}
+	}
+}
+
+# Guiana Boundary Commission (HMPS_guiana.1): gives PROVINCE (ID without p:, e.g. x9A88B5) to c:COUNTRY only if a decentralized country owns it
+hmps_take_native_province = {
+	if = {
+		limit = {
+			exists = c:$COUNTRY$
+			exists = p:$PROVINCE$.state
+			p:$PROVINCE$.state.owner = {
+				is_country_type = decentralized
+			}
+		}
+		p:$PROVINCE$.state.state_region = {
+			set_owner_of_provinces = {
+				country = c:$COUNTRY$
+				provinces = { $PROVINCE$ }
+			}
+		}
+	}
+}
+
+# HMPS: REPLACE of vanilla 1.15 on_wargoal_enforced_effects (00_victoria_on_wargoal_enforced_effects.txt); only change: natives-aware region checks for the Ragamuffin War outcomes
+REPLACE:on_wargoal_enforced_effects = {
+	### Narrative war-end events
+	if = { # Paris Commune - Commune victory event
+		limit = {
+			c:PRC ?= root
+			NOT = {
+				exists = c:FRA
+			}
+		}
+		on_wargoal_enforced_paris_commune_victory_effect = yes
+	}
+	if = { # Paris Commune - France victory event
+		limit = {
+			c:FRA ?= root
+			NOT = {
+				exists = c:PRC
+			}
+		}
+		if = {
+			limit = {
+				c:FRA ?= {
+					is_immune_to_revolutions = yes
+				}
+			}
+			set_immune_to_revolutions = no
+		}
+	}
+	if = { # Ragamuffin War - Piratini victory event
+		limit = {
+			ROOT = {
+				c:PNI ?= this
+				has_variable = ragamuffin_nation_var
+				NOT = { has_variable = won_ragamuffin_war_var }
+				owns_entire_state_region = STATE_RIO_GRANDE_DO_SUL
+				hmps_holds_region_bar_natives = { REGION = STATE_SANTA_CATARINA } # HMPS: KGA natives hold inland Santa Catarina
+			}
+		}
+		ROOT = {
+			set_variable = won_ragamuffin_war_var
+			trigger_event = { id = brazilian_minors.1 days = 0 popup = yes }
+		}
+	}
+	if = { # Ragamuffin War - Brazilian victory over Grao-Para
+		limit = {
+			ROOT = {
+				game_date < 1850.1.1 # Just in case.
+				NOT = {
+					has_variable = cabanagem_defeat_var
+					exists = c:PRA
+				}
+				c:BRZ ?= this
+				hmps_holds_region_bar_natives = { REGION = STATE_PARA } # HMPS: natives hold inland Para
+				any_scope_state = { state_region = s:STATE_AMAZONAS }
+			}
+		}
+		ROOT = {
+			set_variable = cabanagem_defeat_var
+			trigger_event = { id = brazilian_minors.2 days = 0 popup = yes }
+		}
+	}
+	if = { # Ragamuffin War - Brazilian victory over Piratini
+		limit = {
+			ROOT = {
+				game_date < 1850.1.1 # Just in case.
+				NOT = {
+					has_variable = ragamuffin_defeat_var
+					exists = c:PNI
+				}
+				c:BRZ ?= this
+				owns_entire_state_region = STATE_RIO_GRANDE_DO_SUL
+			}
+		}
+		ROOT = {
+			set_variable = ragamuffin_defeat_var
+			trigger_event = { id = brazilian_minors.3 days = 0 popup = yes }
+		}
+	}
+	if = { # India - Capture of the Koh-i-Noor
+		limit = {
+			ROOT = {
+				NOT = {
+					has_variable = punjab_captured
+				}
+				c:BIC ?= this
+				is_subject = yes
+				country_or_subject_owns_entire_state_region = STATE_PUNJAB
+			}
+		}
+		ROOT = {
+			set_variable = punjab_captured
+			trigger_event = { id = india_events.3 days = 7 popup = yes }
+		}
+	}
+	if = {
+		limit = {
+			scope:diplomatic_play ?= {
+				is_diplomatic_play_type = dp_revolution
+			}
+			ROOT = {
+				any_subject_or_below = {
+					c:EZO ?= this
+					has_variable = ezo_republic_var
+					has_variable = ezo_waiting_for_shogun
+				}
+			}
+		}
+		on_wargoal_enforced_ezo_republic_effect = yes
+	}
+
+	if = { # Balkan Wars - Ottoman Empire loses
+		limit = {
+			ROOT = {
+				NOT = {
+					has_variable = lost_balkan_wars
+				}
+				scope:target ?= {
+					c:TUR ?= this
+				}
+				scope:diplomatic_play = {
+					is_diplomatic_play_type = dp_balkan_war
+				}
+			}
+		}
+		on_wargoal_enforced_balkan_ottoman_defeat_effect = yes
+	}
+
+	if = { # Balkan Wars - BL loses
+		limit = {
+			ROOT = {
+				scope:target ?= {
+					has_journal_entry = je_the_balkan_league
+				}
+				scope:diplomatic_play = {
+					is_diplomatic_play_type = dp_balkan_war
+				}
+			}
+		}
+		scope:target ?= {
+			set_variable = {
+				name = lost_balkan_wars
+				days = 30
+			}
+		}
+	}
+	if = { # Persia - Loss of Herat
+		limit = {
+			ROOT = {
+				c:PER ?= this
+					NOT = {
+						any_scope_state = {
+							state_region = s:STATE_HERAT
+						}
+					}
+				has_modifier = modifier_herat_inspiration
+			}
+		}
+		ROOT = {
+			remove_modifier = modifier_herat_inspiration
+		}
+	}
+
+	if = { # Earning Recognition - unrecognised defeat
+		limit = {
+			scope:target ?= {
+				has_journal_entry = je_earn_recognition
+			}
+		}
+		on_wargoal_enforced_earn_recognition_defeat_effect = yes
+	}
+	if = { # Earning Recognition - unrecognised vuictory
+		limit = {
+			ROOT = {
+				has_journal_entry = je_earn_recognition
+			}
+			scope:target ?= {
+				country_rank >= rank_value:major_power
+			}
+		}
+		on_wargoal_enforced_earn_recognition_victory_effect = yes
+	}
+
+	if = { # Enforcing Trialist Manifesto
+		limit = {
+			c:AUS ?= root
+			scope:target ?= {
+				c:HUN ?= this
+				NOT = {
+					has_variable = forced_trialist_manifesto
+				}
+			}
+			scope:diplomatic_play = {
+				is_diplomatic_play_type = dp_enforce_trialist_manifesto
+			}
+		}
+		ROOT = {
+			trigger_event = { id = austria_trialism.3 days = 1 popup = yes }
+		}
+		scope:target = {
+			set_variable = { name = forced_trialist_manifesto years = 1 }
+		}
+	}
+
+	### Austrian Neo-Absolutism JE
+	if = {
+		limit = {
+			scope:target ?= {
+				has_journal_entry = je_austrian_neo_absolutism
+			}
+		}
+		on_wargoal_enforced_neo_absolutism_target_progress_effect = yes
+	}
+	if = {
+		limit = {
+			ROOT ?= {
+				has_journal_entry = je_austrian_neo_absolutism
+			}
+		}
+		if = {
+			limit = {
+				scope:target ?= {
+					country_rank >= rank_value:great_power
+				}
+			}
+			on_wargoal_enforced_neo_absolutism_owner_progress_effect = yes
+		}
+		if = {
+			limit = {
+				scope:target ?= {
+					c:PRU ?= this
+				}
+			}
+			set_variable = has_enforced_wargoal_on_prussia_var
+		}
+		else_if = {
+			limit = {
+				scope:target ?= {
+					c:GER ?= this
+				}
+			}
+			set_variable = has_enforced_wargoal_on_germany_var
+		}
+	}
+	if = { # Japanese daimyo reconciliation
+		limit = {
+			c:JAP ?= root
+			NOT = {
+				has_global_variable = japan_daimyo_abolished
+			}
+			scope:diplomatic_play = {
+				OR = {
+					is_diplomatic_play_type = dp_revolution
+					is_diplomatic_play_type = dp_secession
+				}
+			}
+		}
+		japan_reconcile_revolutionary_daimyos = yes
+	}
+}
+
+# Sub-Effects
+
+mahdist_setup_effect = { # HMPS: Mahdist state setup
+	set_country_type = unrecognized
+	add_primary_culture = cu:nuba
+	set_state_religion = rel:sunni
+	activate_law = law_type:law_theocracy
+	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_national_militia
+	activate_law = law_type:law_religious_schools
+	ig:ig_devout = { set_interest_group_name = ig_sunni_madrasahs }
+	change_institution_investment_level = { institution = institution_army_model investment = 1 }
+	add_modifier = { name = mahdist_happy_igs months = 240 }
+}
+
+# HMPS: construction queue tools (freethebrain, Workshop 3837831783); global observer removed for MP
+v3qt_clear_job = {
+    remove_variable = v3qt_refreshing
+    remove_variable = v3qt_jump
+    remove_variable = v3qt_mapped
+    remove_variable = v3qt_submitted
+    remove_variable = v3qt_remaining
+    remove_variable = v3qt_total
+    remove_variable = v3qt_from
+    remove_variable = v3qt_to
+    remove_variable = v3qt_width
+    remove_variable = v3qt_distance
+    remove_variable = v3qt_new_first
+}
+
+# Selection revisions and movement jobs share one monotonic generation.
+# A GUI callback captured before a newer selection or move cannot affect it.
+v3qt_advance_generation = {
+    if = {
+        limit = { NOT = { has_variable = v3qt_generation } }
+        set_variable = { name = v3qt_generation value = 0 }
+    }
+    change_variable = { name = v3qt_generation add = 1 }
+}
+
+v3qt_clear_selection = {
+    v3qt_clear_job = yes
+    remove_variable = v3qt_previous_first
+    remove_variable = v3qt_previous_last
+    clear_variable_list = v3qt_buildings
+    remove_variable = v3qt_first
+    remove_variable = v3qt_last
+    remove_variable = v3qt_anchor
+    remove_variable = v3qt_size
+    # Revoke queued idle callbacks after any genuine cancellation too.
+    v3qt_advance_generation = yes
+}
+
+# Repeatedly moving the occupant of the same source slot to the same
+# destination slot rotates a contiguous interval. Move whichever side
+# is shorter. A one-position up/down step takes exactly one command.
+v3qt_plan_rotation = {
+    set_variable = { name = v3qt_width value = var:v3qt_last }
+    change_variable = { name = v3qt_width subtract = var:v3qt_first }
+    change_variable = { name = v3qt_width add = 1 }
+    if = {
+        limit = { var:v3qt_new_first < var:v3qt_first var:v3qt_new_first >= 1 }
+        set_variable = { name = v3qt_distance value = var:v3qt_first }
+        change_variable = { name = v3qt_distance subtract = var:v3qt_new_first }
+        if = {
+            limit = { var:v3qt_width <= var:v3qt_distance }
+            set_variable = { name = v3qt_remaining value = var:v3qt_width }
+            set_variable = { name = v3qt_from value = var:v3qt_last }
+            set_variable = { name = v3qt_to value = var:v3qt_new_first }
+        }
+        else = {
+            set_variable = { name = v3qt_remaining value = var:v3qt_distance }
+            set_variable = { name = v3qt_from value = var:v3qt_new_first }
+            set_variable = { name = v3qt_to value = var:v3qt_last }
+        }
+    }
+    else_if = {
+        limit = { var:v3qt_new_first > var:v3qt_first }
+        set_variable = { name = v3qt_distance value = var:v3qt_new_first }
+        change_variable = { name = v3qt_distance subtract = var:v3qt_first }
+        set_variable = { name = v3qt_to value = var:v3qt_last }
+        change_variable = { name = v3qt_to add = var:v3qt_distance }
+        if = {
+            limit = { var:v3qt_to > var:v3qt_size }
+            v3qt_clear_job = yes
+        }
+        else_if = {
+            limit = { var:v3qt_width <= var:v3qt_distance }
+            set_variable = { name = v3qt_remaining value = var:v3qt_width }
+            set_variable = { name = v3qt_from value = var:v3qt_first }
+        }
+        else = {
+            set_variable = { name = v3qt_remaining value = var:v3qt_distance }
+            set_variable = { name = v3qt_from value = var:v3qt_to }
+            set_variable = { name = v3qt_to value = var:v3qt_first }
+        }
+    }
+    else = { v3qt_clear_job = yes }
+    if = {
+        limit = { has_variable = v3qt_remaining }
+        v3qt_advance_generation = yes
+        set_variable = { name = v3qt_total value = var:v3qt_remaining }
+    }
+}
+
+#HMPS: Chinese JE inheritance (hooks in common/on_actions/CEN_code_on_actions.txt).
+# Copies the Chinese debuff JEs (Army Reforms, Ineffectual Mining, Growth of Subsistence, Balance of the Middle Kingdom)
+# from scope:hmps_china_origin to scope:hmps_china_heir, for each JE the origin still has active.
+# The heir starts at the origin's progress, then tracks its own.
+# ANY_CULTURE = yes for revolution tags; otherwise the heir needs Han or Manchu as a primary culture.
+# Fragile Unity (je_warlord_china) isn't copied here: only a revolution that wins or the Heavenly Kingdom once China is gone gets it (hmps_china_fu_* below)
+hmps_china_inherit_jes_effect = {
+	scope:hmps_china_heir = {
+		set_variable = hmps_china_inherit_checked # stops HMPS_china_inherit_new_tag from copying a second time
+		if = {
+			limit = {
+				OR = {
+					always = $ANY_CULTURE$
+					country_has_primary_culture = cu:han
+					country_has_primary_culture = cu:manchu
+				}
+			}
+			### Army Reforms (ends for every holder once China shatters, so it isn't passed on after that)
+			if = {
+				limit = {
+					scope:hmps_china_origin = { has_journal_entry = je_army_reform_china }
+					NOT = { has_global_variable = china_shatters }
+				}
+				scope:hmps_china_origin = {
+					hmps_china_ensure_var = { VAR = china_army_reform }
+					hmps_china_ensure_var = { VAR = china_army_reform_tick }
+				}
+				set_variable = { name = china_army_reform value = scope:hmps_china_origin.var:china_army_reform }
+				set_variable = { name = china_army_reform_tick value = scope:hmps_china_origin.var:china_army_reform_tick }
+				# the JE's completion removes these country modifiers, so they come with it
+				if = {
+					limit = {
+						scope:hmps_china_origin = { has_modifier = modifier_banner_system }
+						NOT = { has_modifier = modifier_banner_system }
+					}
+					add_modifier = { name = modifier_banner_system is_decaying = no years = -1 }
+				}
+				if = {
+					limit = {
+						scope:hmps_china_origin = { has_modifier = modifier_green_standard_army }
+						NOT = { has_modifier = modifier_green_standard_army }
+					}
+					add_modifier = { name = modifier_green_standard_army is_decaying = no years = -1 }
+				}
+				if = {
+					limit = { NOT = { has_journal_entry = je_army_reform_china } }
+					add_journal_entry = { type = je_army_reform_china }
+				}
+			}
+			### Ineffectual Mining (its monthly pulse adds the Ineffectual Mining modifier)
+			if = {
+				limit = { scope:hmps_china_origin = { has_journal_entry = je_chinese_industry } }
+				scope:hmps_china_origin = { hmps_china_ensure_var = { VAR = chinese_rail_expansion } }
+				set_variable = { name = chinese_rail_expansion value = scope:hmps_china_origin.var:chinese_rail_expansion }
+				if = {
+					limit = { NOT = { has_journal_entry = je_chinese_industry } }
+					add_journal_entry = { type = je_chinese_industry }
+				}
+			}
+			### Growth of Subsistence (a scripted progress bar: the value is stored here and applied by the JE's first monthly pulse)
+			if = {
+				limit = { scope:hmps_china_origin = { has_journal_entry = je_chinese_agriculture } }
+				scope:hmps_china_origin = {
+					je:je_chinese_agriculture = {
+						set_global_variable = {
+							name = hmps_china_inherit_agri
+							value = "scripted_bar_progress(chinese_agriculture_progress_bar)"
+						}
+					}
+				}
+				set_variable = { name = hmps_china_agri_start value = global_var:hmps_china_inherit_agri }
+				remove_global_variable = hmps_china_inherit_agri
+				if = {
+					limit = { NOT = { has_journal_entry = je_chinese_agriculture } }
+					add_journal_entry = { type = je_chinese_agriculture }
+				}
+			}
+			### Balance of the Middle Kingdom (no progress)
+			if = {
+				limit = {
+					scope:hmps_china_origin = { has_journal_entry = je_hmps_china_government_based_nerf }
+					NOT = { has_journal_entry = je_hmps_china_government_based_nerf }
+				}
+				add_journal_entry = { type = je_hmps_china_government_based_nerf }
+			}
+		}
+	}
+}
+
+#HMPS: sets country variable $VAR$ if it is missing: from the old global of the same name (saves from before the China JEs moved to country variables), else 0
+hmps_china_ensure_var = {
+	if = {
+		limit = { NOT = { has_variable = $VAR$ } }
+		if = {
+			limit = { has_global_variable = $VAR$ }
+			set_variable = { name = $VAR$ value = global_var:$VAR$ }
+		}
+		else = {
+			set_variable = { name = $VAR$ value = 0 }
+		}
+	}
+}
+
+#HMPS: copies flag variable $FLAG$ from scope:hmps_china_origin to the current country (used by hmps_china_fu_snapshot_effect)
+hmps_china_copy_flag = {
+	if = {
+		limit = { scope:hmps_china_origin = { has_variable = $FLAG$ } }
+		set_variable = $FLAG$
+	}
+}
+
+#HMPS: Fragile Unity for the Heavenly Kingdom (called monthly from HMPS_china_inherit_new_tag in CEN_code_on_actions.txt).
+# While scope:hmps_china_origin holds Fragile Unity, copies its progress and one-time flags to scope:hmps_china_heir and marks the heir
+# as waiting for the JE (hmps_china_fu_pending, given by hmps_china_fu_grant_effect). Once the origin no longer holds it, the heir stops waiting
+hmps_china_fu_snapshot_effect = {
+	scope:hmps_china_heir = {
+		if = {
+			limit = {
+				scope:hmps_china_origin = {
+					has_journal_entry = je_warlord_china
+					has_variable = china_warlord_explosion
+				}
+			}
+			set_variable = hmps_china_fu_pending
+			set_variable = { name = china_warlord_explosion value = scope:hmps_china_origin.var:china_warlord_explosion }
+			hmps_china_copy_flag = { FLAG = china_warlord_explosion_subject }
+			hmps_china_copy_flag = { FLAG = china_warlord_explosion_loans }
+			hmps_china_copy_flag = { FLAG = china_warlord_explosion_recognized }
+			hmps_china_copy_flag = { FLAG = china_warlord_explosion_revolution }
+			hmps_china_copy_flag = { FLAG = china_abolished_monarchy }
+			hmps_china_copy_flag = { FLAG = china_warlord_abolished_monarchy }
+			hmps_china_copy_flag = { FLAG = won_boxer_rebellion }
+		}
+		else_if = {
+			limit = { has_variable = hmps_china_fu_pending }
+			remove_variable = hmps_china_fu_pending
+			je_warlord_china_cleanup = yes
+		}
+	}
+}
+
+#HMPS: gives Fragile Unity to a country waiting for it (hmps_china_fu_pending): a revolution that beat a holder, or the Heavenly Kingdom once China is gone.
+# Its progress and flags are already on the country (a winning revolution gets all the defeated parent's variables; the Heavenly Kingdom from
+# hmps_china_fu_snapshot_effect). PRESET_MONARCHY = yes (Heavenly Kingdom): if it isn't a monarchy it never had one to abolish, so that penalty
+# counts as taken and it doesn't lose a point or fire the Fall of the Qing event (boxer_rebellion_events.4, fire_only_once) in its first week
+hmps_china_fu_grant_effect = {
+	remove_variable = hmps_china_fu_pending
+	if = {
+		limit = {
+			has_variable = china_warlord_explosion
+			NOT = { has_journal_entry = je_warlord_china }
+		}
+		if = {
+			limit = {
+				always = $PRESET_MONARCHY$
+				NOT = { country_has_monarchy_law = yes }
+			}
+			set_variable = china_abolished_monarchy
+		}
+		add_journal_entry = { type = je_warlord_china }
+	}
+}

@@ -4968,27 +4968,40 @@
 		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urban_planning
 		add_technology_researched = urbanization
-		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
-		activate_law = law_type:law_free_trade
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_homesteading
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_land_based_taxation
+		
 		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_caesaropapism
+		activate_law = law_type:law_hereditary_bureaucrats
 		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_no_health_system
-		activate_law = law_type:law_no_home_affairs
+		activate_law = law_type:law_professional_navy
+		activate_law = law_type:law_third_section
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_low_income_tax
+		activate_law = law_type:law_low_corporation_tax
+		activate_law = law_type:law_moderate_consumption_tax
+		activate_law = law_type:law_disorganized_planning
+		activate_law = law_type:law_ad_hoc_administration
+		activate_law = law_type:law_internal_colonization
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_peonage
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_censorship
 		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_guild_system
 		activate_law = law_type:law_no_police
 		activate_law = law_type:law_no_schools
-		activate_law = law_type:law_no_social_security
-		activate_law = law_type:law_no_womens_rights
-		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_slavery_banned
-		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_no_health_system
+		
+		set_variable = {
+			name = RUS_empire_proclaimed
+			value = 1
+		}
+		
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 1

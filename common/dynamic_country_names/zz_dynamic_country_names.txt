@@ -1,4 +1,4 @@
-ALK = {
+﻿ALK = {
     dynamic_country_name = {
         name = dyn_c_russian_american_company
         adjective = dyn_c_russian_american_company_adj
