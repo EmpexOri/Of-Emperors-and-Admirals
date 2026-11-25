@@ -1000,7 +1000,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -2683,7 +2683,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -2801,7 +2801,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -6475,6 +6475,17 @@
 				reserves = 1
 				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
+			create_building = {
+				building = "building_barrack"
+				add_ownership = {
+					country = {
+						country = c:LUS
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_BEKES = {
@@ -9642,7 +9653,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -15941,6 +15952,17 @@
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
+			create_building = {
+				building = "building_barrack"
+				add_ownership = {
+					country = {
+						country = c:LUS
+						levels = 6
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_ERITREA = {
@@ -16123,7 +16145,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -16582,7 +16604,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -18101,6 +18123,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_barrack"
+				add_ownership = {
+					country = {
+						country = c:LUS
+						levels = 4
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
 			}
 		}
 	}
@@ -28971,7 +29004,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -35459,7 +35492,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -38740,6 +38773,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_barrack"
+				add_ownership = {
+					country = {
+						country = c:LUS
+						levels = 4
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
 			}
 		}
 	}
@@ -53151,7 +53195,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -54190,7 +54234,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 2
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -59039,6 +59083,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_barrack"
+				add_ownership = {
+					country = {
+						country = c:LUS
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
 			}
 		}
 	}
