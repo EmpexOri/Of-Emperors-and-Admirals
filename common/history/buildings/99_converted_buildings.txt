@@ -1025,7 +1025,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_ALENTEJO
 					}
 				}
@@ -1068,6 +1068,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_ALENTEJO
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_ALENTEJO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 		}
 	}
@@ -1628,7 +1654,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_AL_RIF
 					}
 				}
@@ -1671,6 +1697,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_AL_RIF
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -2685,7 +2724,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 4
 						region = STATE_AQUITAINE
 					}
 				}
@@ -2727,6 +2766,32 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_AQUITAINE
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_AQUITAINE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
 		}
 	}
 	s:STATE_ARAGON = {
@@ -2748,7 +2813,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_ARAGON
 					}
 				}
@@ -2761,7 +2826,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 4
 						region = STATE_ARAGON
 					}
 				}
@@ -3506,7 +3571,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_ASTURIAS
 					}
 				}
@@ -4313,6 +4378,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_AZORES
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_BADEN = {
@@ -5012,6 +5090,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_BALEARIC_ISLANDS
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_BALKH = {
@@ -5567,7 +5658,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_BASQUE_COUNTRY
 					}
 				}
@@ -5580,7 +5671,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_BASQUE_COUNTRY
 					}
 				}
@@ -6316,7 +6407,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 5
 						region = STATE_BEIRA
 					}
 				}
@@ -6357,6 +6448,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_BEIRA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_BEIRA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -7402,7 +7519,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_BOMBAY
 					}
 				}
@@ -9228,6 +9345,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_CANARY_ISLANDS
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_CAPE_COLONY = {
@@ -9368,6 +9498,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_CAPE_COLONY
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_CAPE_VERDE = {
@@ -9393,6 +9536,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_CAPE_VERDE
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -9511,7 +9667,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_CATALONIA
 					}
 				}
@@ -9524,7 +9680,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_CATALONIA
 					}
 				}
@@ -9537,7 +9693,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_CATALONIA
 					}
 				}
@@ -9567,6 +9723,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_CATALONIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_CATALONIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
 			}
 		}
 	}
@@ -15678,7 +15860,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 5
 						region = STATE_ENTRE_DOURO_E_MINHO
 					}
 				}
@@ -15719,6 +15901,45 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_ENTRE_DOURO_E_MINHO
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_ENTRE_DOURO_E_MINHO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_ENTRE_DOURO_E_MINHO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 		}
 	}
@@ -15927,7 +16148,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_ESTREMADURA
 					}
 				}
@@ -15940,7 +16161,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_ESTREMADURA
 					}
 				}
@@ -16005,6 +16226,32 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_ESTREMADURA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_ESTREMADURA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
 		}
 	}
 	s:STATE_EXTREMADURA = {
@@ -16037,7 +16284,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 4
 						region = STATE_EXTREMADURA
 					}
 				}
@@ -16067,6 +16314,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_artificial_fertilizers" }
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_EXTREMADURA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -16347,7 +16607,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_FEZ
 					}
 				}
@@ -16360,7 +16620,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 5
 						region = STATE_FEZ
 					}
 				}
@@ -16880,6 +17140,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 		}
 	}
@@ -17517,7 +17788,7 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 148
+						levels = 15
 					}
 				}
 				reserves = 1
@@ -17533,6 +17804,54 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_paper_mill"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 1
+						region = STATE_FUJIAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:X40
+						levels = 1
+						region = STATE_FUJIAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -17702,7 +18021,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_GALICIA
 					}
 				}
@@ -17756,6 +18075,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 2
+						region = STATE_GALICIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_GALICIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 		}
 	}
@@ -18208,6 +18553,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_GOLD_COAST
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -18769,6 +19127,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_silk_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_GUANGDONG
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 		region_state:X40 = {
 			create_building = {
@@ -18829,6 +19200,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
 			}
 		}
 		region_state:X82 = {
@@ -19801,6 +20183,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_GUYENNE
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -24219,6 +24614,30 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 2
+						region = STATE_JIANGSU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
 		}
 	}
 	s:STATE_JIANGXI = {
@@ -24299,7 +24718,7 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -24310,11 +24729,48 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 243
+						levels = 33
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 2
+						region = STATE_JIANGXI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 1
+						region = STATE_JIANGXI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 		}
 	}
@@ -25309,6 +25765,58 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 2
+						region = STATE_KANTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 2
+						region = STATE_KANTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KANTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KANTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
 		}
 		region_state:W91 = {
 			create_building = {
@@ -25874,7 +26382,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_KENYA
 					}
 				}
@@ -25900,7 +26408,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_KENYA
 					}
 				}
@@ -25917,6 +26425,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_KENYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -27609,7 +28130,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 4
 						region = STATE_LANGUEDOC
 					}
 				}
@@ -27663,6 +28184,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_LANGUEDOC
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_LANGUEDOC
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 		}
 	}
@@ -28436,7 +28983,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_LEON
 					}
 				}
@@ -28449,7 +28996,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 4
 						region = STATE_LEON
 					}
 				}
@@ -28903,6 +29450,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_simple_farming" }
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_LINDI
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -29402,7 +29962,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 4
 						region = STATE_LOWER_ANDALUSIA
 					}
 				}
@@ -29415,7 +29975,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_LOWER_ANDALUSIA
 					}
 				}
@@ -29456,6 +30016,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_LOWER_ANDALUSIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_LOWER_ANDALUSIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -30077,6 +30663,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_LUZON
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_MACEDONIA = {
@@ -30188,6 +30787,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_MADEIRA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -30704,6 +31316,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_MALAYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -31231,7 +31856,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_MARRAKECH
 					}
 				}
@@ -31244,7 +31869,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_MARRAKECH
 					}
 				}
@@ -33211,7 +33836,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_MOCAMBIQUE
 					}
 				}
@@ -33228,6 +33853,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_MOCAMBIQUE
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -33981,7 +34619,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_MURCIA
 					}
 				}
@@ -34045,6 +34683,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_MURCIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -34395,6 +35046,54 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 1
+						region = STATE_NANJING
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:X40
+						levels = 1
+						region = STATE_NANJING
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 		}
 	}
@@ -34772,7 +35471,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_NEW_CASTILE
 					}
 				}
@@ -34785,7 +35484,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 4
 						region = STATE_NEW_CASTILE
 					}
 				}
@@ -34855,6 +35554,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_NEW_CASTILE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 		}
 	}
@@ -35955,11 +36667,35 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 1
+						region = STATE_NORTHERN_ANHUI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -37871,7 +38607,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_OLD_CASTILE
 					}
 				}
@@ -37884,7 +38620,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 5
 						region = STATE_OLD_CASTILE
 					}
 				}
@@ -37942,7 +38678,7 @@
 					building = {
 						type = building_financial_district
 						country = c:LUS
-						levels = 1
+						levels = 2
 						region = STATE_OLD_CASTILE
 					}
 				}
@@ -40717,6 +41453,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_POITOU
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -45369,6 +46118,30 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 1
+						region = STATE_SHAOZHOU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
 		}
 	}
 	s:STATE_SHENGJING = {
@@ -46880,11 +47653,46 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 212
+						levels = 25
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_paper_mill"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 2
+						region = STATE_SOUTHERN_ANHUI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -48319,6 +49127,14 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" }
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:X40
+						levels = 1
+						region = STATE_SUZHOU
+					}
+				}
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -48333,7 +49149,7 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -48344,7 +49160,7 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 202
+						levels = 32
 					}
 				}
 				reserves = 1
@@ -48360,6 +49176,41 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 2
+						region = STATE_SUZHOU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -52325,7 +53176,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_UPPER_ANDALUSIA
 					}
 				}
@@ -52416,6 +53267,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_UPPER_ANDALUSIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_UPPER_ANDALUSIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
 			}
 		}
 	}
@@ -53338,7 +54215,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 4
 						region = STATE_VALENCIA
 					}
 				}
@@ -53389,6 +54266,45 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_silk_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_VALENCIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_vineyard"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_VALENCIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_VALENCIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 		}
 	}
@@ -57208,6 +58124,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_silk_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_YANGHO
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_YAROSLAVL = {
@@ -57496,7 +58425,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 3
+						levels = 4
 						region = STATE_YEMEN
 					}
 				}
@@ -57968,6 +58897,19 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_ZAMBEZIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
 		}
 	}
 	s:STATE_ZANZIBAR = {
@@ -58028,7 +58970,7 @@
 					building = {
 						type = building_manor_house
 						country = c:LUS
-						levels = 2
+						levels = 3
 						region = STATE_ZANZIBAR
 					}
 				}
@@ -58058,6 +59000,45 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_ZANZIBAR
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:LUS
+						levels = 1
+						region = STATE_ZANZIBAR
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:LUS
+						levels = 1
+						region = STATE_ZANZIBAR
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
@@ -58196,6 +59177,12 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_pig_iron" }
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -58233,6 +59220,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X40
+						levels = 1
+						region = STATE_ZHEJIANG
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:X40
+						levels = 1
+						region = STATE_ZHEJIANG
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 		}
 	}
