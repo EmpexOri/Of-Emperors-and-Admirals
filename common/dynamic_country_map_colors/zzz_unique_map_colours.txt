@@ -215,6 +215,15 @@ imperial_japan = {
 	}
 }
 
+porto_frankia = {
+	color = { 50 50 120 }
+
+	possible = {
+		exists = c:FRA
+		c:FRA ?= THIS
+	}
+}
+
 soviet_red = {
 	color = "red_dark"
 

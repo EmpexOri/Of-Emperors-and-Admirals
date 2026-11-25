@@ -398,7 +398,7 @@
 	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:PAP
-			type = puppet
+			type = protectorate
 		}
 	}
 	c:PAP ?= {

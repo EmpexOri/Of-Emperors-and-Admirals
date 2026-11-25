@@ -494,3 +494,37 @@ RUS = {
 		}
 	}
 }
+
+FRA = {
+	# Porto-Frankia
+	dynamic_country_name = {
+		name = dyn_c_porto_frankia
+		adjective = FRA_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+
+	# Porto-Frankia
+	dynamic_country_name = {
+		name = dyn_c_porto_frankia_republic
+		adjective = FRA_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				is_in_same_power_bloc = c:LUS
+			}
+		}
+	}
+}

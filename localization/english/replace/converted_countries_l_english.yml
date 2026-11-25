@@ -79,6 +79,13 @@
 
  N27: "Yakustsk"
 
+ FRA: "Francia"
+ dyn_c_porto_frankia: "Porto-Frankia"
+ dyn_c_porto_frankia_republic: "Porto-Frankia Republic"
+ FRA_ADJ: "French"
+ FRA_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
+
+
  A00_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  A01_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
  A02_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
