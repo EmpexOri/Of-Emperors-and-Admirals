@@ -253,3 +253,108 @@ law_nueva_encomienda = {
 		}
 	}
 }
+
+law_beit_avadim = {
+	group = lawgroup_slavery
+	parent = law_slave_trade
+	
+	progressiveness = -75
+	
+	icon = "gfx/interface/icons/law_icons/slave_trade.dds"
+	
+	can_enact = {
+		c:EGY ?= this
+	}
+
+	is_visible = {
+		c:EGY ?= this
+	}
+	
+	disallowing_laws = {
+		law_cultural_exclusion
+		law_multicultural
+		law_affirmative_action
+		law_freedom_of_conscience
+		law_total_separation
+	}
+	
+on_activate = {
+		set_variable = {
+			name = slavery_recently_enacted
+			value = yes
+			days = 1825
+		}
+		every_scope_state = {
+			if = {
+				limit = {
+					any_scope_pop = {
+						is_pop_type = slaves
+					}
+				}
+				set_variable = {
+					name = former_slave_state
+					value = yes
+					days = 1825
+				}
+				remove_variable = former_free_state
+			}
+			else = {
+				set_variable = {
+					name = former_free_state
+					value = yes
+					days = 1825
+				}
+			}
+		}
+		if = {
+			limit = { has_variable = slavery_recently_abolished }
+			custom_tooltip = {
+				text = enslave_discriminated_farm_workers_tt
+				every_scope_state = {
+					limit = { has_variable = former_slave_state }
+					enslave_discriminated_farm_workers = yes
+				}
+			}
+			remove_variable = slavery_recently_abolished
+			every_scope_state = {
+				remove_variable = former_slave_state
+			}
+		}
+
+		custom_tooltip = {
+			text = beit_avadim_enslave_jewish_pops_tt
+			enslave_jewish_pops = yes
+		}
+
+		ig:ig_landowners ?= {
+			if = {
+				limit = {
+					NOT = { has_ideology = ideology:ideology_pro_slavery }
+				}
+				add_ideology = ideology_pro_slavery
+			}
+		}
+	}
+	
+	modifier = {
+		interest_group_ig_landowners_pol_str_mult = 0.6
+		country_influence_mult = -0.25
+	}
+	
+	ai_will_do = {
+		c:EGY ?= this
+		exists = ruler
+		ruler = {
+			has_ideology = ideology:ideology_slaver
+		}
+	}
+	
+	ai_enact_weight_modifier = {
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}

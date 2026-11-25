@@ -1,16 +1,20 @@
 ﻿CHARACTERS = {
 	c:LUS = {
 		create_character = {
-			first_name = "Demetrius_XXV"
-			last_name = "de_Crato"
+			first_name = "Arualdo_Nuno"
+			last_name = "de_Thouars"
+			dna = "Arualdo_Nuno_de_Thouars"
 			ruler = yes
 			is_admiral = yes
 			commander_rank = commander_rank_3
 			culture = cu:portuguese
 			religion = rel:catholic
-			birth_date = 1807.1.1
+			interest_group = ig_armed_forces
+			ideology = ideology_authoritarian
+			birth_date = 1789.11.12
+			home_region = STATE_GALIZA
 			traits = {
-				basic_colonial_administrator cautious 
+				basic_colonial_administrator cautious wrathful
 			}
 		}
 

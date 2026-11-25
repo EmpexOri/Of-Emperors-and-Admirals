@@ -10018,7 +10018,7 @@ REPLACE_OR_CREATE:V15 ?= {
 	country_type = unrecognized
 	tier = principality
 	cultures = { han }
-	religion = confucian
+	religion = daoshenic
 	capital = STATE_NINGXIA
 }
 
@@ -11130,7 +11130,7 @@ REPLACE_OR_CREATE:W83 ?= {
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { tibetan_new }
-	religion = confucian
+	religion = daoshenic
 	capital = STATE_LHASA
 }
 
@@ -11757,7 +11757,7 @@ REPLACE_OR_CREATE:X39 ?= {
 REPLACE_OR_CREATE:X40 ?= {
 	color = { 255 195 0 }
 	country_type = unrecognized
-	tier = kingdom
+	tier = empire
 	cultures = { han }
 	religion = daoshenic
 	capital = STATE_SUZHOU

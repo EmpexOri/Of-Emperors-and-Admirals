@@ -25083,20 +25083,53 @@
 				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mill
+						type = building_financial_district
+						country = c:JAP
+						levels = 2
+						region = STATE_KANSAI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 2
+						region = STATE_KANSAI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
 						country = c:JAP
 						levels = 1
 						region = STATE_KANSAI
 					}
 				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building = {
+				building = "building_food_industry"
 				add_ownership = {
-					country = {
+					building = {
+						type = building_financial_district
 						country = c:JAP
 						levels = 1
+						region = STATE_KANSAI
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_pulp_pressing" }
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 			}
 			create_building = {
 				building = "building_port"
@@ -25232,7 +25265,7 @@
 				building = "building_glassworks"
 				add_ownership = {
 					building = {
-						type = building_glassworks
+						type = building_financial_district
 						country = c:JAP
 						levels = 1
 						region = STATE_KANTO
@@ -25245,16 +25278,10 @@
 				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mill
+						type = building_financial_district
 						country = c:JAP
-						levels = 3
+						levels = 5
 						region = STATE_KANTO
-					}
-				}
-				add_ownership = {
-					country = {
-						country = c:JAP
-						levels = 2
 					}
 				}
 				reserves = 1
@@ -27160,6 +27187,71 @@
 	}
 	s:STATE_KYOTO = {
 		region_state:JAP = {
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 2
+						region = STATE_KYOTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KYOTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KYOTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KYOTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_forest_glass" "pm_disabled_ceramics" "pm_manual_glassblowing" }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KYOTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -50145,17 +50237,9 @@
 				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_manor_house
+						type = building_financial_district
 						country = c:JAP
-						levels = 1
-						region = STATE_TOKAI
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_textile_mill
-						country = c:JAP
-						levels = 5
+						levels = 6
 						region = STATE_TOKAI
 					}
 				}

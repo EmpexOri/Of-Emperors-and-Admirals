@@ -264,6 +264,11 @@
 				size = 61549
 			}
 			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 51667
+			}
+			create_pop = {
 				culture = anatolian
 				religion = kushite
 				size = 45431
@@ -5840,6 +5845,11 @@
 				culture = nilotic
 				religion = oriental_orthodox
 				size = 43653
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 94502
 			}
 			create_pop = {
 				culture = nilotic
@@ -11950,6 +11960,11 @@
 				size = 9260
 			}
 			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 75667
+			}
+			create_pop = {
 				culture = nilotic
 				religion = kushite
 				size = 39546
@@ -14241,6 +14256,11 @@
 				size = 6397
 			}
 			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 5677
+			}
+			create_pop = {
 				culture = nilotic
 				religion = sunni
 				size = 4347
@@ -15625,7 +15645,7 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 193362
+				size = 103362
 			}
 			create_pop = {
 				culture = north_german
@@ -15640,12 +15660,12 @@
 			create_pop = {
 				culture = french
 				religion = catholic
-				size = 126332
+				size = 326332
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 275895
+				size = 175895
 			}
 			create_pop = {
 				culture = north_german
@@ -18245,6 +18265,11 @@
 				culture = bedouin
 				religion = sunni
 				size = 146
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 31667
 			}
 			create_pop = {
 				culture = bedouin
@@ -26303,7 +26328,7 @@
 			create_pop = {
 				culture = sephardic
 				religion = jewish
-				size = 6206
+				size = 106206
 			}
 			create_pop = {
 				culture = misri
@@ -27129,17 +27154,17 @@
 			create_pop = {
 				culture = breton
 				religion = catholic
-				size = 203494
+				size = 13494
 			}
 			create_pop = {
 				culture = breton
 				religion = protestant
-				size = 48057
+				size = 248057
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 192320
+				size = 102320
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -27149,7 +27174,7 @@
 			create_pop = {
 				culture = french
 				religion = catholic
-				size = 69807
+				size = 169807
 			}
 			create_pop = {
 				culture = north_german
@@ -28503,6 +28528,11 @@
 				size = 1343
 			}
 			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 7667
+			}
+			create_pop = {
 				culture = misri
 				religion = kushite
 				size = 2873
@@ -29263,7 +29293,7 @@
 			create_pop = {
 				culture = sephardic
 				religion = jewish
-				size = 667
+				size = 11667
 			}
 			create_pop = {
 				culture = misri
@@ -29273,7 +29303,7 @@
 			create_pop = {
 				culture = sephardic
 				religion = jewish
-				size = 731
+				size = 56731
 			}
 			create_pop = {
 				culture = misri
@@ -33532,17 +33562,17 @@
 			create_pop = {
 				culture = french
 				religion = catholic
-				size = 258918
+				size = 883377
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 661503
+				size = 384429
 			}
 			create_pop = {
 				culture = north_german
 				religion = protestant
-				size = 172487
+				size = 100240
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -33552,17 +33582,17 @@
 			create_pop = {
 				culture = french
 				religion = catholic
-				size = 217273
+				size = 418231
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 568331
+				size = 214053
 			}
 			create_pop = {
 				culture = north_german
 				religion = protestant
-				size = 137296
+				size = 79789
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -33572,17 +33602,17 @@
 			create_pop = {
 				culture = french
 				religion = catholic
-				size = 148969
+				size = 286752
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 392140
+				size = 227890
 			}
 			create_pop = {
 				culture = north_german
 				religion = protestant
-				size = 90350
+				size = 52506
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -37702,7 +37732,7 @@
 			create_pop = {
 				culture = sephardic
 				religion = jewish
-				size = 6750
+				size = 116750
 			}
 			create_pop = {
 				culture = mashriqi
@@ -39059,7 +39089,7 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 402855
+				size = 202855
 			}
 			create_pop = {
 				culture = north_german
@@ -39074,12 +39104,12 @@
 			create_pop = {
 				culture = french
 				religion = catholic
-				size = 188334
+				size = 588334
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 466477
+				size = 266477
 			}
 			create_pop = {
 				culture = north_german
@@ -44018,6 +44048,11 @@
 				culture = misri
 				religion = sunni
 				size = 5688
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 5267
 			}
 			create_pop = {
 				culture = misri
@@ -50261,6 +50296,11 @@
 				size = 71390
 			}
 			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 61667
+			}
+			create_pop = {
 				culture = misri
 				religion = kushite
 				size = 72877
@@ -55076,7 +55116,7 @@
 			create_pop = {
 				culture = sephardic
 				religion = jewish
-				size = 2353
+				size = 72353
 			}
 			create_pop = {
 				culture = sephardic

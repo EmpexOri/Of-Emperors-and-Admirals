@@ -32,7 +32,11 @@
 			"common/religions",
 			"common/dynamic_country_map_colors",
 			"common/dynamic_country_names",
-			"common/production_methods"
+			"common/production_methods",
+			"common/technology",
+			"common/flag_definitions",
+			"common/law_groups",
+			"common/institutions"
 		]
 	}
 }

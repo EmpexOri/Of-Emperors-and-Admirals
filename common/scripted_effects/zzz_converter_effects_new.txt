@@ -2012,6 +2012,35 @@ converter_ig_ideologies_effect = {		##Not ideal but probably better than ig_ideo
 		}
 	}
 	## End Universal
+
+	# Apply X40's names after the generic cultural and religious names.
+	if = {
+		limit = { c:X40 ?= this }
+		ig:ig_armed_forces = {
+			set_interest_group_name = ig_x40_armed_forces
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_x40_devout
+		}
+		ig:ig_industrialists = {
+			set_interest_group_name = ig_x40_industrialists
+		}
+		ig:ig_intelligentsia = {
+			set_interest_group_name = ig_x40_intelligentsia
+		}
+		ig:ig_landowners = {
+			set_interest_group_name = ig_x40_landowners
+		}
+		ig:ig_petty_bourgeoisie = {
+			set_interest_group_name = ig_x40_petty_bourgeoisie
+		}
+		ig:ig_rural_folk = {
+			set_interest_group_name = ig_x40_rural_folk
+		}
+		ig:ig_trade_unions = {
+			set_interest_group_name = ig_x40_trade_unions
+		}
+	}
 }
 
 converter_state_atheism_effect = {

@@ -29,32 +29,39 @@
 			}
 		}
 
-		create_character = {
-			first_name = "Laolao"
-			last_name = "Qiu"
-			heir = yes
-			female = yes
-			culture = cu:han
-			religion = rel:confucian
-			birth_date = 1820.4.8
-			traits = {
-				basic_diplomat romantic 
+		# Personal unions use the overlord's ruler and succession.
+		if = {
+			limit = {
+				NOT = { is_subject_type = subject_type_personal_union }
 			}
-		}
 
-		create_character = {
-			first_name = "Laolao_III"
-			last_name = "Qiu"
-			ruler = yes
-			female = yes
-			culture = cu:han
-			religion = rel:confucian
-			birth_date = 1803.8.6
-			traits = {
-				romantic 
+			create_character = {
+				first_name = "Laolao"
+				last_name = "Qiu"
+				heir = yes
+				female = yes
+				culture = cu:han
+				religion = rel:confucian
+				birth_date = 1820.4.8
+				traits = {
+					basic_diplomat romantic 
+				}
 			}
-			on_created = {
-				set_variable = is_married
+
+			create_character = {
+				first_name = "Laolao_III"
+				last_name = "Qiu"
+				ruler = yes
+				female = yes
+				culture = cu:han
+				religion = rel:confucian
+				birth_date = 1803.8.6
+				traits = {
+					romantic 
+				}
+				on_created = {
+					set_variable = is_married
+				}
 			}
 		}
 

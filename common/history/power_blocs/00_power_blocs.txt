@@ -1,2 +1,19 @@
 ﻿POWER_BLOCS = {
+	c:X40 ?= {
+		create_power_bloc = {
+			name = GREAT_TIANLAN
+			map_color = rgb{ 230 220 34 }
+
+			founding_date = 1157.2.19 # Treaty of Paris (1783) comes into effect
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+		}
+	}
 }

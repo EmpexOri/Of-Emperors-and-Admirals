@@ -1,0 +1,17 @@
+﻿enslave_jewish_pops = {
+	every_scope_pop = {
+		limit = {
+			religion = rel:jewish
+			NOT = { is_pop_type = slaves }
+			OR = {
+				is_pop_type = peasants
+				is_pop_type = laborers
+				is_pop_type = farmers
+				is_pop_type = machinists
+				is_pop_type = clerks
+				is_pop_type = shopkeepers
+			}
+		}
+		change_poptype = pop_type:slaves
+	}
+}

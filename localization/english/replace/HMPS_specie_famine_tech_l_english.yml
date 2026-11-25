@@ -1,5 +1,0 @@
-﻿l_english:
-
- # HMPS Reserve Currency tiers in the tech tree (rc_weekly_update, common/scripted_effects/HMPS_specie_famine_effects.txt). Vanilla text first, unchanged
- mutual_funds_desc:1 "A sort of pooled investment funds, the mutual fund helps combine the individual wealth of investors into massive pools of money that can flex immense financial strength to acquire securities and other costly financial instruments.\n\nUnlocks the [concept_reserve_currency] for the top [concept_great_power].\n$RC_TIER_1_EFFECTS$"
- international_exchange_standards_desc:1 "Establishing an international system of accounting and exchange makes trade between nations simpler and cheaper to maintain.\n\nDoubles the [concept_reserve_currency]'s effects.\n$RC_TIER_2_EFFECTS$"

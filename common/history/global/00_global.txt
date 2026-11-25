@@ -1,5 +1,9 @@
 ﻿# This is executed last among all history
 GLOBAL = {
+	c:EGY ?= {
+		activate_law = law_type:law_beit_avadim
+		enslave_jewish_pops = yes
+	}
 	every_country = {
 		limit = { NOT = { has_law_or_variant = law_type:law_slavery_banned } }
 		if = {
