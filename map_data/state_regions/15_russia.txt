@@ -14,6 +14,8 @@
         building_fishing_wharf = 8
     }
     naval_exit_id = 3082
+    min_cold_effect = 0.03
+    max_cold_effect = 0.69
 }
 
 STATE_TARTU = {
@@ -32,6 +34,12 @@ STATE_TARTU = {
         building_fishing_wharf = 7
     }
     naval_exit_id = 3000
+    blockade_locator = {
+        position = { 4659 0 3015 }
+        yaw = 74
+    }
+    min_cold_effect = 0.03
+    max_cold_effect = 0.68
 }
 
 
@@ -51,6 +59,8 @@ STATE_RIGA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.01
+    max_cold_effect = 0.65
 }
 
 STATE_COURLAND = {
@@ -69,9 +79,11 @@ STATE_COURLAND = {
         building_fishing_wharf = 6
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.01
+    max_cold_effect = 0.64
 }
 
-STATE_KAUNAS = {
+STATE_LITHUANIA = {
     id = 153
     subsistence_building = "building_subsistence_farm"
     provinces = { "x00E0A0" "x0980C8" "x0B6577" "x21F318" "x232B98" "x406DC9" "x4177AF" "x4678E5" "x577C69" "x6175AD" "x629C46" "x7A5D64" "x8060A0" "x80D858" "x95171C" "xA8FF51" "xA916E3" "xAF73F2" "xBFE867" "xC0A0A0" "xCC4C28" "xCD7291" "xE0B943" }
@@ -87,6 +99,8 @@ STATE_KAUNAS = {
         building_fishing_wharf = 2
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.00
+    max_cold_effect = 0.61
 }
 
 STATE_VILNIUS = {
@@ -102,6 +116,8 @@ STATE_VILNIUS = {
     capped_resources = {
         building_logging_camp = 7
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.59
 }
 
 STATE_KUOPIO = {
@@ -119,6 +135,8 @@ STATE_KUOPIO = {
         building_logging_camp = 42
         building_iron_mine = 11
     }
+    min_cold_effect = 0.08
+    max_cold_effect = 0.83
 }
 
 STATE_UUSIMAA = {
@@ -140,6 +158,8 @@ STATE_UUSIMAA = {
         building_fishing_wharf = 8
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.05
+    max_cold_effect = 0.73
 }
 
 STATE_WEST_KARELIA = {
@@ -160,6 +180,8 @@ STATE_WEST_KARELIA = {
         building_fishing_wharf = 2
     }
     naval_exit_id = 3082
+    min_cold_effect = 0.07
+    max_cold_effect = 0.80
 }
 
 STATE_ALAND = {
@@ -178,6 +200,8 @@ STATE_ALAND = {
         building_fishing_wharf = 2
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.04
+    max_cold_effect = 0.72
 }
 
 STATE_OSTROBOTHNIA = {
@@ -198,6 +222,8 @@ STATE_OSTROBOTHNIA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.09
+    max_cold_effect = 0.83
 }
 
 STATE_OULU = {
@@ -219,6 +245,8 @@ STATE_OULU = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3000
+    min_cold_effect = 0.13
+    max_cold_effect = 0.92
 }
 
 STATE_EAST_KARELIA = {
@@ -239,6 +267,8 @@ STATE_EAST_KARELIA = {
         building_fishing_wharf = 5
     }
     naval_exit_id = 3039
+    min_cold_effect = 0.09
+    max_cold_effect = 0.85
 }
 
 STATE_KOLA = {
@@ -248,7 +278,7 @@ STATE_KOLA = {
     impassable = {}
     traits = { "state_trait_scandinavian_forests" }
     city = "x91984B"
-    port = "xF2B2C8"
+    port = "xD98ED6"
     farm = "x57190F"
     mine = "xE229D5"
     wood = "xA09A15"
@@ -261,6 +291,8 @@ STATE_KOLA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3039
+    min_cold_effect = 0.15
+    max_cold_effect = 0.95
 }
 
 STATE_INGRIA = {
@@ -280,6 +312,12 @@ STATE_INGRIA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3082
+    blockade_locator = {
+        position = { 4784 0 3066 }
+        yaw = 133
+    }
+    min_cold_effect = 0.03
+    max_cold_effect = 0.70
 }
 
 STATE_MOSCOW = {
@@ -298,6 +336,8 @@ STATE_MOSCOW = {
         building_iron_mine = 30
         building_logging_camp = 34
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.69
 }
 
 STATE_BREST = {
@@ -314,6 +354,8 @@ STATE_BREST = {
     capped_resources = {
         building_logging_camp = 14
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.57
 }
 
 STATE_VOLHYNIA = {
@@ -331,6 +373,8 @@ STATE_VOLHYNIA = {
         building_coal_mine = 42
         building_logging_camp = 18
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.52
 }
 
 STATE_KIEV = {
@@ -349,23 +393,27 @@ STATE_KIEV = {
         building_iron_mine = 14
         building_logging_camp = 32
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.49
 }
 
 STATE_ORYOL = {
     id = 136
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x05E237" "x0B9BAA" "x1D9534" "x1E5225" "x21A0A0" "x244D15" "x301EC1" "x31B814" "x331CB3" "x36FFFE" "x45FA32" "x4A6AE0" "x4C0018" "x53EF9C" "x669560" "x6A8F2C" "x6BE684" "x71473A" "x752A3E" "x8BC0CA" "x8BEB3F" "x8FB5BF" "x92C7C8" "x93157C" "x9D8B55" "xA020A0" "xA02120" "xB56E0D" "xB98492" "xBCF6EB" "xBEE23A" "xC020E0" "xC0DF60" "xC20515" "xC492A0" "xCE6B77" "xD04FB9" "xD3CC3C" "xD7163E" "xE0FF4A" "xE458EF" "xEABB0F" "xF50161" "xFEFF16" }
+    provinces = { "x0B9BAA" "x21A0A0" "x244D15" "x31B814" "x331CB3" "x45FA32" "x4C0018" "x53EF9C" "x669560" "x6A8F2C" "x8BEB3F" "x92C7C8" "x93157C" "xB98492" "xBCF6EB" "xBEE23A" "xC0DF60" "xCE6B77" "xE458EF" "xEABB0F" "xF50161" "xFEFF16" }
     city = "x331CB3"
     farm = "x92C7C8"
-    mine = "x8BC0CA"
-    wood = "xA02120"
-    arable_land = 180
+    mine = "xE458EF"
+    wood = "x4C0018"
+    arable_land = 80
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_logging_camp = 72
-        building_coal_mine = 58
+        building_logging_camp = 30
+        building_coal_mine = 28
         building_iron_mine = 16
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.56
 }
 
 STATE_SMOLENSK = {
@@ -383,6 +431,8 @@ STATE_SMOLENSK = {
         building_coal_mine = 8
         building_logging_camp = 24
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.61
 }
 
 STATE_MOGILEV = {
@@ -399,6 +449,8 @@ STATE_MOGILEV = {
     capped_resources = {
         building_logging_camp = 21
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.58
 }
 
 STATE_ARKHANGELSK = {
@@ -407,7 +459,7 @@ STATE_ARKHANGELSK = {
     provinces = { "x009EB7" "x03B78B" "x0662C5" "x09201E" "x0D7374" "x0F63E6" "x116B4E" "x125781" "x1405E0" "x14D961" "x17C3A9" "x19C43D" "x1B18AC" "x24B773" "x28E71E" "x35C277" "x360D95" "x37D5D3" "x39C3D7" "x40D3DA" "x417983" "x45C3AD" "x461ABA" "x475460" "x48BC6F" "x49C142" "x4A5404" "x4E1756" "x51A54B" "x58F495" "x5943FE" "x5D0C97" "x6145FA" "x67A6D0" "x68FEEE" "x6B4598" "x6DBE60" "x6F6902" "x73AE5B" "x73F31C" "x78A0D5" "x7A00E6" "x7BFAD9" "x7D80D6" "x848EFC" "x85CE81" "x8CA5D6" "x8DA9F9" "x8ED444" "x956021" "x99B3A6" "x9A6F0B" "x9AAAF0" "xA08000" "xA10EA2" "xA3F91A" "xA4D7E2" "xA51FC9" "xA57615" "xAC4E81" "xB272FC" "xB3E4A8" "xB663D9" "xBCC48C" "xBF07AC" "xC280EF" "xC35BA4" "xC699CC" "xC86EE7" "xCF8844" "xD0FC2C" "xD8621E" "xE587B2" "xE72A8A" "xEDE24C" "xEDEE19" "xEF2B17" "xF29885" "xF3672D" "xFD14D2" "xFE65B5" }
     traits = { "state_trait_russian_forest" }
     city = "xCF8844"
-    port = "x125781"
+    port = "x0662C5"
     farm = "xF29885"
     mine = "x956021"
     wood = "x360D95"
@@ -424,12 +476,14 @@ STATE_ARKHANGELSK = {
         undiscovered_amount = 8
     }
     naval_exit_id = 3039
+    min_cold_effect = 0.09
+    max_cold_effect = 0.84
 }
 
 STATE_NOVGOROD = {
     id = 141
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x03F85A" "x04598A" "x05F14E" "x0AE75F" "x0BB972" "x0BBA97" "x0C0B91" "x16B74D" "x1A2B02" "x20B928" "x2FA786" "x3988B7" "x3CBDA1" "x3E0E98" "x3ECBC8" "x4020DF" "x42C9C5" "x4394A5" "x4706A4" "x4BA77A" "x4C6679" "x5357F0" "x54C324" "x559AAA" "x57940A" "x60DEEE" "x62D485" "x64C8B4" "x68E99E" "x6D9FEE" "x6F52F8" "x6F7ECE" "x704EB0" "x7D5607" "x7EFD2D" "x7F6E38" "x80AA34" "x834B21" "x8399C9" "x867ADD" "x88E955" "x89E2E6" "x8A28DB" "x8B9F17" "x952176" "xA00000" "xA90928" "xAB60B3" "xABC7C5" "xAE2050" "xB69A40" "xB6FE8B" "xC1B0C9" "xC4D5AC" "xC617F1" "xC7C158" "xCDE8A8" "xCE92C5" "xD2A34C" "xD2AF21" "xD34803" "xD475F6" "xD7127A" "xDA4154" "xE2021A" "xE35415" "xE7DAD6" "xF2F837" "xF42F56" "xF69FA2" }
+    provinces = { "x03F85A" "x04598A" "x05F14E" "x0AE75F" "x0BB972" "x0BBA97" "x0C0B91" "x16B74D" "x1A2B02" "x2FA786" "x3988B7" "x3CBDA1" "x3E0E98" "x3ECBC8" "x4020DF" "x42C9C5" "x4394A5" "x4706A4" "x4BA77A" "x4C6679" "x5357F0" "x54C324" "x559AAA" "x57940A" "x60DEEE" "x62D485" "x64C8B4" "x68E99E" "x6F52F8" "x6F7ECE" "x7D5607" "x7EFD2D" "x7F6E38" "x80AA34" "x834B21" "x8399C9" "x867ADD" "x88E955" "x89E2E6" "x8A28DB" "x8B9F17" "x952176" "xA00000" "xA90928" "xAB60B3" "xABC7C5" "xAE2050" "xB69A40" "xB6FE8B" "xC1B0C9" "xC4D5AC" "xC617F1" "xC7C158" "xCDE8A8" "xCE92C5" "xD2A34C" "xD2AF21" "xD34803" "xD475F6" "xD7127A" "xDA4154" "xE2021A" "xE35415" "xE7DAD6" "xF2F837" "xF42F56" "xF69FA2" }
     traits = { "state_trait_russian_forest" }
     city = "xCDE8A8"
     farm = "x834B21"
@@ -441,6 +495,8 @@ STATE_NOVGOROD = {
         building_coal_mine = 24
         building_logging_camp = 40
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.76
 }
 
 STATE_CRIMEA = {
@@ -461,6 +517,8 @@ STATE_CRIMEA = {
         building_fishing_wharf = 12
     }
     naval_exit_id = 3036
+    min_cold_effect = 0.00
+    max_cold_effect = 0.40
 }
 
 STATE_KHARKOV = {
@@ -483,6 +541,8 @@ STATE_KHARKOV = {
         type = "building_oil_rig"
         undiscovered_amount = 12
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.49
 }
 
 STATE_KURSK = {
@@ -506,12 +566,14 @@ STATE_KURSK = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 3
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.52
 }
 
 STATE_TVER = {
     id = 145
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x04FF4D" "x118DB1" "x1A0823" "x1CD991" "x205800" "x30386A" "x36FC1A" "x391276" "x41FF83" "x4786C3" "x50AF51" "x513224" "x5289B3" "x6B02CC" "x712640" "x74E5E0" "x93BCE7" "x96E229" "x9767C3" "x99879C" "x9A12DD" "x9AA8A6" "xA7B6EF" "xB1EE74" "xBA8413" "xD17876" "xD4F88C" "xDFBF60" "xEA523C" "xFA15E7" "xFB5C50" }
+    provinces = { "x04FF4D" "x1A0823" "x1CD991" "x205800" "x30386A" "x36FC1A" "x391276" "x4786C3" "x50AF51" "x513224" "x5289B3" "x6B02CC" "x712640" "x74E5E0" "x93BCE7" "x96E229" "x9767C3" "x9A12DD" "x9AA8A6" "xA7B6EF" "xB1EE74" "xBA8413" "xD17876" "xD4F88C" "xDFBF60" "xEA523C" "xFB5C50" }
     traits = { "state_trait_russian_forest" "state_trait_volga_river" }
     city = "x9AA8A6"
     farm = "xBA8413"
@@ -523,6 +585,8 @@ STATE_TVER = {
         building_logging_camp = 36
         building_coal_mine = 8
     }
+    min_cold_effect = 0.03
+    max_cold_effect = 0.71
 }
 
 STATE_CHERSON = {
@@ -544,12 +608,14 @@ STATE_CHERSON = {
         building_fishing_wharf = 12
     }
     naval_exit_id = 3036
+    min_cold_effect = 0.00
+    max_cold_effect = 0.45
 }
 
-STATE_GALICH = {
+STATE_VOLOGDA = {
     id = 147
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x000181" "x012E20" "x02E29B" "x031459" "x0354D9" "x05D4BF" "x075A1C" "x0A7A8A" "x0AEB68" "x0B6ACE" "x0C1CF9" "x0C941C" "x0D15CC" "x0DA3D2" "x0E298C" "x0E2DCA" "x0E4CF4" "x0EACC1" "x10421E" "x10A63E" "x13128B" "x142D30" "x14F3BE" "x16226B" "x16B133" "x1734B3" "x187498" "x18DCB2" "x1AE02D" "x1B14F9" "x1C0487" "x1CE50A" "x1D2223" "x1EE258" "x1F4BCA" "x1F52FF" "x1FCB93" "x1FD22C" "x1FF9D6" "x2011E6" "x207E97" "x208040" "x20C3FA" "x214B8E" "x218C4E" "x21F08B" "x233AF1" "x23C05A" "x2478A2" "x25A538" "x25AD95" "x25D89D" "x25E8A6" "x26655D" "x26F544" "x285C9C" "x29DFEF" "x2A2FE6" "x2BE292" "x2C862B" "x307D58" "x309392" "x30A266" "x3126AE" "x33C25F" "x34514C" "x349AF2" "x36909F" "x378B3F" "x3CFD3C" "x3D4310" "x3E2878" "x3F1955" "x42BDA1" "x42E39F" "x43B443" "x447E03" "x45F663" "x484022" "x494FA9" "x4B1E24" "x4C706B" "x4CC517" "x4CDCC1" "x4D2002" "x4E1217" "x4E5B9F" "x516DF0" "x53C825" "x54E958" "x58DBC8" "x58F173" "x5B9F7D" "x5C62C9" "x5C96AB" "x5CB6C2" "x5E8636" "x5E9259" "x5EE2D0" "x5F949C" "x60053A" "x604180" "x61562C" "x6221DB" "x625F98" "x62891E" "x62E9DA" "x632A08" "x641F7E" "x6579D2" "x668C3E" "x69648C" "x698F78" "x6A932C" "x6AC96D" "x6B739D" "x6C039E" "x6C95EC" "x6D0027" "x6DE113" "x6E239F" "x6E4F53" "x6ED279" "x6F2AC4" "x70CD14" "x70EE4A" "x726FCF" "x730769" "x73FC4F" "x741EFC" "x754209" "x773532" "x77E69D" "x77EAD9" "x7AB134" "x7BAA6C" "x7C223A" "x7EBF8B" "x7F09CE" "x7F4989" "x7FE794" "x801A38" "x804120" "x823348" "x826AF1" "x835452" "x83BEB8" "x84213E" "x84D03C" "x852104" "x867A31" "x868EF5" "x87AE06" "x8803EC" "x8A82B0" "x8B3F77" "x8CBFA4" "x8DEF0D" "x8E109A" "x8E236E" "x8E4C3B" "x9150D1" "x930E8C" "x941E57" "x949437" "x952880" "x959C77" "x96D4D5" "x996E51" "x9A1A6D" "x9BD719" "x9D4FED" "x9DD0BD" "x9E074B" "x9E18CC" "x9F906D" "xA08E2D" "xA0E977" "xA2F602" "xA3D7FA" "xA448BF" "xA4A9DF" "xA4C081" "xA4FE2F" "xA5410C" "xA5CFF7" "xA6C752" "xA7F595" "xA82C04" "xA84E61" "xA8E319" "xAB8034" "xADCD83" "xAF0F6E" "xAF5831" "xB10522" "xB4143D" "xB4431F" "xB47B6E" "xB52E0C" "xB59626" "xB824A5" "xB8D07C" "xB9372F" "xBC2FD3" "xBC57C3" "xBC7BF9" "xBCB931" "xBD0CFC" "xBF0692" "xBF9952" "xC0F6AB" "xC32BD0" "xC34006" "xC36A65" "xC55EBF" "xC6200A" "xC6AC60" "xC71BA8" "xC7DBAB" "xCADAA7" "xCB5484" "xCC6732" "xCC68B3" "xCC786B" "xCD5677" "xCE4010" "xCE6448" "xCEF2EA" "xCF3ACB" "xCF44D5" "xCFB54B" "xD02376" "xD0936B" "xD10FA3" "xD1A0DF" "xD1FF20" "xD2B385" "xD3852F" "xD41036" "xD53291" "xD586F1" "xD7FDB5" "xDA1620" "xDA6E23" "xDABDDC" "xDDC1A4" "xDE4A09" "xDF4080" "xDF420E" "xE06227" "xE0C080" "xE0D0F0" "xE0FC8D" "xE6AA10" "xE6DBB0" "xE78B80" "xE82CFC" "xE88D06" "xEA30EA" "xEB242F" "xEDC36C" "xEDE915" "xEEC9C6" "xF155D1" "xF1ACF2" "xF28110" "xF28202" "xF2E758" "xF3A4A1" "xF3E2F9" "xF42CBB" "xF5EEA8" "xF5FD47" "xF61C7D" "xF62997" "xF8A01C" "xF8B176" "xF96FC5" "xFA767B" "xFEF0CB" "xFF20F2" }
+    provinces = { "x012E20" "x02E29B" "x031459" "x0354D9" "x05D4BF" "x075A1C" "x0A7A8A" "x0AEB68" "x0B6ACE" "x0C1CF9" "x0C941C" "x0D15CC" "x0DA3D2" "x0E298C" "x0E2DCA" "x0E4CF4" "x0EACC1" "x10421E" "x10A63E" "x13128B" "x142D30" "x14F3BE" "x16226B" "x16B133" "x1734B3" "x187498" "x18DCB2" "x1AE02D" "x1B14F9" "x1C0487" "x1CE50A" "x1D2223" "x1EE258" "x1F4BCA" "x1F52FF" "x1FCB93" "x1FD22C" "x1FF9D6" "x2011E6" "x207E97" "x208040" "x20C3FA" "x214B8E" "x218C4E" "x21F08B" "x233AF1" "x23C05A" "x25A538" "x25AD95" "x25D89D" "x26655D" "x26F544" "x285C9C" "x29DFEF" "x2A2FE6" "x2BE292" "x2C862B" "x307D58" "x309392" "x30A266" "x3126AE" "x33C25F" "x34514C" "x349AF2" "x36909F" "x378B3F" "x3CFD3C" "x3D4310" "x3E2878" "x3F1955" "x42BDA1" "x42E39F" "x43B443" "x447E03" "x45F663" "x484022" "x494FA9" "x4B1E24" "x4C706B" "x4CC517" "x4CDCC1" "x4D2002" "x4E1217" "x4E5B9F" "x516DF0" "x53C825" "x54E958" "x58DBC8" "x58F173" "x5B9F7D" "x5C62C9" "x5C96AB" "x5CB6C2" "x5E9259" "x5EE2D0" "x5F949C" "x60053A" "x6221DB" "x625F98" "x62891E" "x62E9DA" "x632A08" "x641F7E" "x6579D2" "x668C3E" "x69648C" "x698F78" "x6A932C" "x6AC96D" "x6B739D" "x6C95EC" "x6D0027" "x6DE113" "x6E4F53" "x6F2AC4" "x70CD14" "x70EE4A" "x730769" "x73FC4F" "x741EFC" "x754209" "x773532" "x77E69D" "x77EAD9" "x7AB134" "x7BAA6C" "x7C223A" "x7EBF8B" "x7F09CE" "x7F4989" "x7FE794" "x801A38" "x804120" "x826AF1" "x835452" "x83BEB8" "x84213E" "x84D03C" "x852104" "x867A31" "x868EF5" "x87AE06" "x8803EC" "x8A82B0" "x8B3F77" "x8CBFA4" "x8DEF0D" "x8E109A" "x8E236E" "x8E4C3B" "x9150D1" "x930E8C" "x941E57" "x949437" "x952880" "x959C77" "x96D4D5" "x996E51" "x9A1A6D" "x9BD719" "x9D4FED" "x9DD0BD" "x9E074B" "x9E18CC" "x9F906D" "xA08E2D" "xA0E977" "xA2F602" "xA448BF" "xA4A9DF" "xA4C081" "xA4FE2F" "xA5410C" "xA5CFF7" "xA6C752" "xA7F595" "xA82C04" "xA84E61" "xA8E319" "xAB8034" "xADCD83" "xAF0F6E" "xB10522" "xB4143D" "xB4431F" "xB47B6E" "xB52E0C" "xB59626" "xB824A5" "xB8D07C" "xB9372F" "xBC2FD3" "xBC57C3" "xBC7BF9" "xBCB931" "xBD0CFC" "xBF0692" "xBF9952" "xC0F6AB" "xC32BD0" "xC34006" "xC36A65" "xC55EBF" "xC6200A" "xC6AC60" "xC71BA8" "xC7DBAB" "xCB5484" "xCC6732" "xCC68B3" "xCC786B" "xCE4010" "xCE6448" "xCEF2EA" "xCF44D5" "xCFB54B" "xD02376" "xD10FA3" "xD1A0DF" "xD1FF20" "xD2B385" "xD3852F" "xD41036" "xD586F1" "xD7FDB5" "xDA6E23" "xDABDDC" "xDDC1A4" "xDE4A09" "xDF420E" "xE06227" "xE0D0F0" "xE0FC8D" "xE6AA10" "xE6DBB0" "xE78B80" "xE82CFC" "xE88D06" "xEA30EA" "xEB242F" "xEDC36C" "xEDE915" "xEEC9C6" "xF1ACF2" "xF28110" "xF28202" "xF2E758" "xF3A4A1" "xF3E2F9" "xF42CBB" "xF5EEA8" "xF5FD47" "xF61C7D" "xF62997" "xF8A01C" "xF8B176" "xF96FC5" "xFA767B" "xFF20F2" }
     traits = { "state_trait_russian_forest" }
     city = "xF42CBB"
     farm = "x21F08B"
@@ -566,6 +632,8 @@ STATE_GALICH = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
+    min_cold_effect = 0.11
+    max_cold_effect = 0.88
 }
 
 STATE_MINSK = {
@@ -584,6 +652,8 @@ STATE_MINSK = {
         building_iron_mine = 8
         building_coal_mine = 5
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.56
 }
 
 STATE_ROSTOV = {
@@ -603,6 +673,12 @@ STATE_ROSTOV = {
         building_logging_camp = 7
     }
     naval_exit_id = 3094
+    blockade_locator = {
+        position = { 4976 0 2667 }
+        yaw = 83
+    }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.47
 }
 
 STATE_PERM = {
@@ -625,6 +701,8 @@ STATE_PERM = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
+    min_cold_effect = 0.08
+    max_cold_effect = 0.82
 }
 
 STATE_KAZAN = {
@@ -646,6 +724,8 @@ STATE_KAZAN = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.67
 }
 
 STATE_URALSK = {
@@ -666,6 +746,8 @@ STATE_URALSK = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.56
 }
 
 STATE_KHIVA = {
@@ -681,6 +763,8 @@ STATE_KHIVA = {
     capped_resources = {
         building_logging_camp = 4
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.36
 }
 
 STATE_SEMIRECHE = {
@@ -699,6 +783,8 @@ STATE_SEMIRECHE = {
         building_lead_mine = 16
         building_logging_camp = 4
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.62
 }
 
 STATE_JETISY = {
@@ -717,6 +803,8 @@ STATE_JETISY = {
         building_lead_mine = 20
         building_logging_camp = 4
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.54
 }
 
 STATE_AKMOLINSK = {
@@ -726,7 +814,7 @@ STATE_AKMOLINSK = {
     city = "xD7671E"
     farm = "x9C66DA"
     mine = "xFA13C2"
-    wood = "xDF3E66"
+    wood = "x880372"
     arable_land = 45
     traits = { "state_trait_western_steppe" }
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
@@ -734,7 +822,10 @@ STATE_AKMOLINSK = {
         building_iron_mine = 16
         building_coal_mine = 68
         building_logging_camp = 6
+        building_copper_mine = 5
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.65
 }
 
 STATE_FERGANA = {
@@ -751,6 +842,8 @@ STATE_FERGANA = {
         building_iron_mine = 21
         building_logging_camp = 5
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.29
 }
 
 STATE_MERZ = {
@@ -767,6 +860,8 @@ STATE_MERZ = {
         building_iron_mine = 21
         building_logging_camp = 5
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.22
 }
 
 STATE_SYRDARYA = {
@@ -782,8 +877,11 @@ STATE_SYRDARYA = {
     capped_resources = {
         building_iron_mine = 15
         building_lead_mine = 60
+        building_copper_mine = 6
         building_logging_camp = 6
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.41
 }
 
 STATE_AKTOBE = {
@@ -805,6 +903,8 @@ STATE_AKTOBE = {
         type = "building_oil_rig"
         undiscovered_amount = 30
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.59
 }
 
 STATE_KALMYKIA = {
@@ -825,6 +925,8 @@ STATE_KALMYKIA = {
         type = "building_oil_rig"
         undiscovered_amount = 10
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.43
 }
 
 STATE_NORTH_CAUCASUS = {
@@ -852,6 +954,8 @@ STATE_NORTH_CAUCASUS = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 4
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.50
 }
 
 STATE_TAURIDA = {
@@ -873,6 +977,8 @@ STATE_TAURIDA = {
         building_fishing_wharf = 12
     }
     naval_exit_id = 3094
+    min_cold_effect = 0.00
+    max_cold_effect = 0.45
 }
 
 STATE_TAMBOV = {
@@ -890,6 +996,8 @@ STATE_TAMBOV = {
         building_iron_mine = 10
         building_logging_camp = 35
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.63
 }
 
 STATE_RYAZAN = {
@@ -906,6 +1014,8 @@ STATE_RYAZAN = {
         building_coal_mine = 21
         building_logging_camp = 28
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.65
 }
 
 STATE_VITEBSK = {
@@ -922,6 +1032,8 @@ STATE_VITEBSK = {
     capped_resources = {
         building_logging_camp = 12
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.61
 }
 
 STATE_PSKOV = {
@@ -938,12 +1050,14 @@ STATE_PSKOV = {
     capped_resources = {
         building_logging_camp = 24
     }
+    min_cold_effect = 0.01
+    max_cold_effect = 0.65
 }
 
 STATE_YAROSLAVL = {
     id = 821
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x028EC5" "x0D1821" "x1053DD" "x130A3E" "x221D59" "x23F3C4" "x2FB453" "x2FC308" "x400383" "x40FEDE" "x461223" "x4D1D44" "x53C6EC" "x53CD52" "x560151" "x5C950C" "x60C080" "x64B6B7" "x6DD07A" "x74EDD1" "x756F52" "x824587" "x89264F" "x8D7901" "x8F478B" "x912892" "x9B8556" "x9DFD09" "xA36510" "xABAE9B" "xB0A39B" "xB24923" "xB9892E" "xBDF81C" "xC0C040" "xC37BBA" "xCC840C" "xCC8451" "xCD34E8" "xD19951" "xD9ACBE" "xDF20A0" "xE02020" "xE03FE3" "xE33B67" "xE78F94" "xEE2E88" "xF04BD2" "xF39D33" "xF7AA04" "xFFEC80" }
+    provinces = { "x0D1821" "x1053DD" "x118DB1" "x130A3E" "x20B928" "x2FC308" "x40FEDE" "x41FF83" "x53C6EC" "x53CD52" "x5C950C" "x604180" "x6D9FEE" "x6DD07A" "x704EB0" "x74EDD1" "x756F52" "x824587" "x89264F" "x912892" "x99879C" "x9B8556" "x9DFD09" "xA36510" "xABAE9B" "xB0A39B" "xB24923" "xB9892E" "xC37BBA" "xCC840C" "xD19951" "xDF20A0" "xE02020" "xE03FE3" "xE33B67" "xFA15E7" "xFFEC80" }
     city = "x74EDD1"
     farm = "xFFEC80"
     mine = "xCC840C"
@@ -955,12 +1069,14 @@ STATE_YAROSLAVL = {
         building_logging_camp = 67
         building_iron_mine = 6
     }
+    min_cold_effect = 0.04
+    max_cold_effect = 0.71
 }
 
 STATE_NIZHNY_NOVGOROD = {
     id = 823
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x006422" "x02BE2C" "x05F5DA" "x088E55" "x0C5F95" "x0D8767" "x193A00" "x202BAA" "x221C4C" "x259E71" "x298ED1" "x29EC04" "x2A61E0" "x30B835" "x339ADC" "x35FB76" "x3F9FBA" "x40B6D6" "x438CFD" "x4C71B7" "x5E59E5" "x60A0A0" "x6CDD7C" "x7C85D2" "x7DA8A0" "x920EE6" "x9439A0" "x96DCF9" "x975454" "xA080A0" "xA99531" "xADD34A" "xBFA41C" "xC6E27A" "xC74B66" "xD2E466" "xE1A4D3" "xEA0D0B" "xF0B801" }
+    provinces = { "x006422" "x088E55" "x0C5F95" "x0D8767" "x193A00" "x202BAA" "x221C4C" "x259E71" "x29EC04" "x30B835" "x339ADC" "x35FB76" "x400383" "x438CFD" "x461223" "x4C71B7" "x5E59E5" "x60A0A0" "x6CDD7C" "x9439A0" "x96DCF9" "xBFA41C" "xC6E27A" "xC74B66" "xD2E466" "xE1A4D3" "xF0B801" }
     city = "x202BAA"
     farm = "xF0B801"
     mine = "xE1A4D3"
@@ -972,12 +1088,14 @@ STATE_NIZHNY_NOVGOROD = {
         building_iron_mine = 25
         building_logging_camp = 24
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.68
 }
 
 STATE_VYATKA = {
     id = 824
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x003051" "x0A78C3" "x0DC008" "x132F3A" "x199917" "x1C24B7" "x1DFAE3" "x206020" "x2080C0" "x2101B3" "x29245A" "x2D9E21" "x336835" "x34999F" "x3BB87B" "x40D3F3" "x41DF7D" "x426858" "x4344A1" "x4401F4" "x454C45" "x494CD7" "x49C31C" "x4CB925" "x568002" "x5A83AD" "x5B57D5" "x5D5433" "x624DC2" "x643CDB" "x6578DF" "x67657B" "x6C1B87" "x78F48B" "x7CFCC5" "x7D0DB0" "x8BAC4A" "x8C2EE8" "x948973" "x9E8C5F" "xAB7912" "xB6C701" "xB7D465" "xB9522D" "xC29095" "xC410CF" "xCA4466" "xCB3697" "xCE626F" "xD754F9" "xD80177" "xDBB080" "xDCF9AE" "xE365BE" "xEF2B33" "xEFA1B1" "xF4A935" "xFBBA97" "xFD9F1D" }
+    provinces = { "x003051" "x0A78C3" "x0DC008" "x132F3A" "x199917" "x1C24B7" "x1DFAE3" "x206020" "x2080C0" "x2101B3" "x25E8A6" "x29245A" "x2D9E21" "x336835" "x34999F" "x3BB87B" "x40D3F3" "x41DF7D" "x426858" "x4344A1" "x4401F4" "x454C45" "x494CD7" "x49C31C" "x4CB925" "x568002" "x5A83AD" "x5B57D5" "x5D5433" "x5E8636" "x61562C" "x624DC2" "x643CDB" "x6578DF" "x67657B" "x6C039E" "x6C1B87" "x6E239F" "x78F48B" "x7CFCC5" "x7D0DB0" "x823348" "x8BAC4A" "x8C2EE8" "x948973" "x9E8C5F" "xAB7912" "xAF5831" "xB6C701" "xB7D465" "xB9522D" "xC29095" "xC410CF" "xCA4466" "xCB3697" "xCE626F" "xD53291" "xD754F9" "xD80177" "xDBB080" "xDCF9AE" "xDF4080" "xE365BE" "xEF2B33" "xEFA1B1" "xF4A935" "xFBBA97" "xFD9F1D" }
     city = "x8BAC4A"
     farm = "x2D9E21"
     mine = "x2101B3"
@@ -994,12 +1112,14 @@ STATE_VYATKA = {
         type = "building_oil_rig"
         undiscovered_amount = 25
     }
+    min_cold_effect = 0.07
+    max_cold_effect = 0.80
 }
 
 STATE_UFA = {
     id = 825
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x02CBC3" "x09A64F" "x18A32A" "x231291" "x2C4BD2" "x2E1658" "x40CEBB" "x41FA73" "x420ECB" "x4394A4" "x44BA57" "x47E0AE" "x48D3F2" "x4F79AF" "x564079" "x57469E" "x5A8F76" "x5B6AF2" "x62B005" "x67C3D6" "x73031E" "x756FF5" "x76B781" "x77A67F" "x79E5C3" "x7B9902" "x84C5D0" "x95F664" "xA060A0" "xA66FC0" "xA6E140" "xA7BD05" "xA91E4A" "xA920A8" "xB37D6F" "xB42F67" "xB4E168" "xB7CB0E" "xB808A3" "xC4AD2A" "xCB2D15" "xCE72AB" "xD1DF3A" "xD1FB41" "xD518C5" "xDA5316" "xDCE3DC" "xE3D900" "xEF14C8" "xEF4BDA" "xF05B8B" "xF413F5" "xFC5E47" "xFDDA04" "xFEBB19" }
+    provinces = { "x02CBC3" "x09A64F" "x18A32A" "x231291" "x2C4BD2" "x2E1658" "x40CEBB" "x41FA73" "x420ECB" "x4394A4" "x44BA57" "x47E0AE" "x48D3F2" "x4F79AF" "x564079" "x57469E" "x5A8F76" "x5B6AF2" "x62B005" "x67C3D6" "x73031E" "x76B781" "x77A67F" "x79E5C3" "x84C5D0" "x95F664" "xA060A0" "xA66FC0" "xA6E140" "xA7BD05" "xA91E4A" "xA920A8" "xB37D6F" "xB4E168" "xB7CB0E" "xB808A3" "xC4AD2A" "xCB2D15" "xCE72AB" "xD1DF3A" "xD1FB41" "xD518C5" "xDA5316" "xDCE3DC" "xE3D900" "xEF14C8" "xEF4BDA" "xF05B8B" "xF413F5" "xFC5E47" "xFDDA04" "xFEBB19" }
     city = "xF413F5"
     farm = "x2C4BD2"
     mine = "x420ECB"
@@ -1017,6 +1137,8 @@ STATE_UFA = {
         type = "building_oil_rig"
         undiscovered_amount = 35
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.65
 }
 
 STATE_SURGUT = {
@@ -1037,6 +1159,8 @@ STATE_SURGUT = {
         type = "building_oil_rig"
         undiscovered_amount = 120
     }
+    min_cold_effect = 0.11
+    max_cold_effect = 0.87
 }
 
 STATE_KRASNOYARSK = {
@@ -1060,6 +1184,8 @@ STATE_KRASNOYARSK = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 12
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.73
 }
 
 STATE_ALTAI = {
@@ -1082,6 +1208,8 @@ STATE_ALTAI = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 3
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.64
 }
 
 STATE_BURYATIA = {
@@ -1104,13 +1232,15 @@ STATE_BURYATIA = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 16
     }
+    min_cold_effect = 0.05
+    max_cold_effect = 0.70
 }
 
 STATE_KOLYMA = {
     id = 830
     subsistence_building = "building_subsistence_pasture"
     provinces = { "x002EF0" "x00A2A2" "x00A505" "x00D487" "x01774F" "x01F9C8" "x022BAA" "x030A1B" "x030B68" "x032813" "x03ADD7" "x03C97F" "x03F0BD" "x044282" "x04B3DD" "x04D782" "x0515CE" "x054570" "x055FD1" "x057499" "x058361" "x05DE5C" "x05FC4D" "x0629BB" "x066C17" "x0673FC" "x06885F" "x068E35" "x06C085" "x07758D" "x07B9E7" "x07F9A4" "x08B31F" "x08B891" "x08CC44" "x094D73" "x097DE8" "x09E013" "x0A39A1" "x0A681D" "x0A7AE7" "x0A7E84" "x0A8650" "x0A88D7" "x0A9BFA" "x0B1B80" "x0B709E" "x0B8A12" "x0B8C5D" "x0B9B89" "x0BDB8B" "x0C69BC" "x0CDFAE" "x0CF492" "x0D78D0" "x0E0A1B" "x0E6076" "x0EEF6F" "x0FE026" "x0FEF19" "x1082EC" "x10C218" "x10DFAA" "x112D95" "x1163DB" "x11C4D7" "x11D51E" "x121D34" "x12418C" "x1256C4" "x12F50A" "x13294B" "x137317" "x1437EA" "x145CC6" "x14EC7B" "x1578B8" "x168796" "x16A7F0" "x16D93A" "x177E73" "x178A75" "x17AF79" "x186841" "x1914D2" "x19958E" "x19B25D" "x19D225" "x1A7564" "x1A7F9A" "x1AABC7" "x1AAD30" "x1ABC4F" "x1B2317" "x1B2E7B" "x1B4C95" "x1B610B" "x1C0EED" "x1C5147" "x1C8C56" "x1C9228" "x1CFDCF" "x1D0977" "x1D1997" "x1D9C64" "x1DA863" "x1DB136" "x1EDC89" "x1F074E" "x1F2D6C" "x1F72DE" "x1FD3B3" "x204DE4" "x206C50" "x208F92" "x20DB67" "x210E6C" "x216BF1" "x21894A" "x218DC7" "x2191D7" "x221422" "x222C01" "x22880B" "x228D44" "x22C858" "x22EEA6" "x23FE01" "x246657" "x24B388" "x24C487" "x2521F2" "x2536F3" "x258338" "x25B80E" "x25D177" "x25DCF1" "x2671FA" "x267CE3" "x26A759" "x26B9C3" "x272896" "x2731F8" "x275C5D" "x276333" "x28248E" "x283263" "x28D434" "x299560" "x299F79" "x29D6E3" "x29E67F" "x29FE76" "x2A5D8F" "x2A972E" "x2A9903" "x2AA885" "x2AA8D1" "x2B1FCD" "x2B5F19" "x2BBBAE" "x2BFDEA" "x2C260C" "x2C5F85" "x2C61A3" "x2C6524" "x2C9339" "x2CB4B3" "x2CBC08" "x2CFB62" "x2D5E74" "x2E97AF" "x2E9CF0" "x2EC75C" "x2EF783" "x2EF89A" "x2F0A5D" "x2F3DD4" "x305121" "x3052D9" "x30B3E5" "x30CBB1" "x310528" "x3128EE" "x31A7A4" "x31DC57" "x323ED0" "x329383" "x32AF31" "x32FC05" "x3308D5" "x331307" "x334778" "x336B65" "x3380CC" "x338565" "x33B0D8" "x33B5DA" "x33E591" "x343E2E" "x349681" "x34F946" "x351FD1" "x35204C" "x359EF7" "x35BF1D" "x35C15F" "x35C953" "x35D320" "x363D22" "x3658F1" "x368BD2" "x36C085" "x375F55" "x376665" "x378EDC" "x379011" "x37EB51" "x37F47A" "x384FB8" "x389679" "x38E87C" "x38F3EA" "x390391" "x390DD8" "x39B597" "x39ECFC" "x39F660" "x3A6D02" "x3A74DA" "x3A806C" "x3A9C4B" "x3AB375" "x3B295A" "x3B2F75" "x3B310A" "x3BCF3E" "x3BE960" "x3BF6CB" "x3C3CB9" "x3C52D3" "x3C60B2" "x3D30F3" "x3D4A83" "x3DEB9F" "x3DF790" "x3E02EA" "x3E2620" "x3E3E69" "x3EFA24" "x3F1E83" "x3F3DA1" "x3F5B3D" "x40A7D5" "x40D169" "x413A1F" "x4165F7" "x418DA0" "x41BC14" "x41C28A" "x41CA54" "x41CC3B" "x4229DD" "x42603A" "x4261E2" "x4278C8" "x429DB3" "x42E451" "x42F704" "x4312E4" "x4335A7" "x435C93" "x435D15" "x43D0C2" "x43FC27" "x43FE80" "x44528E" "x44C0E5" "x4526B3" "x45C221" "x45FE42" "x4656B1" "x4670BB" "x4688FF" "x471522" "x472503" "x4736D1" "x47F53F" "x48286B" "x4877DD" "x48F76E" "x4941AB" "x4A2DBF" "x4A32A9" "x4A63E7" "x4A78D3" "x4ACF15" "x4AE5AD" "x4AE83D" "x4AE8EF" "x4B05B5" "x4B23FB" "x4B4F01" "x4B5C51" "x4B741B" "x4C20E2" "x4C56F0" "x4C6E27" "x4C9821" "x4CFC03" "x4D2441" "x4E55C0" "x4E7587" "x4E7D27" "x4EDDB5" "x4EF1D4" "x4EFDF2" "x4FD5C9" "x5026FA" "x5076CB" "x508D92" "x50FEED" "x52C0A6" "x538695" "x5396BC" "x5401ED" "x543475" "x546150" "x546700" "x548007" "x549C83" "x54D8BB" "x552566" "x5546C0" "x55A4E9" "x55A56B" "x55A754" "x55BAD2" "x55CE19" "x55FECD" "x567005" "x570866" "x57326D" "x573C54" "x5751F3" "x57A717" "x57B06C" "x57B423" "x5832C7" "x5849E5" "x589E56" "x58FCD8" "x58FF06" "x59820A" "x59C574" "x59DCF2" "x5A268D" "x5AC68F" "x5AC7AD" "x5ACC47" "x5B40E7" "x5B4C64" "x5B66C1" "x5B7CEC" "x5B88C2" "x5B9E0E" "x5C0A74" "x5C93A8" "x5D007D" "x5D0985" "x5D36BA" "x5DA889" "x5DC18C" "x5DC2D3" "x5DF5AF" "x5E8D11" "x5FD082" "x6002E2" "x6003E7" "x604092" "x606C51" "x60794E" "x60958C" "x611AB1" "x61642F" "x616C0E" "x616D8B" "x61C4DD" "x61C72A" "x621EF4" "x6257B9" "x627310" "x6285DF" "x628E0A" "x6331C5" "x635E60" "x637253" "x63CD17" "x63EDA6" "x640A55" "x6410EF" "x644812" "x64CB1F" "x665304" "x66617F" "x667345" "x6685C5" "x66D4DD" "x66FE97" "x670190" "x672B9A" "x6744F0" "x674F67" "x6763E3" "x67694C" "x67B42E" "x67E7AA" "x683AEE" "x68A69C" "x69031A" "x6909DC" "x691853" "x692E4A" "x693376" "x6933C5" "x6947AD" "x695E3F" "x69BC4E" "x69E501" "x6A5E5D" "x6A6BE1" "x6B18A7" "x6B5CDA" "x6B5E1D" "x6B8F18" "x6C1FDD" "x6C9C80" "x6D1BA9" "x6D2CC3" "x6D9E92" "x6DABFB" "x6DD987" "x6EBC21" "x6EC3B7" "x6F0D4E" "x6F6335" "x6F75ED" "x6F886B" "x6FCB0F" "x7035C0" "x703B4C" "x7055EC" "x716806" "x7175ED" "x71CE87" "x721D97" "x725048" "x72645B" "x7280C5" "x72A8BA" "x738A3A" "x73C5DA" "x73FF47" "x74141B" "x74543E" "x7514B8" "x7518CB" "x753721" "x7549FE" "x755301" "x75956F" "x75BAC4" "x768FE0" "x7731BF" "x7746CF" "x776610" "x78112C" "x7885AB" "x78FFA8" "x79023E" "x799FDE" "x79CF13" "x79D858" "x7A0275" "x7B3B6E" "x7B92E9" "x7BB9AF" "x7BE10A" "x7C613B" "x7C8D50" "x7CA92A" "x7CB097" "x7CD75F" "x7CFE7C" "x7D17F9" "x7D2D8B" "x7D479F" "x7D79A5" "x7D983D" "x7E1074" "x7E6390" "x7E7D01" "x7EC839" "x7EE9DF" "x7FCC9A" "x7FE3E1" "x8067A8" "x807652" "x80A961" "x80BEA0" "x80FB8A" "x815CE3" "x817B57" "x818930" "x818C1D" "x819F8D" "x81B7BA" "x81C0E1" "x81D34C" "x81ED35" "x81F983" "x81FD34" "x82466D" "x82B43D" "x82CD11" "x82F0A8" "x830AC6" "x83527A" "x83ADC1" "x840999" "x8454DB" "x845A35" "x84C878" "x84CFC7" "x84F318" "x8531A1" "x857EF0" "x85D13E" "x85D3D1" "x865798" "x865E74" "x86DBD9" "x87359E" "x875CC4" "x8791C4" "x87941D" "x879F96" "x889094" "x88F43D" "x892C2F" "x8A2AB8" "x8AE397" "x8B321E" "x8B60C3" "x8B9314" "x8BB044" "x8C0757" "x8C08B6" "x8C47E7" "x8CD7EE" "x8CE557" "x8CF3A7" "x8D998C" "x8DFB3E" "x8E0E62" "x8F004F" "x8F9D62" "x8FA38A" "x8FB2E2" "x8FBCC5" "x8FDCB5" "x900C56" "x902959" "x90F3A1" "x911819" "x911BFD" "x9186F3" "x91BDA5" "x91DB3E" "x927C64" "x928BFC" "x93307E" "x933A28" "x9357D2" "x93E60C" "x946B31" "x9528BD" "x954E0E" "x9558F9" "x959350" "x95CB40" "x95EDA9" "x9609A6" "x9682BA" "x96C35E" "x96CBF2" "x976594" "x977488" "x978FED" "x982826" "x9879F8" "x989950" "x98B541" "x98D311" "x98E03D" "x99275D" "x9940CE" "x99613B" "x99694E" "x998D05" "x99A9E1" "x99CD62" "x99D1A0" "x9A04F7" "x9A16B8" "x9A92E7" "x9AEE2E" "x9B3160" "x9B9A52" "x9BA99A" "x9BA9C9" "x9BAD2C" "x9BD57D" "x9BEF4E" "x9C10CA" "x9C49FF" "x9C5DAB" "x9CB523" "x9CF838" "x9D19BF" "x9DA610" "x9DD5F9" "x9E1852" "x9E4874" "x9E5435" "x9ED37D" "x9EE9A3" "x9EFFCB" "x9F4B9A" "x9F6CD6" "x9F907B" "x9FCD21" "x9FE3D2" "xA022E2" "xA02FC5" "xA03343" "xA046B9" "xA07CB5" "xA0A8F6" "xA0C887" "xA13C97" "xA17E22" "xA19B33" "xA2073C" "xA274C4" "xA28A0D" "xA291D5" "xA2D9D3" "xA2E30B" "xA3A805" "xA3B080" "xA3E554" "xA3E644" "xA42C90" "xA44D5C" "xA46F03" "xA476EB" "xA49864" "xA4A2CB" "xA4E8D0" "xA584D8" "xA5F1F7" "xA5F823" "xA67017" "xA6908A" "xA7203F" "xA75668" "xA7749B" "xA7FC75" "xA8131A" "xA85707" "xA86611" "xA87593" "xA8942B" "xA8A3DC" "xA8B107" "xA922B6" "xA94014" "xA95865" "xA976D9" "xA9849F" "xA992D9" "xA994A7" "xA9B5A6" "xA9EE7B" "xA9FC56" "xAA0F29" "xAA2EE5" "xAA4A41" "xAA6D75" "xAA6EC5" "xAA93AC" "xAB80C9" "xABF971" "xAC0012" "xAC2796" "xAC2DED" "xAC5F78" "xAD0370" "xAD17C8" "xAD27E2" "xAD2EE7" "xADBAE3" "xAE0A05" "xAE8F05" "xAED248" "xAF5515" "xAFB765" "xAFDF9D" "xAFEDE2" "xB0259F" "xB06D15" "xB08013" "xB0997E" "xB0AD61" "xB0DA5A" "xB18A82" "xB18D43" "xB18DAD" "xB1965A" "xB243F5" "xB27A5A" "xB28602" "xB28C90" "xB33EC5" "xB37ADA" "xB44768" "xB4929A" "xB4B735" "xB5064F" "xB53FA6" "xB6272B" "xB63624" "xB65058" "xB66D05" "xB67EC7" "xB6833C" "xB69B1F" "xB6AD9C" "xB7386F" "xB7A7DB" "xB7E1D4" "xB7EEED" "xB89006" "xB89ED5" "xB8CA2A" "xB8CDA0" "xB916C2" "xB926BA" "xB947B7" "xB961D9" "xB97EDF" "xB9CD3B" "xBA01B4" "xBA10C7" "xBA2CDA" "xBA2CEF" "xBAA68A" "xBAB287" "xBABE83" "xBACDFC" "xBB3989" "xBC2949" "xBC3381" "xBC48D6" "xBC886A" "xBCCABA" "xBD1F2E" "xBD6248" "xBDBC28" "xBE313E" "xBE533C" "xBE6A18" "xBE707A" "xBEB151" "xBEC356" "xBED380" "xBF63C4" "xBFA3DD" "xBFF000" "xBFF26A" "xC0022F" "xC03975" "xC0AB03" "xC11D6D" "xC1402D" "xC1616E" "xC1A77D" "xC1DE9B" "xC2563A" "xC29C6D" "xC2DA64" "xC30C7B" "xC33BE4" "xC341D4" "xC35DF0" "xC36904" "xC4C25C" "xC569E0" "xC5A535" "xC5BB6D" "xC5D9C9" "xC6144E" "xC63842" "xC65214" "xC65811" "xC69D30" "xC76C36" "xC7D058" "xC7EDE8" "xC80396" "xC81A37" "xC8AAD5" "xC8FDF1" "xC90C9B" "xC9683C" "xC97EC3" "xC9C208" "xC9E35B" "xCA04B3" "xCA0739" "xCA1976" "xCA957B" "xCAC302" "xCAE940" "xCB523C" "xCC73B7" "xCC7A33" "xCD0CE5" "xCD1BEF" "xCDEEDC" "xCF90EE" "xCFA267" "xCFBE56" "xD00CAE" "xD038DA" "xD0581B" "xD070B6" "xD0AE0E" "xD0E752" "xD191AD" "xD1D554" "xD1E366" "xD26970" "xD27CFC" "xD2894F" "xD33772" "xD394BB" "xD3A673" "xD3BE69" "xD3CD37" "xD43E78" "xD476E8" "xD50988" "xD52578" "xD5598D" "xD5784F" "xD58E08" "xD59909" "xD5AAC6" "xD5CF03" "xD61158" "xD64099" "xD67E58" "xD6BF4D" "xD71C42" "xD77450" "xD77565" "xD7E917" "xD8B532" "xD91508" "xD91921" "xD942B2" "xD9562E" "xD9622E" "xD96841" "xD9C542" "xD9FCA0" "xDA4CD8" "xDA4CE4" "xDA8E4F" "xDAC45D" "xDAEDAC" "xDB2C13" "xDBC5E0" "xDC56A9" "xDC5ED2" "xDC6F09" "xDC9652" "xDCE948" "xDD6041" "xDD9E66" "xDDC37A" "xDDE7D4" "xDE0E8F" "xDE4194" "xDE7C22" "xDE7EC1" "xDF2E0C" "xDFF077" "xDFF2EF" "xE04954" "xE054C1" "xE095BE" "xE0990E" "xE0C2AF" "xE0E3ED" "xE0E7C6" "xE10277" "xE19FB7" "xE1A802" "xE1B095" "xE1F11F" "xE1F9EB" "xE24A71" "xE262BB" "xE2DF5D" "xE395F7" "xE39AA7" "xE39EC5" "xE4179E" "xE462CE" "xE47788" "xE4E90E" "xE4FFC4" "xE51975" "xE52338" "xE5D002" "xE5E5C7" "xE670AC" "xE737CA" "xE760C4" "xE7FE01" "xE80E15" "xE83D9A" "xE84A58" "xE85E79" "xE885EA" "xE8BEE0" "xE8D56B" "xE8E7EA" "xE9673C" "xE976EB" "xE99453" "xE998CB" "xEA6430" "xEA6A37" "xEAF38A" "xEB2DFA" "xEB5C03" "xEB6210" "xEB84E0" "xEC0057" "xEC7244" "xEC7525" "xECAC8B" "xECB0F1" "xED470C" "xEDA7AA" "xEDD081" "xEDE6F6" "xEDEFF6" "xEEC8E9" "xEEFF98" "xEF6C84" "xEF7E0A" "xF017F6" "xF040F0" "xF055E0" "xF07D2D" "xF0CB05" "xF0D379" "xF0E36E" "xF0F710" "xF10C35" "xF14849" "xF27721" "xF29779" "xF2D81B" "xF2E09F" "xF329A2" "xF34906" "xF39CEA" "xF3AC37" "xF3FB1B" "xF413A5" "xF4325C" "xF4329E" "xF453DD" "xF45685" "xF492B9" "xF4AAE1" "xF4B4F5" "xF4C792" "xF5020B" "xF507A3" "xF50ECE" "xF52058" "xF524AC" "xF58385" "xF5B547" "xF5BCCC" "xF5F224" "xF60873" "xF62596" "xF640C8" "xF6C49B" "xF6E74D" "xF73B3F" "xF75F57" "xF777B1" "xF7C22F" "xF7E231" "xF823A8" "xF831B4" "xF874D0" "xF89113" "xF8A3E2" "xF8CE95" "xF8F792" "xF90B77" "xF911D0" "xF9629D" "xF96CCE" "xF9BB95" "xF9EB9D" "xFA16ED" "xFA31C5" "xFB0ECA" "xFB25BD" "xFBA5C4" "xFBE681" "xFBEF09" "xFC2EDE" "xFCD50F" "xFCE5A0" "xFCFCE8" "xFD0B64" "xFD282F" "xFD951D" "xFDC464" "xFDCA00" "xFDDA71" "xFE4FDF" "xFEAF1D" "xFEB19A" "xFEB9EF" "xFF5D21" "xFF6C81" "xFF988E" }
-    impassable = { }
+    impassable = { "x00A2A2" "x00A505" "x01774F" "x01F9C8" "x022BAA" "x032813" "x03ADD7" "x03C97F" "x03F0BD" "x044282" "x04B3DD" "x04D782" "x0515CE" "x055FD1" "x057499" "x05DE5C" "x0629BB" "x066C17" "x0673FC" "x068E35" "x07B9E7" "x08B31F" "x08B891" "x09E013" "x0A8650" "x0A88D7" "x0A9BFA" "x0B8A12" "x0B9B89" "x0BDB8B" "x0CF492" "x0D78D0" "x0EEF6F" "x0FE026" "x0FEF19" "x1082EC" "x10C218" "x10DFAA" "x11C4D7" "x1256C4" "x12F50A" "x13294B" "x137317" "x1437EA" "x145CC6" "x1578B8" "x168796" "x16A7F0" "x16D93A" "x178A75" "x17AF79" "x186841" "x1914D2" "x19958E" "x19B25D" "x1A7564" "x1A7F9A" "x1AABC7" "x1AAD30" "x1ABC4F" "x1B2E7B" "x1C0EED" "x1D0977" "x1D1997" "x1D9C64" "x1DA863" "x1EDC89" "x1F074E" "x1F2D6C" "x1FD3B3" "x206C50" "x20DB67" "x216BF1" "x2191D7" "x221422" "x222C01" "x22880B" "x228D44" "x22C858" "x22EEA6" "x24B388" "x2536F3" "x258338" "x25B80E" "x25DCF1" "x267CE3" "x26A759" "x26B9C3" "x272896" "x2731F8" "x275C5D" "x283263" "x28D434" "x299F79" "x29E67F" "x29FE76" "x2A972E" "x2AA885" "x2B1FCD" "x2B5F19" "x2BFDEA" "x2C260C" "x2C5F85" "x2C61A3" "x2C9339" "x2CB4B3" "x2CBC08" "x2CFB62" "x2D5E74" "x2E97AF" "x2EF783" "x2EF89A" "x2F0A5D" "x2F3DD4" "x305121" "x30CBB1" "x310528" "x31DC57" "x329383" "x32AF31" "x32FC05" "x334778" "x336B65" "x338565" "x33B5DA" "x33E591" "x343E2E" "x349681" "x34F946" "x351FD1" "x35204C" "x35C15F" "x35C953" "x35D320" "x363D22" "x3658F1" "x379011" "x37F47A" "x389679" "x38E87C" "x390DD8" "x39B597" "x3A6D02" "x3A74DA" "x3A9C4B" "x3AB375" "x3B295A" "x3BCF3E" "x3BE960" "x3BF6CB" "x3C52D3" "x3C60B2" "x3D30F3" "x3D4A83" "x3DEB9F" "x3E3E69" "x3F1E83" "x3F3DA1" "x3F5B3D" "x418DA0" "x41BC14" "x41C28A" "x429DB3" "x42E451" "x42F704" "x4312E4" "x435D15" "x43D0C2" "x43FC27" "x43FE80" "x44528E" "x4526B3" "x45C221" "x45FE42" "x4656B1" "x4670BB" "x47F53F" "x48286B" "x4877DD" "x48F76E" "x4A2DBF" "x4A32A9" "x4A63E7" "x4A78D3" "x4ACF15" "x4B23FB" "x4C56F0" "x4C9821" "x4CFC03" "x4D2441" "x4E55C0" "x4EDDB5" "x5076CB" "x508D92" "x5401ED" "x543475" "x546150" "x546700" "x549C83" "x54D8BB" "x55A4E9" "x55A56B" "x55A754" "x55CE19" "x57326D" "x5751F3" "x57A717" "x57B06C" "x57B423" "x5832C7" "x589E56" "x58FF06" "x59820A" "x5A268D" "x5AC68F" "x5AC7AD" "x5ACC47" "x5B40E7" "x5B4C64" "x5B66C1" "x5B7CEC" "x5B9E0E" "x5C0A74" "x5D0985" "x5D36BA" "x5DA889" "x5DC18C" "x5DC2D3" "x5DF5AF" "x5FD082" "x6002E2" "x6003E7" "x604092" "x606C51" "x60794E" "x611AB1" "x61642F" "x61C4DD" "x61C72A" "x6257B9" "x6285DF" "x635E60" "x637253" "x63CD17" "x640A55" "x6410EF" "x644812" "x66617F" "x667345" "x6685C5" "x66D4DD" "x66FE97" "x670190" "x6744F0" "x674F67" "x6763E3" "x67694C" "x67E7AA" "x683AEE" "x691853" "x692E4A" "x693376" "x6933C5" "x6947AD" "x69E501" "x6A5E5D" "x6A6BE1" "x6B5CDA" "x6B8F18" "x6C1FDD" "x6D2CC3" "x6D9E92" "x6EBC21" "x6F6335" "x6F75ED" "x6F886B" "x6FCB0F" "x7035C0" "x7055EC" "x7175ED" "x71CE87" "x725048" "x738A3A" "x74141B" "x755301" "x75BAC4" "x768FE0" "x7746CF" "x776610" "x78112C" "x7885AB" "x79023E" "x7B92E9" "x7BE10A" "x7CB097" "x7CFE7C" "x7D2D8B" "x7D479F" "x7D983D" "x7EC839" "x7EE9DF" "x8067A8" "x807652" "x80A961" "x80FB8A" "x817B57" "x818C1D" "x819F8D" "x81B7BA" "x81C0E1" "x81D34C" "x81ED35" "x82466D" "x82CD11" "x82F0A8" "x83527A" "x83ADC1" "x840999" "x845A35" "x8531A1" "x85D3D1" "x86DBD9" "x87359E" "x8791C4" "x87941D" "x88F43D" "x892C2F" "x8B321E" "x8BB044" "x8C0757" "x8C47E7" "x8CD7EE" "x8CF3A7" "x8D998C" "x8DFB3E" "x8F004F" "x8F9D62" "x8FDCB5" "x900C56" "x902959" "x90F3A1" "x911BFD" "x9186F3" "x91DB3E" "x9528BD" "x954E0E" "x9558F9" "x95CB40" "x95EDA9" "x9609A6" "x96C35E" "x976594" "x978FED" "x9879F8" "x989950" "x99613B" "x99A9E1" "x99CD62" "x9A04F7" "x9A16B8" "x9A92E7" "x9BA99A" "x9BD57D" "x9BEF4E" "x9C10CA" "x9CF838" "x9DA610" "x9DD5F9" "x9E1852" "x9E4874" "x9E5435" "x9ED37D" "x9EE9A3" "x9EFFCB" "x9F4B9A" "x9F6CD6" "x9F907B" "x9FCD21" "x9FE3D2" "xA022E2" "xA02FC5" "xA046B9" "xA07CB5" "xA0A8F6" "xA13C97" "xA17E22" "xA2073C" "xA274C4" "xA28A0D" "xA2D9D3" "xA3A805" "xA3E554" "xA3E644" "xA44D5C" "xA46F03" "xA49864" "xA4A2CB" "xA4E8D0" "xA5F1F7" "xA5F823" "xA67017" "xA7203F" "xA75668" "xA7749B" "xA85707" "xA86611" "xA976D9" "xA9B5A6" "xA9EE7B" "xAA0F29" "xAA2EE5" "xAA4A41" "xAA6D75" "xABF971" "xAC0012" "xAC2796" "xAC2DED" "xAD0370" "xAD27E2" "xAD2EE7" "xADBAE3" "xAE0A05" "xAE8F05" "xAED248" "xAF5515" "xAFB765" "xAFDF9D" "xB0259F" "xB06D15" "xB08013" "xB0997E" "xB0AD61" "xB18A82" "xB18DAD" "xB1965A" "xB243F5" "xB27A5A" "xB44768" "xB4B735" "xB53FA6" "xB63624" "xB67EC7" "xB6833C" "xB69B1F" "xB6AD9C" "xB7E1D4" "xB89006" "xB89ED5" "xB8CA2A" "xB8CDA0" "xB916C2" "xB926BA" "xB961D9" "xBA01B4" "xBA10C7" "xBA2CDA" "xBAA68A" "xBAB287" "xBACDFC" "xBB3989" "xBC2949" "xBCCABA" "xBD6248" "xBDBC28" "xBE533C" "xBE6A18" "xBEB151" "xBED380" "xBFA3DD" "xBFF000" "xBFF26A" "xC0022F" "xC1402D" "xC1616E" "xC2DA64" "xC33BE4" "xC341D4" "xC36904" "xC5A535" "xC5BB6D" "xC63842" "xC65214" "xC65811" "xC76C36" "xC7D058" "xC7EDE8" "xC8AAD5" "xC90C9B" "xC9683C" "xC9C208" "xCA0739" "xCA1976" "xCA957B" "xCB523C" "xCC73B7" "xCD1BEF" "xCF90EE" "xCFA267" "xCFBE56" "xD00CAE" "xD070B6" "xD0AE0E" "xD191AD" "xD1D554" "xD1E366" "xD26970" "xD27CFC" "xD33772" "xD3A673" "xD43E78" "xD476E8" "xD50988" "xD52578" "xD5598D" "xD5784F" "xD5AAC6" "xD64099" "xD6BF4D" "xD71C42" "xD77450" "xD91508" "xD91921" "xD942B2" "xD9562E" "xD9622E" "xD96841" "xD9FCA0" "xDA4CD8" "xDA4CE4" "xDA8E4F" "xDAC45D" "xDAEDAC" "xDBC5E0" "xDC5ED2" "xDC6F09" "xDC9652" "xDCE948" "xDD6041" "xDDE7D4" "xDE0E8F" "xDE4194" "xDE7C22" "xE095BE" "xE0990E" "xE0C2AF" "xE0E7C6" "xE24A71" "xE262BB" "xE2DF5D" "xE39EC5" "xE4179E" "xE462CE" "xE4FFC4" "xE52338" "xE5D002" "xE5E5C7" "xE737CA" "xE760C4" "xE7FE01" "xE83D9A" "xE84A58" "xE885EA" "xE8BEE0" "xE8D56B" "xE8E7EA" "xE976EB" "xE99453" "xEA6430" "xEA6A37" "xEAF38A" "xEB6210" "xEC0057" "xEC7525" "xECAC8B" "xECB0F1" "xED470C" "xEDA7AA" "xEDE6F6" "xEEC8E9" "xEF6C84" "xEF7E0A" "xF017F6" "xF055E0" "xF07D2D" "xF0F710" "xF10C35" "xF29779" "xF329A2" "xF34906" "xF39CEA" "xF3FB1B" "xF413A5" "xF4329E" "xF453DD" "xF45685" "xF4AAE1" "xF4B4F5" "xF4C792" "xF5020B" "xF507A3" "xF58385" "xF5BCCC" "xF5F224" "xF62596" "xF640C8" "xF6E74D" "xF75F57" "xF777B1" "xF7C22F" "xF7E231" "xF831B4" "xF8A3E2" "xF8CE95" "xF90B77" "xF9629D" "xF96CCE" "xF9EB9D" "xFA16ED" "xFA31C5" "xFBA5C4" "xFC2EDE" "xFCE5A0" "xFCFCE8" "xFD282F" "xFDC464" "xFDCA00" "xFE4FDF" "xFEAF1D" "xFEB19A" "xFF5D21" "xFF6C81" }
     city = "xE52338"
     farm = "x8FBCC5"
     mine = "x2671FA"
@@ -1127,6 +1257,8 @@ STATE_KOLYMA = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 16
     }
+    min_cold_effect = 0.17
+    max_cold_effect = 0.98
 }
 
 STATE_AMUR = {
@@ -1152,13 +1284,15 @@ STATE_AMUR = {
         undiscovered_amount = 18
     }
     naval_exit_id = 3118
+    min_cold_effect = 0.05
+    max_cold_effect = 0.66
 }
 
 STATE_CHELYABINSK = {
     #done
     id = 832
     subsistence_building = "building_subsistence_farm"
-    provinces = { "x001A4C" "x00CB99" "x133FC5" "x16720C" "x179ABF" "x194D18" "x1B441A" "x1FDB8B" "x2280E9" "x25E850" "x2DD811" "x2E246D" "x2FE367" "x323E2B" "x37A807" "x389A65" "x3AD809" "x40E399" "x4110C0" "x45F63E" "x47EC86" "x4A290E" "x56E27E" "x60DFA0" "x629CB4" "x6453FB" "x6908A8" "x77420F" "x795CFC" "x831CDC" "x8CFB3E" "x942B77" "x96422C" "x96F70A" "xA09A50" "xA59162" "xB2CEE0" "xB67ACC" "xB6D2D8" "xC158DC" "xC470FD" "xCB291D" "xCB9D88" "xD38934" "xDA0B52" "xDFE045" "xDFE0A0" "xE239D3" "xE8465C" "xEB5712" "xEFFDD6" "xF9AEA7" }
+    provinces = { "x001A4C" "x00CB99" "x133FC5" "x16720C" "x179ABF" "x194D18" "x1B441A" "x1FDB8B" "x2280E9" "x25E850" "x2DD811" "x2E246D" "x2FE367" "x323E2B" "x37A807" "x389A65" "x3AD809" "x40E399" "x4110C0" "x45F63E" "x47EC86" "x4A290E" "x56E27E" "x60DFA0" "x629CB4" "x6453FB" "x6908A8" "x756FF5" "x77420F" "x795CFC" "x7B9902" "x831CDC" "x8CFB3E" "x942B77" "x96422C" "x96F70A" "xA09A50" "xA59162" "xB2CEE0" "xB67ACC" "xB6D2D8" "xC158DC" "xC470FD" "xCB291D" "xCB9D88" "xD38934" "xDA0B52" "xDFE0A0" "xE239D3" "xE8465C" "xEB5712" "xEFFDD6" "xF9AEA7" }
     city = "x2FE367"
     farm = "xC470FD"
     mine = "xC158DC"
@@ -1169,6 +1303,7 @@ STATE_CHELYABINSK = {
     capped_resources = {
         building_iron_mine = 95
         building_coal_mine = 25
+        building_copper_mine = 9
         building_logging_camp = 16
         building_gold_mine = 3
     }
@@ -1177,6 +1312,8 @@ STATE_CHELYABINSK = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 9
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.63
 }
 
 
@@ -1195,6 +1332,8 @@ STATE_ELIZAVETPOL = {
         building_iron_mine = 10
         building_logging_camp = 12
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.29
 }
 
 STATE_STAVROPOL = {
@@ -1215,6 +1354,8 @@ STATE_STAVROPOL = {
         type = "building_oil_rig"
         undiscovered_amount = 30
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.40
 }
 
 STATE_CHUVASHIA = {
@@ -1236,6 +1377,8 @@ STATE_CHUVASHIA = {
         type = "building_oil_rig"
         undiscovered_amount = 24
     }
+    min_cold_effect = 0.03
+    max_cold_effect = 0.69
 }
 
 STATE_CHERNIHIV = {
@@ -1256,13 +1399,15 @@ STATE_CHERNIHIV = {
         type = "building_oil_rig"
         undiscovered_amount = 6
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.53
 }
 
 STATE_NENETSIA = {
     id = 572
     subsistence_building = "building_subsistence_pasture"
     provinces = { "x01272B" "x014759" "x016ED3" "x0461A8" "x046432" "x05B88D" "x0683CE" "x0726F3" "x076C17" "x08EA21" "x090AE0" "x0938D1" "x094847" "x097E8F" "x0A75FF" "x0ACF83" "x0BC9F0" "x0CD55A" "x0CD587" "x0D3F21" "x0E40DF" "x0E45FB" "x0F2069" "x1230DB" "x13B333" "x14033F" "x143579" "x148F2C" "x14DCCC" "x15793E" "x16C690" "x16F163" "x178A5C" "x1A96AF" "x1AD8B2" "x1BB816" "x1D0B2C" "x1D4E77" "x1D987A" "x1E81FD" "x20042C" "x2007FA" "x200B3D" "x212481" "x218308" "x21DCAA" "x22289B" "x224D9D" "x237586" "x23C551" "x24137A" "x24FF58" "x257570" "x26482C" "x27923A" "x27B3AF" "x290133" "x2A523B" "x2B00F6" "x2B0D72" "x2B451F" "x2CFB78" "x2D54DF" "x2E64AF" "x2F97B2" "x2FB7DD" "x2FED3C" "x30C7A9" "x324C61" "x327B53" "x33301E" "x336DDE" "x337F2E" "x33D247" "x33EDCD" "x345C29" "x34E5AF" "x35CCA0" "x36C073" "x36D215" "x38DFDB" "x38F20C" "x394AD4" "x395F83" "x3C5887" "x3CAECB" "x3D2072" "x3DFC8F" "x3EBD0A" "x3EEDAA" "x3F32BC" "x40F1F0" "x427269" "x4329A8" "x450381" "x465A5E" "x46B48C" "x47E932" "x47EF65" "x482567" "x489104" "x4A6073" "x4A7BEA" "x4C5B40" "x4C8F3C" "x4D2452" "x4DAEAE" "x4EDF1D" "x4F0008" "x4F3727" "x50133F" "x502052" "x504650" "x50829A" "x50B1CA" "x51E8BE" "x52330E" "x5293E4" "x52BB1C" "x533140" "x54BEA0" "x5539CF" "x56406D" "x56AC87" "x577ADC" "x57C121" "x5A9872" "x5BAD22" "x5C9BC2" "x5CB819" "x5E8A60" "x5F5035" "x5F87BA" "x607492" "x60FF25" "x617A8C" "x619129" "x61A80E" "x6249A6" "x625F8B" "x633D9B" "x645039" "x650814" "x65E25D" "x660DFC" "x66C2C1" "x675AB2" "x69F422" "x6A0C01" "x6A0DC0" "x6AFC0F" "x6C631C" "x6D69E4" "x6D86C4" "x6DEACB" "x6E148E" "x6F4FF3" "x71A859" "x72821A" "x735843" "x74EA3A" "x76163E" "x773101" "x787542" "x78F046" "x794A50" "x797EF1" "x798F3F" "x799E1B" "x79A969" "x7A608A" "x7B4892" "x7CF5A8" "x7D0500" "x7E4BE0" "x7E8992" "x7FE1CB" "x80498F" "x81827E" "x8321FB" "x838310" "x839A86" "x8583E2" "x85A43D" "x870F18" "x871046" "x871642" "x877BDE" "x87FEAE" "x88085F" "x8AFEA3" "x8B0558" "x8BC648" "x8C881D" "x8CFE49" "x8D8851" "x8EC2F4" "x8F08B3" "x8F45AB" "x8F9AB3" "x8F9DD4" "x901791" "x90A6D0" "x91010C" "x918387" "x91D285" "x929759" "x92CC3F" "x92E397" "x93A1C4" "x93C148" "x943551" "x949B67" "x94ABD3" "x964A65" "x973436" "x9A5B40" "x9AF311" "x9B119E" "x9B7715" "x9BA0DD" "x9D4CD7" "x9E8DF5" "x9EA471" "x9EA5E8" "x9EC96B" "x9F8F4B" "xA00040" "xA01669" "xA07AFC" "xA082DB" "xA0A229" "xA1F4C2" "xA24D84" "xA26F82" "xA2A043" "xA2A80D" "xA38275" "xA409C0" "xA7B19C" "xA7DE81" "xA824CE" "xA83616" "xA8DA11" "xA92CC9" "xA9DA3B" "xA9DC06" "xA9E50D" "xAA9473" "xAB54F1" "xAC3CC6" "xAC7A28" "xAC8E89" "xAD0B89" "xAD1267" "xAD41A3" "xAE796F" "xAEC9AB" "xAEFB92" "xAF452A" "xB07CEC" "xB273CA" "xB29D30" "xB2F58B" "xB306F4" "xB3438E" "xB3A982" "xB4907A" "xB4CD19" "xB4E067" "xB5F312" "xB682AF" "xB68BC2" "xB6D7F9" "xB71DD4" "xB79F41" "xB8CE60" "xB93763" "xB9F7BC" "xBA61B3" "xBA90EF" "xBAC7A8" "xBB094C" "xBB28DE" "xBB599A" "xBBB59E" "xBC1232" "xBD1994" "xBD8041" "xBE4EF2" "xBEFAA9" "xBF985B" "xBFE4B2" "xC34748" "xC5167F" "xC67065" "xC6A37F" "xC6D458" "xC744A8" "xC7CF5F" "xC7EB17" "xC916FC" "xC954DA" "xC9F3AE" "xCA1B89" "xCAA6E2" "xCAF28A" "xCC4416" "xCCD447" "xCD2826" "xCD39E2" "xCDB059" "xCE6ECE" "xCE989F" "xCE9A93" "xCEC72D" "xCF2221" "xCFC6CA" "xD0875E" "xD151BB" "xD19787" "xD1DEEE" "xD3E997" "xD4B959" "xD4C392" "xD5002D" "xD560B0" "xD56645" "xD5B87E" "xD5F356" "xD662A8" "xD6BC8B" "xD6FA07" "xD72E78" "xD9841C" "xDA4270" "xDC37B4" "xDC42D5" "xDC750C" "xDF644E" "xDFC070" "xE10D62" "xE2498B" "xE2A08D" "xE342C9" "xE3C845" "xE40995" "xE45CED" "xE53194" "xE60CB2" "xE6856E" "xE7E786" "xE8F9A4" "xE919E4" "xE983C0" "xEA1C7C" "xEAA7B7" "xEAE9CB" "xED80DE" "xEDD7D8" "xEEC8A0" "xEF4C89" "xF04D25" "xF0B517" "xF10872" "xF1FC93" "xF2BDF3" "xF2CF35" "xF4B371" "xF63D02" "xF663E5" "xF71A45" "xF8FC1C" "xF96014" "xFAA187" "xFB0270" "xFC4E8A" "xFC776B" "xFD5D34" "xFE07A2" "xFE5802" "xFF3B52" }
-    impassable = { }
+    impassable = { "x014759" "x046432" "x0683CE" "x0726F3" "x076C17" "x08EA21" "x094847" "x0A75FF" "x0ACF83" "x0CD587" "x0D3F21" "x0E45FB" "x143579" "x148F2C" "x14DCCC" "x16C690" "x16F163" "x1A96AF" "x1D0B2C" "x1E81FD" "x2007FA" "x218308" "x26482C" "x27B3AF" "x290133" "x2B00F6" "x2B0D72" "x2E64AF" "x2F97B2" "x30C7A9" "x33301E" "x336DDE" "x337F2E" "x345C29" "x34E5AF" "x36C073" "x36D215" "x38F20C" "x395F83" "x3C5887" "x3CAECB" "x3D2072" "x3DFC8F" "x3F32BC" "x427269" "x4329A8" "x450381" "x46B48C" "x482567" "x4A7BEA" "x4C5B40" "x4C8F3C" "x4DAEAE" "x4F0008" "x502052" "x504650" "x50B1CA" "x51E8BE" "x52330E" "x54BEA0" "x56406D" "x56AC87" "x57C121" "x5BAD22" "x5C9BC2" "x5CB819" "x5F5035" "x60FF25" "x617A8C" "x6249A6" "x633D9B" "x650814" "x65E25D" "x660DFC" "x69F422" "x6AFC0F" "x6C631C" "x6D69E4" "x6D86C4" "x6DEACB" "x6F4FF3" "x71A859" "x735843" "x74EA3A" "x773101" "x78F046" "x794A50" "x799E1B" "x7CF5A8" "x7D0500" "x80498F" "x838310" "x85A43D" "x870F18" "x871046" "x871642" "x87FEAE" "x8AFEA3" "x8BC648" "x8C881D" "x8CFE49" "x8D8851" "x8EC2F4" "x91010C" "x918387" "x91D285" "x92CC3F" "x92E397" "x93C148" "x943551" "x949B67" "x964A65" "x9AF311" "x9B119E" "x9D4CD7" "x9E8DF5" "x9EA5E8" "xA01669" "xA07AFC" "xA0A229" "xA26F82" "xA2A043" "xA2A80D" "xA38275" "xA409C0" "xA824CE" "xA8DA11" "xA92CC9" "xA9DA3B" "xA9E50D" "xAC3CC6" "xAC8E89" "xAD41A3" "xAE796F" "xAF452A" "xB29D30" "xB4CD19" "xB682AF" "xB68BC2" "xB6D7F9" "xB79F41" "xB8CE60" "xB93763" "xB9F7BC" "xBA61B3" "xBB28DE" "xBD1994" "xBD8041" "xBEFAA9" "xBF985B" "xBFE4B2" "xC34748" "xC67065" "xC6A37F" "xC744A8" "xC7CF5F" "xC7EB17" "xC916FC" "xC954DA" "xCA1B89" "xCAA6E2" "xCC4416" "xCCD447" "xCD2826" "xCDB059" "xCE989F" "xCEC72D" "xCFC6CA" "xD0875E" "xD151BB" "xD19787" "xD1DEEE" "xD5002D" "xD560B0" "xD5B87E" "xD662A8" "xD6FA07" "xD9841C" "xDC37B4" "xDC42D5" "xDC750C" "xE10D62" "xE2498B" "xE342C9" "xE40995" "xE45CED" "xE53194" "xE8F9A4" "xE919E4" "xE983C0" "xEEC8A0" "xF10872" "xF1FC93" "xF2BDF3" "xF2CF35" "xF63D02" "xF663E5" "xF71A45" "xFAA187" "xFB0270" "xFE07A2" "xFF3B52" }
     traits = { "state_trait_siberian_terrain" }
     city = "xC9F3AE"
     port = "x533140"
@@ -1281,4 +1426,42 @@ STATE_NENETSIA = {
         undiscovered_amount = 30
     }
     naval_exit_id = 3039
+    min_cold_effect = 0.18
+    max_cold_effect = 1.00
+}
+
+STATE_TULA = {
+    id = 575
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x05E237" "x1D9534" "x1E5225" "x301EC1" "x36FFFE" "x4A6AE0" "x6BE684" "x71473A" "x752A3E" "x8BC0CA" "x8FB5BF" "x9D8B55" "xA020A0" "xA02120" "xB56E0D" "xC020E0" "xC20515" "xC492A0" "xD04FB9" "xD3CC3C" "xD7163E" "xE0FF4A" }
+    city = "x8BC0CA"
+    farm = "x05E237"
+    mine = "xA02120"
+    wood = "x71473A"
+    arable_land = 100
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 42
+        building_coal_mine = 28
+    }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.65
+}
+
+STATE_KOSTROMA = {
+    id = 834
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x000181" "x028EC5" "x02BE2C" "x05F5DA" "x221D59" "x23F3C4" "x2478A2" "x298ED1" "x2A61E0" "x2FB453" "x3F9FBA" "x40B6D6" "x4D1D44" "x560151" "x60C080" "x64B6B7" "x6ED279" "x726FCF" "x7C85D2" "x7DA8A0" "x8D7901" "x8F478B" "x920EE6" "x975454" "xA080A0" "xA3D7FA" "xA99531" "xADD34A" "xBDF81C" "xC0C040" "xCADAA7" "xCC8451" "xCD34E8" "xCD5677" "xCF3ACB" "xD0936B" "xD9ACBE" "xDA1620" "xE0C080" "xE78F94" "xEA0D0B" "xEE2E88" "xF04BD2" "xF155D1" "xF39D33" "xF7AA04" "xFEF0CB" }
+    city = "x221D59"
+    farm = "xF7AA04"
+    mine = "xCC8451"
+    wood = "x40B6D6"
+    arable_land = 80
+    traits = { "state_trait_volga_river" "state_trait_russian_forest" }
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 24
+    }
+    min_cold_effect = 0.04
+    max_cold_effect = 0.73
 }

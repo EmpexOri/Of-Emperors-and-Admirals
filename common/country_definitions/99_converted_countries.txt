@@ -5478,7 +5478,7 @@ REPLACE_OR_CREATE:M03 ?= {
 	tier = principality
 	cultures = { mari }
 	religion = animist
-	capital = STATE_GALICH
+	capital = STATE_VOLOGDA
 }
 
 REPLACE_OR_CREATE:M04 ?= {
@@ -7698,7 +7698,7 @@ REPLACE_OR_CREATE:PRM ?= {
 	tier = principality
 	cultures = { ugrian }
 	religion = orthodox
-	capital = STATE_GALICH
+	capital = STATE_VOLOGDA
 }
 
 REPLACE_OR_CREATE:PRU ?= {
@@ -8002,7 +8002,7 @@ REPLACE_OR_CREATE:S05 ?= {
 	country_type = decentralized
 	tier = city_state
 	cultures = { ugrian }
-	capital = STATE_GALICH
+	capital = STATE_VOLOGDA
 }
 
 REPLACE_OR_CREATE:S06 ?= {
@@ -9942,7 +9942,7 @@ REPLACE_OR_CREATE:V06 ?= {
 	country_type = decentralized
 	tier = principality
 	cultures = { ugrian }
-	capital = STATE_GALICH
+	capital = STATE_VOLOGDA
 }
 
 REPLACE_OR_CREATE:V07 ?= {
@@ -10392,7 +10392,7 @@ REPLACE_OR_CREATE:VU1 ?= {
 	country_type = decentralized
 	tier = city_state
 	cultures = { ugrian }
-	capital = STATE_GALICH
+	capital = STATE_VOLOGDA
 }
 
 REPLACE_OR_CREATE:W00 ?= {

@@ -1295,7 +1295,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 148535
+				size = 348535
 			}
 			create_pop = {
 				culture = portuguese
@@ -2979,12 +2979,12 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 240277
+				size = 40277
 			}
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 209486
+				size = 9486
 			}
 			create_pop = {
 				culture = sephardic
@@ -5541,6 +5541,11 @@
 				culture = portuguese
 				religion = catholic
 				size = 545416
+			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 600000
 			}
 		}
 	}
@@ -8649,7 +8654,7 @@
 			create_pop = {
 				culture = catalan
 				religion = catholic
-				size = 317420
+				size = 117420
 			}
 		}
 		region_state:LUS = {
@@ -8661,7 +8666,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 103616
+				size = 503616
 			}
 			create_pop = {
 				culture = asturleonese
@@ -10493,23 +10498,7 @@
 		}
 	}
 	s:STATE_CHUKOTKA = {
-		region_state:X67 = {
-			create_pop = {
-				culture = yakut
-				religion = tengri_pagan_reformed
-				size = 197
-			}
-			create_pop = {
-				culture = yakut
-				religion = tengri_pagan_reformed
-				size = 9701
-			}
-			create_pop = {
-				culture = siberian
-				religion = tengri_pagan_reformed
-				size = 3035
-			}
-		}
+		
 	}
 	s:STATE_CHUVASHIA = {
 		region_state:RUS = {
@@ -14857,7 +14846,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 192815
+				size = 392815
 			}
 			create_pop = {
 				culture = portuguese
@@ -14876,7 +14865,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 176791
+				size = 276791
 			}
 			create_pop = {
 				culture = andalucian
@@ -15839,7 +15828,7 @@
 			}
 		}
 	}
-	s:STATE_GALICH = {
+	s:STATE_VOLOGDA = {
 		region_state:RUS = {
 			create_pop = {
 				culture = karelian
@@ -22095,6 +22084,21 @@
 				religion = tengri_pagan_reformed
 				size = 223
 			}
+			create_pop = {
+				culture = yakut
+				religion = tengri_pagan_reformed
+				size = 197
+			}
+			create_pop = {
+				culture = yakut
+				religion = tengri_pagan_reformed
+				size = 9701
+			}
+			create_pop = {
+				culture = siberian
+				religion = tengri_pagan_reformed
+				size = 3035
+			}
 		}
 	}
 	s:STATE_KANAK = {
@@ -22704,7 +22708,7 @@
 			}
 		}
 	}
-	s:STATE_KAUNAS = {
+	s:STATE_LITHUANIA = {
 		region_state:RUS = {
 			create_pop = {
 				culture = lithuanian
@@ -24602,7 +24606,7 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 708288
+				size = 108288
 			}
 			create_pop = {
 				culture = sephardic
@@ -24612,12 +24616,12 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 165214
+				size = 65214
 			}
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 267628
+				size = 167628
 			}
 			create_pop = {
 				culture = sephardic
@@ -31325,7 +31329,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 124336
+				size = 224336
 			}
 			create_pop = {
 				culture = andalucian
@@ -32322,7 +32326,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 213994
+				size = 13994
 			}
 			create_pop = {
 				culture = spanish
@@ -32332,7 +32336,7 @@
 			create_pop = {
 				culture = portuguese
 				religion = catholic
-				size = 286656
+				size = 186656
 			}
 			create_pop = {
 				culture = andalucian
@@ -36023,7 +36027,7 @@
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 224707
+				size = 124707
 			}
 			create_pop = {
 				culture = spanish
@@ -43674,6 +43678,11 @@
 			}
 			create_pop = {
 				culture = korean
+				religion = mahayana
+				size = 2000000
+			}
+			create_pop = {
+				culture = korean
 				religion = theravada
 				size = 709808
 			}
@@ -45039,29 +45048,14 @@
 				size = 862025
 			}
 			create_pop = {
-				culture = manchu
-				religion = animist
-				size = 179246
-			}
-			create_pop = {
-				culture = manchu
-				religion = tengri_pagan_reformed
-				size = 108707
-			}
-			create_pop = {
-				culture = manchu
-				religion = mahayana
-				size = 352560
+				culture = han
+				religion = daoshenic
+				size = 484550
 			}
 			create_pop = {
 				culture = han
 				religion = daoshenic
-				size = 684550
-			}
-			create_pop = {
-				culture = han
-				religion = daoshenic
-				size = 238499
+				size = 138499
 			}
 			create_pop = {
 				culture = han
@@ -45076,12 +45070,12 @@
 			create_pop = {
 				culture = manchu
 				religion = tengri_pagan_reformed
-				size = 532479
+				size = 232479
 			}
 			create_pop = {
 				culture = manchu
 				religion = daoshenic
-				size = 785964
+				size = 585964
 			}
 			create_pop = {
 				culture = korean
@@ -45126,17 +45120,12 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 633842
+				size = 233842
 			}
 			create_pop = {
 				culture = han
 				religion = daoshenic
-				size = 697226
-			}
-			create_pop = {
-				culture = mongol
-				religion = sunni
-				size = 217419
+				size = 397226
 			}
 			create_pop = {
 				culture = mongol
@@ -47127,8 +47116,6 @@
 				religion = orthodox
 				size = 300312
 			}
-		}
-		region_state:V48 = {
 			create_pop = {
 				culture = tatar
 				religion = sunni
@@ -47293,7 +47280,7 @@
 			}
 		}
 	}
-	s:STATE_TARTARIA = {
+	s:STATE_SARATOV = {
 		region_state:RUS = {
 			create_pop = {
 				culture = mordvin
@@ -51413,7 +51400,7 @@
 			create_pop = {
 				culture = andalucian
 				religion = catholic
-				size = 129350
+				size = 329350
 			}
 			create_pop = {
 				culture = portuguese
@@ -54929,7 +54916,7 @@
 			create_pop = {
 				culture = korean
 				religion = mahayana
-				size = 813391
+				size = 1813391
 			}
 			create_pop = {
 				culture = korean

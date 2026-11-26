@@ -17942,7 +17942,7 @@
 			}
 		}
 	}
-	s:STATE_GALICH = {
+	s:STATE_VOLOGDA = {
 		region_state:RUS = {
 			create_building = {
 				building = "building_logging_camp"
@@ -17951,7 +17951,7 @@
 						type = building_logging_camp
 						country = c:RUS
 						levels = 1
-						region = STATE_GALICH
+						region = STATE_VOLOGDA
 					}
 				}
 				reserves = 1
@@ -17964,7 +17964,7 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 2
-						region = STATE_GALICH
+						region = STATE_VOLOGDA
 					}
 				}
 				reserves = 1
@@ -17977,7 +17977,7 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 2
-						region = STATE_GALICH
+						region = STATE_VOLOGDA
 					}
 				}
 				reserves = 1
@@ -17990,7 +17990,7 @@
 						type = building_financial_district
 						country = c:RUS
 						levels = 1
-						region = STATE_GALICH
+						region = STATE_VOLOGDA
 					}
 				}
 				reserves = 1
@@ -18003,7 +18003,7 @@
 						type = building_glassworks
 						country = c:RUS
 						levels = 1
-						region = STATE_GALICH
+						region = STATE_VOLOGDA
 					}
 				}
 				reserves = 1
@@ -26225,7 +26225,7 @@
 			}
 		}
 	}
-	s:STATE_KAUNAS = {
+	s:STATE_LITHUANIA = {
 		region_state:RUS = {
 			create_building = {
 				building = "building_trade_center"
@@ -26233,17 +26233,6 @@
 					country = {
 						country = c:RUS
 						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:RUS
-						levels = 3
 					}
 				}
 				reserves = 1
@@ -39785,17 +39774,6 @@
 	s:STATE_OUTER_MANCHURIA = {
 		region_state:KOR = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:KOR
-						levels = 5
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
@@ -39814,16 +39792,8 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 6
+						levels = 1
 						region = STATE_OUTER_MANCHURIA
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
-						levels = 2
-						region = STATE_SUZHOU
 					}
 				}
 				reserves = 1
@@ -39835,16 +39805,8 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 9
-						region = STATE_OUTER_MANCHURIA
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
 						levels = 2
-						region = STATE_SUZHOU
+						region = STATE_OUTER_MANCHURIA
 					}
 				}
 				reserves = 1
@@ -39855,7 +39817,7 @@
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 3
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -42348,6 +42310,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+			create_building = {
+				building = "building_arms_industry"
+				add_ownership = {
+					building = {
+						type = building_arms_industry
+						country = c:KOR
+						levels = 1
+						region = STATE_PYONGYANG
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_pulp_pressing" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -45695,22 +45670,25 @@
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 6
+						levels = 5
 					}
 				}
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_logging_camp"
+				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
-						levels = 1
-						region = STATE_SUZHOU
+					country = {
+						country = c:KOR
+						levels = 10
 					}
 				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = building_logging_camp
@@ -45720,19 +45698,100 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
-				building = "building_trade_center"
+				building = "building_iron_mine"
 				add_ownership = {
-					country = {
+					building = {
+						type = building_iron_mine
 						country = c:KOR
-						levels = 1
+						levels = 3
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" }
+			}
+			create_building = {
+				building = "building_furniture_manufactory"
+				add_ownership = {
+					building = {
+						type = building_furniture_manufactory
+						country = c:KOR
+						levels = 4
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" }
+			}
+			create_building = {
+				building = "building_paper_mill"
+				add_ownership = {
+					building = {
+						type = building_paper_mill
+						country = c:KOR
+						levels = 14
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				add_ownership = {
+					building = {
+						type = building_textile_mill
+						country = c:KOR
+						levels = 4
+						region = STATE_SEOUL
 					}
 				}
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = {
+					building = {
+						type = building_shipyard
+						country = c:KOR
+						levels = 2
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_food_industry
+						country = c:KOR
+						levels = 2
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_tooling_workshop"
+				add_ownership = {
+					building = {
+						type = building_tooling_workshop
+						country = c:KOR
+						levels = 2
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+
 			create_building = {
 				building = "building_silk_plantation"
 				add_ownership = {
@@ -45741,14 +45800,6 @@
 						country = c:KOR
 						levels = 6
 						region = STATE_SEOUL
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
-						levels = 1
-						region = STATE_SUZHOU
 					}
 				}
 				reserves = 1
@@ -45760,16 +45811,8 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 10
+						levels = 25
 						region = STATE_SEOUL
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
-						levels = 3
-						region = STATE_SUZHOU
 					}
 				}
 				reserves = 1
@@ -45780,7 +45823,7 @@
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 1
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -47743,26 +47786,15 @@
 	s:STATE_SOUTHERN_MANCHURIA = {
 		region_state:KOR = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:KOR
-						levels = 5
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 25
+						levels = 10
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -47770,7 +47802,7 @@
 					building = {
 						type = building_coal_mine
 						country = c:KOR
-						levels = 1
+						levels = 3
 						region = STATE_SOUTHERN_MANCHURIA
 					}
 				}
@@ -47783,7 +47815,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 1
+						levels = 3
 						region = STATE_SOUTHERN_MANCHURIA
 					}
 				}
@@ -47796,16 +47828,8 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 12
+						levels = 10
 						region = STATE_SOUTHERN_MANCHURIA
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
-						levels = 3
-						region = STATE_SUZHOU
 					}
 				}
 				reserves = 1
@@ -47830,16 +47854,8 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 3
+						levels = 2
 						region = STATE_SOUTHERN_MANCHURIA
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:X40
-						levels = 1
-						region = STATE_SUZHOU
 					}
 				}
 				reserves = 1
@@ -47851,7 +47867,7 @@
 					building = {
 						type = building_textile_mill
 						country = c:KOR
-						levels = 2
+						levels = 1
 						region = STATE_SOUTHERN_MANCHURIA
 					}
 				}
@@ -47868,14 +47884,6 @@
 						region = STATE_SOUTHERN_MANCHURIA
 					}
 				}
-				add_ownership = {
-					building = {
-						type = building_furniture_manufactory
-						country = c:KOR
-						levels = 7
-						region = STATE_SOUTHERN_MANCHURIA
-					}
-				}
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" }
 			}
@@ -47884,7 +47892,7 @@
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 17
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -49996,17 +50004,6 @@
 	s:STATE_TAMBOV = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:RUS
-						levels = 3
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -50070,32 +50067,8 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
-		region_state:V48 = {
-			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:V48
-						levels = 3
-					}
-				}
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barrack"
-				add_ownership = {
-					country = {
-						country = c:V48
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
-			}
-		}
 	}
-	s:STATE_TARTARIA = {
+	s:STATE_SARATOV = {
 		region_state:RUS = {
 			create_building = {
 				building = "building_barrack"
