@@ -2356,12 +2356,24 @@
 		}
 	}
 	c:HAW ?= {
+		add_technology_researched = admiralty
+		add_technology_researched = artillery
+		add_technology_researched = centralization
+		add_technology_researched = democracy
+		add_technology_researched = distillation
+		add_technology_researched = drydocks
 		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
+		add_technology_researched = military_drill
+		add_technology_researched = navigation
+		add_technology_researched = prospecting
+		add_technology_researched = rationalism
+		add_technology_researched = shaft_mining
 		add_technology_researched = standing_army
+		add_technology_researched = steelworking
+		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urbanization
-		effect_native_conscription_3 = yes
-		effect_starting_politics_traditional = yes
-		effect_starting_technology_tier_7_tech = yes
 		activate_law = law_type:law_closed_borders
 		activate_law = law_type:law_consumption_based_taxation
 		activate_law = law_type:law_debt_slavery
