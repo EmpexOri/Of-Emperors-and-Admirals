@@ -13762,7 +13762,7 @@
 		}
 	}
 	s:STATE_EAST_MICRONESIA = {
-		region_state:W72 = {
+		region_state:W91 = {
 			create_pop = {
 				culture = micronesian
 				religion = animist
@@ -13793,8 +13793,6 @@
 				religion = mahayana
 				size = 3417
 			}
-		}
-		region_state:W91 = {
 			create_pop = {
 				culture = micronesian
 				religion = animist
@@ -18122,15 +18120,11 @@
 				religion = animist
 				size = 61878
 			}
-		}
-		region_state:W50 = {
 			create_pop = {
 				culture = hawaiian
 				religion = animist
 				size = 98443
 			}
-		}
-		region_state:X94 = {
 			create_pop = {
 				culture = hawaiian
 				religion = animist
@@ -26744,7 +26738,7 @@
 			create_pop = {
 				culture = tagalog
 				religion = gelugpa
-				size = 152764
+				size = 352764
 			}
 			create_pop = {
 				culture = tagalog
@@ -26766,12 +26760,17 @@
 			create_pop = {
 				culture = tagalog
 				religion = gelugpa
-				size = 282108
+				size = 62108
 			}
 			create_pop = {
 				culture = tagalog
 				religion = mahayana
-				size = 141464
+				size = 31464
+			}
+			create_pop = {
+				culture = japanese
+				religion = mahayana
+				size = 22108
 			}
 		}
 		region_state:LUS = {

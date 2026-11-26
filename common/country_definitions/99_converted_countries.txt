@@ -3522,7 +3522,7 @@ REPLACE_OR_CREATE:HAU ?= {
 
 REPLACE_OR_CREATE:HAW ?= {
 	color = { 48 169 96 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = kingdom
 	cultures = { hawaiian }
 	religion = animist

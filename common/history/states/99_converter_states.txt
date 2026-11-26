@@ -2464,17 +2464,11 @@
 	}
 	s:STATE_EAST_MICRONESIA = {
 		create_state = {
-			country = c:W72
-			owned_provinces = { x527F6C x808090 }
-			state_type = incorporated
-		}
-		create_state = {
 			country = c:W91
-			owned_provinces = { x808011 x80C011 xCD1EA0 xF5DBBF }
+			owned_provinces = { x808011 x80C011 xCD1EA0 xF5DBBF x527F6C x808090 }
 			state_type = incorporated
 		}
 		add_homeland = cu:japanese
-		add_claim = c:W91
 		add_claim = c:X22
 	}
 	s:STATE_EAST_PRUSSIA = {
@@ -3313,17 +3307,7 @@
 	s:STATE_HAWAIIAN_ISLANDS = {
 		create_state = {
 			country = c:HAW
-			owned_provinces = { x492B26 }
-			state_type = incorporated
-		}
-		create_state = {
-			country = c:W50
-			owned_provinces = { xB5403E }
-			state_type = incorporated
-		}
-		create_state = {
-			country = c:X94
-			owned_provinces = { x6090C0 }
+			owned_provinces = { x492B26 xB5403E x6090C0 }
 			state_type = incorporated
 		}
 		add_homeland = cu:hawaiian
@@ -4841,17 +4825,17 @@
 	s:STATE_LUZON = {
 		create_state = {
 			country = c:IDN
-			owned_provinces = { x0D8236 x1B9953 x1C8BCF x2291B3 x31F0E0 x5ED347 x63FA56 x6D44B5 x795BD8 x946A22 x95102A x97B9E0 xB0F0B0 xB0F0E0 xCDE626 xD2AEEB xEB310E xECF5E9 }
+			owned_provinces = { x0D8236 x1B9953 x1C8BCF x2291B3 x31F0E0 x5ED347 x63FA56 x6D44B5 x795BD8 x946A22 x95102A x97B9E0 xB0F0B0 xB0F0E0 xCDE626 xD2AEEB xEB310E xECF5E9 xE173C4 xF4CD9C x5C0D4C x51BC8C x707061 }
 			state_type = incorporated
 		}
 		create_state = {
 			country = c:W73
-			owned_provinces = { x5C0D4C xB08546 xE173C4 xF4CD9C }
+			owned_provinces = { xB08546 }
 			state_type = incorporated
 		}
 		create_state = {
 			country = c:LUS
-			owned_provinces = { x33B5F8 x51BC8C x707061 }
+			owned_provinces = { x33B5F8 }
 			state_type = unincorporated
 		}
 		add_homeland = cu:tagalog
@@ -9207,7 +9191,6 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:japanese
-		add_claim = c:W72
 		add_claim = c:X22
 	}
 	s:STATE_WEST_PRUSSIA = {
