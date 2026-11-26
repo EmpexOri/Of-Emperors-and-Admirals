@@ -1,0 +1,79 @@
+﻿ABA_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.004 0.584 0.161 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_ABA_republic_added_6jgpl71ozbvec.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_ABA_republic_custom_uri50kn03qxn.tga"
+		instance = { position = { 0.5014 0.524 } scale = { 0.2923 0.535 } }
+	}
+}
+
+ABA_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.004 0.584 0.161 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_ABA_monarchy_added_fmt5u41ogg6om.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_ABA_monarchy_custom_aoyxyg5itp0b.tga"
+		instance = { position = { 0.5017 0.4985 } scale = { 0.3474 0.637 } }
+	}
+}
+
+ABA_theocracy = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = rgb { 0.004 0.584 0.161 }
+	color2 = rgb { 0.620 0.071 0.071 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_ABA_theocracy_added_160hw85piqxo0.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.75 0.75 } }
+	}
+}
+
+ABA_council = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.620 0.071 0.071 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_ABA_council_added_1drn3wh1ttshbb.tga"
+		instance = { position = { 0.125 0.5 } scale = { 0.25 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_ABA_council_added_1ona5woy168py.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.75 0.75 } }
+	}
+}
+
+ABA_nationalist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.004 0.584 0.161 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_ABA_nationalist_added_f4ajw0mr0oie.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_ABA_nationalist_added_higcmd1nra2v9.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+}

@@ -1381,9 +1381,9 @@ REPLACE_OR_CREATE:BOB ?= {
 }
 
 REPLACE_OR_CREATE:BOH ?= {
-	color = { 161 139 40 }
+	color = { 130 30 65 }
 	country_type = recognized
-	tier = principality
+	tier = kingdom
 	cultures = { south_german }
 	religion = catholic
 	capital = STATE_BOHEMIA
@@ -2743,7 +2743,7 @@ REPLACE_OR_CREATE:EE1 ?= {
 
 REPLACE_OR_CREATE:EGY ?= {
 	color = { 255 205 155 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = kingdom
 	cultures = { misri }
 	religion = kushite
@@ -3281,7 +3281,7 @@ REPLACE_OR_CREATE:GRE ?= {
 	tier = kingdom
 	cultures = { greek }
 	religion = orthodox
-	capital = STATE_NORTHERN_THRACE
+	capital = STATE_EASTERN_THRACE
 }
 
 REPLACE_OR_CREATE:GRG ?= {
@@ -6140,7 +6140,7 @@ REPLACE_OR_CREATE:MOD ?= {
 }
 
 REPLACE_OR_CREATE:MOL ?= {
-	color = { 136 157 23 }
+	color = { 171 122 0 }
 	country_type = recognized
 	tier = principality
 	cultures = { dynamic-hungarian-slovak-culture-num1 }
@@ -8693,7 +8693,7 @@ REPLACE_OR_CREATE:SLS ?= {
 REPLACE_OR_CREATE:SLV ?= {
 	color = { 158 161 188 }
 	country_type = recognized
-	tier = principality
+	tier = kingdom
 	cultures = { dynamic-hungarian-slovak-culture-num1 }
 	religion = protestant
 	capital = STATE_SLOVAKIA
@@ -11098,7 +11098,7 @@ REPLACE_OR_CREATE:W79 ?= {
 	capital = STATE_BIHAR
 }
 
-REPLACE_OR_CREATE:W80 ?= {
+REPLACE_OR_CREATE:KOA ?= {
 	color = { 85 230 136 }
 	country_type = recognized
 	tier = kingdom
@@ -11471,7 +11471,7 @@ REPLACE_OR_CREATE:WYU ?= {
 	capital = STATE_ANTIOQUIA
 }
 
-REPLACE_OR_CREATE:X00 ?= {
+REPLACE_OR_CREATE:ABA ?= {
 	color = { 7 115 7 }
 	country_type = recognized
 	tier = kingdom
@@ -11769,7 +11769,7 @@ REPLACE_OR_CREATE:X41 ?= {
 	tier = principality
 	cultures = { dynamic-hungarian-slovak-culture-num1 }
 	religion = protestant
-	capital = STATE_LORRAINE
+	capital = STATE_ILE_DE_FRANCE
 }
 
 REPLACE_OR_CREATE:X42 ?= {

@@ -56,7 +56,7 @@
 	c:BOH ?= {
 		create_diplomatic_pact = {
 			country = c:X86
-			type = puppet
+			type = personal_union
 		}
 	}
 	c:X86 ?= {
@@ -74,16 +74,16 @@
 	c:BOH ?= {
 		create_diplomatic_pact = {
 			country = c:X88
-			type = puppet
+			type = personal_union
 		}
 	}
 	c:X88 ?= {
-		add_liberty_desire = -50
+		add_liberty_desire = 10
 	}
 	c:BOH ?= {
 		create_diplomatic_pact = {
 			country = c:X89
-			type = puppet
+			type = protectorate
 		}
 	}
 	c:X89 ?= {
@@ -92,11 +92,11 @@
 	c:BOH ?= {
 		create_diplomatic_pact = {
 			country = c:X90
-			type = puppet
+			type = personal_union
 		}
 	}
 	c:X90 ?= {
-		add_liberty_desire = -50
+		add_liberty_desire = 10
 	}
 	c:DEN ?= {
 		create_diplomatic_pact = {
@@ -148,12 +148,6 @@
 	}
 	c:JAP ?= {
 		create_diplomatic_pact = {
-			country = c:CAL
-			type = colony
-		}
-	}
-	c:JAP ?= {
-		create_diplomatic_pact = {
 			country = c:ALK
 			type = chartered_company
 		}
@@ -170,7 +164,7 @@
 	c:JAP ?= {
 		create_diplomatic_pact = {
 			country = c:X67
-			type = vassal
+			type = tributary
 		}
 	}
 	c:X67 ?= {
@@ -179,7 +173,7 @@
 	c:KOR ?= {
 		create_diplomatic_pact = {
 			country = c:X31
-			type = colony
+			type = dominion
 		}
 	}
 	c:IDN ?= {
@@ -191,7 +185,7 @@
 	c:IDN ?= {
 		create_diplomatic_pact = {
 			country = c:W84
-			type = puppet
+			type = chartered_company
 		}
 	}
 	c:W84 ?= {
@@ -332,7 +326,7 @@
 	c:SLV ?= {
 		create_diplomatic_pact = {
 			country = c:X91
-			type = puppet
+			type = personal_union
 		}
 	}
 	c:X91 ?= {
@@ -356,7 +350,7 @@
 	c:W99 ?= {
 		add_liberty_desire = -36.198
 	}
-	c:W80 ?= {
+	c:KOA ?= {
 		create_diplomatic_pact = {
 			country = c:GRE
 			type = puppet
@@ -368,13 +362,13 @@
 	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:X21
-			type = chartered_company
+			type = dominion
 		}
 	}
 	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:GUA
-			type = chartered_company
+			type = dominion
 		}
 	}
 	c:LUS ?= {
@@ -386,7 +380,7 @@
 	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:PLT
-			type = colony
+			type = dominion
 		}
 	}
 	c:LUS ?= {
@@ -406,15 +400,6 @@
 	}
 	c:LUS ?= {
 		create_diplomatic_pact = {
-			country = c:X77
-			type = puppet
-		}
-	}
-	c:X77 ?= {
-		add_liberty_desire = -50
-	}
-	c:LUS ?= {
-		create_diplomatic_pact = {
 			country = c:X78
 			type = puppet
 		}
@@ -425,13 +410,13 @@
 	c:LUS ?= {
 		create_diplomatic_pact = {
 			country = c:X93
-			type = colony
+			type = dominion
 		}
 	}
 	c:V00 ?= {
 		create_diplomatic_pact = {
 			country = c:MOL
-			type = puppet
+			type = protectorate
 		}
 	}
 	c:MOL ?= {
@@ -455,19 +440,19 @@
 	c:TUV ?= {
 		add_liberty_desire = -14.954
 	}
-	c:X00 ?= {
+	c:ABA ?= {
 		create_diplomatic_pact = {
 			country = c:QUE
-			type = colony
+			type = dominion
 		}
 	}
-	c:X00 ?= {
+	c:ABA ?= {
 		create_diplomatic_pact = {
 			country = c:NEN
-			type = colony
+			type = dominion
 		}
 	}
-	c:X00 ?= {
+	c:ABA ?= {
 		create_diplomatic_pact = {
 			country = c:X37
 			type = colony

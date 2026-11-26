@@ -1,0 +1,128 @@
+﻿# Extra construction sector groups. The base group is Foundations (HMPS_13_construction.txt).
+# Site Machinery is labour saving only (no construction points): Steam Plant (era 3) coal 5, laborers -1750; Motorised Plant (era 5) oil 5, laborers -2500.
+# The -2500 cap leaves 0 laborers with Concrete Foundations or Piles and Caissons (2500 laborers).
+# Fittings add construction points on top of Foundations: Bare Finish none (no modifiers), Windows and Pipes 2.0, Electric Lifts 4.0.
+# Fittings also give construction sector throughput per level: Windows and Pipes 0.5%, Electric Lifts 1%. This replaces the vanilla tech throughput (Reinforced Concrete, Pneumatic Tools).
+# Each upgrade costs fewer goods per point than adding another construction sector level at every Foundations tier.
+
+############ SITE MACHINERY
+
+pm_manual_labour_construction = {
+	texture = "gfx/interface/icons/production_method_icons/pm_manual_labour_construction.dds"
+}
+
+pm_steam_cranes_construction = {
+	texture = "gfx/interface/icons/production_method_icons/pm_steam_cranes_construction.dds"
+
+	unlocking_technologies = {
+		steam_donkey # steam navvies, derricks and pile drivers on large works, about 1870-1910
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1750
+		}
+	}
+
+	ai_value = 2000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}
+
+pm_mechanical_excavators_construction = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mechanical_excavators_construction.dds"
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 5 # motor lorries, diesel and petrol excavators, concrete mixers
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+
+	ai_value = 4000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}
+
+############ FITTINGS AND SERVICES
+
+pm_bare_finish_construction = {
+	texture = "gfx/interface/icons/production_method_icons/pm_bare_finish_construction.dds"
+}
+
+pm_glazed_and_plumbed_construction = {
+	texture = "gfx/interface/icons/production_method_icons/pm_glazed_and_plumbed_construction.dds"
+
+	unlocking_technologies = {
+		modern_sewerage
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2.0
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 20
+			goods_input_lead_add = 5
+		}
+
+		level_scaled = {
+			building_construction_sector_throughput_add = 0.005 # +0.5% per level; replaces the Reinforced Concrete and Pneumatic Tools throughput
+		}
+	}
+
+	ai_value = 2000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}
+
+pm_electrified_with_lifts_construction = {
+	texture = "gfx/interface/icons/production_method_icons/pm_electrified_with_lifts_construction.dds"
+
+	unlocking_technologies = {
+		elevator
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 4.0
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# Windows and Pipes goods plus the lift; no electricity (building lifts, not running them). Cost 1900.
+			# The lift's steel is counted in Piles and Caissons, which keeps Electric Lifts cheaper per point than Windows and Pipes.
+			goods_input_glass_add = 30
+			goods_input_lead_add = 5 # plumbing
+			goods_input_copper_add = 5 # wiring
+			goods_input_engines_add = 5 # lift motor and winding gear
+		}
+
+		level_scaled = {
+			building_construction_sector_throughput_add = 0.01 # +1% per level (Windows and Pipes 0.5% plus 0.5% for lifts)
+		}
+	}
+
+	ai_value = 4000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}

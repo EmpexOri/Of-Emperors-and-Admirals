@@ -1,0 +1,1094 @@
+﻿
+INJECT:ideology_radical = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_radical.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	lawgroup_debt = {
+		law_peonage = strongly_disapprove
+	}
+	
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = neutral
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+}
+
+INJECT:ideology_reformer = {
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = neutral
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = approve
+		law_moderate_corporation_tax = neutral
+		law_high_corporation_tax = disapprove
+	}
+	
+	lawgroup_consumption_tax = {
+		law_no_consumption_taxes = disapprove
+		law_low_consumption_tax = neutral
+		law_moderate_consumption_tax = approve
+		law_high_consumption_tax = neutral
+	}
+
+	lawgroup_labour_associations = {
+		law_combination_acts = disapprove
+		law_guild_system = disapprove
+		law_anti_strike_laws = neutral
+		law_corporatized_unions = neutral
+		law_right_to_associate = approve
+		law_factory_councils = strongly_disapprove
+	}
+}
+
+
+INJECT:ideology_abolitionist = {
+	
+	lawgroup_debt = {
+		law_peonage = strongly_disapprove
+	}
+}
+
+INJECT:ideology_slaver = {
+	
+	lawgroup_debt = {
+		law_peonage = strongly_approve
+		law_debtors_prisons = approve
+		law_chartered_mandates = neutral
+		law_limited_liability = neutral
+	}
+}
+
+INJECT:ideology_state_socialist = {
+
+	
+	lawgroup_work_hours = {
+		law_no_work_hour_limits = disapprove
+		law_12_hour_limit = neutral
+		law_8_hour_limit = approve
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = disapprove
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = approve
+	#	law_high_minimum_wage = strongly_approve
+	#}
+
+	lawgroup_welfare = {
+		law_poor_laws = strongly_disapprove
+		law_no_social_security = strongly_disapprove
+		law_wage_subsidies = approve
+		law_old_age_pension = strongly_approve
+	}
+	
+	lawgroup_environment = {
+		law_no_environmental_regulations = neutral
+		law_limited_environmental_regulations = approve
+		law_firm_environmental_regulations = strongly_approve
+	}
+}
+
+INJECT:ideology_communist = {
+	lawgroup_work_hours = {
+		law_no_work_hour_limits = disapprove
+		law_12_hour_limit = neutral
+		law_8_hour_limit = approve
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = disapprove
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = approve
+	#	law_high_minimum_wage = strongly_approve
+	#}
+	
+	lawgroup_environment = {
+		law_no_environmental_regulations = neutral
+		law_limited_environmental_regulations = approve
+		law_firm_environmental_regulations = strongly_approve
+	}
+}
+
+INJECT:ideology_vanguardist = {
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = disapprove
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= disapprove
+		law_low_corporation_tax = disapprove
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+	
+}
+
+INJECT:ideology_fascist = {
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = disapprove
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= disapprove
+		law_low_corporation_tax = disapprove
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+	
+	lawgroup_consumption_tax = {
+		law_no_consumption_taxes = disapprove
+		law_low_consumption_tax = neutral
+		law_moderate_consumption_tax = approve
+		law_high_consumption_tax = strongly_approve
+	}
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = approve
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = disapprove
+	#	law_high_minimum_wage = strongly_disapprove
+	#}
+}
+
+INJECT:ideology_anarchist = {
+
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= disapprove
+		law_low_corporation_tax = disapprove
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = approve
+		law_market_led_development = strongly_disapprove
+		law_dispersed_industry = approve
+		law_concentrated_industry = strongly_disapprove
+	}
+}
+
+INJECT:ideology_ethno_nationalist = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+INJECT:ideology_market_liberal = {
+	
+	lawgroup_debt = {
+		law_peonage = strongly_disapprove
+		law_debtors_prisons = disapprove
+		law_chartered_mandates = approve
+		law_limited_liability = strongly_approve
+	}
+	
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = approve
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = disapprove
+		law_high_corporation_tax = strongly_disapprove
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = approve
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = disapprove
+	#	law_high_minimum_wage = strongly_disapprove
+	#}
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = neutral
+		law_market_led_development = strongly_approve
+		law_dispersed_industry = approve
+		law_concentrated_industry = disapprove
+	}
+}
+
+INJECT:ideology_luddite = {
+	
+	lawgroup_environment = {
+		law_no_environmental_regulations = disapprove
+		law_limited_environmental_regulations = approve
+		law_firm_environmental_regulations = strongly_approve
+	}
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = approve
+		law_market_led_development = disapprove
+		law_dispersed_industry = neutral
+		law_concentrated_industry = strongly_disapprove
+	}
+}
+
+INJECT:ideology_humanitarian = {
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = disapprove
+		law_moderate_income_tax = approve
+		law_high_income_tax = approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= disapprove
+		law_low_corporation_tax = disapprove
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = approve
+	}
+}
+
+INJECT:ideology_jacksonian_democrat = {
+	
+	lawgroup_debt = {
+		law_peonage = disapprove
+		law_debtors_prisons = neutral
+		law_chartered_mandates = disapprove
+		law_limited_liability = strongly_disapprove
+	}
+}
+
+INJECT:ideology_positivist = {
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = disapprove
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= disapprove
+		law_low_corporation_tax = disapprove
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+}
+
+INJECT:ideology_land_reformer = {
+
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+
+	lawgroup_debt = {
+		law_peonage = strongly_disapprove
+	}
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = disapprove
+		law_market_led_development = neutral
+		law_dispersed_industry = approve
+		law_concentrated_industry = neutral
+	}
+}
+
+INJECT:ideology_integralist = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+INJECT:ideology_corporatist_leader = {
+	
+	lawgroup_work_hours = {
+		law_no_work_hour_limits = neutral
+		law_12_hour_limit = approve
+		law_8_hour_limit = disapprove
+	}
+
+	lawgroup_welfare = {
+		law_poor_laws = neutral
+		law_no_social_security = disapprove
+		law_wage_subsidies = approve
+		law_old_age_pension = neutral
+	}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = disapprove
+		law_moderate_income_tax = neutral
+		law_high_income_tax = approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= neutral
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = approve
+	}
+	
+	lawgroup_environment = {
+		law_no_environmental_regulations = neutral
+		law_limited_environmental_regulations = approve
+		law_firm_environmental_regulations = neutral
+	}
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = disapprove
+		law_market_led_development = strongly_disapprove
+		law_dispersed_industry = strongly_approve
+		law_concentrated_industry = approve
+	}
+}
+
+INJECT:ideology_despotic_utopian = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+INJECT:ideology_utilitarian_leader = {
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = neutral
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+}
+
+INJECT:ideology_sovereignist_leader = { # For colonised peoples	
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = disapprove
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes= disapprove
+		law_low_corporation_tax = disapprove
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = disapprove
+	}
+}
+
+INJECT:ideology_modernizer_leader = {
+
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = strongly_disapprove
+		law_low_income_tax = neutral
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+
+	lawgroup_consumption_tax = {
+		law_no_consumption_taxes = disapprove
+		law_low_consumption_tax = neutral
+		law_moderate_consumption_tax = approve
+		law_high_consumption_tax = strongly_approve
+	}
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = strongly_disapprove
+		law_market_led_development = approve
+		law_dispersed_industry = approve
+		law_concentrated_industry = strongly_approve
+	}
+}
+
+INJECT:ideology_carlist = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+
+INJECT:ideology_carlist_2 = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+
+}
+
+INJECT:ideology_miguelist = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+INJECT:ideology_miguelist_2 = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+
+INJECT:ideology_ilustrado_leader = { 
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+INJECT:ideology_traditionalist = {
+	
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = strongly_approve
+		law_market_led_development = disapprove
+		law_dispersed_industry = neutral
+		law_concentrated_industry = disapprove
+	}
+}
+
+REPLACE:ideology_pacifist = { # Average Progressiveness - 0 #HMPS: REPLACE to move the Colonial Exploitation stance to the Colonial Institutions law group
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_pacifist.dds"
+
+	character_ideology = yes
+
+	lawgroup_army_model = {
+		law_national_militia = approve
+		law_professional_army = disapprove
+		law_peasant_levies = disapprove
+		law_mass_conscription = disapprove
+		law_revolutionary_guard = strongly_disapprove
+	}
+
+	lawgroup_navy_model = {
+		law_merchant_navy = approve
+		law_jeune_ecole = neutral
+		law_professional_navy = disapprove
+		law_diplomatic_navy = approve
+	}
+
+	lawgroup_colonization = {
+		law_no_colonial_affairs = approve
+		law_internal_colonization = disapprove
+		law_colonial_resettlement = strongly_disapprove
+		law_frontier_colonization = strongly_disapprove
+	}
+
+	lawgroup_colonial_institutions = { #HMPS
+		law_ad_hoc_administration = approve
+		law_indirect_rule = neutral
+		law_mission_schools = neutral
+		law_colonial_constabulary = strongly_disapprove
+		law_colonial_exploitation = strongly_disapprove
+	}
+
+	interest_group_leader_trigger = {
+		ideology_pacifist_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = { # No pacifist agitators
+		NOT = { has_role_of_type = agitator }
+	}
+
+	interest_group_leader_weight = {
+		value = {
+			add = 50
+			desc = "base_value"
+		}
+		# emerges to counter powerful armed forces
+		if = {
+			limit = {
+				owner ?= {
+					exists = ig:ig_armed_forces
+					ig:ig_armed_forces ?= {
+						is_powerful = yes
+					}
+				}
+			}
+			value = {
+				add = 50
+				desc = "POWERFUL_ARMED_FORCES"
+			}
+		}
+		# less likely if issues are not relevant
+		if = {
+			limit = {
+				owner ?= {
+					NOR = {
+						has_law_or_variant = law_type:law_colonial_resettlement
+						has_law_or_variant = law_type:law_colonial_exploitation
+						has_law_or_variant = law_type:law_peasant_levies
+						has_law_or_variant = law_type:law_mass_conscription
+					}
+				}
+			}
+			value = {
+				add = -25
+				desc = "FAVORED_LAWS"
+			}
+		}
+		# more likely if a war you started isn't going well
+		if = {
+			limit = {
+				owner ?= {
+					is_at_war = yes
+					any_scope_war = {
+						attacker_warleader ?= { this = ROOT.owner }
+						has_war_support = {
+							target = root.owner
+							value < 50
+						}
+					}
+				}
+			}
+			value = {
+				add = 100
+				desc = "LOSING_WAR"
+			}
+		}
+		# more likely with devastation in incorporated states
+		if = {
+			limit = {
+				owner ?= {
+					any_scope_state = {
+						is_incorporated = yes
+						devastation > 0.2
+					}
+				}
+			}
+			value = {
+				add = 50
+				desc = "DEVASTATED_STATES"
+			}
+		}
+		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
+		if = {
+			limit = {
+				has_variable = dreyfusard_victory
+			}
+			add = {
+				value = 50
+				desc = "DREYFUSARD_VICTORY"
+			}
+		}
+		# liberal and/or radical leaders have a higher spawn chance if you win the Two Spains as the liberals.
+		if = {
+			limit = {
+				has_variable = spa_two_spains_liberal_victory
+			}
+			add = {
+				value = 50
+				desc = "SPA_LIBERAL_VICTORY"
+			}
+		}
+		# liberal and/or radical leaders have a higher spawn chance if you succeed in Portugal's Second Liberalism.
+		if = {
+			limit = {
+				has_variable = por_second_liberalism_victory
+			}
+			add = {
+				value = 50
+				desc = "POR_LIBERAL_VICTORY"
+			}
+		}
+		# liberal and/or radical leaders have a higher spawn chance if the Hungarian Revolution was successful.
+		if = {
+			limit = {
+				has_variable = hungarian_revolution_increased_liberalism
+			}
+			add = {
+				value = 50
+				desc = "HUNGARIAN_REVOLUTION"
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = {
+				value = 0.1
+				desc = "CHOSE_A_DIFFERENT_PATH"
+			}
+		}
+		multiply = {
+			value = 1
+			add = modifier:interest_group_ideology_pacifist_leader_chance_mult
+			desc = "EVENTS_AND_OTHER_EFFECTS"
+		}
+	}
+
+	non_interest_group_leader_weight = {
+		value = 50
+		# emerges to counter powerful armed forces
+		if = {
+			limit = {
+				owner ?= {
+					exists = ig:ig_armed_forces
+					ig:ig_armed_forces ?= {
+						is_powerful = yes
+					}
+				}
+			}
+			add = 50
+		}
+		# less likely if issues are not relevant
+		if = {
+			limit = {
+				owner ?= {
+					NOR = {
+						has_law_or_variant = law_type:law_colonial_resettlement
+						has_law_or_variant = law_type:law_colonial_exploitation
+						has_law_or_variant = law_type:law_peasant_levies
+						has_law_or_variant = law_type:law_mass_conscription
+					}
+				}
+			}
+			add = -25
+		}
+		# more likely if a war you started isn't going well
+		if = {
+			limit = {
+				owner ?= {
+					is_at_war = yes
+					any_scope_war = {
+						attacker_warleader ?= { this = ROOT.owner }
+						has_war_support = {
+							target = root.owner
+							value < 50
+						}
+					}
+				}
+			}
+			add = 100
+		}
+		# more likely with devastation in incorporated states
+		if = {
+			limit = {
+				owner ?= {
+					any_scope_state = {
+						is_incorporated = yes
+						devastation > 0.2
+					}
+				}
+			}
+			add = 50
+		}
+		# liberal and/or radical leaders have a higher spawn chance if you win the Two Spains as the liberals and choose to have woke commanders.
+		if = {
+			limit = {
+				OR = {
+					has_role_of_type = general
+					has_role_of_type = admiral
+				}
+				has_variable = spa_liberal_military_var
+			}
+			add = 50
+		}
+		if = { # Fewer pacifist generals/admirals
+			limit = {
+				OR = {
+					has_role_of_type = general
+					has_role_of_type = admiral
+				}
+			}
+			multiply = 0.25
+		}
+		if = {
+			limit = {
+				interest_group ?= {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
+		multiply = {
+			value = 1
+			add = interest_group.modifier:interest_group_ideology_pacifist_leader_chance_mult
+			desc = "EVENTS_AND_OTHER_EFFECTS"
+		}
+	}
+}
+
+REPLACE:ideology_jingoist_leader = { # Average Progressiveness - 12.5 #HMPS: REPLACE to move the Colonial Exploitation stance to the Colonial Institutions law group
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_jingoist.dds"
+
+	character_ideology = yes
+
+	lawgroup_army_model = {
+		law_mass_conscription = strongly_approve
+		law_professional_army = approve
+		law_national_militia = neutral
+		law_peasant_levies = disapprove
+		law_revolutionary_guard = disapprove
+	}
+
+	lawgroup_navy_model = {
+		law_merchant_navy = strongly_disapprove
+		law_jeune_ecole = neutral
+		law_professional_navy = strongly_approve
+		law_diplomatic_navy = approve
+	}
+
+	lawgroup_colonization = {
+		law_no_colonial_affairs = disapprove
+		law_internal_colonization = neutral
+		law_colonial_resettlement = approve
+		law_frontier_colonization = approve
+	}
+
+	lawgroup_colonial_institutions = { #HMPS
+		law_ad_hoc_administration = neutral
+		law_indirect_rule = neutral
+		law_mission_schools = neutral
+		law_colonial_constabulary = approve
+		law_colonial_exploitation = strongly_approve
+	}
+
+	interest_group_leader_trigger = {
+		ideology_jingoist_leader_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role_of_type = agitator
+			owner ?= {
+				has_law_or_variant = law_type:law_mass_conscription
+				has_law_or_variant = law_type:law_colonial_exploitation
+			}
+		}
+		interest_group ?= {
+			ideology_jingoist_leader_valid_trigger = yes
+		}
+	}
+
+	interest_group_leader_weight = {
+		value = {
+			add = 50
+			desc = "base_value"
+		}
+		# less likely if issues are not relevant
+		if = {
+			limit = {
+				owner ?= {
+					has_law_or_variant = law_type:law_colonial_exploitation
+					has_law_or_variant = law_type:law_mass_conscription
+				}
+			}
+			add = {
+				value = -50
+				desc = "FAVORED_LAWS"
+			}
+		}
+		# more likely if there's something to colonize nearby
+		if = {
+			limit = {
+				any_decentralized_country = {
+					has_overlapping_interests = ROOT.owner
+				}
+			}
+			add = {
+				value = 50
+				desc = "NEARBY_DECENTRALIZED_COUNTRY"
+			}
+		}
+		# more likely if you border a rival
+		if = {
+			limit = {
+				owner ?= {
+					any_rival_country = {
+						any_neighbouring_state = {
+							owner = root.owner
+						}
+					}
+				}
+			}
+			add = {
+				value = 25
+				desc = "BORDERS_RIVAL"
+			}
+		}
+		# more likely if you're the defender in a war
+		if = {
+			limit = {
+				owner ?= {
+					is_at_war = yes
+					any_scope_war = {
+						defender_warleader ?= { this = ROOT.owner }
+					}
+				}
+			}
+			add = {
+				value = 25
+				desc = "DEFENDING_IN_WAR"
+			}
+		}
+		# less likely for conservative French IG's
+		if = {
+			limit = {
+				owner ?= {
+					exists = c:FRA
+					c:FRA ?= THIS
+					has_journal_entry = je_divided_monarchists
+				}
+				OR = {
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_devout
+				}
+			}
+			add = {
+				value = -50
+				desc = "CONSERVATIVE_IG"
+			}
+		}
+		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
+		if = {
+			limit = {
+				has_variable = anti_dreyfusard_victory
+			}
+			add = {
+				value = 50
+				desc = "ANTI_DREYFUSARD_VICTORY"
+			}
+		}
+		# conservative and/or reactionary leaders have a higher spawn chance if you win the Two Spains as the conservatives.
+		if = {
+			limit = {
+				has_variable = spa_two_spains_conservative_victory
+			}
+			add = {
+				value = 50
+				desc = "SPA_CONSERVATIVE_VICTORY"
+			}
+		}
+		# More likely under Alexei II
+		if = {
+			limit = {
+				owner ?= {
+					any_scope_character = {
+						has_template = RUS_alexei_ii
+						is_ruler_of_own_country = yes
+					}
+				}
+			}
+			add = {
+				value = 50
+				desc = "ALEXEI_II"
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = {
+				value = 0.1
+				desc = "CHOSE_A_DIFFERENT_PATH"
+			}
+		}
+		multiply = {
+			value = 1
+			add = modifier:interest_group_ideology_jingoist_leader_leader_chance_mult
+			desc = "EVENTS_AND_OTHER_EFFECTS"
+		}
+	}
+
+	non_interest_group_leader_weight = {
+		value = 50
+		# less likely if issues are not relevant
+		if = {
+			limit = {
+				owner ?= {
+					has_law_or_variant = law_type:law_colonial_exploitation
+					has_law_or_variant = law_type:law_mass_conscription
+				}
+			}
+			add = -50
+		}
+		# more likely if there's something to colonize nearby
+		if = {
+			limit = {
+				any_decentralized_country = {
+					has_overlapping_interests = ROOT.owner
+				}
+			}
+			add = 50
+		}
+		# more likely if you border a rival
+		if = {
+			limit = {
+				owner ?= {
+					any_rival_country = {
+						any_neighbouring_state = {
+							owner = root.owner
+						}
+					}
+				}
+			}
+			add = 25
+		}
+		# more likely if you're the defender in a war
+		if = {
+			limit = {
+				owner ?= {
+					is_at_war = yes
+					any_scope_war = {
+						defender_warleader ?= { this = ROOT.owner }
+					}
+				}
+			}
+			add = 25
+		}
+		# less likely for conservative French IG's
+		if = {
+			limit = {
+				owner ?= {
+					exists = c:FRA
+					c:FRA ?= THIS
+					has_journal_entry = je_divided_monarchists
+				}
+				OR = {
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_devout
+				}
+			}
+			add = -50
+		}
+		# More likely under Alexei II
+		if = {
+			limit = {
+				owner ?= {
+					any_scope_character = {
+						has_template = RUS_alexei_ii
+						is_ruler_of_own_country = yes
+					}
+				}
+			}
+			add = 50
+		}
+		if = {
+			limit = {
+				interest_group ?= {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
+		multiply = {
+			value = 1
+			add = interest_group.modifier:interest_group_ideology_jingoist_leader_leader_chance_mult
+			desc = "EVENTS_AND_OTHER_EFFECTS"
+		}
+	}
+}

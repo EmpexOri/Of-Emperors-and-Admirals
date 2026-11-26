@@ -1,0 +1,154 @@
+﻿# The base construction sector group (pmg_base_building_construction_sector) is now the FOUNDATIONS group.
+# Keys are kept from vanilla; names are changed in localization/replace/english.
+# Every tier uses BUILDING MATERIALS (brick, stone, timber, lime and cement) 30 / 40 / 50 / 60 plus wood (timber framing, scaffolding
+# and formwork) and, from Brick and Lime on, the metal of its era: cast- and wrought-iron columns, beams and roofs (Brick and Lime),
+# steel rebar and frames (Concrete), steel piling, caissons and high-rise frames (Piles). Other inputs follow vanilla where possible.
+# Construction points: Foundations 2.0 / 5.0 / 8.0 / 11.0 plus Fittings (HMPS_13_construction_groups.txt); Site Machinery gives none.
+# Each era's best combination matches vanilla points at base prices: Timber + Bare Finish 2.0 (1200 per point, vanilla +20%),
+# Brick + Bare Finish 5.0 (860, +19%), Concrete + Windows and Pipes 10.0 (675, +25%), Piles + Electric Lifts 15.0 (620, +18%).
+# Era 3 is above and era 4 below +20% because vanilla era 4 is only 2% cheaper per point than era 3.
+# At base prices every higher Foundations method is cheaper per point than the lower one with any Fittings method
+# (margins 28% / 11-16% / 3-6%), so the newest methods are always best. Engines stand in for vanilla's electricity.
+# Jobs: 5000 per level, the normal industry size (raised from vanilla 1500 on 2026-11-02 so construction wages match other industries).
+
+REPLACE:pm_wooden_buildings = { # Timber Footings
+	texture = "gfx/interface/icons/production_method_icons/pm_timber_footings_construction.dds"
+
+	is_default = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2.0
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_building_materials_add = 30
+			goods_input_wood_add = 50
+			goods_input_fabric_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+
+}
+
+REPLACE:pm_iron_frame_buildings = { # Brick and Lime Footings
+	texture = "gfx/interface/icons/production_method_icons/pm_brick_footings_construction.dds"
+
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 5.0
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_building_materials_add = 40
+			goods_input_iron_add = 40
+			goods_input_wood_add = 40
+			goods_input_fabric_add = 15
+			goods_input_tools_add = 10
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 500
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 750
+			building_employment_laborers_add = 3250
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+
+
+	ai_value = 2000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}
+
+REPLACE:pm_steel_frame_buildings = { # Concrete Foundations
+	texture = "gfx/interface/icons/production_method_icons/pm_concrete_foundations_construction.dds"
+
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 8.0
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_building_materials_add = 50
+			goods_input_steel_add = 45
+			goods_input_wood_add = 20
+			goods_input_tools_add = 20
+			goods_input_explosives_add = 10
+			goods_input_engines_add = 5
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 500
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 750
+			building_employment_laborers_add = 2500
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+
+
+	ai_value = 4000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}
+
+REPLACE:pm_arc_welded_buildings = { # Piles and Caissons
+	texture = "gfx/interface/icons/production_method_icons/pm_piles_and_caissons_construction.dds"
+
+	unlocking_technologies = {
+		electric_arc_process
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 11.0
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_building_materials_add = 60
+			goods_input_steel_add = 50
+			goods_input_wood_add = 20
+			goods_input_tools_add = 35
+			goods_input_explosives_add = 20
+			goods_input_engines_add = 5
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 500
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 750
+			building_employment_laborers_add = 2500
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+
+	ai_value = 8000 # HMPS AI: upgrade construction methods quickly (tier 1 uses PRODUCTION_METHOD_BASE_VALUE 1000)
+}

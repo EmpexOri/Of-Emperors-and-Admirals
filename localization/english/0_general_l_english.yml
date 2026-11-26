@@ -1,5 +1,6 @@
 ﻿l_english:
 
+    LUS_EMPIRE:0 "Congress of Coimbra"
     gov_lusitanian_admiralty:0 "Almirantado Junta"
     RULER_TITLE_GRAND_ADMIRAL:0 "Grand Admiral"
     LUS_LORD_ADMIRAL:0 "Lord Admiral"
@@ -9,7 +10,7 @@
     law_nueva_encomienda:0 "Nueva Encomienda"
     law_nueva_encomienda_desc:0 "The Nueva Encomienda law restructures land ownership, granting military officials and large landowners significant control over agricultural production while imposing obligations on tenant farmers. It aims to balance the interests of the landed elite with the economic needs of the state."
 
-
+    JAP_EMPIRE:0 "Tōyō Shōsha Jōyaku"
     law_choninbakufu:0 "Chōninbakufu"
     law_choninbakufu_desc:0 "The Chōninbakufu is a merchant-led shogunate in which powerful commercial houses, wealthy landowning families, and industrial capitalists dominate the state. The merchant houses finance the regime, while the traditional landed elite retain their privileged position. Political influence and investment are concentrated in the hands of the wealthy."
     law_kabunakama:0 "Kabunakama"
@@ -36,7 +37,7 @@
     ig_x40_armed_forces_desc:0 "The officer corps commands the armies of the realm. Its generals and military administrators seek a strong state, well-equipped forces and the preservation of military prestige."
     ig_x40_devout:0 "Scholar-Officials"
     ig_x40_devout_desc:0 "The guardians of classical learning, ancestral rites and imperial ceremony uphold the moral foundations of the state. They regard social harmony and respect for established duties as essential to good government."
-    ig_x40_industrialists:0 "Gung-Ho"
+    ig_x40_industrialists:0 "Gonghang"
     ig_x40_industrialists_desc:0 "The owners of manufactories, mines and industrial enterprises seek to transform the realm through investment and production. They favor the expansion of commerce, modern infrastructure and the influence of private enterprise."
     ig_x40_intelligentsia:0 "Literati"
     ig_x40_intelligentsia_desc:0 "The realm's writers, teachers and educated reformers debate the principles of good government. Drawing upon both classical scholarship and new ideas, they serve as advisers to authority and critics of its abuses."
@@ -46,8 +47,15 @@
     ig_x40_petty_bourgeoisie_desc:0 "Shopkeepers, lesser merchants, clerks and urban professionals form the respectable middle strata of the realm's towns and cities. They prize property, public order and the promise of advancement through diligence."
     ig_x40_rural_folk:0 "Nóngmín"
     ig_x40_rural_folk_desc:0 "The cultivators, tenant farmers and village households sustain the realm through their labor on the land. They seek secure livelihoods, relief from excessive burdens and protection for their rural communities."
-    ig_x40_trade_unions:0 "Gonghui"
+    ig_x40_trade_unions:0 "Gung-Ho"
     ig_x40_trade_unions_desc:0 "The associations of industrial workers and organized labor give a collective voice to those who work in the realm's workshops, factories and mines. They demand fair wages, safer conditions and a greater share in the prosperity they create."
+
+    HOLY_ROMAN_CONFEDERATION:0 "Holy Roman Confederation"
+
+    ALBAN_EMPIRE:0 "Albanic Concordat"
+
+    IDN_EMPIRE:0 "Pacifische Zeekaarten"
+
 
     intervene_in_war.tt:0 "Join any [concept_war] where [SCOPE.sCountry('target_country_scope').GetName] is the [concept_war_leader]"
     intervene_in_war.ttt:0 "Must not have a [concept_truce] with any potential enemy" 

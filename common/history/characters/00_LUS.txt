@@ -12,7 +12,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_authoritarian
 			birth_date = 1789.11.12
-			home_region = STATE_GALIZA
+			home_region = STATE_GALICIA
 			traits = {
 				basic_colonial_administrator cautious wrathful
 			}

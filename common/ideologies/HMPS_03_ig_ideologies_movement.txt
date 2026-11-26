@@ -1,0 +1,524 @@
+﻿
+INJECT:ideology_anti_slavery_movement = {
+	
+	lawgroup_debt = {
+		law_peonage = disapprove
+	}
+}
+
+INJECT:ideology_pro_slavery_movement = {
+	
+	lawgroup_debt = {
+		law_peonage = strongly_approve
+	}
+}
+
+INJECT:ideology_labor_movement = {
+
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_trade_policy = {		
+		law_protectionism = approve
+		law_isolationism = neutral
+		law_mercantilism = neutral
+		law_free_trade = disapprove
+	}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = neutral
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+	
+	lawgroup_consumption_tax = {
+		law_no_consumption_taxes = disapprove
+		law_low_consumption_tax = neutral
+		law_moderate_consumption_tax = approve
+		law_high_consumption_tax = strongly_approve
+	}
+
+	lawgroup_economic_system = {	
+		law_command_economy = strongly_approve
+		law_cooperative_ownership = strongly_approve
+		#law_state_capitalism = approve
+		law_interventionism = neutral
+		law_agrarianism = disapprove	
+		law_laissez_faire = disapprove	
+		law_traditionalism = strongly_disapprove	
+		#law_extraction_economy = strongly_disapprove
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = disapprove
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = approve
+	#	law_high_minimum_wage = strongly_approve
+	#}
+	
+	lawgroup_work_hours = {
+		law_no_work_hour_limits = strongly_disapprove
+		law_12_hour_limit = neutral
+		law_8_hour_limit = strongly_approve
+	}
+}
+
+INJECT:ideology_socialist_movement = {
+
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = approve
+	#	law_land_based_taxation = disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_income_tax = {
+		law_no_income_taxes = disapprove
+		law_low_income_tax = neutral
+		law_moderate_income_tax = approve
+		law_high_income_tax = strongly_approve
+	}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+	
+	lawgroup_consumption_tax = {
+		law_no_consumption_taxes = disapprove
+		law_low_consumption_tax = neutral
+		law_moderate_consumption_tax = approve
+		law_high_consumption_tax = strongly_approve
+	}
+	
+	lawgroup_work_hours = {
+		law_no_work_hour_limits = disapprove
+		law_12_hour_limit = neutral
+		law_8_hour_limit = approve
+	}
+
+	lawgroup_welfare = {
+		law_old_age_pension = strongly_approve
+		law_wage_subsidies = approve
+		law_poor_laws = neutral
+		law_no_social_security = disapprove
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = disapprove
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = approve
+	#	law_high_minimum_wage = strongly_approve
+	#}
+}
+
+INJECT:ideology_fascist_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = approve
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = disapprove
+	#	law_high_minimum_wage = strongly_disapprove
+	#}
+}
+
+INJECT:ideology_land_reformer_movement = {
+	icon = "gfx/interface/icons/ideology_icons/land_reformer.dds"
+
+	#lawgroup_poll_tax = {
+	#	law_no_poll_taxes = neutral
+	#	law_land_based_taxation = strongly_disapprove
+	#	law_per_capita_based_taxation = neutral
+	#}
+	
+	lawgroup_debt = {
+		law_peonage = strongly_disapprove
+	}
+}
+
+INJECT:ideology_reactionary_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+	
+	lawgroup_economic_system = {
+		law_command_economy = strongly_disapprove
+		law_cooperative_ownership = strongly_disapprove
+	}
+	
+	lawgroup_corporation_tax = {
+		law_high_corporation_tax = strongly_disapprove
+	}
+	
+	lawgroup_income_tax = {
+		law_high_income_tax = strongly_disapprove
+	}
+	
+	#lawgroup_minimum_wage = {
+	#	law_no_minimum_wage = approve
+	#	law_low_minimum_wage = neutral
+	#	law_moderate_minimum_wage = disapprove
+	#	law_high_minimum_wage = strongly_disapprove
+	#}
+
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = approve
+		law_market_led_development = disapprove
+		law_dispersed_industry = neutral
+		law_concentrated_industry = disapprove
+	}
+}
+
+INJECT:ideology_modernizer_movement_1 = {
+
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = strongly_disapprove
+		law_market_led_development = approve
+		law_dispersed_industry = approve
+		law_concentrated_industry = strongly_approve
+	}
+}
+
+INJECT:ideology_modernizer_movement_2 = {
+
+	#lawgroup_poll_tax = {
+	#	law_per_capita_based_taxation = approve
+	#	law_land_based_taxation = disapprove
+	#	law_no_poll_taxes = strongly_approve
+	#}
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = strongly_disapprove
+		law_low_corporation_tax = approve
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = approve
+	}
+	
+	lawgroup_land_reform = {
+		law_serfdom = strongly_disapprove
+	}
+
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = strongly_disapprove
+		law_market_led_development = approve
+		law_dispersed_industry = approve
+		law_concentrated_industry = strongly_approve
+	}
+}
+
+INJECT:ideology_corporatist_movement = {
+
+	lawgroup_economic_centralization = {
+		law_disorganized_planning = disapprove
+		law_market_led_development = strongly_disapprove
+		law_dispersed_industry = strongly_approve
+		law_concentrated_industry = approve
+	}
+}
+
+INJECT:ideology_ethno_nationalist_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+REPLACE:ideology_liberal_republican_movement = { #HMPS: vanilla copy (03_ig_ideologies_movement.txt) with the old INJECT folded in, Ctrl+F HMPS for changes
+	icon = "gfx/interface/icons/ideology_icons/republican.dds"
+
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_disapprove
+		law_theocracy = strongly_disapprove
+		law_council_republic = strongly_disapprove
+		law_presidential_republic = approve
+		law_parliamentary_republic = approve
+		law_corporate_state = neutral
+		law_social_monarchy = strongly_disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = approve
+		law_census_voting = approve
+		law_wealth_voting = approve
+		law_landed_voting = neutral
+		law_single_party_state = disapprove
+		law_technocracy = disapprove
+		law_oligarchy = disapprove
+		law_autocracy = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_labour_suffrage = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_multicultural = disapprove #HMPS: was strongly_disapprove (Imperial Citizenship)
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = approve
+		law_subjecthood = strongly_disapprove
+		law_language_discrimination = neutral #HMPS
+	}
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = approve
+		law_military_bureaucrats = disapprove
+		law_appointed_bureaucrats = neutral
+		law_hereditary_bureaucrats = disapprove
+		law_communal_administration = strongly_disapprove
+	}
+
+	lawgroup_internal_security = {
+		law_national_guard = approve
+		law_guaranteed_liberties = approve
+		law_no_home_affairs = disapprove
+		law_secret_police = strongly_disapprove
+		law_extraordinary_commission = strongly_disapprove
+	}
+
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
+	}
+}
+
+REPLACE:ideology_liberal_movement = { #HMPS: vanilla copy (03_ig_ideologies_movement.txt), Ctrl+F HMPS for changes
+	icon = "gfx/interface/icons/ideology_icons/liberal.dds"
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = strongly_approve
+		law_census_voting = strongly_approve
+		law_wealth_voting = approve
+		law_landed_voting = approve
+		law_single_party_state = disapprove
+		law_technocracy = disapprove
+		law_oligarchy = disapprove
+		law_autocracy = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_labour_suffrage = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_multicultural = disapprove #HMPS: was strongly_disapprove (Imperial Citizenship)
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = approve
+		law_subjecthood = strongly_disapprove
+	}
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = approve
+		law_military_bureaucrats = disapprove
+		law_appointed_bureaucrats = neutral
+		law_hereditary_bureaucrats = disapprove
+		law_communal_administration = strongly_disapprove
+	}
+
+	lawgroup_internal_security = {
+		law_national_guard = approve
+		law_guaranteed_liberties = approve
+		law_no_home_affairs = disapprove
+		law_secret_police = strongly_disapprove
+		law_extraordinary_commission = strongly_disapprove
+	}
+
+	lawgroup_land_reform = {
+		law_serfdom = disapprove
+		law_tenant_farmers = neutral
+		law_peasant_proprietorship = neutral
+		law_collectivized_agriculture = disapprove
+		law_commercialized_agriculture = approve
+	}
+
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
+	}
+}
+
+INJECT:ideology_pluralist_movement_1 = { # National Supremacy
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+INJECT:ideology_pluralist_movement_2 = { # Racial Segregation
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+INJECT:ideology_pluralist_movement_3 = { # Cultural Exclusion
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+INJECT:ideology_pluralist_movement_4 = { # Multicultural
+	
+	lawgroup_citizenship = {
+		law_language_discrimination = strongly_approve
+	}
+}
+
+
+INJECT:ideology_sovereignist_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = disapprove
+	}
+}
+
+INJECT:ideology_utilitarian_movement = {
+	
+	lawgroup_corporation_tax = {
+		law_no_corporation_taxes = disapprove
+		law_low_corporation_tax = neutral
+		law_moderate_corporation_tax = approve
+		law_high_corporation_tax = strongly_approve
+	}
+}
+
+INJECT:ideology_integralist_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+INJECT:ideology_carlist_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+INJECT:ideology_miguelist_movement = {
+
+	lawgroup_citizenship = {
+		law_language_discrimination = approve
+	}
+}
+
+INJECT:ideology_slave_revolt_movement = {
+	lawgroup_citizenship = {
+		law_language_discrimination = neutral
+	}
+}
+
+REPLACE:ideology_pro_slavery_colonial_movement = { #HMPS: REPLACE to move the Colonial Exploitation stance to the Colonial Institutions law group
+	icon = "gfx/interface/icons/ideology_icons/slaver.dds"
+
+	lawgroup_colonization = {
+		law_internal_colonization = neutral
+		law_no_colonial_affairs = disapprove
+		law_colonial_resettlement = neutral
+		law_frontier_colonization = neutral
+	}
+
+	lawgroup_policing = {
+		law_local_police = approve
+		law_dedicated_police = disapprove
+		law_militarized_police = neutral
+		law_no_police = strongly_disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slave_trade = disapprove
+		law_debt_slavery = neutral
+		law_legacy_slavery = neutral
+		law_colonial_slavery = approve
+		law_slavery_banned = strongly_disapprove
+	}
+
+	lawgroup_colonial_institutions = { #HMPS
+		law_ad_hoc_administration = neutral
+		law_indirect_rule = neutral
+		law_mission_schools = disapprove
+		law_colonial_constabulary = approve
+		law_colonial_exploitation = approve
+	}
+}
+
+REPLACE:ideology_cossack_movement = { #HMPS: REPLACE to move the Colonial Exploitation stance to the Colonial Institutions law group
+	icon = "gfx/interface/icons/ideology_icons/agrarian.dds"
+
+	lawgroup_governance_principles = {
+		law_monarchy = approve
+		law_theocracy = approve
+		law_presidential_republic = neutral
+		law_parliamentary_republic = neutral
+		law_corporate_state = neutral
+		law_social_monarchy = approve
+		law_council_republic = disapprove
+	}
+
+	lawgroup_church_and_state = {
+		law_state_religion = approve
+		law_freedom_of_conscience = neutral
+		law_total_separation = disapprove
+		law_state_atheism = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_ethnostate = disapprove
+		law_national_supremacy = approve
+		law_subjecthood = approve
+		law_racial_segregation = approve
+		law_cultural_exclusion = neutral
+		law_multicultural = disapprove
+	}
+
+	lawgroup_economic_system = {
+		law_command_economy = strongly_disapprove
+		law_cooperative_ownership = disapprove
+		law_interventionism = neutral
+		law_agrarianism = approve
+		law_traditionalism = approve
+		law_laissez_faire = disapprove
+		law_industry_banned = strongly_disapprove
+		law_extraction_economy = strongly_disapprove
+	}
+
+	lawgroup_land_reform = {
+		law_serfdom = strongly_disapprove
+		law_tenant_farmers = disapprove
+		law_peasant_proprietorship = approve
+		law_collectivized_agriculture = strongly_disapprove
+		law_commercialized_agriculture = neutral
+	}
+
+	lawgroup_colonization = {
+		law_internal_colonization = strongly_approve
+		law_no_colonial_affairs = strongly_disapprove
+		law_colonial_resettlement = neutral
+		law_frontier_colonization = neutral
+	}
+
+	lawgroup_colonial_institutions = { #HMPS
+		law_colonial_exploitation = disapprove
+	}
+}

@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_ABRUZZO = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_italian
 				religion = catholic
@@ -891,7 +891,7 @@
 		}
 	}
 	s:STATE_ALBANIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = albanian
 				religion = orthodox
@@ -2906,7 +2906,7 @@
 		}
 	}
 	s:STATE_APULIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_italian
 				religion = catholic
@@ -3790,6 +3790,16 @@
 				religion = jewish
 				size = 296
 			}
+			create_pop = {
+				culture = south_german
+				religion = catholic
+				size = 527625
+			}
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 513
+			}
 		}
 		region_state:W67 = {
 			create_pop = {
@@ -3801,18 +3811,6 @@
 				culture = ashkenazi
 				religion = jewish
 				size = 600
-			}
-		}
-		region_state:W69 = {
-			create_pop = {
-				culture = south_german
-				religion = catholic
-				size = 527625
-			}
-			create_pop = {
-				culture = ashkenazi
-				religion = jewish
-				size = 513
 			}
 		}
 	}
@@ -7412,7 +7410,7 @@
 		}
 	}
 	s:STATE_BRITTANY = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = breton
 				religion = catholic
@@ -7860,8 +7858,6 @@
 				religion = jewish
 				size = 144
 			}
-		}
-		region_state:X77 = {
 			create_pop = {
 				culture = french
 				religion = catholic
@@ -8078,7 +8074,7 @@
 		}
 	}
 	s:STATE_CALABRIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -8507,7 +8503,7 @@
 		}
 	}
 	s:STATE_CAMPANIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_italian
 				religion = catholic
@@ -10839,7 +10835,7 @@
 		}
 	}
 	s:STATE_CONNAUGHT = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = irish
 				religion = catholic
@@ -11195,7 +11191,7 @@
 		}
 	}
 	s:STATE_CORSICA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_italian
 				religion = catholic
@@ -11292,7 +11288,7 @@
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = dynamic-greek-culture-num2
 				religion = orthodox
@@ -11354,7 +11350,7 @@
 				size = 246446
 			}
 		}
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = croat
 				religion = catholic
@@ -11639,7 +11635,7 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = croat
 				religion = catholic
@@ -12679,7 +12675,7 @@
 				size = 562
 			}
 		}
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = anatolian
 				religion = orthodox
@@ -12703,7 +12699,7 @@
 		}
 	}
 	s:STATE_EAST_ANGLIA = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = catholic
@@ -14436,7 +14432,7 @@
 		}
 	}
 	s:STATE_EMILIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -15479,7 +15475,7 @@
 		}
 	}
 	s:STATE_FRANCHE_COMTE = {
-		region_state:FRA = {
+		region_state:X77 = {
 			create_pop = {
 				culture = french
 				religion = catholic
@@ -15495,8 +15491,6 @@
 				religion = jewish
 				size = 141
 			}
-		}
-		region_state:X08 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -15507,8 +15501,6 @@
 				religion = jewish
 				size = 823
 			}
-		}
-		region_state:X77 = {
 			create_pop = {
 				culture = french
 				religion = catholic
@@ -17720,7 +17712,7 @@
 				size = 134491
 			}
 		}
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -18811,7 +18803,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = scottish_gaelic
 				religion = catholic
@@ -19330,7 +19322,7 @@
 		}
 	}
 	s:STATE_HOME_COUNTIES = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = catholic
@@ -19883,7 +19875,7 @@
 		}
 	}
 	s:STATE_ILE_DE_FRANCE = {
-		region_state:BOH = {
+		region_state:X41 = {
 			create_pop = {
 				culture = french
 				religion = catholic
@@ -19909,8 +19901,6 @@
 				religion = jewish
 				size = 3874
 			}
-		}
-		region_state:X41 = {
 			create_pop = {
 				culture = french
 				religion = catholic
@@ -21118,7 +21108,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -21139,8 +21129,6 @@
 				religion = catholic
 				size = 59598
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = slovene
 				religion = catholic
@@ -24506,7 +24494,7 @@
 		}
 	}
 	s:STATE_LANCASHIRE = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = catholic
@@ -24964,7 +24952,7 @@
 		}
 	}
 	s:STATE_LAZIO = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -25184,7 +25172,7 @@
 		}
 	}
 	s:STATE_LEINSTER = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = scottish_gaelic
 				religion = catholic
@@ -25853,7 +25841,7 @@
 				size = 21803
 			}
 		}
-		region_state:LUS = {
+		region_state:HHE = {
 			create_pop = {
 				culture = yao
 				religion = sunni
@@ -25892,7 +25880,7 @@
 		}
 	}
 	s:STATE_LOMBARDY = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -26002,6 +25990,21 @@
 				religion = jewish
 				size = 2618
 			}
+			create_pop = {
+				culture = french
+				religion = catholic
+				size = 49151
+			}
+			create_pop = {
+				culture = french
+				religion = protestant
+				size = 9063
+			}
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 348
+			}
 		}
 		region_state:X41 = {
 			create_pop = {
@@ -26018,23 +26021,6 @@
 				culture = ashkenazi
 				religion = jewish
 				size = 3068
-			}
-		}
-		region_state:X77 = {
-			create_pop = {
-				culture = french
-				religion = catholic
-				size = 49151
-			}
-			create_pop = {
-				culture = french
-				religion = protestant
-				size = 9063
-			}
-			create_pop = {
-				culture = ashkenazi
-				religion = jewish
-				size = 348
 			}
 		}
 	}
@@ -26526,7 +26512,7 @@
 		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = scottish
 				religion = catholic
@@ -27319,7 +27305,7 @@
 		}
 	}
 	s:STATE_MALTA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = maltese
 				religion = catholic
@@ -29337,7 +29323,7 @@
 		}
 	}
 	s:STATE_MIDLANDS = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = catholic
@@ -31000,7 +30986,7 @@
 				size = 229308
 			}
 		}
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = serb
 				religion = orthodox
@@ -31236,7 +31222,7 @@
 		}
 	}
 	s:STATE_MUNSTER = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = irish
 				religion = catholic
@@ -36170,8 +36156,6 @@
 				religion = jewish
 				size = 30
 			}
-		}
-		region_state:LUS = {
 			create_pop = {
 				culture = han
 				religion = sunni
@@ -39128,7 +39112,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -39285,8 +39269,6 @@
 				religion = jewish
 				size = 5
 			}
-		}
-		region_state:LUS = {
 			create_pop = {
 				culture = occitan
 				religion = catholic
@@ -39297,7 +39279,6 @@
 				religion = jewish
 				size = 10
 			}
-		}
 	}
 	s:STATE_POMERANIA = {
 		region_state:BOH = {
@@ -40066,12 +40047,12 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = confucian
 				size = 602827
 			}
 			create_pop = {
 				culture = korean
-				religion = animist
+				religion = confucian
 				size = 245284
 			}
 			create_pop = {
@@ -40086,7 +40067,7 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = confucian
 				size = 649198
 			}
 			create_pop = {
@@ -40096,7 +40077,7 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = confucian
 				size = 584279
 			}
 		}
@@ -41565,8 +41546,6 @@
 				religion = catholic
 				size = 22590
 			}
-		}
-		region_state:X93 = {
 			create_pop = {
 				culture = apache
 				religion = animist
@@ -41792,7 +41771,7 @@
 		}
 	}
 	s:STATE_ROMAGNA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -42723,7 +42702,7 @@
 		}
 	}
 	s:STATE_SARDINIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_italian
 				religion = catholic
@@ -43668,7 +43647,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				religion = theravada
+				religion = confucian
 				size = 662487
 			}
 			create_pop = {
@@ -43678,7 +43657,7 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = confucian
 				size = 2000000
 			}
 			create_pop = {
@@ -43984,7 +43963,7 @@
 		}
 	}
 	s:STATE_SICILY = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = south_italian
 				religion = catholic
@@ -44451,7 +44430,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:CRO = {
+		region_state:W69 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -44462,8 +44441,6 @@
 				religion = catholic
 				size = 179871
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = slovene
 				religion = catholic
@@ -45213,7 +45190,7 @@
 				size = 4321
 			}
 		}
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = protestant
@@ -46045,7 +46022,7 @@
 				size = 122591
 			}
 		}
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -46138,8 +46115,6 @@
 				religion = catholic
 				size = 163169
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -49525,7 +49500,7 @@
 		}
 	}
 	s:STATE_TUSCANY = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -50039,7 +50014,7 @@
 		}
 	}
 	s:STATE_ULSTER = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = scottish_gaelic
 				religion = catholic
@@ -50133,7 +50108,7 @@
 		}
 	}
 	s:STATE_UMBRIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -51449,7 +51424,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -52368,7 +52343,7 @@
 		}
 	}
 	s:STATE_WALES = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = welsh
 				religion = catholic
@@ -52476,7 +52451,7 @@
 		}
 	}
 	s:STATE_WALLONIA = {
-		region_state:BOH = {
+		region_state:LUX = {
 			create_pop = {
 				culture = wallonian
 				religion = catholic
@@ -52502,8 +52477,6 @@
 				religion = jewish
 				size = 25
 			}
-		}
-		region_state:LUX = {
 			create_pop = {
 				culture = wallonian
 				religion = catholic
@@ -52544,8 +52517,6 @@
 				religion = jewish
 				size = 61
 			}
-		}
-		region_state:X41 = {
 			create_pop = {
 				culture = flemish
 				religion = catholic
@@ -53199,7 +53170,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:W80 = {
+		region_state:KOA = {
 			create_pop = {
 				culture = anatolian
 				religion = orthodox
@@ -53523,7 +53494,7 @@
 		}
 	}
 	s:STATE_WEST_COUNTRY = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = catholic
@@ -54910,12 +54881,12 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				religion = theravada
+				religion = confucian
 				size = 568499
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = confucian
 				size = 1813391
 			}
 			create_pop = {
@@ -54930,7 +54901,7 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = confucian
 				size = 721556
 			}
 		}
@@ -55286,7 +55257,7 @@
 				size = 71
 			}
 		}
-		region_state:LUS = {
+		region_state:W92 = {
 			create_pop = {
 				culture = yemenite
 				religion = sunni
@@ -55430,7 +55401,7 @@
 		}
 	}
 	s:STATE_YORKSHIRE = {
-		region_state:X00 = {
+		region_state:ABA = {
 			create_pop = {
 				culture = dynamic-irish-culture-num1
 				religion = catholic

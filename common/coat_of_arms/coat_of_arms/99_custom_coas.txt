@@ -88,7 +88,7 @@ W73_monarchy = { textured_emblem = { texture = "custom_export/W73_monarchy.tga" 
 W73_fascist = { textured_emblem = { texture = "custom_export/W73_fascist.tga" } }
 W73_communist = { textured_emblem = { texture = "custom_export/W73_communist.tga" } }
 W74 = { textured_emblem = { texture = "custom_export/W74.tga" } }
-W80 = { textured_emblem = { texture = "custom_export/W80.tga" } }
+KOA = { textured_emblem = { texture = "custom_export/KOA.tga" } }
 W84 = { textured_emblem = { texture = "custom_export/W84.tga" } }
 W85 = { textured_emblem = { texture = "custom_export/W85.tga" } }
 W89 = { textured_emblem = { texture = "custom_export/W89.tga" } }
@@ -98,7 +98,7 @@ W96 = { textured_emblem = { texture = "custom_export/W96.tga" } }
 W97 = { textured_emblem = { texture = "custom_export/W97.tga" } }
 W98 = { textured_emblem = { texture = "custom_export/W98.tga" } }
 WAD = { textured_emblem = { texture = "custom_export/WAD.tga" } }
-X00 = { textured_emblem = { texture = "custom_export/X00.tga" } }
+ABA = { textured_emblem = { texture = "custom_export/ABA.tga" } }
 X01 = { textured_emblem = { texture = "custom_export/X01.tga" } }
 X03 = { textured_emblem = { texture = "custom_export/X03.tga" } }
 X07 = { textured_emblem = { texture = "custom_export/X07.tga" } }

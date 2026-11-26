@@ -1,0 +1,70 @@
+﻿ABA = { # Alba
+	flag_definition = {
+		coa = ABA_monarchy
+		allow_overlord_canton = yes
+		subject_canton = ABA_monarchy
+		priority = 1
+	}
+	flag_definition = {
+		coa = ABA_monarchy
+		subject_canton = ABA_monarchy
+		priority = 30000
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = ABA_republic
+		subject_canton = ABA_republic
+		priority = 50000
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = ABA_theocracy
+		subject_canton = ABA_theocracy
+		priority = 25000
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = ABA_council
+		subject_canton = ABA_council
+		priority = 50000
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = ABA_nationalist
+		subject_canton = ABA_nationalist
+		priority = 60000
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+}

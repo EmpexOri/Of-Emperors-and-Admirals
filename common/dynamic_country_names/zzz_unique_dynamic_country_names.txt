@@ -495,35 +495,241 @@ RUS = {
 	}
 }
 
-FRA = {
-	# Porto-Frankia
+ABA = {
 	dynamic_country_name = {
-		name = dyn_c_porto_frankia
-		adjective = FRA_ADJ
+		name = dync_c_aba_monarchy
+		adjective = ABA_ADJ
+		priority = 30000
 		is_main_tag_only = yes
-		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dync_c_aba_republic
+		adjective = ABA_ADJ
+		priority = 30000
+		is_main_tag_only = yes
 
 		trigger = {
 			exists = scope:actor
 			scope:actor ?= {
 				OR = {
-					has_law = law_type:law_monarchy
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
 				}
 			}
 		}
 	}
 
-	# Porto-Frankia
 	dynamic_country_name = {
-		name = dyn_c_porto_frankia_republic
-		adjective = FRA_ADJ
+		name = dync_c_aba_theocracy
+		adjective = ABA_ADJ
+		priority = 25000
 		is_main_tag_only = yes
-		priority = 60000
 
 		trigger = {
 			exists = scope:actor
 			scope:actor ?= {
-				is_in_same_power_bloc = c:LUS
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dync_c_aba_council
+		adjective = ABA_ADJ
+		priority = 40000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dync_c_aba_nationalist
+		adjective = ABA_ADJ
+		priority = 60000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+}
+
+KOA = {
+	dynamic_country_name = {
+		name = dyn_c_koa_monarchy
+		adjective = KOA_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_koa_republic
+		adjective = KOA_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_koa_theocracy
+		adjective = KOA_ADJ
+		priority = 25000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_koa_council
+		adjective = KOA_ADJ
+		priority = 40000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_koa_nationalist
+		adjective = KOA_ADJ
+		priority = 60000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+}
+
+BOH = {
+	dynamic_country_name = {
+		name = dyn_c_boh_monarchy
+		adjective = BOH_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_boh_republic
+		adjective = BOH_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_boh_theocracy
+		adjective = BOH_ADJ
+		priority = 25000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_boh_council
+		adjective = BOH_ADJ
+		priority = 40000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_boh_nationalist
+		adjective = BOH_ADJ
+		priority = 60000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
 			}
 		}
 	}

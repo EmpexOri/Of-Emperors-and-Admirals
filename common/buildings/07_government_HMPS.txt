@@ -1,0 +1,15 @@
+﻿############ GOVERNMENT BUILDINGS
+
+INJECT:building_university = {
+	has_max_level = yes
+
+	production_method_groups = {
+		pmg_upkeep_light
+	}
+}
+
+INJECT:building_government_administration = {
+	production_method_groups = {
+		pmg_upkeep_light
+	}
+}

@@ -889,7 +889,7 @@
 			months = 98
 		}
 		create_bidirectional_truce = {
-			country = c:W80
+			country = c:KOA
 			months = 98
 		}
 		create_bidirectional_truce = {
@@ -1053,7 +1053,7 @@
 			months = 63
 		}
 		create_bidirectional_truce = {
-			country = c:X00
+			country = c:ABA
 			months = 63
 		}
 		create_bidirectional_truce = {
@@ -1145,7 +1145,7 @@
 			months = 63
 		}
 		create_bidirectional_truce = {
-			country = c:X00
+			country = c:ABA
 			months = 63
 		}
 		create_bidirectional_truce = {
@@ -1241,7 +1241,7 @@
 			months = 52
 		}
 	}
-	c:W80 ?= {
+	c:KOA ?= {
 		create_bidirectional_truce = {
 			country = c:V29
 			months = 98
@@ -1273,7 +1273,7 @@
 			months = 98
 		}
 		create_bidirectional_truce = {
-			country = c:W80
+			country = c:KOA
 			months = 98
 		}
 		create_bidirectional_truce = {
@@ -1313,7 +1313,7 @@
 			months = 63
 		}
 		create_bidirectional_truce = {
-			country = c:X00
+			country = c:ABA
 			months = 52
 		}
 		create_bidirectional_truce = {
@@ -1349,7 +1349,7 @@
 			months = 63
 		}
 	}
-	c:X00 ?= {
+	c:ABA ?= {
 		create_bidirectional_truce = {
 			country = c:V49
 			months = 63
@@ -1409,11 +1409,11 @@
 			months = 39
 		}
 		create_bidirectional_truce = {
-			country = c:W80
+			country = c:KOA
 			months = 98
 		}
 		create_bidirectional_truce = {
-			country = c:X00
+			country = c:ABA
 			months = 148
 		}
 		create_bidirectional_truce = {
@@ -1559,7 +1559,7 @@
 			months = 148
 		}
 		create_bidirectional_truce = {
-			country = c:X00
+			country = c:ABA
 			months = 148
 		}
 		create_bidirectional_truce = {

@@ -7455,11 +7455,11 @@ W79 = {
 		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
-W80 = {
+KOA = {
 	flag_definition = {
-		coa = W80
+		coa = KOA
 		allow_overlord_canton = yes
-		subject_canton = W80
+		subject_canton = KOA
 		priority = 1
 	}
 }
@@ -7856,14 +7856,6 @@ WAD = {
 		coa = WAD
 		allow_overlord_canton = yes
 		subject_canton = WAD
-		priority = 1
-	}
-}
-X00 = {
-	flag_definition = {
-		coa = X00
-		allow_overlord_canton = yes
-		subject_canton = X00
 		priority = 1
 	}
 }

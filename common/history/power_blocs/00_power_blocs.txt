@@ -16,4 +16,128 @@
 			}
 		}
 	}
+
+	c:ABA ?= {
+		create_power_bloc = {
+			name = ALBAN_EMPIRE
+			map_color = rgb{ 0 154 68 }
+
+			founding_date = 1800.1.1
+			identity = identity_trade_league
+			principle = principle_internal_trade_1 
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+		}
+	}
+
+	c:LUS ?= {
+		create_power_bloc = {
+			name = LUS_EMPIRE
+			map_color = rgb{ 92 179 255 }
+
+			founding_date = 1725.3.7
+			identity = identity_cultural
+			principle = principle_freedom_of_movement_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+		}
+	}
+
+    c:FRA ?= { join_power_bloc = c:LUS }
+    c:X77 ?= { join_power_bloc = c:LUS }
+    c:X41 ?= { join_power_bloc = c:LUS }
+
+	c:BOH ?= {
+		create_power_bloc = {
+			name = HOLY_ROMAN_CONFEDERATION
+			map_color = rgb{ 130 30 65 }
+
+			founding_date = 1625.7.12 # Start of the Holy War in Eu4
+			identity = identity_religious
+			principle = principle_sacred_civics_1 
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+		}
+	}
+
+    c:WES ?= { join_power_bloc = c:BOH }
+    c:HOL ?= { join_power_bloc = c:BOH }
+    c:DZG ?= { join_power_bloc = c:BOH }
+    c:MEC ?= { join_power_bloc = c:BOH }
+    c:HAN ?= { join_power_bloc = c:BOH }
+    c:W59 ?= { join_power_bloc = c:BOH }
+    c:HES ?= { join_power_bloc = c:BOH }
+    c:X55 ?= { join_power_bloc = c:BOH }
+    c:BAV ?= { join_power_bloc = c:BOH }
+    c:V29 ?= { join_power_bloc = c:BOH }
+    c:X14 ?= { join_power_bloc = c:BOH }
+    c:W67 ?= { join_power_bloc = c:BOH }
+    c:X08 ?= { join_power_bloc = c:BOH }
+    c:W82 ?= { join_power_bloc = c:BOH }
+    c:W03 ?= { join_power_bloc = c:BOH }
+    c:FRM ?= { join_power_bloc = c:BOH }
+    c:X19 ?= { join_power_bloc = c:BOH }
+    c:FLA ?= { join_power_bloc = c:BOH }
+    c:X89 ?= { join_power_bloc = c:BOH }
+    c:X16 ?= { join_power_bloc = c:BOH }
+	c:X10 ?= { join_power_bloc = c:BOH }
+	c:POL ?= { join_power_bloc = c:BOH }
+	c:LUX ?= { join_power_bloc = c:BOH }
+	c:W75 ?= { join_power_bloc = c:BOH }
+
+	c:JAP ?= {
+		create_power_bloc = {
+			name = JAP_EMPIRE
+			map_color = rgb{ 199 0 37 }
+
+			founding_date = 1725.3.7
+			identity = identity_trade_league
+			principle = principle_external_trade_1 
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+		}
+	}
+    c:CAL ?= { join_power_bloc = c:JAP }
+    c:X94 ?= { join_power_bloc = c:JAP }
+	c:W50 ?= { join_power_bloc = c:JAP }
+	c:HAW ?= { join_power_bloc = c:JAP }
+
+	c:IDN ?= {
+		create_power_bloc = {
+			name = IDN_EMPIRE
+			map_color = rgb{ 120 81 169 }
+
+			founding_date = 1725.3.7
+			identity = identity_trade_league
+			principle = principle_external_trade_1 
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+		}
+	}
+
 }

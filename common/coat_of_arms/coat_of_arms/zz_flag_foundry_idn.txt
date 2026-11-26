@@ -1,0 +1,96 @@
+﻿IDN_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.984 0.514 0.082 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_IDN_republica_custom_1ki5gonuavd55.tga"
+		instance = { position = { 0.4997 0.4995 } scale = { 0.4467 0.639 } }
+	}
+}
+
+
+IDN_monarchy = {
+	pattern = "pattern_border_venice.dds"
+	color1 = rgb { 0.294 0.000 0.431 }
+	color2 = rgb { 0.984 0.514 0.082 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_GZB_Monarchy_added_i4xdab4eshdw.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_GZB_Monarchy_custom_1okmeso83apml.tga"
+		instance = { position = { 0.4999 0.4998 } scale = { 0.2493 0.3562 } }
+	}
+}
+
+
+IDN_theocracy = {
+	pattern = "pattern_border_of_3_decorated.dds"
+	color1 = rgb { 0.984 0.514 0.082 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.294 0.000 0.431 }
+
+	textured_emblem = {
+		texture = "ff_IDN_theocracy_added_173n6bl6lct0f.tga"
+		instance = { position = { 0.25 0.5 } scale = { 0.75 0.75 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_IDN_theocracy_added_v8l3ts181fptm.tga"
+		instance = { position = { 0.75 0.5 } scale = { 0.15 0.15 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_IDN_theocracy_copy_ftvwg7xckstb.tga"
+		instance = { position = { 0.55 0.25 } scale = { 0.15 0.15 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_IDN_theocracy_copy_1n0llvz14jop49.tga"
+		instance = { position = { 0.55 0.75 } scale = { 0.15 0.15 } }
+	}
+}
+
+IDN_council = {
+	pattern = "pattern_verical_bicolor_third.dds"
+	color1 = rgb { 0.984 0.514 0.082 }
+	color2 = rgb { 0.443 0.102 0.125 }
+	color3 = rgb { 0.294 0.000 0.431 }
+
+	textured_emblem = {
+		texture = "ff_IDN_council_added_1ute1ds14e17as.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_IDN_council_added_1832rorjm1dop.tga"
+		instance = { position = { 0.16 0.25 } scale = { 0.3 0.3 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_IDN_council_added_gvurjt16h6vhg.tga"
+		instance = { position = { 0.17 0.75 } scale = { 0.35 0.525 } }
+	}
+}
+
+IDN_nationalist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.984 0.514 0.082 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_IDN_nationalist_added_cre17hnkk3rj.tga"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}
+
+	textured_emblem = {
+		texture = "ff_IDN_nationalist_custom_11gmeto3qfm9g.tga"
+		instance = { position = { 0.4997 0.4995 } scale = { 0.4467 0.639 } }
+	}
+}
