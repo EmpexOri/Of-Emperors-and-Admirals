@@ -4891,7 +4891,7 @@
 		}
 		region_state:MAK = {
 			create_pop = {
-				culture = tatar
+				culture = baluchi
 				religion = sunni
 				size = 500165
 			}
@@ -4901,7 +4901,7 @@
 				size = 1376
 			}
 			create_pop = {
-				culture = tatar
+				culture = baluchi
 				religion = sunni
 				size = 190361
 			}
@@ -10021,17 +10021,17 @@
 	s:STATE_CHERSON = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = ukrainian
+				religion = orthodox
 				size = 46841
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = orthodox
 				size = 42000
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = orthodox
 				size = 88115
 			}
@@ -10041,13 +10041,18 @@
 				size = 16808
 			}
 			create_pop = {
-				culture = karelian
+				culture = ukrainian
 				religion = orthodox
 				size = 309675
 			}
 			create_pop = {
 				culture = ashkenazi
 				religion = jewish
+				size = 29414
+			}
+			create_pop = {
+				culture = karelian
+				religion = orthodox
 				size = 29414
 			}
 		}
@@ -10509,18 +10514,18 @@
 				size = 15231
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 225805
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 22238
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 247799
 			}
 		}
@@ -11484,8 +11489,8 @@
 	s:STATE_DAGESTAN = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = circasian
+				religion = orthodox
 				size = 110469
 			}
 			create_pop = {
@@ -11494,8 +11499,8 @@
 				size = 2013
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = circasian
+				religion = orthodox
 				size = 134484
 			}
 			create_pop = {
@@ -11504,7 +11509,7 @@
 				size = 2451
 			}
 			create_pop = {
-				culture = tatar
+				culture = circasian
 				religion = catholic
 				size = 23622
 			}
@@ -14881,7 +14886,7 @@
 	s:STATE_FARS = {
 		region_state:W92 = {
 			create_pop = {
-				culture = tatar
+				culture = persian
 				religion = sunni
 				size = 80360
 			}
@@ -14933,7 +14938,7 @@
 				size = 183
 			}
 			create_pop = {
-				culture = tatar
+				culture = persian
 				religion = sunni
 				size = 51138
 			}
@@ -14953,7 +14958,7 @@
 				size = 325
 			}
 			create_pop = {
-				culture = tatar
+				culture = persian
 				religion = sunni
 				size = 85230
 			}
@@ -15826,18 +15831,18 @@
 				size = 118260
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 88886
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = ugrian
+				religion = orthodox
 				size = 64698
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 22938
 			}
 			create_pop = {
@@ -15846,7 +15851,7 @@
 				size = 8876
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 15592
 			}
@@ -15866,7 +15871,7 @@
 				size = 6340
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 11137
 			}
@@ -15887,12 +15892,12 @@
 			}
 			create_pop = {
 				culture = ugrian
-				religion = protestant
+				religion = orthodox
 				size = 7315
 			}
 			create_pop = {
 				culture = tatar
-				religion = protestant
+				religion = orthodox
 				size = 9402
 			}
 			create_pop = {
@@ -15907,7 +15912,7 @@
 			}
 			create_pop = {
 				culture = tatar
-				religion = sunni
+				religion = orthodox
 				size = 14564
 			}
 			create_pop = {
@@ -15926,7 +15931,7 @@
 				size = 10195
 			}
 			create_pop = {
-				culture = karelian
+				culture = russian
 				religion = orthodox
 				size = 61169
 			}
@@ -21016,19 +21021,24 @@
 			create_pop = {
 				culture = luri
 				religion = sunni
-				size = 68906
+				size = 38906
 			}
 			create_pop = {
 				culture = sephardic
 				religion = jewish
 				size = 1792
 			}
+			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 31023
+			}
 		}
 		region_state:PER = {
 			create_pop = {
 				culture = tatar
 				religion = sunni
-				size = 79734
+				size = 9734
 			}
 			create_pop = {
 				culture = sephardic
@@ -21038,7 +21048,7 @@
 			create_pop = {
 				culture = persian
 				religion = sunni
-				size = 132890
+				size = 202890
 			}
 			create_pop = {
 				culture = sephardic
@@ -21068,7 +21078,7 @@
 		}
 		region_state:X44 = {
 			create_pop = {
-				culture = kurdish
+				culture = persian
 				religion = sunni
 				size = 49834
 			}
@@ -22298,8 +22308,6 @@
 				religion = mahayana
 				size = 98212
 			}
-		}
-		region_state:W91 = {
 			create_pop = {
 				culture = polynesian
 				religion = animist
@@ -22752,8 +22760,8 @@
 	s:STATE_KAZAN = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 254644
 			}
 			create_pop = {
@@ -23439,12 +23447,12 @@
 	s:STATE_KHARKOV = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = ukrainian
+				religion = orthodox
 				size = 266330
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = orthodox
 				size = 615753
 			}
@@ -23454,12 +23462,12 @@
 				size = 27645
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = ukrainian
+				religion = orthodox
 				size = 270236
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = orthodox
 				size = 524976
 			}
@@ -23479,12 +23487,12 @@
 				size = 12706
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = ukrainian
+				religion = orthodox
 				size = 105906
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = catholic
 				size = 109989
 			}
@@ -23494,9 +23502,9 @@
 				size = 6766
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = orthodox
-				size = 280663
+				size = 200663
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -23512,6 +23520,11 @@
 				culture = ashkenazi
 				religion = jewish
 				size = 6842
+			}
+			create_pop = {
+				culture = tatar
+				religion = orthodox
+				size = 80663
 			}
 		}
 	}
@@ -23710,7 +23723,7 @@
 	s:STATE_KIEV = {
 		region_state:RUS = {
 			create_pop = {
-				culture = russian
+				culture = ukrainian
 				religion = orthodox
 				size = 730558
 			}
@@ -23735,7 +23748,7 @@
 				size = 11714
 			}
 			create_pop = {
-				culture = russian
+				culture = ukrainian
 				religion = orthodox
 				size = 219167
 			}
@@ -24274,17 +24287,17 @@
 	s:STATE_KUBAN = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = circassian
+				religion = orthodox
 				size = 35821
 			}
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = orthodox
 				size = 34954
 			}
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = orthodox
 				size = 100633
 			}
@@ -24299,7 +24312,7 @@
 				size = 276378
 			}
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = orthodox
 				size = 353875
 			}
@@ -24383,7 +24396,7 @@
 				size = 403421
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 399965
 			}
@@ -24393,13 +24406,13 @@
 				size = 117150
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 85520
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = ukrainian
+				religion = orthodox
 				size = 108846
 			}
 			create_pop = {
@@ -30060,7 +30073,7 @@
 	s:STATE_MINSK = {
 		region_state:RUS = {
 			create_pop = {
-				culture = russian
+				culture = byelorussian
 				religion = orthodox
 				size = 52123
 			}
@@ -30090,7 +30103,7 @@
 				size = 10178
 			}
 			create_pop = {
-				culture = russian
+				culture = byelorussian
 				religion = orthodox
 				size = 228039
 			}
@@ -30134,7 +30147,12 @@
 			create_pop = {
 				culture = dynamic-lithuanian-russian_culture-culture-num2
 				religion = orthodox
-				size = 304052
+				size = 204052
+			}
+			create_pop = {
+				culture = byelorussian
+				religion = orthodox
+				size = 104052
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -33490,13 +33508,13 @@
 	s:STATE_NIZHNY_NOVGOROD = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 77793
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 57053
 			}
 			create_pop = {
@@ -33505,7 +33523,7 @@
 				size = 222345
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 390589
 			}
@@ -33520,8 +33538,8 @@
 				size = 5597
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 207455
 			}
 			create_pop = {
@@ -33535,12 +33553,12 @@
 				size = 114414
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 67654
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 79450
 			}
@@ -34834,38 +34852,38 @@
 	s:STATE_NORTH_CAUCASUS = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = orthodox
 				size = 9405
 			}
 			create_pop = {
 				culture = tatar
-				religion = catholic
+				religion = sunni
 				size = 7229
 			}
 			create_pop = {
-				culture = tatar
-				religion = orthodox
+				culture = circassian
+				religion = sunni
 				size = 7103
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = circassian
+				religion = orthodox
 				size = 164813
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = circassian
+				religion = orthodox
 				size = 35829
 			}
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = catholic
 				size = 70484
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = circassian
+				religion = orthodox
 				size = 85116
 			}
 		}
@@ -35875,8 +35893,6 @@
 				religion = daoshenic
 				size = 859
 			}
-		}
-		region_state:X67 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan_reformed
@@ -37293,7 +37309,7 @@
 				size = 379
 			}
 			create_pop = {
-				culture = mordvin
+				culture = russian
 				religion = orthodox
 				size = 444460
 			}
@@ -38696,17 +38712,17 @@
 				size = 57951
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = protestant
 				size = 24299
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = tengri_pagan_reformed
 				size = 57578
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = orthodox
 				size = 115775
 			}
@@ -38716,17 +38732,17 @@
 				size = 68487
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = protestant
 				size = 29674
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = tengri_pagan_reformed
 				size = 66149
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = orthodox
 				size = 137765
 			}
@@ -38751,12 +38767,12 @@
 				size = 20546
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = protestant
 				size = 22806
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = orthodox
 				size = 32167
 			}
@@ -38766,12 +38782,12 @@
 				size = 22879
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = protestant
 				size = 29406
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = orthodox
 				size = 31809
 			}
@@ -41934,7 +41950,7 @@
 	s:STATE_RYAZAN = {
 		region_state:RUS = {
 			create_pop = {
-				culture = mordvin
+				culture = russian
 				religion = orthodox
 				size = 192998
 			}
@@ -41972,8 +41988,6 @@
 				religion = mahayana
 				size = 281363
 			}
-		}
-		region_state:X40 = {
 			create_pop = {
 				culture = polynesian
 				religion = mahayana
@@ -43428,8 +43442,8 @@
 				size = 3557
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = tuvan
+				religion = daoshenic
 				size = 11605
 			}
 		}
@@ -43540,12 +43554,17 @@
 			create_pop = {
 				culture = mazanderani
 				religion = sunni
-				size = 14979
+				size = 8979
 			}
 			create_pop = {
 				culture = mazanderani
 				religion = shiite
-				size = 13243
+				size = 8243
+			}
+			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 10243
 			}
 		}
 		region_state:PER = {
@@ -44236,7 +44255,7 @@
 			create_pop = {
 				culture = baluchi
 				religion = sunni
-				size = 83123
+				size = 153123
 			}
 			create_pop = {
 				culture = baluchi
@@ -44246,7 +44265,7 @@
 			create_pop = {
 				culture = tatar
 				religion = sunni
-				size = 50890
+				size = 10890
 			}
 			create_pop = {
 				culture = tatar
@@ -44256,7 +44275,7 @@
 			create_pop = {
 				culture = tatar
 				religion = shiite
-				size = 10013
+				size = 1013
 			}
 			create_pop = {
 				culture = tatar
@@ -44268,7 +44287,7 @@
 			create_pop = {
 				culture = baluchi
 				religion = sunni
-				size = 5365
+				size = 13365
 			}
 			create_pop = {
 				culture = baluchi
@@ -44279,7 +44298,7 @@
 			create_pop = {
 				culture = tatar
 				religion = sunni
-				size = 8203
+				size = 1203
 			}
 			create_pop = {
 				culture = tatar
@@ -46037,12 +46056,12 @@
 	s:STATE_STAVROPOL = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = catholic
 				size = 62417
 			}
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = orthodox
 				size = 61321
 			}
@@ -46057,7 +46076,7 @@
 				size = 91861
 			}
 			create_pop = {
-				culture = tatar
+				culture = circassian
 				religion = orthodox
 				size = 185607
 			}
@@ -46733,7 +46752,7 @@
 			create_pop = {
 				culture = tatar
 				religion = sunni
-				size = 280797
+				size = 80797
 			}
 			create_pop = {
 				culture = tatar
@@ -46805,6 +46824,11 @@
 				religion = jewish
 				size = 222
 			}
+			create_pop = {
+				culture = mazanderani
+				religion = sunni
+				size = 216839
+			}
 		}
 		region_state:MAZ = {
 			create_pop = {
@@ -46813,9 +46837,9 @@
 				size = 90634
 			}
 			create_pop = {
-				culture = mazanderani
+				culture = kurdish
 				religion = sunni
-				size = 2
+				size = 2456
 			}
 			create_pop = {
 				culture = mazanderani
@@ -47041,23 +47065,23 @@
 				size = 229907
 			}
 			create_pop = {
-				culture = tatar
+				culture = mordvin
 				religion = orthodox
 				size = 167833
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 213610
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 555845
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = mordvin
+				religion = orthodox
 				size = 407656
 			}
 			create_pop = {
@@ -47076,13 +47100,13 @@
 				size = 103954
 			}
 			create_pop = {
-				culture = tatar
-				religion = catholic
+				culture = russian
+				religion = orthodox
 				size = 183120
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 229809
 			}
 			create_pop = {
@@ -47091,13 +47115,13 @@
 				size = 300312
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 30630
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = russian
+				religion = orthodox
 				size = 25679
 			}
 		}
@@ -47407,11 +47431,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = tatar
-				religion = sunni
+				religion = catholic
 				size = 80099
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = catholic
 				size = 114570
 			}
@@ -47426,7 +47450,7 @@
 				size = 291114
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = orthodox
 				size = 536229
 			}
@@ -47437,11 +47461,11 @@
 			}
 			create_pop = {
 				culture = tatar
-				religion = sunni
+				religion = catholic
 				size = 60964
 			}
 			create_pop = {
-				culture = tatar
+				culture = ukrainian
 				religion = catholic
 				size = 85038
 			}
@@ -48271,18 +48295,18 @@
 				size = 7330
 			}
 			create_pop = {
-				culture = tatar
-				religion = hindu
+				culture = tuvan
+				religion = daoshenic
 				size = 40060
 			}
 			create_pop = {
-				culture = tatar
+				culture = tuvan
 				religion = tengri_pagan_reformed
 				size = 21174
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = tuvan
+				religion = daoshenic
 				size = 65806
 			}
 		}
@@ -49438,46 +49462,51 @@
 	s:STATE_TURKMENIA = {
 		region_state:MAZ = {
 			create_pop = {
-				culture = tatar
+				culture = tajik
 				religion = sunni
 				size = 21707
 			}
 			create_pop = {
-				culture = tatar
+				culture = persian
 				religion = gelugpa
 				size = 17274
 			}
 			create_pop = {
-				culture = tatar
+				culture = tajik
 				religion = gelugpa
 				size = 107197
 			}
 			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 60961
+			}
+			create_pop = {
 				culture = tatar
-				religion = shiite
-				size = 77961
+				religion = sunni
+				size = 17274
 			}
 		}
 		region_state:PER = {
 			create_pop = {
-				culture = mongol
+				culture = tajik
 				religion = gelugpa
 				size = 9633
 			}
 			create_pop = {
-				culture = mongol
+				culture = tajik
 				religion = sunni
 				size = 9136
 			}
 		}
 		region_state:W46 = {
 			create_pop = {
-				culture = tatar
+				culture = tajik
 				religion = gelugpa
 				size = 32450
 			}
 			create_pop = {
-				culture = tatar
+				culture = tajik
 				religion = sunni
 				size = 26021
 			}
@@ -49487,7 +49516,7 @@
 				size = 33134
 			}
 			create_pop = {
-				culture = tatar
+				culture = tajik
 				religion = gelugpa
 				size = 19786
 			}
@@ -52175,28 +52204,28 @@
 				size = 11813
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = protestant
 				size = 4953
 			}
 			create_pop = {
-				culture = tatar
-				religion = tengri_pagan_reformed
+				culture = ugrian
+				religion = orthodox
 				size = 11737
 			}
 			create_pop = {
-				culture = tatar
+				culture = ugrian
 				religion = orthodox
 				size = 23600
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = ugrian
+				religion = orthodox
 				size = 25400
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = ugrian
+				religion = orthodox
 				size = 114626
 			}
 			create_pop = {
@@ -52210,13 +52239,13 @@
 				size = 81818
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 115403
 			}
 			create_pop = {
-				culture = tatar
-				religion = sunni
+				culture = russian
+				religion = orthodox
 				size = 483809
 			}
 			create_pop = {
@@ -52230,7 +52259,7 @@
 				size = 161825
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 183312
 			}
@@ -54970,7 +54999,7 @@
 				size = 81914
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 143896
 			}
@@ -54980,7 +55009,7 @@
 				size = 46808
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 82226
 			}
@@ -55005,7 +55034,7 @@
 				size = 65531
 			}
 			create_pop = {
-				culture = tatar
+				culture = russian
 				religion = orthodox
 				size = 115117
 			}

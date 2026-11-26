@@ -121,6 +121,8 @@
     c:X94 ?= { join_power_bloc = c:JAP }
 	c:W50 ?= { join_power_bloc = c:JAP }
 	c:HAW ?= { join_power_bloc = c:JAP }
+	c:W73 ?= { join_power_bloc = c:JAP }
+	c:TWT ?= { join_power_bloc = c:JAP }
 
 	c:IDN ?= {
 		create_power_bloc = {

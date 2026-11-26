@@ -154,15 +154,6 @@
 	}
 	c:JAP ?= {
 		create_diplomatic_pact = {
-			country = c:TWT
-			type = tributary
-		}
-	}
-	c:TWT ?= {
-		add_liberty_desire = -5.028
-	}
-	c:JAP ?= {
-		create_diplomatic_pact = {
 			country = c:X67
 			type = tributary
 		}
