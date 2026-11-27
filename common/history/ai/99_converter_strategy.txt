@@ -1255,7 +1255,7 @@
 			25 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}
-	c:W84 = {
+	c:VEC = {
 		set_strategy = ai_strategy_resource_expansion
 		random_list = {
 			50 = { set_strategy = ai_strategy_colonial_expansion }

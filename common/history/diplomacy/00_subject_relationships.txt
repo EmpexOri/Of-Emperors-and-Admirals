@@ -175,11 +175,11 @@
 	}
 	c:IDN ?= {
 		create_diplomatic_pact = {
-			country = c:W84
+			country = c:VEC
 			type = chartered_company
 		}
 	}
-	c:W84 ?= {
+	c:VEC ?= {
 		add_liberty_desire = -10.983
 	}
 	c:IDN ?= {

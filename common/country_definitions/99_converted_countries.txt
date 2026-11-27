@@ -11135,7 +11135,7 @@ REPLACE_OR_CREATE:W83 ?= {
 	capital = STATE_LHASA
 }
 
-REPLACE_OR_CREATE:W84 ?= {
+REPLACE_OR_CREATE:VEC ?= {
 	color = { 165 75 40 }
 	country_type = recognized
 	tier = principality

@@ -1219,7 +1219,7 @@
 			months = 2
 		}
 		create_bidirectional_truce = {
-			country = c:W84
+			country = c:VEC
 			months = 2
 		}
 		create_bidirectional_truce = {
@@ -1289,7 +1289,7 @@
 			months = 98
 		}
 	}
-	c:W84 ?= {
+	c:VEC ?= {
 		create_bidirectional_truce = {
 			country = c:W73
 			months = 2

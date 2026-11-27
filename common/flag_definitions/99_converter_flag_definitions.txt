@@ -7571,11 +7571,11 @@ W83 = {
 		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
-W84 = {
+VEC = {
 	flag_definition = {
-		coa = W84
+		coa = VEC
 		allow_overlord_canton = yes
-		subject_canton = W84
+		subject_canton = VEC
 		priority = 1
 	}
 }

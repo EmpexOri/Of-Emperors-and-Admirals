@@ -237,7 +237,7 @@
 		set_relations = { country = c:V44 value = 10 }
 		set_relations = { country = c:W24 value = 10 }
 		set_relations = { country = c:W73 value = 10 }
-		set_relations = { country = c:W84 value = 10 }
+		set_relations = { country = c:VEC value = 10 }
 		set_relations = { country = c:LUS value = -200 }
 		set_relations = { country = c:ABA value = -100 }
 		set_relations = { country = c:X22 value = 35 }
@@ -666,7 +666,7 @@
 		set_relations = { country = c:V41 value = 75 }
 		set_relations = { country = c:X40 value = 10 }
 	}
-	c:W84 ?= {
+	c:VEC ?= {
 		set_relations = { country = c:IDN value = 10 }
 	}
 	c:W91 ?= {

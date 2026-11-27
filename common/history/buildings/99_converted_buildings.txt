@@ -2374,7 +2374,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:LUS
-						levels = 3
+						levels = 5
 						region = STATE_AQUITAINE
 					}
 				}
@@ -6598,12 +6598,12 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:LUS = {
+		region_state:W92 = {
 			create_building = {
 				building = "building_trade_center"
 				add_ownership = {
 					country = {
-						country = c:LUS
+						country = c:W92
 						levels = 1
 					}
 				}
@@ -6616,7 +6616,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:LUS
+						country = c:W92
 						levels = 2
 						region = STATE_BOMBAY
 					}
@@ -6628,7 +6628,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:LUS
+						country = c:W92
 						levels = 1
 					}
 				}
@@ -6920,7 +6920,7 @@
 				add_ownership = {
 					country = {
 						country = c:BOH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -8165,6 +8165,19 @@
 	}
 	s:STATE_CAMPANIA = {
 		region_state:KOA = {
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = building_glassworks
+						country = c:KOA
+						levels = 2
+						region = STATE_CAMPANIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_forest_glass" }
+			}
 			
 			create_building = {
 				building = "building_fishing_wharf"
@@ -8282,13 +8295,13 @@
 		}
 	}
 	s:STATE_CAPE_COLONY = {
-		region_state:W84 = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_university"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -8300,7 +8313,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W84
+						country = c:VEC
 						levels = 2
 						region = STATE_CAPE_COLONY
 					}
@@ -8313,7 +8326,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_CAPE_COLONY
 					}
@@ -8326,7 +8339,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 3
 						region = STATE_CAPE_COLONY
 					}
@@ -8347,7 +8360,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_CAPE_COLONY
 					}
@@ -8355,7 +8368,7 @@
 				add_ownership = {
 					building = {
 						type = building_textile_mill
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_CAPE_COLONY
 					}
@@ -8367,7 +8380,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -11819,13 +11832,13 @@
 		}
 	}
 	s:STATE_EASTERN_CAPE = {
-		region_state:W84 = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 7
 					}
 				}
@@ -11837,7 +11850,7 @@
 				add_ownership = {
 					building = {
 						type = building_coal_mine
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_EASTERN_CAPE
 					}
@@ -11850,7 +11863,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 4
 						region = STATE_EASTERN_CAPE
 					}
@@ -11870,7 +11883,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -25773,7 +25786,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:KOA
-						levels = 1
+						levels = 3
 						region = STATE_LOMBARDY
 					}
 				}
@@ -26092,14 +26105,14 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:W84 = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_LOURENCO_MARQUES
 					}
@@ -26111,7 +26124,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -26123,7 +26136,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 2
 						region = STATE_LOURENCO_MARQUES
 					}
@@ -26135,7 +26148,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -26471,7 +26484,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BOH
-						levels = 2
+						levels = 4
 						region = STATE_LOWER_SILESIA
 					}
 				}
@@ -31074,6 +31087,19 @@
 	}
 	s:STATE_NEW_CASTILE = {
 		region_state:LUS = {
+			create_building = {
+				building = "building_munition_plant"
+				add_ownership = {
+					building = {
+						type = building_munition_plant
+						country = c:LUS
+						levels = 2
+						region = STATE_NEW_CASTILE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_percussion_caps" }
+			}
 			
 			create_building = {
 				building = "building_barrack"
@@ -32207,13 +32233,13 @@
 		}
 	}
 	s:STATE_NORTHERN_CAPE = {
-		region_state:W84 = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -32224,7 +32250,7 @@
 				building = "building_university"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -32236,7 +32262,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_NORTHERN_CAPE
 					}
@@ -32244,7 +32270,7 @@
 				add_ownership = {
 					building = {
 						type = building_iron_mine
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_NORTHERN_CAPE
 					}
@@ -32257,7 +32283,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 2
 						region = STATE_NORTHERN_CAPE
 					}
@@ -32278,7 +32304,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_NORTHERN_CAPE
 					}
@@ -33100,14 +33126,14 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:IDN = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:IDN
+						country = c:VEC
 						levels = 1
 						region = STATE_NORTH_MADAGASCAR
 					}
@@ -33120,7 +33146,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:IDN
+						country = c:VEC
 						levels = 3
 						region = STATE_NORTH_MADAGASCAR
 					}
@@ -33133,7 +33159,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:IDN
+						country = c:VEC
 						levels = 3
 						region = STATE_NORTH_MADAGASCAR
 					}
@@ -36288,7 +36314,7 @@
 					building = {
 						type = building_tooling_workshop
 						country = c:BOH
-						levels = 2
+						levels = 3
 						region = STATE_POMERANIA
 					}
 				}
@@ -37545,7 +37571,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BOH
-						levels = 2
+						levels = 4
 						region = STATE_RHINELAND
 					}
 				}
@@ -40592,6 +40618,19 @@
 	}
 	s:STATE_SICILY = {
 		region_state:KOA = {
+			create_building = {
+				building = "building_sulfur_mine"
+				add_ownership = {
+					building = {
+						type = building_sulfur_mine
+						country = c:KOA
+						levels = 2
+						region = STATE_SICILY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_picks_and_shovels_building_sulfur_mine" }
+			}
 			
 			create_building = {
 				building = "building_fishing_wharf"
@@ -42236,14 +42275,14 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:IDN = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:IDN
+						country = c:VEC
 						levels = 1
 						region = STATE_SOUTH_MADAGASCAR
 					}
@@ -42256,7 +42295,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:IDN
+						country = c:VEC
 						levels = 1
 						region = STATE_SOUTH_MADAGASCAR
 					}
@@ -42269,7 +42308,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:IDN
+						country = c:VEC
 						levels = 2
 						region = STATE_SOUTH_MADAGASCAR
 					}
@@ -42282,7 +42321,7 @@
 				add_ownership = {
 					building = {
 						type = building_glassworks
-						country = c:IDN
+						country = c:VEC
 						levels = 1
 						region = STATE_SOUTH_MADAGASCAR
 					}
@@ -42294,7 +42333,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:IDN
+						country = c:VEC
 						levels = 1
 					}
 				}
@@ -45192,13 +45231,13 @@
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:W84 = {
+		region_state:VEC = {
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
 						type = building_logging_camp
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_TRANSVAAL
 					}
@@ -45211,7 +45250,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 2
 						region = STATE_TRANSVAAL
 					}
@@ -45224,7 +45263,7 @@
 				add_ownership = {
 					building = {
 						type = building_coal_mine
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_TRANSVAAL
 					}
@@ -45237,7 +45276,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_TRANSVAAL
 					}
@@ -45245,7 +45284,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_CAPE_COLONY
 					}
@@ -45257,7 +45296,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 5
 					}
 				}
@@ -45756,7 +45795,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:KOA
-						levels = 1
+						levels = 3
 						region = STATE_TUSCANY
 					}
 				}
@@ -48010,7 +48049,7 @@
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:W84 = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_coal_mine"
@@ -48030,7 +48069,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_VRYSTAAT
 					}
@@ -48043,7 +48082,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 3
 						region = STATE_VRYSTAAT
 					}
@@ -52045,14 +52084,14 @@
 		}
 	}
 	s:STATE_ZULULAND = {
-		region_state:W84 = {
+		region_state:VEC = {
 			
 			create_building = {
 				building = "building_coal_mine"
 				add_ownership = {
 					building = {
 						type = building_coal_mine
-						country = c:W84
+						country = c:VEC
 						levels = 1
 						region = STATE_ZULULAND
 					}
@@ -52065,7 +52104,7 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:W84
+						country = c:VEC
 						levels = 2
 						region = STATE_ZULULAND
 					}
@@ -52085,7 +52124,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 2
 					}
 				}
@@ -52096,7 +52135,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:W84
+						country = c:VEC
 						levels = 1
 					}
 				}
