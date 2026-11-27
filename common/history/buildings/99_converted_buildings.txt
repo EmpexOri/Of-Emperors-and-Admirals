@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 	# Incan states, need to be created manually cause converter made them uncentralized initially
 	s:STATE_ANTOFAGASTA={
 		region_state:TWT={
@@ -23212,6 +23212,19 @@ BUILDINGS = {
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X67 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}

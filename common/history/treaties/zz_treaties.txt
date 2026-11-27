@@ -1,7 +1,7 @@
 TREATIES = {
-# Transit Rights Agreement for Westfalen
+# Transit Rights Agreement for Lotharingia
 	create_treaty = {
-		name = treaty_name_swi_transit_rights
+		name = treaty_name_boh_transit_rights
 		first_country = c:W03
 		second_country = c:BOH
 
@@ -14,6 +14,90 @@ TREATIES = {
 				article = transit_rights
 				source_country = c:BOH
 				target_country = c:W03
+			}
+		}
+	}
+
+
+	# Treaties upkeeping the japanese sphere of influence
+	create_treaty = {
+		name = trade_league_protection_treaty
+		first_country = c:JAP
+		second_country = c:HAW
+
+		is_draft = no
+		entered_into_force_on = 1836.1.1
+		binding_period = { years = 20 } # 20 years
+
+		articles_to_create = {
+			{
+				article = guarantee_independence
+				source_country = c:JAP
+				target_country = c:HAW
+			}
+			{
+				article = foreign_investment_rights
+				source_country = c:HAW
+				target_country = c:JAP
+			}
+			{
+				article = non_piracy_agreement
+				source_country = c:HAW
+				target_country = c:JAP
+			}
+		}
+	}
+	create_treaty = {
+		name = trade_league_protection_treaty
+		first_country = c:JAP
+		second_country = c:W73
+
+		is_draft = no
+		entered_into_force_on = 1836.1.1
+		binding_period = { years = 20 } # 20 years
+
+		articles_to_create = {
+			{
+				article = guarantee_independence
+				source_country = c:JAP
+				target_country = c:W73
+			}
+			{
+				article = foreign_investment_rights
+				source_country = c:W73
+				target_country = c:JAP
+			}
+			{
+				article = non_piracy_agreement
+				source_country = c:HAW
+				target_country = c:JAP
+			}
+		}
+	}
+	create_treaty = {
+		name = trade_league_protection_treaty
+		first_country = c:JAP
+		second_country = c:TWT
+
+		is_draft = no
+		entered_into_force_on = 1836.1.1
+		binding_period = { years = 20 } # 20 years
+
+		articles_to_create = {
+			{
+				article = guarantee_independence
+				source_country = c:JAP
+				target_country = c:TWT
+			}
+			{
+				article = foreign_investment_rights
+				source_country = c:TWT
+				target_country = c:JAP
+			}
+			{
+				article = non_piracy_agreement
+				source_country = c:TWT
+				target_country = c:JAP
 			}
 		}
 	}

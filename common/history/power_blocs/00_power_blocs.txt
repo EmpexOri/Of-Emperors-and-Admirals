@@ -107,7 +107,7 @@
 
 			founding_date = 1725.3.7
 			identity = identity_trade_league
-			principle = principle_external_trade_1 
+			principle = principle_internal_trade_1 
 
 			# subjects are automatically part of the bloc
 		}
