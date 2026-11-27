@@ -2,6 +2,7 @@
 	c:HAI = {
 		create_character = {
 			first_name = "Alastair_Castelo_Branco"
+			last_name = "Athaulf"
 			ruler = yes
 			is_general = yes
 			commander_rank = commander_rank_2

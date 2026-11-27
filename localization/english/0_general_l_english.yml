@@ -10,13 +10,22 @@
     law_nueva_encomienda:0 "Nueva Encomienda"
     law_nueva_encomienda_desc:0 "The Nueva Encomienda law restructures land ownership, granting military officials and large landowners significant control over agricultural production while imposing obligations on tenant farmers. It aims to balance the interests of the landed elite with the economic needs of the state."
 
+    gov_lusitanian_viceroyalty:0 "Viceroyalty"
+    gov_lusitanian_viceroyalty_desc:0 "A colonial territory administered on behalf of the Lusitanian crown."
+    gov_lusitanian_governorship:0 "Viceroyalty"
+    gov_lusitanian_governorship_desc:0 "A colonial territory administered on behalf of the Lusitanian crown."
+    RULER_TITLE_LUS_VICEROY:0 "Viceroy"
+    RULER_TITLE_LUS_VICEREINE:0 "Vicereine"
+    RULER_TITLE_LUS_GOVERNOR:0 "Governor"
+    RULER_TITLE_LUS_GOVERNESS:0 "Governess"
+
     JAP_EMPIRE:0 "Tōyō Shōsha Jōyaku"
     law_choninbakufu:0 "Chōninbakufu"
-    law_choninbakufu_desc:0 "The Chōninbakufu is a merchant-led shogunate in which powerful commercial houses, wealthy landowning families, and industrial capitalists dominate the state. The merchant houses finance the regime, while the traditional landed elite retain their privileged position. Political influence and investment are concentrated in the hands of the wealthy."
+    law_choninbakufu_desc:0 "After the overthrow of the traditional shogunate, powerful merchant houses established an autocratic order of their own. Industrial magnates and wealthy landowners dominate the state, while the old military elite no longer holds the same privileged position."
     law_kabunakama:0 "Kabunakama"
-    law_kabunakama_desc:0 "The Kabunakama system preserves the traditional economic order while granting privileged merchant associations considerable economic freedom. Private construction is encouraged, and a greater share of government dividends is reinvested into the economy."
+    law_kabunakama_desc:0 "Privileged merchant associations preserve the traditional economic order while concentrating investment and influence in the great zaibatsu. Small merchants are shut out of the system, and the state relies on private capital despite the limitations of its traditional administration."
     gov_chonininate:0 "Chōninate"
-    gov_chonininate_desc:0 "A Japanese merchant shogunate in which the great merchant houses and hereditary military aristocracy govern under the authority of the Tōryō."
+    gov_chonininate_desc:0 "A Japanese merchant shogunate in which the great commercial houses and landed aristocracy govern under the authority of the Tōryō."
     RULER_TITLE_TORYO:0 "Tōryō"
     HEIR_TITLE_WAKATORYO:0 "Waka-Tōryō"
     ig_buddhist_monks:0 "Sōryo"
@@ -56,6 +65,12 @@
 
     IDN_EMPIRE:0 "Pacifische Zeekaarten"
 
+    gov_pharonic:0 "Pharaonic Monarchy"
+    gov_pharonic_desc:0 "The ruler holds supreme authority as Pharaoh, overseeing both the state and religious institutions."
+    RULER_TITLE_PHARAOH:0 "Pharaoh"
+    RULER_TITLE_PHARAOHESS:0 "Pharaohess"
+    RULER_TITLE_PHARAOH_HEIR:0 "Sanesu"
+    RULER_TITLE_PHARAOHESS_HEIR:0 "Satnesu"
 
     intervene_in_war.tt:0 "Join any [concept_war] where [SCOPE.sCountry('target_country_scope').GetName] is the [concept_war_leader]"
     intervene_in_war.ttt:0 "Must not have a [concept_truce] with any potential enemy" 

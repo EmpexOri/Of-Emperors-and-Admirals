@@ -144,3 +144,585 @@ X91 = {
 		}
 	}
 }
+
+X79 = {
+	# Assyria
+	dynamic_country_name = {
+		name = dyn_c_assyria_monarchy
+		adjective = X79_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_assyria_republic
+		adjective = X79_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_assyria_egy_vassal
+		adjective = X79_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				overlord = { c:EGY ?= this }
+			}
+		}
+	}
+}
+
+ETH = {
+	# Ethiopia
+	dynamic_country_name = {
+		name = dyn_c_eth_monarchy
+		adjective = ETH_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_eth_republic
+		adjective = ETH_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+X93 = {
+	# Cabralia Setentrional
+	dynamic_country_name = {
+		name = dyn_c_cabralia_colony
+		adjective = X93_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:LUS ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_cabralia_setentrional_monarchy
+		adjective = X93_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_cabralia_setentrional_republic
+		adjective = X93_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+GUA = {
+	# Demetria Nova
+	dynamic_country_name = {
+		name = dyn_c_guatemala_colony
+		adjective = GUA_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:LUS ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_guatemala_monarchy
+		adjective = GUA_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_guatemala_republic
+		adjective = GUA_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+CLM = {
+	# Asturias
+	dynamic_country_name = {
+		name = dync_c_clm_colony
+		adjective = CLM_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:LUS ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_clm_monarchy
+		adjective = CLM_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_clm_republic
+		adjective = CLM_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+X21 = {
+	# Arualdia
+	dynamic_country_name = {
+		name = dyn_c_x21_colony
+		adjective = X21_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:LUS ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_x21_monarchy
+		adjective = X21_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_x21_republic
+		adjective = X21_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+PLT = {
+	# Rio de la Plata
+	dynamic_country_name = {
+		name = dyn_c_plt_colony
+		adjective = PLT_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:LUS ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_plt_monarchy
+		adjective = PLT_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_plt_republic
+		adjective = PLT_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+HAI = {
+	# Santa Emma
+	dynamic_country_name = {
+		name = dyn_c_hai_colony
+		adjective = HAI_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:LUS ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_hai_monarchy
+		adjective = HAI_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_hai_republic
+		adjective = HAI_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+NEN = {
+	dynamic_country_name = {
+		name = dyn_c_nen_monarchy
+		adjective = NEN_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_nen_republic
+		adjective = NEN_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_nen_colony
+		adjective = NEN_ADJ
+		priority = 250000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				overlord = { c:ABA ?= this }
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_nen_council
+		adjective = NEN_ADJ
+		priority = 40000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_nen_nationalist
+		adjective = NEN_ADJ
+		priority = 60000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+}
+
+X37 = {
+	# Lokösh
+	dynamic_country_name = {
+		name = dyn_c_x37_colony
+		adjective = X37_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:ABA ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_x37_monarchy
+		adjective = X37_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_x37_republic
+		adjective = X37_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+X32 = {
+	# Draak
+	dynamic_country_name = {
+		name = dyn_c_x32_colony
+		adjective = X32_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					overlord = { c:IDN ?= this }
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_x32_monarchy
+		adjective = X32_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_x32_republic
+		adjective = X32_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}

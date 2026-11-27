@@ -734,3 +734,163 @@ BOH = {
 		}
 	}
 }
+
+EGY = {
+	dynamic_country_name = {
+		name = dyn_c_egypt_monarchy
+		adjective = EGY_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_egypt_republic
+		adjective = EGY_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_egypt_theocracy
+		adjective = EGY_ADJ
+		priority = 25000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_egypt_council
+		adjective = EGY_ADJ
+		priority = 40000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_egypt_nationalist
+		adjective = EGY_ADJ
+		priority = 60000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+}
+
+QUE = {
+	dynamic_country_name = {
+		name = dyn_c_que_monarchy
+		adjective = QUE_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_que_republic
+		adjective = QUE_ADJ
+		priority = 30000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_que_colony
+		adjective = QUE_ADJ
+		priority = 250000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				overlord = { c:ABA ?= this }
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_que_council
+		adjective = QUE_ADJ
+		priority = 40000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_que_nationalist
+		adjective = QUE_ADJ
+		priority = 60000
+		is_main_tag_only = yes
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_corporate_state
+				OR = {
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+}

@@ -49,6 +49,9 @@ lawgroup_edo_social_system = {
 	ideological_opinion_impact = 0.5
 	regime_change_min_progressiveness_difference = 50
 	linked_social_hierarchy = edo_system
+	enable = {
+		c:JAP ?= this
+	}
 }
 
 lawgroup_church_and_state = {

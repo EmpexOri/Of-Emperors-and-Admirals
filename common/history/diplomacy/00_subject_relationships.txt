@@ -107,7 +107,7 @@
 	c:EGY ?= {
 		create_diplomatic_pact = {
 			country = c:ETH
-			type = vassal
+			type = protectorate
 		}
 	}
 	c:ETH ?= {
@@ -134,7 +134,7 @@
 	c:FRA ?= {
 		create_diplomatic_pact = {
 			country = c:X26
-			type = colony
+			type = chartered_company
 		}
 	}
 	c:JAP ?= {

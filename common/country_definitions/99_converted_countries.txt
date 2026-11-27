@@ -639,7 +639,7 @@ REPLACE_OR_CREATE:ASA ?= {
 
 REPLACE_OR_CREATE:ASH ?= {
 	color = { 97 98 195 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = kingdom
 	cultures = { akan }
 	religion = sunni
@@ -2813,9 +2813,9 @@ REPLACE_OR_CREATE:ETH ?= {
 	color = { 56 120 191 }
 	country_type = unrecognized
 	tier = empire
-	cultures = { amhara }
+	cultures = { misri }
 	religion = kushite
-	capital = STATE_BLUE_NILE
+	capital = STATE_GONDER
 }
 
 REPLACE_OR_CREATE:EWE ?= {
@@ -3322,7 +3322,7 @@ REPLACE_OR_CREATE:GUA ?= {
 	color = { 61 96 159 }
 	country_type = colonial
 	tier = principality
-	cultures = { brazilian }
+	cultures = { neo-mexico_colony-portugese }
 	religion = catholic
 	capital = STATE_GUATEMALA
 }
@@ -4093,6 +4093,7 @@ REPLACE_OR_CREATE:JAN ?= {
 REPLACE_OR_CREATE:JAP ?= {
 	color = { 194 53 60 }
 	country_type = unrecognized
+	social_hierarchy = edo_system
 	tier = empire
 	cultures = { japanese }
 	religion = mahayana
@@ -4810,7 +4811,7 @@ REPLACE_OR_CREATE:KNC ?= {
 
 REPLACE_OR_CREATE:KNG ?= {
 	color = { 137 98 195 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { mande }
 	religion = sunni

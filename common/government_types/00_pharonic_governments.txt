@@ -1,0 +1,27 @@
+gov_pharonic = {
+    transfer_of_power = hereditary
+
+    male_ruler = "RULER_TITLE_PHARAOH"
+    female_ruler = "RULER_TITLE_PHARAOHESS"
+
+    male_heir = "RULER_TITLE_PHARAOH_HEIR"
+    female_heir = "RULER_TITLE_PHARAOHESS_HEIR"
+
+    possible = {
+        OR = {
+            AND = {
+                exists = c:EGY
+                c:EGY = ROOT
+            }
+            AND = {
+                exists = c:ETH
+                c:ETH = ROOT
+                overlord = { c:EGY ?= this }
+            }
+        }
+        OR = {
+            has_law = law_type:law_monarchy
+            has_law = law_type:law_theocracy
+        }
+    }
+}

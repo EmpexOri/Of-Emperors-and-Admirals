@@ -13934,8 +13934,6 @@
 				religion = sunni
 				size = 6137
 			}
-		}
-		region_state:W42 = {
 			create_pop = {
 				culture = maghrebi
 				religion = ibadi
@@ -18376,8 +18374,6 @@
 				religion = jewish
 				size = 24
 			}
-		}
-		region_state:HDJ = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -18385,9 +18381,8 @@
 			}
 			create_pop = {
 				culture = mashriqi
-				religion = sunni
-				pop_type = slaves
-				size = 93
+				religion = jewish
+				size = 1093
 			}
 			create_pop = {
 				culture = sephardic
@@ -25514,8 +25509,6 @@
 				religion = jewish
 				size = 719
 			}
-		}
-		region_state:W42 = {
 			create_pop = {
 				culture = berber
 				religion = ibadi
@@ -25569,7 +25562,7 @@
 		}
 	}
 	s:STATE_LIBYAN_DESERT = {
-		region_state:W42 = {
+		region_state:AHG = {
 			create_pop = {
 				culture = berber
 				religion = ibadi

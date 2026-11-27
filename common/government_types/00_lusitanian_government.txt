@@ -23,3 +23,67 @@ gov_lusitanian_admiralty = {
         }
     }
 }
+
+gov_lusitanian_viceroyalty = {
+    transfer_of_power = dictatorial
+    new_leader_on_reform_government = no
+
+    male_ruler = "RULER_TITLE_LUS_VICEROY"
+    female_ruler = "RULER_TITLE_LUS_VICEREINE"
+
+    possible = {
+        is_subject = yes
+        overlord ?= {
+            c:LUS ?= this
+        }
+        OR = {
+            is_subject_type = subject_type_colony
+            is_subject_type = subject_type_dominion
+        }
+        country_has_monarchy_law = no
+        OR = {
+            has_law = law_type:law_autocracy
+            has_law = law_type:law_almirantado_junta
+            has_law = law_type:law_oligarchy 
+        }
+    }
+
+    on_government_type_change = {
+        change_to_dictatorial = yes
+    }
+    on_post_government_type_change = {
+        post_change_to_dictatorial = yes
+    }
+}
+
+gov_lusitanian_governorship = {
+    transfer_of_power = dictatorial
+    new_leader_on_reform_government = no
+
+    male_ruler = "RULER_TITLE_LUS_GOVERNOR"
+    female_ruler = "RULER_TITLE_LUS_GOVERNESS"
+
+    possible = {
+        is_subject = yes
+        overlord ?= {
+            c:LUS ?= this
+        }
+        OR = {
+            is_subject_type = subject_type_colony
+            is_subject_type = subject_type_dominion
+        }
+        country_has_monarchy_law = no
+        NOR = {
+            has_law = law_type:law_autocracy
+            has_law = law_type:law_almirantado_junta
+            has_law = law_type:law_oligarchy
+        }
+    }
+
+    on_government_type_change = {
+        change_to_dictatorial = yes
+    }
+    on_post_government_type_change = {
+        post_change_to_dictatorial = yes
+    }
+}
