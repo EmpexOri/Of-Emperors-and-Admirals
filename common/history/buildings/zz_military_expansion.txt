@@ -1,0 +1,238 @@
+BUILDINGS = {
+	s:STATE_MORAVIA = {
+		region_state:BOH = {
+			create_building = {
+				building = "building_barrack"
+				add_ownership = { country = { country = c:BOH levels = 12 } }
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
+			}
+		}
+	}
+	s:STATE_UPPER_SILESIA = {
+		region_state:BOH = {
+			create_building = {
+				building = "building_barrack"
+				add_ownership = { country = { country = c:BOH levels = 10 } }
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
+			}
+		}
+	}
+	s:STATE_LOWER_ANDALUSIA = {
+		region_state:LUS = {
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:LUS levels = 4 region = STATE_LOWER_ANDALUSIA } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_ESTREMADURA = {
+		region_state:LUS = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:LUS levels = 20 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+		}
+	}
+	s:STATE_GALICIA = {
+		region_state:LUS = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:LUS levels = 14 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:LUS levels = 4 region = STATE_GALICIA } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_WEST_JAVA = {
+		region_state:IDN = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:IDN levels = 20 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:IDN levels = 4 region = STATE_WEST_JAVA } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_CENTRAL_JAVA = {
+		region_state:IDN = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:IDN levels = 14 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:IDN levels = 2 region = STATE_CENTRAL_JAVA } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_HOME_COUNTIES = {
+		region_state:ABA = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:ABA levels = 18 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:ABA levels = 3 region = STATE_HOME_COUNTIES } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_BRITTANY = {
+		region_state:ABA = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:ABA levels = 15 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:ABA levels = 2 region = STATE_BRITTANY } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_CAMPANIA = {
+		region_state:KOA = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:KOA levels = 12 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:KOA levels = 2 region = STATE_CAMPANIA } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:KOA = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:KOA levels = 11 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:KOA levels = 2 region = STATE_SICILY } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_KANTO = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:JAP levels = 8 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:JAP levels = 2 region = STATE_KANTO } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_KYUSHU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:JAP levels = 7 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:JAP levels = 1 region = STATE_KYUSHU } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_SEOUL = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:KOR levels = 7 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+		}
+	}
+	s:STATE_BUSAN = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:KOR levels = 6 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+		}
+	}
+	s:STATE_JIANGSU = {
+		region_state:X40 = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:X40 levels = 5 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:X40 levels = 2 region = STATE_JIANGSU } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+	s:STATE_LOWER_EGYPT = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_naval_administration"
+				add_ownership = { country = { country = c:EGY levels = 2 } }
+				reserves = 1
+				activate_production_methods = { "pm_simple_sailor_recruitment" }
+			}
+			create_building = {
+				building = "building_shipyard"
+				add_ownership = { building = { type = building_shipyard country = c:EGY levels = 1 region = STATE_LOWER_EGYPT } }
+				reserves = 1
+				activate_production_methods = { "pm_basic_shipbuilding" }
+			}
+		}
+	}
+}

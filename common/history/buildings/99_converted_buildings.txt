@@ -247,7 +247,7 @@
 				add_ownership = {
 					country = {
 						country = c:IDN
-						levels = 9
+						levels = 14
 					}
 				}
 				reserves = 1
@@ -313,11 +313,11 @@
 				add_ownership = {
 					country = {
 						country = c:EGY
-						levels = 9
+						levels = 19
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -969,7 +969,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -2276,7 +2276,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -2762,7 +2762,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -6142,7 +6142,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_millet_farm"
@@ -6286,7 +6286,7 @@
 				add_ownership = {
 					country = {
 						country = c:BOH
-						levels = 17
+						levels = 52
 					}
 				}
 				reserves = 1
@@ -6997,7 +6997,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -7239,11 +7239,11 @@
 				add_ownership = {
 					country = {
 						country = c:ABA
-						levels = 18
+						levels = 40
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -7919,7 +7919,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -8184,11 +8184,11 @@
 				add_ownership = {
 					country = {
 						country = c:KOA
-						levels = 15
+						levels = 17
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -9125,7 +9125,7 @@
 				add_ownership = {
 					country = {
 						country = c:IDN
-						levels = 10
+						levels = 35
 					}
 				}
 				reserves = 1
@@ -9407,7 +9407,7 @@
 				add_ownership = {
 					country = {
 						country = c:IDN
-						levels = 1
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -9756,7 +9756,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -11262,7 +11262,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_millet_farm"
@@ -11527,7 +11527,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -11666,7 +11666,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -12402,11 +12402,11 @@
 				add_ownership = {
 					country = {
 						country = c:ABA
-						levels = 2
+						levels = 14
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -13552,7 +13552,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -13852,7 +13852,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_silk_plantation"
@@ -14183,7 +14183,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 7
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -15031,11 +15031,11 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 1
+						levels = 6
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -16845,7 +16845,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -17814,7 +17814,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 		}
 		region_state:HDJ = {
@@ -18414,7 +18414,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -18524,7 +18524,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -19026,11 +19026,11 @@
 				add_ownership = {
 					country = {
 						country = c:ABA
-						levels = 3
+						levels = 8
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -19717,11 +19717,11 @@
 				add_ownership = {
 					country = {
 						country = c:ABA
-						levels = 1
+						levels = 19
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_university"
@@ -21252,7 +21252,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -21580,11 +21580,11 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 16
+						levels = 51
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -22159,7 +22159,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -22325,7 +22325,7 @@
 				add_ownership = {
 					country = {
 						country = c:JAP
-						levels = 1
+						levels = 11
 					}
 				}
 				reserves = 1
@@ -22486,7 +22486,7 @@
 				add_ownership = {
 					country = {
 						country = c:JAP
-						levels = 1
+						levels = 15
 					}
 				}
 				reserves = 1
@@ -23483,7 +23483,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -23906,7 +23906,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 		}
 	}
@@ -24183,11 +24183,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 1
+						levels = 19
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -24367,7 +24367,7 @@
 				add_ownership = {
 					country = {
 						country = c:JAP
-						levels = 1
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -24536,11 +24536,11 @@
 				add_ownership = {
 					country = {
 						country = c:ABA
-						levels = 1
+						levels = 11
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_university"
@@ -25063,7 +25063,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -25212,7 +25212,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -25304,7 +25304,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -25715,7 +25715,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -26152,7 +26152,7 @@
 				add_ownership = {
 					country = {
 						country = c:LUS
-						levels = 1
+						levels = 24
 					}
 				}
 				reserves = 1
@@ -26303,11 +26303,11 @@
 				add_ownership = {
 					country = {
 						country = c:EGY
-						levels = 13
+						levels = 38
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -26459,7 +26459,7 @@
 				add_ownership = {
 					country = {
 						country = c:BOH
-						levels = 6
+						levels = 31
 					}
 				}
 				reserves = 1
@@ -27503,7 +27503,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -29014,11 +29014,11 @@
 				add_ownership = {
 					country = {
 						country = c:EGY
-						levels = 2
+						levels = 12
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -29303,7 +29303,7 @@
 				add_ownership = {
 					country = {
 						country = c:IDN
-						levels = 1
+						levels = 11
 					}
 				}
 				reserves = 1
@@ -30079,11 +30079,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 1
+						levels = 21
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -30688,11 +30688,11 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 1
+						levels = 11
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -31794,11 +31794,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 4
+						levels = 26
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -32077,7 +32077,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -32937,7 +32937,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -33472,11 +33472,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 1
+						levels = 11
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -33935,7 +33935,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -34903,7 +34903,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_millet_farm"
@@ -37010,11 +37010,11 @@
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 21
+						levels = 26
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -37507,7 +37507,7 @@
 				add_ownership = {
 					country = {
 						country = c:BOH
-						levels = 1
+						levels = 21
 					}
 				}
 				reserves = 1
@@ -38074,7 +38074,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -38417,11 +38417,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 1
+						levels = 13
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -39018,7 +39018,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -39937,7 +39937,7 @@
 					building = {
 						type = building_shipyard
 						country = c:KOR
-						levels = 2
+						levels = 3
 						region = STATE_SEOUL
 					}
 				}
@@ -40288,11 +40288,11 @@
 				add_ownership = {
 					country = {
 						country = c:X40
-						levels = 18
+						levels = 53
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -40611,11 +40611,11 @@
 				add_ownership = {
 					country = {
 						country = c:KOA
-						levels = 10
+						levels = 11
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -40709,7 +40709,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -41743,7 +41743,7 @@
 				add_ownership = {
 					country = {
 						country = c:KOR
-						levels = 10
+						levels = 15
 					}
 				}
 				reserves = 1
@@ -42433,7 +42433,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -42889,7 +42889,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -43309,7 +43309,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -43739,7 +43739,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -43821,7 +43821,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -44510,7 +44510,7 @@
 				add_ownership = {
 					country = {
 						country = c:JAP
-						levels = 39
+						levels = 49
 					}
 				}
 				reserves = 1
@@ -45078,7 +45078,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -45732,7 +45732,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -46274,7 +46274,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -46576,11 +46576,11 @@
 				add_ownership = {
 					country = {
 						country = c:EGY
-						levels = 2
+						levels = 12
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -47112,7 +47112,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -47882,7 +47882,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -48069,11 +48069,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 1
+						levels = 18
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -48164,7 +48164,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -49564,7 +49564,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -49925,7 +49925,7 @@
 				add_ownership = {
 					country = {
 						country = c:IDN
-						levels = 3
+						levels = 28
 					}
 				}
 				reserves = 1
@@ -50670,7 +50670,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -50857,11 +50857,11 @@
 				add_ownership = {
 					country = {
 						country = c:RUS
-						levels = 1
+						levels = 21
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -50982,7 +50982,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_coffee_plantation"
@@ -51192,7 +51192,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_samurai_training" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"

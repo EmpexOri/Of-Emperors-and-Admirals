@@ -1,0 +1,169 @@
+MILITARY_FORMATIONS = {
+	c:LUS ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Lusitanian Atlantic Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Lusitanian Mediterranean Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Lusitanian Western Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Lusitanian Eastern Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Lusitanian Reserve Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+	}
+	c:IDN ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			name = "Zuid-Bali First Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 4 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			name = "Zuid-Bali Second Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 5 }
+			ship = { type = ship_type:ship_type_frigate count = 11 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 4 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			name = "Zuid-Bali Third Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 5 }
+			ship = { type = ship_type:ship_type_frigate count = 11 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 4 }
+		}
+	}
+	c:ABA ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			name = "Alba First Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 6 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			name = "Alba Second Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 5 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			name = "Alba Third Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 5 }
+			ship = { type = ship_type:ship_type_frigate count = 10 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+	}
+	c:KOA ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Anciovian First Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 5 }
+			ship = { type = ship_type:ship_type_frigate count = 12 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			name = "Anciovian Second Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 5 }
+			ship = { type = ship_type:ship_type_frigate count = 12 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 3 }
+		}
+	}
+	c:JAP ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			name = "Japanese First Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 3 }
+			ship = { type = ship_type:ship_type_frigate count = 8 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 2 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			name = "Japanese Second Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 3 }
+			ship = { type = ship_type:ship_type_frigate count = 8 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 2 }
+		}
+	}
+	c:KOR ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			name = "Korean First Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 3 }
+			ship = { type = ship_type:ship_type_frigate count = 6 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 2 }
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			name = "Korean Second Fleet"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 2 }
+			ship = { type = ship_type:ship_type_frigate count = 7 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 2 }
+		}
+	}
+	c:X40 ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_china
+			name = "Tianhe Navy"
+			ship = { type = ship_type:ship_type_ship_of_the_line count = 1 }
+			ship = { type = ship_type:ship_type_frigate count = 5 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 2 }
+		}
+	}
+	c:EGY ?= {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_nile_basin
+			name = "Egyptian Navy"
+			ship = { type = ship_type:ship_type_frigate count = 3 }
+			ship = { type = ship_type:ship_type_early_troop_ship count = 1 }
+		}
+	}
+}
