@@ -98,6 +98,15 @@
 	c:X90 ?= {
 		add_liberty_desire = 10
 	}
+	c:BOH ?= {
+		create_diplomatic_pact = {
+			country = c:LUX
+			type = protectorate
+		}
+	}
+	c:LUX ?= {
+		add_liberty_desire = -16.339
+	}
 	c:DEN ?= {
 		create_diplomatic_pact = {
 			country = c:X36

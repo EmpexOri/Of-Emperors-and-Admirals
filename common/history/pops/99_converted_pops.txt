@@ -9287,6 +9287,11 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
+				size = 1126279
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
 				size = 326279
 			}
 			create_pop = {
