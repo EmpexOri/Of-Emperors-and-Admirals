@@ -1,0 +1,35 @@
+﻿CHARACTERS = {
+	c:VEC = {
+		create_character = {
+			first_name = "Maurits_Michielsz"
+			ruler = yes
+			culture = cu:boer
+			religion = rel:gelugpa
+			birth_date = 1770.3.18
+			traits = {
+				basic_diplomat reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Wiranata_Maartensz"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1783.12.18
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Dewa_Michielsz"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1783.5.28
+			traits = {
+				syphilis 
+			}
+		}
+
+	}
+}
