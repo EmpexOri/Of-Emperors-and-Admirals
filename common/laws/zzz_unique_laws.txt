@@ -261,6 +261,7 @@ on_activate = {
 						is_pop_type = slaves
 					}
 				}
+
 				set_variable = {
 					name = former_slave_state
 					value = yes
@@ -322,6 +323,191 @@ on_activate = {
 	ai_enact_weight_modifier = {
 		value = 0
 		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_taixue = {
+	group = lawgroup_education_system
+	parent = law_private_schools
+
+	icon = "gfx/interface/icons/law_icons/private_schools.dds"
+	progressiveness = 25
+
+	unlocking_technologies = {
+		academia
+	}
+
+	is_visible = {
+		OR = {
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = heritage_han
+					has_discrimination_trait = heritage_korean
+				}
+			}
+			AND = {
+				is_subject_of = c:X40
+				NOT = { c:KOR ?= this }
+			}
+		}
+	}
+
+	can_enact = {
+		OR = {
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = heritage_han
+					has_discrimination_trait = heritage_korean
+				}
+			}
+			AND = {
+				is_subject_of = c:X40
+				NOT = { c:KOR ?= this }
+			}
+		}
+	}
+
+	can_impose = {
+		always = no
+	}
+
+	modifier = {
+		country_institution_cost_institution_schools_mult = -0.15
+		country_tech_research_speed_mult = -0.05
+		country_tech_spread_mult = 0.05
+		state_education_access_add = 0.08
+		state_peasants_education_access_add = 0.08
+	}
+
+	institution = institution_schools
+	institution_modifier = {
+		state_education_access_add = 0.01
+		state_education_access_wealth_add = 0.0005
+		interest_group_ig_intelligentsia_pol_str_mult = 0.05
+	}
+
+	ai_enact_weight_modifier = {
+		value = 0
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_tianlan_system = {
+	group = lawgroup_trade_policy
+	parent = law_mercantilism
+
+	icon = "gfx/interface/icons/law_icons/mercantilism.dds"
+	progressiveness = 0
+
+	unlocking_technologies = {
+		international_trade
+	}
+
+	is_visible = {
+		c:X40 ?= this
+	}
+
+	can_enact = {
+		c:X40 ?= this
+	}
+
+	can_impose = {
+		always = no
+	}
+
+	modifier = {
+		state_tariff_import_add = 0.35
+		state_tariff_export_add = 0.20
+		state_subvention_export_add = 0.30
+		state_subvention_import_add = 0.30
+		state_import_advantage_mult = -0.10
+		state_export_advantage_mult = 0.15
+		state_trade_capacity_mult = 0.10
+		country_tech_spread_mult = 0.05
+		country_leverage_resistance_mult = 0.25
+	}
+
+	ai_enact_weight_modifier = {
+		value = 0
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_banner_system = {
+	group = lawgroup_army_model
+	parent = law_peasant_levies
+
+	icon = "gfx/interface/icons/law_icons/peasant_levies.dds"
+	progressiveness = -50
+
+	is_visible = {
+		OR = {
+			any_primary_culture = {
+				has_discrimination_trait = heritage_han
+			}
+			AND = {
+				is_subject_of = c:X40
+				NOT = { c:KOR ?= this }
+			}
+		}
+	}
+
+	can_enact = {
+		OR = {
+			any_primary_culture = {
+				has_discrimination_trait = heritage_han
+			}
+			AND = {
+				is_subject_of = c:X40
+				NOT = { c:KOR ?= this }
+			}
+		}
+	}
+
+	can_impose = {
+		always = no
+	}
+
+	on_enact = {
+		custom_tooltip = QUALIFICATIONS_OFFICERS_PEASANT_LEVIES_DESC
+		if = {
+			limit = {
+				NOT = { has_law_or_variant = law_type:law_peasant_levies }
+			}
+			custom_tooltip = aristocrats_af_ig_shift_effect_tt
+		}
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_professional_army
+			}
+			custom_tooltip = military_pops_af_ig_shift_effect_negative_tt
+			custom_tooltip = non_military_pops_af_ig_shift_effect_negative_tt
+		}
+	}
+
+	modifier = {
+		country_can_only_conscript_peasants_bool = yes
+		country_can_conscript_protected_subsistence_employment_bool = yes
+		state_conscription_rate_add = 0.025
+		unit_experience_gain_mult = -0.10
+		country_aristocrats_pol_str_mult = 0.25
+		country_officers_pol_str_mult = 0.25
+		country_military_goods_cost_mult = -0.10
+		country_military_wages_mult = 0.15
+	}
+
+	ai_enact_weight_modifier = {
+		value = 0
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750

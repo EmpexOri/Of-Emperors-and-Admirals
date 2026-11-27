@@ -1,0 +1,84 @@
+﻿# HMPS Specie Famine, Inflationary Period and Reserve Currency (common/journal_entries/HMPS_Specie_Famine.txt)
+
+# Country scope. Leads its own market
+sf_is_market_leader = {
+	market.owner ?= this
+}
+
+# Country scope. Recognized: not an unrecognized or decentralized country
+rc_is_recognized = {
+	NOT = { is_country_type = unrecognized }
+	NOT = { is_country_type = decentralized }
+}
+
+# Country scope. The Reserve Currency holder can't suffer Specie Famines
+rc_immune_to_specie_famine = {
+	has_global_variable = reserve_currency_holder
+	this = global_var:reserve_currency_holder
+}
+
+# Country scope. Can a Specie Famine start here this month? (the roll itself is sf_famine_chance)
+# Players only, market leaders only, one at a time per market, 5 years after the last one ended, not before 1837
+sf_can_start_famine = {
+	game_date >= 1837.1.1
+	is_ai = no
+	sf_is_market_leader = yes
+	has_variable = hmps_bot_share
+	NOT = { has_variable = sf_cooldown }
+	NOT = { has_journal_entry = je_specie_famine }
+	NOT = { has_journal_entry = je_specie_famine_member }
+	NOT = { rc_immune_to_specie_famine = yes }
+}
+
+# Country scope. Can an Inflationary Period event fire here this month? Market leaders only, 6 months apart, never during a Specie Famine, not before 1837
+ip_can_fire = {
+	game_date >= 1837.1.1
+	sf_is_market_leader = yes
+	has_variable = hmps_bot_share
+	var:hmps_bot_share >= 0.04
+	NOT = { has_variable = ip_cooldown }
+	# not while its market is in a Specie Famine
+	NOT = { has_journal_entry = je_specie_famine }
+	NOT = { has_journal_entry = je_specie_famine_member }
+}
+
+# Country scope (the market leader). Suspend Convertibility: at war, and this country has suffered at least 100,000 casualties in that war
+sf_has_heavy_war_casualties = {
+	any_scope_war = {
+		num_country_casualties = {
+			target = root
+			value >= 100000
+		}
+	}
+}
+
+# Country scope. Can keep the Reserve Currency: alive, a Great Power with Mutual Funds, leads its own market, not bankrupt and not barred after a default.
+# The holder also loses it after 90 days not #1 or 90 days without a deficit (rc_weekly_update)
+rc_can_hold = {
+	is_country_alive = yes
+	rc_is_recognized = yes
+	country_rank >= rank_value:great_power
+	has_technology_researched = mutual_funds # HMPS: no Reserve Currency before Mutual Funds
+	sf_is_market_leader = yes
+	in_default = no
+	NOT = { has_variable = rc_barred }
+}
+
+# Country scope. Its market runs a trade deficit over 1% of GDP (hmps_bot_share is the whole market's, see HMPS_specie_famine_values.txt)
+rc_has_deficit = {
+	has_variable = hmps_bot_share
+	var:hmps_bot_share < -0.01
+}
+
+# Country scope. The opposite, but a country with no figure yet is neither
+rc_has_no_deficit = {
+	has_variable = hmps_bot_share
+	var:hmps_bot_share >= -0.01
+}
+
+# Country scope. Counts towards taking the Reserve Currency: #1 in the power ranking, could hold it, and runs the deficit
+rc_can_take = {
+	global_country_ranking = 1
+	rc_can_hold = yes
+	rc_has_deficit = yes
+}

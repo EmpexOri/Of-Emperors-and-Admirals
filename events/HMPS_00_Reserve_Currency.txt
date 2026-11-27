@@ -1,0 +1,91 @@
+﻿namespace = reserve_currency
+
+# HMPS Reserve Currency (rc_weekly_update, common/scripted_effects/HMPS_specie_famine_effects.txt). Popups for the new and previous holder only; other players get notifications rc_new_holder / rc_vacant
+
+# A new holder
+reserve_currency.1 = {
+	type = country_event
+	placement = root
+
+	title = {
+		first_valid = {
+			triggered_desc = {
+				desc = reserve_currency.1.t_gained
+				trigger = { global_var:reserve_currency_holder ?= root }
+			}
+			triggered_desc = {
+				desc = reserve_currency.1.t
+				trigger = { always = yes }
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = reserve_currency.1.d_gained
+				trigger = { global_var:reserve_currency_holder ?= root }
+			}
+			triggered_desc = {
+				desc = reserve_currency.1.d_lost
+				trigger = { always = yes }
+			}
+		}
+	}
+	flavor = reserve_currency.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+		# triggered by rc_notify_new_holder
+	}
+
+	option = {
+		name = reserve_currency.1.a
+		default_option = yes
+		if = {
+			limit = { global_var:reserve_currency_holder ?= root }
+			custom_tooltip = reserve_currency_gained_tt
+		}
+		else = {
+			custom_tooltip = reserve_currency_lost_tt
+		}
+	}
+}
+
+# Nobody can hold it
+reserve_currency.2 = {
+	type = country_event
+	placement = root
+
+	title = reserve_currency.2.t
+	desc = reserve_currency.2.d_lost
+	flavor = reserve_currency.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+		# triggered by rc_notify_vacant
+	}
+
+	option = {
+		name = reserve_currency.2.a
+		default_option = yes
+		custom_tooltip = reserve_currency_vacant_tt
+	}
+}

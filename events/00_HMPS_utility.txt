@@ -1,0 +1,40 @@
+﻿namespace = hmps_bot
+
+# HMPS Balance of Trade: runs hmps_balance_of_trade_update_effect with the country as root.
+# add_modifier's multiplier reads var: from root, so calling the effect inside every_country gave every country
+# the root's penalty (or none on day 0). Fired for every country on day 0 (HMPS_balance_of_trade_start in
+# common/on_actions/HMPS_on_action.txt) and weekly by HMPS_utility_je (common/journal_entries/z_HMPS_utility.txt).
+hmps_bot.1 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		hmps_balance_of_trade_update_effect = yes
+	}
+}
+
+# HMPS: game-start intro to Balance of Trade, players only
+hmps_bot.2 = {
+	type = country_event
+	placement = root
+	title = hmps_bot.2.t
+	desc = hmps_bot.2.d
+	flavor = hmps_bot.2.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		is_player = yes
+	}
+
+	option = {
+		name = hmps_bot.2.a
+		default_option = yes
+	}
+}

@@ -5064,6 +5064,30 @@ ai_strategy_default = {
 				has_famine = yes
 			}
 		}
+		building_materials = {
+			stance = wants_high_supply
+			trigger = {
+				has_building = building_construction_sector
+			}
+		}
+		stone = {
+			stance = wants_high_supply
+			trigger = {
+				has_building = building_materials_works
+			}
+		}
+		oil = {
+			stance = wants_high_supply
+			trigger = {
+				has_technology_researched = pumpjacks
+			}
+		}
+		rubber = {
+			stance = wants_high_supply
+			trigger = {
+				has_technology_researched = rubber_mastication
+			}
+		}
 	}
 
 	# How many of its interests should the AI dedicate to regions with unrecognized and decentralized powers

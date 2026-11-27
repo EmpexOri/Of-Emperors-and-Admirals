@@ -106,6 +106,11 @@
 				religion = jewish
 				size = 3
 			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 770
+			}
 		}
 	}
 	s:STATE_ACEH = {
@@ -123,7 +128,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 47015
+				size = 26490
 			}
 			create_pop = {
 				culture = sumatran
@@ -158,7 +163,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 58179
+				size = 32780
 			}
 			create_pop = {
 				culture = sumatran
@@ -173,7 +178,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 19039
+				size = 10728
 			}
 			create_pop = {
 				culture = sumatran
@@ -198,7 +203,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 19039
+				size = 10728
 			}
 			create_pop = {
 				culture = sumatran
@@ -233,7 +238,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 15384
+				size = 8668
+			}
+			create_pop = {
+				culture = sumatran
+				religion = gelugpa
+				size = 57511
 			}
 		}
 	}
@@ -6545,6 +6555,11 @@
 				religion = jewish
 				size = 88
 			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 54915
+			}
 		}
 		region_state:X92 = {
 			create_pop = {
@@ -6802,7 +6817,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 17761
+				size = 7883
+			}
+			create_pop = {
+				culture = melanesian
+				religion = gelugpa
+				size = 8202
 			}
 		}
 	}
@@ -9032,6 +9052,11 @@
 				religion = gelugpa
 				size = 21606
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 71834
+			}
 		}
 	}
 	s:STATE_CENTRAL_CUBA = {
@@ -9265,7 +9290,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 326279
+				size = 310037
 			}
 			create_pop = {
 				culture = dutch
@@ -9276,7 +9301,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 114197
+				size = 108513
 			}
 			create_pop = {
 				culture = dutch
@@ -9287,12 +9312,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 1126279
+				size = 1070210
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 326279
+				size = 310037
 			}
 			create_pop = {
 				culture = dutch
@@ -9303,7 +9328,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 195767
+				size = 186022
 			}
 			create_pop = {
 				culture = dutch
@@ -9314,7 +9339,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 628086
+				size = 596818
 			}
 			create_pop = {
 				culture = dutch
@@ -9325,7 +9350,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 87007
+				size = 82676
 			}
 			create_pop = {
 				culture = dutch
@@ -9336,7 +9361,7 @@
 			create_pop = {
 				culture = dutch
 				religion = hindu
-				size = 49418
+				size = 46959
 			}
 			create_pop = {
 				culture = dutch
@@ -9347,7 +9372,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 105564
+				size = 100310
 			}
 			create_pop = {
 				culture = dutch
@@ -9358,7 +9383,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 252866
+				size = 240278
 			}
 			create_pop = {
 				culture = dutch
@@ -9369,13 +9394,18 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 179453
+				size = 170520
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
 				pop_type = slaves
 				size = 61
+			}
+			create_pop = {
+				culture = javan
+				religion = gelugpa
+				size = 140175
 			}
 		}
 	}
@@ -9539,12 +9569,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 77500
+				size = 29428
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 114011
+				size = 43291
 			}
 			create_pop = {
 				culture = sinhala
@@ -9559,7 +9589,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 53364
+				size = 20263
 			}
 			create_pop = {
 				culture = han
@@ -9584,7 +9614,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 92059
+				size = 34956
 			}
 			create_pop = {
 				culture = dynamic-sinhala-tamil-culture-num1
@@ -9599,7 +9629,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 68505
+				size = 26013
 			}
 			create_pop = {
 				culture = sinhala
@@ -9619,7 +9649,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 50081
+				size = 19017
 			}
 			create_pop = {
 				culture = dynamic-sinhala-tamil-culture-num1
@@ -9639,7 +9669,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 44525
+				size = 16907
 			}
 			create_pop = {
 				culture = sinhala
@@ -9655,6 +9685,11 @@
 				culture = sinhala
 				religion = gelugpa
 				size = 64314
+			}
+			create_pop = {
+				culture = sinhala
+				religion = hindu
+				size = 257548
 			}
 		}
 	}
@@ -12410,7 +12445,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 27178
+				size = 12926
 			}
 			create_pop = {
 				culture = melanesian
@@ -12425,7 +12460,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 10619
+				size = 5051
 			}
 			create_pop = {
 				culture = melanesian
@@ -12440,7 +12475,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 10615
+				size = 5049
 			}
 			create_pop = {
 				culture = melanesian
@@ -12455,7 +12490,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 28313
+				size = 13465
 			}
 			create_pop = {
 				culture = melanesian
@@ -12470,7 +12505,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 10621
+				size = 5052
 			}
 			create_pop = {
 				culture = melanesian
@@ -12485,7 +12520,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 21247
+				size = 10105
+			}
+			create_pop = {
+				culture = melanesian
+				religion = gelugpa
+				size = 47284
 			}
 		}
 		region_state:PPU = {
@@ -13304,7 +13344,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 37924
+				size = 25564
 			}
 			create_pop = {
 				culture = dayak
@@ -13319,7 +13359,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 13564
+				size = 9144
 			}
 			create_pop = {
 				culture = dayak
@@ -13379,7 +13419,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 27127
+				size = 18287
 			}
 			create_pop = {
 				culture = dayak
@@ -13394,7 +13434,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 23773
+				size = 16026
+			}
+			create_pop = {
+				culture = dayak
+				religion = gelugpa
+				size = 27706
 			}
 		}
 	}
@@ -13673,27 +13718,27 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 101955
+				size = 19351
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 268930
+				size = 51042
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 172884
+				size = 32813
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 172884
+				size = 32813
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 409798
+				size = 77777
 			}
 			create_pop = {
 				culture = javan
@@ -13703,12 +13748,17 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 123606
+				size = 23461
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 499441
+				size = 94791
+			}
+			create_pop = {
+				culture = javan
+				religion = gelugpa
+				size = 1176972
 			}
 		}
 	}
@@ -14918,6 +14968,11 @@
 				religion = jewish
 				size = 488
 			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 42462
+			}
 		}
 		region_state:X44 = {
 			create_pop = {
@@ -15209,6 +15264,11 @@
 				culture = melanesian
 				religion = gelugpa
 				size = 9985
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 10581
 			}
 		}
 		region_state:W24 = {
@@ -18595,6 +18655,11 @@
 				religion = gelugpa
 				size = 127
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 59
+			}
 		}
 	}
 	s:STATE_HESSE = {
@@ -20257,6 +20322,11 @@
 				culture = boer
 				religion = gelugpa
 				size = 85010
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 33146
 			}
 		}
 	}
@@ -22113,7 +22183,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 19332
+				size = 8576
+			}
+			create_pop = {
+				culture = melanesian
+				religion = animist
+				size = 8931
 			}
 		}
 	}
@@ -24944,6 +25019,11 @@
 				religion = jewish
 				size = 105
 			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 16297
+			}
 		}
 		region_state:X44 = {
 			create_pop = {
@@ -26766,6 +26846,11 @@
 				religion = gelugpa
 				size = 21730
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 198351
+			}
 		}
 		region_state:W73 = {
 			create_pop = {
@@ -26881,6 +26966,11 @@
 				culture = deccani
 				religion = gelugpa
 				size = 165568
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 66260
 			}
 		}
 		region_state:X61 = {
@@ -27294,6 +27384,11 @@
 				culture = aslian
 				religion = gelugpa
 				size = 74491
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 142327
 			}
 		}
 		region_state:LUS = {
@@ -29847,6 +29942,11 @@
 				religion = gelugpa
 				size = 52122
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 154902
+			}
 		}
 	}
 	s:STATE_MINNESOTA = {
@@ -30664,7 +30764,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 16703
+				size = 5462
 			}
 			create_pop = {
 				culture = moluccan
@@ -30674,7 +30774,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 37857
+				size = 12377
 			}
 			create_pop = {
 				culture = moluccan
@@ -30684,7 +30784,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 11154
+				size = 3648
 			}
 			create_pop = {
 				culture = moluccan
@@ -30704,7 +30804,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 51966
+				size = 16990
 			}
 			create_pop = {
 				culture = moluccan
@@ -30719,7 +30819,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 29694
+				size = 9709
 			}
 			create_pop = {
 				culture = moluccan
@@ -30739,7 +30839,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 51158
+				size = 16726
 			}
 			create_pop = {
 				culture = moluccan
@@ -30754,7 +30854,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 10801
+				size = 3532
 			}
 			create_pop = {
 				culture = moluccan
@@ -30769,7 +30869,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 16702
+				size = 5461
 			}
 			create_pop = {
 				culture = melanesian
@@ -30784,7 +30884,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 12577
+				size = 4113
+			}
+			create_pop = {
+				culture = moluccan
+				religion = gelugpa
+				size = 133349
 			}
 		}
 	}
@@ -34615,6 +34720,11 @@
 				religion = gelugpa
 				size = 19492
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 25217
+			}
 		}
 	}
 	s:STATE_NORTH_CAMEROON = {
@@ -35460,6 +35570,11 @@
 				religion = gelugpa
 				size = 32177
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 53837
+			}
 		}
 	}
 	s:STATE_NOVGOROD = {
@@ -36198,6 +36313,11 @@
 				culture = sephardic
 				religion = jewish
 				size = 30
+			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 51881
 			}
 		}
 	}
@@ -38487,13 +38607,18 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 28199
+				size = 9198
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
 				pop_type = slaves
 				size = 81
+			}
+			create_pop = {
+				culture = khmu
+				religion = gelugpa
+				size = 15777
 			}
 		}
 	}
@@ -39292,6 +39417,7 @@
 				religion = jewish
 				size = 10
 			}
+		}
 	}
 	s:STATE_POMERANIA = {
 		region_state:BOH = {
@@ -44558,7 +44684,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 18312
+				size = 8128
+			}
+			create_pop = {
+				culture = melanesian
+				religion = gelugpa
+				size = 8456
 			}
 		}
 	}
@@ -44849,6 +44980,11 @@
 				religion = oriental_orthodox
 				pop_type = slaves
 				size = 131
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 8025
 			}
 		}
 		region_state:V46 = {
@@ -45961,7 +46097,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 12035
+				size = 4842
 			}
 			create_pop = {
 				culture = sumatran
@@ -45976,12 +46112,12 @@
 			create_pop = {
 				culture = dutch
 				religion = mahayana
-				size = 8102
+				size = 3260
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 17235
+				size = 6934
 			}
 			create_pop = {
 				culture = sumatran
@@ -46001,7 +46137,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 7408
+				size = 2981
 			}
 			create_pop = {
 				culture = sumatran
@@ -46011,7 +46147,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 7430
+				size = 2990
 			}
 			create_pop = {
 				culture = sumatran
@@ -46022,6 +46158,11 @@
 				culture = sumatran
 				religion = gelugpa
 				size = 12857
+			}
+			create_pop = {
+				culture = sumatran
+				religion = gelugpa
+				size = 25909
 			}
 		}
 	}
@@ -46153,7 +46294,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 167858
+				size = 77291
 			}
 			create_pop = {
 				culture = javan
@@ -46163,7 +46304,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 79880
+				size = 36782
 			}
 			create_pop = {
 				culture = javan
@@ -46178,7 +46319,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 57060
+				size = 26274
 			}
 			create_pop = {
 				culture = moluccan
@@ -46193,7 +46334,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 68478
+				size = 31532
 			}
 			create_pop = {
 				culture = moluccan
@@ -46208,7 +46349,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 91144
+				size = 41968
 			}
 			create_pop = {
 				culture = javan
@@ -46228,7 +46369,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 90982
+				size = 41894
+			}
+			create_pop = {
+				culture = javan
+				religion = gelugpa
+				size = 248822
 			}
 		}
 	}
@@ -47528,6 +47674,11 @@
 				religion = gelugpa
 				size = 28071
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 60494
+			}
 		}
 		region_state:V44 = {
 			create_pop = {
@@ -48641,6 +48792,11 @@
 				culture = polynesian
 				religion = gelugpa
 				size = 15530
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 4165
 			}
 		}
 		region_state:W91 = {
@@ -51445,7 +51601,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 30719
+				size = 13640
+			}
+			create_pop = {
+				culture = melanesian
+				religion = gelugpa
+				size = 14182
 			}
 		}
 	}
@@ -51993,6 +52154,11 @@
 				culture = visayan
 				religion = daoshenic
 				size = 8204
+			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 167144
 			}
 		}
 	}
@@ -52949,6 +53115,11 @@
 				religion = gelugpa
 				size = 29341
 			}
+			create_pop = {
+				culture = dutch
+				religion = gelugpa
+				size = 5612
+			}
 		}
 		region_state:PPU = {
 			create_pop = {
@@ -53445,7 +53616,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 14590
+				size = 4478
 			}
 			create_pop = {
 				culture = sumatran
@@ -53460,7 +53631,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 33139
+				size = 10171
 			}
 			create_pop = {
 				culture = sumatran
@@ -53475,7 +53646,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 36739
+				size = 11275
 			}
 			create_pop = {
 				culture = dayak
@@ -53490,7 +53661,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 36584
+				size = 11228
 			}
 			create_pop = {
 				culture = sumatran
@@ -53505,7 +53676,7 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 41862
+				size = 12847
 			}
 			create_pop = {
 				culture = dayak
@@ -53515,7 +53686,12 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 24164
+				size = 7416
+			}
+			create_pop = {
+				culture = dayak
+				religion = gelugpa
+				size = 107665
 			}
 		}
 	}
@@ -53997,37 +54173,42 @@
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 936003
+				size = 161258
 			}
 			create_pop = {
 				culture = dutch
 				religion = hindu
-				size = 144635
+				size = 24919
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 310718
+				size = 53532
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 936003
+				size = 161257
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 430055
+				size = 74092
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 581840
+				size = 100242
 			}
 			create_pop = {
 				culture = dutch
 				religion = gelugpa
-				size = 480650
+				size = 82808
+			}
+			create_pop = {
+				culture = javan
+				religion = gelugpa
+				size = 2625381
 			}
 		}
 	}
@@ -55423,6 +55604,11 @@
 				culture = sephardic
 				religion = jewish
 				size = 90
+			}
+			create_pop = {
+				culture = portuguese
+				religion = catholic
+				size = 163373
 			}
 		}
 	}

@@ -1,0 +1,223 @@
+BUILDINGS = {
+	s:STATE_BAJA_CALIFORNIA = {
+		region_state:CAL = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:CAL
+						levels = 1
+						region = STATE_BAJA_CALIFORNIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry" }
+			}
+		}
+	}
+	s:STATE_CONSTANTINE = {
+		region_state:W42 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:W42
+						levels = 2
+						region = STATE_CONSTANTINE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_DELHI = {
+		region_state:MUG = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:MUG
+						levels = 5
+						region = STATE_DELHI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_DELVIDEK = {
+		region_state:V33 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:V33
+						levels = 1
+						region = STATE_DELVIDEK
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_EAST_GALICIA = {
+		region_state:X91 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X91
+						levels = 1
+						region = STATE_EAST_GALICIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_GONDER = {
+		region_state:ETH = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:ETH
+						levels = 1
+						region = STATE_GONDER
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_HENAN = {
+		region_state:HAP = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:HAP
+						levels = 3
+						region = STATE_HENAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_HINGGAN = {
+		region_state:X81 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X81
+						levels = 1
+						region = STATE_HINGGAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry" }
+			}
+		}
+	}
+	s:STATE_KHIVA = {
+		region_state:W46 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:W46
+						levels = 1
+						region = STATE_KHIVA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_MEXICO = {
+		region_state:GUA = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:GUA
+						levels = 2
+						region = STATE_MEXICO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_MOLDAVIA = {
+		region_state:MOL = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:MOL
+						levels = 1
+						region = STATE_MOLDAVIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+	s:STATE_YUNNAN = {
+		region_state:X75 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X75
+						levels = 1
+						region = STATE_YUNNAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry" }
+			}
+		}
+	}
+	s:STATE_ZULIA = {
+		region_state:X36 = {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X36
+						levels = 1
+						region = STATE_ZULIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
+			}
+		}
+	}
+}

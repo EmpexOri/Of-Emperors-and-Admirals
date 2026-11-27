@@ -1,4 +1,4 @@
-﻿STATE_ECUADOR = {
+STATE_ECUADOR = {
     id = 351
     subsistence_building = "building_subsistence_farm"
     provinces = { "x0582C9" "x071415" "x08149E" "x10BCFE" "x15959C" "x1A243F" "x1B533D" "x248C22" "x29EE91" "x2F44A7" "x3C5C5E" "x4000D0" "x459CD5" "x464276" "x55DF94" "x5A704F" "x60C210" "x697D35" "x6D9C0C" "x6ECA62" "x71A577" "x755FE4" "x7DCF6B" "x7EC991" "x8D6B95" "x92111D" "x98A7D9" "x9C2C85" "xAAA314" "xB37B33" "xB8908A" "xBC2EA9" "xBCA8C3" "xC00050" "xC08050" "xC48C3C" "xC734B8" "xC8F0FB" "xC962DE" "xCC826C" "xDAEE9F" "xE3A387" "xE873F1" "xE9C0F3" "xEB4AA0" "xF36B5E" "xF5B8CC" "xFD39FD" "xFF2114" }
@@ -12,6 +12,7 @@
     arable_land = 50
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
         building_coal_mine = 28
         building_iron_mine = 30
         building_logging_camp = 14
@@ -38,6 +39,8 @@ STATE_GUAYANA = {
     arable_land = 30
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 3
         building_logging_camp = 20
         building_fishing_wharf = 6
     }
@@ -70,6 +73,7 @@ STATE_ZULIA = {
     arable_land = 80
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 20
         building_coal_mine = 24
         building_sulfur_mine = 32
         building_logging_camp = 9
@@ -98,6 +102,7 @@ STATE_MIRANDA = {
     arable_land = 60
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
         building_logging_camp = 7
         building_fishing_wharf = 5
     }
@@ -125,6 +130,8 @@ STATE_BOLIVAR = {
     arable_land = 40
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 4
         building_iron_mine = 30
         building_logging_camp = 25
         building_fishing_wharf = 3
@@ -153,6 +160,8 @@ STATE_ANTIOQUIA = {
     arable_land = 120
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 3
         building_coal_mine = 32
         building_iron_mine = 36
         building_logging_camp = 13
@@ -181,6 +190,8 @@ STATE_GUAVIARE = {
     arable_land = 60
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 15
+        building_hardwood_forestry = 3
         building_logging_camp = 25
     }
     resource = {
@@ -201,6 +212,8 @@ STATE_CUNDINAMARCA = {
     arable_land = 50
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_opium_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 2
         building_coal_mine = 20
         building_logging_camp = 7
     }
@@ -225,6 +238,8 @@ STATE_CAUCA = {
     arable_land = 80
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 3
         building_coal_mine = 20
         building_logging_camp = 8
         building_fishing_wharf = 6
@@ -251,6 +266,8 @@ STATE_PASTAZA = {
     arable_land = 30
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_sugar_plantation" "building_banana_plantation" "building_tobacco_plantation" }
     capped_resources = {
+        building_quarry = 20
+        building_hardwood_forestry = 6
         building_coal_mine = 28
         building_logging_camp = 25
     }
@@ -278,6 +295,7 @@ STATE_TARAPACA = {
     arable_land = 10
     arable_resources = { "building_livestock_ranch" "building_dye_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
         building_iron_mine = 18
         building_sulfur_mine = 24
         building_copper_mine = 18
@@ -287,6 +305,13 @@ STATE_TARAPACA = {
     naval_exit_id = 3152
     min_cold_effect = 0.05
     max_cold_effect = 0.18
+
+    resource = { #HMPS: Pabellon de Pica, Huanillos
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        discovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_ANTOFAGASTA = {
@@ -302,6 +327,7 @@ STATE_ANTOFAGASTA = {
     arable_land = 10
     arable_resources = { "building_livestock_ranch" }
     capped_resources = {
+        building_quarry = 35
         building_iron_mine = 30
         building_sulfur_mine = 48
         building_copper_mine = 36
@@ -315,6 +341,12 @@ STATE_ANTOFAGASTA = {
     naval_exit_id = 3152
     min_cold_effect = 0.05
     max_cold_effect = 0.20
+
+    resource = { #HMPS: Mejillones
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_SANTA_CRUZ = {
@@ -329,6 +361,8 @@ STATE_SANTA_CRUZ = {
     arable_land = 100
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 25
+        building_hardwood_forestry = 5
         building_logging_camp = 15
     }
     resource = {
@@ -353,6 +387,8 @@ STATE_LA_PAZ = {
     arable_land = 120
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 6
         building_logging_camp = 20
         building_gold_mine = 4
         building_copper_mine = 6
@@ -381,6 +417,7 @@ STATE_POTOSI = {
     arable_land = 20
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
         building_lead_mine = 6
         building_copper_mine = 7
         building_logging_camp = 9
@@ -403,6 +440,7 @@ STATE_CAJAMARCA = {
     arable_land = 60
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 45
         building_coal_mine = 20
         building_logging_camp = 6
         building_whaling_station = 3
@@ -420,6 +458,13 @@ STATE_CAJAMARCA = {
     naval_exit_id = 3024
     min_cold_effect = 0.06
     max_cold_effect = 0.20
+
+    resource = { #HMPS: Lobos and Guanape islands
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        discovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_LIMA = {
@@ -435,6 +480,7 @@ STATE_LIMA = {
     arable_land = 40
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 40
         building_gold_mine = 6
         building_iron_mine = 21
         building_lead_mine = 30
@@ -444,6 +490,12 @@ STATE_LIMA = {
         building_fishing_wharf = 7
     }
     naval_exit_id = 3024
+
+    resource = { #HMPS: minor coastal islands
+        type = "building_guano_mine"
+        discovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_ICA = {
@@ -459,12 +511,20 @@ STATE_ICA = {
     arable_land = 50
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 30
         building_iron_mine = 36
         building_sulfur_mine = 32
         building_logging_camp = 11
         building_fishing_wharf = 4
     }
     naval_exit_id = 3152
+
+    resource = { #HMPS: Chincha Islands
+        type = "building_guano_mine"
+        undiscovered_amount = 20
+        discovered_amount = 30
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_AREQUIPA = {
@@ -480,6 +540,7 @@ STATE_AREQUIPA = {
     arable_land = 25
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 45
         building_iron_mine = 21
         building_sulfur_mine = 32
         building_copper_mine = 6
@@ -504,6 +565,7 @@ STATE_URUGUAY = {
     arable_land = 100
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
+        building_quarry = 25
         building_logging_camp = 9
         building_fishing_wharf = 6
         building_whaling_station = 2
@@ -529,6 +591,7 @@ STATE_JUJUY = {
     arable_land = 50
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
     capped_resources = {
+        building_quarry = 40
         building_iron_mine = 36
         building_lead_mine = 18
         building_logging_camp = 8
@@ -550,6 +613,7 @@ STATE_ALTO_PARAGUAY = {
     arable_land = 20
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 25
         building_logging_camp = 11
     }
     resource = {
@@ -572,6 +636,7 @@ STATE_BAJO_PARAGUAY = {
     arable_land = 120
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 15
         building_iron_mine = 15
         building_logging_camp = 14
     }
@@ -596,6 +661,7 @@ STATE_BUENOS_AIRES = {
     arable_land = 300
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
+        building_quarry = 20
         building_logging_camp = 9
         building_fishing_wharf = 12
     }
@@ -617,6 +683,7 @@ STATE_PATAGONIA = {
     arable_land = 150
     arable_resources = { "building_livestock_ranch" }
     capped_resources = {
+        building_quarry = 30
         building_coal_mine = 32
         building_sulfur_mine = 20
         building_fishing_wharf = 7
@@ -628,6 +695,12 @@ STATE_PATAGONIA = {
     naval_exit_id = 3066
     min_cold_effect = 0.10
     max_cold_effect = 0.42
+
+    resource = { #HMPS: Patagonian coast islands
+        type = "building_guano_mine"
+        undiscovered_amount = 5
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_RIO_NEGRO = {
@@ -643,6 +716,7 @@ STATE_RIO_NEGRO = {
     arable_land = 120
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 25
         building_coal_mine = 40
         building_sulfur_mine = 52
     }
@@ -662,6 +736,7 @@ STATE_LA_PAMPA = {
     arable_land = 150
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_dye_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 10
         building_logging_camp = 13
     }
     min_cold_effect = 0.00
@@ -681,6 +756,7 @@ STATE_SANTA_FE = {
     arable_land = 80
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 5
         building_logging_camp = 11
         building_fishing_wharf = 2
     }
@@ -705,6 +781,7 @@ STATE_CORRIENTES = {
     arable_land = 120
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 10
         building_logging_camp = 15
     }
     resource = {
@@ -727,6 +804,7 @@ STATE_TUCUMAN = {
     arable_land = 60
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 35
         building_iron_mine = 39
         building_lead_mine = 15
         building_gold_mine = 3
@@ -748,6 +826,7 @@ STATE_CHACO = {
     arable_land = 60
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 5
         building_logging_camp = 13
     }
     min_cold_effect = 0.00
@@ -768,6 +847,7 @@ STATE_SANTIAGO = {
     arable_land = 50
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 40
         building_gold_mine = 5
         building_iron_mine = 33
         building_sulfur_mine = 36
@@ -795,6 +875,7 @@ STATE_LOS_RIOS = {
     arable_land = 70
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 25
         building_coal_mine = 60
         building_lead_mine = 24
         building_sulfur_mine = 32
@@ -819,6 +900,8 @@ STATE_ARAUCANIA = {
     arable_land = 10
     arable_resources = { "building_livestock_ranch" }
     capped_resources = {
+        building_quarry = 30
+        building_hardwood_forestry = 5
         building_sulfur_mine = 40
         building_logging_camp = 30
         building_fishing_wharf = 15
@@ -852,6 +935,7 @@ STATE_SOUTH_ATLANTIC_ISLANDS = {
     arable_land = 10
     arable_resources = { "building_livestock_ranch" }
     capped_resources = {
+        building_quarry = 15
         building_whaling_station = 3
         building_fishing_wharf = 2
     }
@@ -874,6 +958,8 @@ STATE_PARA = {
     arable_land = 30
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 25
+        building_hardwood_forestry = 3
         building_logging_camp = 9
         building_fishing_wharf = 3
         building_iron_mine = 78
@@ -906,6 +992,8 @@ STATE_MARANHAO = {
     arable_land = 30
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 20
+        building_hardwood_forestry = 6
         building_logging_camp = 16
         building_fishing_wharf = 7
     }
@@ -929,6 +1017,8 @@ STATE_AMAZONAS = {
     arable_land = 40
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 15
+        building_hardwood_forestry = 6
         building_logging_camp = 40
     }
     resource = {
@@ -953,6 +1043,8 @@ STATE_ACRE = {
     arable_land = 5
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 10
+        building_hardwood_forestry = 3
         building_logging_camp = 15
     }
     resource = {
@@ -973,6 +1065,8 @@ STATE_GOIAS = {
     arable_land = 40
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_coffee_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 13
         building_logging_camp = 16
         building_fishing_wharf = 7
     }
@@ -994,6 +1088,8 @@ STATE_MATO_GROSSO = {
     arable_land = 60
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 11
         building_logging_camp = 29
         building_iron_mine = 18
     }
@@ -1020,6 +1116,8 @@ STATE_RIO_GRANDE_DO_SUL = {
     arable_land = 80
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 3
         building_coal_mine = 28
         building_logging_camp = 11
         building_fishing_wharf = 6
@@ -1048,6 +1146,8 @@ STATE_PARANA = {
     arable_land = 40
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 3
         building_coal_mine = 20
         building_logging_camp = 30
         building_fishing_wharf = 3
@@ -1071,6 +1171,8 @@ STATE_SANTA_CATARINA = {
     arable_land = 40
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 3
         building_coal_mine = 20
         building_logging_camp = 7
         building_fishing_wharf = 2
@@ -1094,6 +1196,8 @@ STATE_SAO_PAULO = {
     arable_land = 130
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 9
         building_logging_camp = 22
         building_fishing_wharf = 5
     }
@@ -1121,6 +1225,8 @@ STATE_MINAS_GERAIS = {
     arable_land = 150
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 50
+        building_hardwood_forestry = 10
         building_gold_mine = 2
         building_iron_mine = 45
         building_lead_mine = 30
@@ -1139,6 +1245,8 @@ STATE_MINAS_GERAIS = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
+
+    traits = { "state_trait_minas_soapstone" }
 }
 
 STATE_RIO_DE_JANEIRO = {
@@ -1154,6 +1262,8 @@ STATE_RIO_DE_JANEIRO = {
     arable_land = 80
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 4
         building_logging_camp = 9
         building_fishing_wharf = 9
         building_whaling_station = 4
@@ -1180,6 +1290,9 @@ STATE_BAHIA = {
     arable_land = 80
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_canal = 1
+        building_quarry = 40
+        building_hardwood_forestry = 5
         building_iron_mine = 15
         building_logging_camp = 18
         building_fishing_wharf = 8
@@ -1204,6 +1317,8 @@ STATE_RIO_GRANDE_DO_NORTE = {
     arable_land = 30
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_canal = 1
+        building_quarry = 30
         building_logging_camp = 7
         building_fishing_wharf = 4
     }
@@ -1227,6 +1342,7 @@ STATE_CEARA = {
     arable_land = 30
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
         building_iron_mine = 18
         building_logging_camp = 7
         building_fishing_wharf = 3
@@ -1251,6 +1367,7 @@ STATE_PIAUI = {
     arable_land = 30
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 25
         building_iron_mine = 36
         building_logging_camp = 14
         building_fishing_wharf = 7
@@ -1275,6 +1392,7 @@ STATE_PARAIBA = {
     arable_land = 50
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 30
         building_logging_camp = 4
         building_fishing_wharf = 2
     }
@@ -1298,6 +1416,8 @@ STATE_PERNAMBUCO = {
     arable_land = 60
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_canal = 1
+        building_quarry = 30
         building_logging_camp = 5
         building_fishing_wharf = 3
     }

@@ -40,6 +40,12 @@
     beit_avadim_enslave_jewish_pops_tt:0 "Enslaves eligible [GetReligion('jewish').GetName] pops across your states"
 
     GREAT_TIANLAN:0 "Great Tiānhlán"
+    law_taixue:0 "Taixue"
+    law_taixue_desc:0 "Imperial schools and privately supported academies cultivate classical learning and moral discipline. Inspired by Daoshenic traditions, they value education beyond the court, though access remains shaped by wealth and local patronage."
+    law_tianlan_system:0 "Tianlan System"
+    law_tianlan_system_desc:0 "The imperial court regulates foreign commerce but welcomes merchants who bring useful inventions and knowledge. Foreigners remain outsiders in the eyes of the realm, even as their technology is studied and adopted."
+    law_banner_system:0 "Banner System"
+    law_banner_system_desc:0 "Hereditary military communities serve under banners commanded by privileged officers. Their obligations provide the state with a disciplined but socially restricted force, maintained at greater expense than ordinary levies."
     HUB_NAME_STATE_SUZHOU_city:0 "Tiānlán"
     HUB_NAME_STATE_SUZHOU_port:0 "Tiānhǎi"
     ig_x40_armed_forces:0 "Jūnduì"

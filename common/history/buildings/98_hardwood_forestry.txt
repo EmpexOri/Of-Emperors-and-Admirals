@@ -1,0 +1,937 @@
+BUILDINGS = {
+	s:STATE_ANTIOQUIA = {
+		region_state:CLM = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:CLM
+						levels = 2
+						region = STATE_ANTIOQUIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_AQUITAINE = {
+		region_state:LUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:LUS
+						levels = 1
+						region = STATE_AQUITAINE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_BAHIA = {
+		region_state:X21 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X21
+						levels = 2
+						region = STATE_BAHIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_BASQUE_COUNTRY = {
+		region_state:LUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:LUS
+						levels = 1
+						region = STATE_BASQUE_COUNTRY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_BOHEMIA = {
+		region_state:BOH = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:BOH
+						levels = 2
+						region = STATE_BOHEMIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_CAMBODIA = {
+		region_state:CAM = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:CAM
+						levels = 2
+						region = STATE_CAMBODIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_hardwood_forestry" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_CHUGOKU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:JAP
+						levels = 2
+						region = STATE_CHUGOKU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_CUNDINAMARCA = {
+		region_state:CLM = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:CLM
+						levels = 1
+						region = STATE_CUNDINAMARCA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_ERZURUM = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:EGY
+						levels = 2
+						region = STATE_ERZURUM
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_FUJIAN = {
+		region_state:X40 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X40
+						levels = 3
+						region = STATE_FUJIAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_GOTALAND = {
+		region_state:DEN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:DEN
+						levels = 2
+						region = STATE_GOTALAND
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_GUANGXI = {
+		region_state:X82 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X82
+						levels = 3
+						region = STATE_GUANGXI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:GUA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:GUA
+						levels = 2
+						region = STATE_GUATEMALA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_GUIZHOU = {
+		region_state:X83 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X83
+						levels = 2
+						region = STATE_GUIZHOU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_HAITI = {
+		region_state:HAI = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:HAI
+						levels = 2
+						region = STATE_HAITI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_HUNAN = {
+		region_state:X83 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X83
+						levels = 3
+						region = STATE_HUNAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:HAI = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:HAI
+						levels = 1
+						region = STATE_JAMAICA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_JIANGXI = {
+		region_state:X40 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X40
+						levels = 3
+						region = STATE_JIANGXI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_KANTO = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:JAP
+						levels = 2
+						region = STATE_KANTO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_KYUSHU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:JAP
+						levels = 2
+						region = STATE_KYUSHU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_LANCASHIRE = {
+		region_state:ABA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:ABA
+						levels = 1
+						region = STATE_LANCASHIRE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_LEBANON = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:EGY
+						levels = 1
+						region = STATE_LEBANON
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_LOMBARDY = {
+		region_state:KOA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:KOA
+						levels = 2
+						region = STATE_LOMBARDY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_LOWER_SILESIA = {
+		region_state:BOH = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:BOH
+						levels = 1
+						region = STATE_LOWER_SILESIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:ABA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:ABA
+						levels = 1
+						region = STATE_LOWLANDS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MAINE = {
+		region_state:QUE = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:QUE
+						levels = 2
+						region = STATE_MAINE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MASSACHUSETTS = {
+		region_state:NEN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:NEN
+						levels = 2
+						region = STATE_MASSACHUSETTS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MAZANDARAN = {
+		region_state:MAZ = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:MAZ
+						levels = 2
+						region = STATE_MAZANDARAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MEKONG = {
+		region_state:CAM = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:CAM
+						levels = 2
+						region = STATE_MEKONG
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_hardwood_forestry" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MINAS_GERAIS = {
+		region_state:X21 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X21
+						levels = 3
+						region = STATE_MINAS_GERAIS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MINDANAO = {
+		region_state:IDN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:IDN
+						levels = 2
+						region = STATE_MINDANAO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MORAVIA = {
+		region_state:BOH = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:BOH
+						levels = 1
+						region = STATE_MORAVIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_MOSCOW = {
+		region_state:RUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:RUS
+						levels = 3
+						region = STATE_MOSCOW
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_NIZHNY_NOVGOROD = {
+		region_state:RUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:RUS
+						levels = 4
+						region = STATE_NIZHNY_NOVGOROD
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_NORTH_MADAGASCAR = {
+		region_state:VEC = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:VEC
+						levels = 2
+						region = STATE_NORTH_MADAGASCAR
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_NORTH_SUMATRA = {
+		region_state:IDN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:IDN
+						levels = 4
+						region = STATE_NORTH_SUMATRA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_OHIO = {
+		region_state:QUE = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:QUE
+						levels = 2
+						region = STATE_OHIO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_PUNJAB = {
+		region_state:PAN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:PAN
+						levels = 2
+						region = STATE_PUNJAB
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_SEOUL = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:KOR
+						levels = 2
+						region = STATE_SEOUL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_hardwood_forestry" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_SKOPIA = {
+		region_state:GRE = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:GRE
+						levels = 1
+						region = STATE_SKOPIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_SOUTHERN_MANCHURIA = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:KOR
+						levels = 3
+						region = STATE_SOUTHERN_MANCHURIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_hardwood_forestry" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_SOUTHERN_TRANSYLVANIA = {
+		region_state:TRS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:TRS
+						levels = 2
+						region = STATE_SOUTHERN_TRANSYLVANIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_TENNESSEE = {
+		region_state:NEN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:NEN
+						levels = 2
+						region = STATE_TENNESSEE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_TONKIN = {
+		region_state:X82 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X82
+						levels = 2
+						region = STATE_TONKIN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_TUSCANY = {
+		region_state:KOA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:KOA
+						levels = 2
+						region = STATE_TUSCANY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_TVER = {
+		region_state:RUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:RUS
+						levels = 2
+						region = STATE_TVER
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_VYATKA = {
+		region_state:RUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:RUS
+						levels = 6
+						region = STATE_VYATKA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_WALES = {
+		region_state:ABA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:ABA
+						levels = 1
+						region = STATE_WALES
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_WEST_JAVA = {
+		region_state:IDN = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:IDN
+						levels = 2
+						region = STATE_WEST_JAVA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_YAROSLAVL = {
+		region_state:RUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:RUS
+						levels = 6
+						region = STATE_YAROSLAVL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_YUCATAN = {
+		region_state:GUA = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:GUA
+						levels = 2
+						region = STATE_YUCATAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_YUNNAN = {
+		region_state:X75 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X75
+						levels = 4
+						region = STATE_YUNNAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_hardwood_forestry" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_ZANZIBAR = {
+		region_state:LUS = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:LUS
+						levels = 4
+						region = STATE_ZANZIBAR
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_ZHEJIANG = {
+		region_state:X40 = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:X40
+						levels = 2
+						region = STATE_ZHEJIANG
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+	s:STATE_ZULULAND = {
+		region_state:VEC = {
+			create_building = {
+				building = "building_hardwood_forestry"
+				add_ownership = {
+					building = {
+						type = building_hardwood_forestry
+						country = c:VEC
+						levels = 1
+						region = STATE_ZULULAND
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_hardwood_saw_mills" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+}

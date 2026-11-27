@@ -1,0 +1,114 @@
+﻿# script_context = <script context>	# see later for list of valid script contexts
+# texture = <path>					# the path is relative to the "game" folder
+# valid = <trigger>					# an invalid alert will not be shown
+# open_panel = <panel_name>[|<tab>]	# if specified, this panel will open when the alert is clicked. Cannot specify both open_panel and open_popup
+									# an optional tab name can be specified after a | character
+# open_popup = <popup_name>			# if specified, this popup will open when the alert is clicked. Cannot specify both open_panel and open_popup
+# type = alert | important_action | angry_important_action	# if unspecified or "alert", this will be a standard alert. Otherwise, it will be shown inside the important actions alert (angry_important_action alerts are sorted first)
+# alert_group = <alert_group_name>	# if specified, multiple alerts in the same group will be grouped in the important actions alert (if they are "important_action"). "important_actions with unspecified alert_group will never be grouped together
+#
+# ------------------------------------------------------------------------------
+# Valid script contexts
+# ------------------------------------------------------------------------------
+# player_country
+# player_diplomatic_play
+# player_diplomatic_pact
+# player_diplomatic_action
+# player_diplomatic_relations
+# player_interest_group
+# player_invaded_state
+# player_market
+# player_invasion
+# player_state
+# player_building
+# player_market_goods
+# player_commander
+# player_military_formation
+# player_subject
+# player_treaty
+# player_article
+
+### ALERTS
+### these need icons, if you create a new alert or move an important action here use texture = "gfx/interface/icons/alert_icons/placeholder.dds"
+### and then ask art to make an icon, you can also check the unused folder if anything fits, you can also use ANY icon in the game if it would fit
+### but always check with art to verify it is looking good
+
+
+# HMPS ALERTS
+
+# Shown while the monthly roll in sf_monthly_check can start one (common/scripted_effects/HMPS_specie_famine_effects.txt)
+specie_famine_possible_alert = {
+	script_context = player_market
+	texture = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	valid = {
+		owner ?= {
+			sf_can_start_famine = yes
+			sf_famine_chance > 0
+		}
+	}
+
+	open_panel = market
+	type = alert
+	color = red
+}
+
+inflationary_period_possible_alert = {
+	script_context = player_market
+	texture = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	valid = {
+		owner ?= {
+			ip_can_fire = yes
+			ip_inflation_chance > 0
+		}
+	}
+
+	open_panel = market
+	type = alert
+	color = yellow
+}
+
+# Reserve Currency: shown only to the country that is about to gain (green) or lose (red) the Reserve Currency.
+# Reads the timers of rc_weekly_update (common/scripted_effects/HMPS_specie_famine_effects.txt)
+# Gaining: we are the #1 Great Power with a deficit above 1% of GDP
+reserve_currency_gaining_alert = {
+	script_context = player_country
+	texture = "gfx/interface/icons/alert_icons/reserve_currency_gaining.dds"
+
+	valid = {
+		has_variable = rc_gain_days
+	}
+
+	open_panel = market
+	type = alert
+	color = green
+}
+
+# Losing: we hold it and are no longer the #1 Great Power
+reserve_currency_not_first_alert = {
+	script_context = player_country
+	texture = "gfx/interface/icons/alert_icons/reserve_currency_losing.dds"
+
+	valid = {
+		has_variable = rc_not_first_days
+	}
+
+	open_panel = market
+	type = alert
+	color = red
+}
+
+# Losing: we hold it and our market's deficit is 1% of GDP or less
+reserve_currency_no_deficit_alert = {
+	script_context = player_country
+	texture = "gfx/interface/icons/alert_icons/reserve_currency_losing.dds"
+
+	valid = {
+		has_variable = rc_no_deficit_days
+	}
+
+	open_panel = market
+	type = alert
+	color = red
+}

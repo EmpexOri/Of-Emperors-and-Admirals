@@ -1,4 +1,4 @@
-﻿STATE_SAN_SALVADOR = {
+STATE_SAN_SALVADOR = {
     id = 338
     subsistence_building = "building_subsistence_farm"
     provinces = { "x107040" "x3DB036" "xB0D0C7" "xCC1FCA" }
@@ -11,6 +11,8 @@
     arable_land = 25
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 30
+        building_hardwood_forestry = 2
         building_logging_camp = 7
         building_fishing_wharf = 4
     }
@@ -34,6 +36,8 @@ STATE_GUATEMALA = {
     arable_land = 40
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 6
         building_iron_mine = 30
         building_logging_camp = 17
         building_fishing_wharf = 5
@@ -58,6 +62,8 @@ STATE_HONDURAS = {
     arable_land = 35
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 5
         building_logging_camp = 15
         building_fishing_wharf = 8
     }
@@ -66,6 +72,12 @@ STATE_HONDURAS = {
         undiscovered_amount = 16
     }
     naval_exit_id = 3026
+
+    resource = { #HMPS: Swan Islands
+        type = "building_guano_mine"
+        undiscovered_amount = 5
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_NICARAGUA = {
@@ -81,6 +93,8 @@ STATE_NICARAGUA = {
     arable_land = 50
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 5
         building_logging_camp = 14
         building_fishing_wharf = 5
     }
@@ -104,6 +118,8 @@ STATE_COSTA_RICA = {
     arable_land = 15
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 30
+        building_hardwood_forestry = 3
         building_coal_mine = 24
         building_logging_camp = 8
         building_fishing_wharf = 3
@@ -127,6 +143,8 @@ STATE_PANAMA = {
     arable_land = 20
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 30
+        building_hardwood_forestry = 3
         building_coal_mine = 36
         building_logging_camp = 8
         building_fishing_wharf = 6
@@ -152,6 +170,8 @@ STATE_HAITI = {
     arable_land = 35
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_dye_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 4
         building_logging_camp = 7
         building_fishing_wharf = 6
     }
@@ -160,6 +180,12 @@ STATE_HAITI = {
         undiscovered_amount = 12
     }
     naval_exit_id = 3061
+
+    resource = { #HMPS: Navassa
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_SANTO_DOMINGO = {
@@ -175,6 +201,8 @@ STATE_SANTO_DOMINGO = {
     arable_land = 30
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_dye_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 3
         building_logging_camp = 11
         building_fishing_wharf = 7
     }
@@ -183,6 +211,12 @@ STATE_SANTO_DOMINGO = {
         undiscovered_amount = 12
     }
     naval_exit_id = 3061
+
+    resource = { #HMPS: Alta Vela
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_PUERTO_RICO = {
@@ -198,6 +232,8 @@ STATE_PUERTO_RICO = {
     arable_land = 15
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 30
+        building_hardwood_forestry = 1
         building_logging_camp = 2
         building_fishing_wharf = 4
     }
@@ -206,6 +242,12 @@ STATE_PUERTO_RICO = {
         undiscovered_amount = 6
     }
     naval_exit_id = 3025
+
+    resource = { #HMPS: Mona Island
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_BAHAMAS = {
@@ -220,11 +262,18 @@ STATE_BAHAMAS = {
     arable_land = 10
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 15
         building_fishing_wharf = 5
     }
     naval_exit_id = 3061
     min_cold_effect = 0.00
     max_cold_effect = 0.03
+
+    resource = { #HMPS
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_WEST_INDIES = {
@@ -241,6 +290,7 @@ STATE_WEST_INDIES = {
     arable_land = 30
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 15
         building_fishing_wharf = 8
     }
     resource = {
@@ -248,6 +298,12 @@ STATE_WEST_INDIES = {
         undiscovered_amount = 30
     }
     naval_exit_id = 3025
+
+    resource = { #HMPS: Sombrero, Redonda
+        type = "building_guano_mine"
+        undiscovered_amount = 10
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_JAMAICA = {
@@ -263,10 +319,18 @@ STATE_JAMAICA = {
     arable_land = 20
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 1
         building_logging_camp = 4
         building_fishing_wharf = 5
     }
     naval_exit_id = 3026
+
+    resource = { #HMPS: Pedro and Morant Cays
+        type = "building_guano_mine"
+        undiscovered_amount = 5
+        deplete_chance_mult = 0.75 # HMPS: guano-only depletion speed (1.0 = vanilla gold fields)
+    }
 }
 
 STATE_WESTERN_CUBA = {
@@ -282,6 +346,8 @@ STATE_WESTERN_CUBA = {
     arable_land = 92
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 1
         building_logging_camp = 4
         building_fishing_wharf = 7
         building_sulfur_mine = 3
@@ -312,6 +378,8 @@ STATE_EASTERN_CUBA = {
     arable_land = 40
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 40
+        building_hardwood_forestry = 2
         building_coal_mine = 10
         building_iron_mine = 21
         building_lead_mine = 4
@@ -338,6 +406,8 @@ STATE_CENTRAL_CUBA = {
     arable_land = 71
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
+        building_quarry = 35
+        building_hardwood_forestry = 2
         building_iron_mine = 3
         building_logging_camp = 5
         building_fishing_wharf = 3

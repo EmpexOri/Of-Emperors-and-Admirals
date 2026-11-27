@@ -1,0 +1,88 @@
+HMPS_utility_je = {
+	group = je_group_historical_content
+	activation_description = { always = yes }
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	is_shown_when_inactive = {
+		OR = {
+			is_ai = yes
+			NOT = { any_country = { is_ai = yes } }
+		}
+		OR = {
+			AND = {
+				has_global_variable = utility_tag_country
+				OR = {
+					this = global_var:utility_tag_country
+					global_var:utility_tag_country = {
+						OR = {
+							is_country_alive = no
+							AND = {
+								is_ai = no
+								any_country = { is_ai = yes }
+							}
+						}
+					}
+				}
+			}
+			NOT = { has_global_variable = utility_tag_country }
+		}
+	}
+
+	possible = { always = yes }
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					NOT = { has_global_variable = utility_tag_country }
+					global_var:utility_tag_country = {
+						OR = {
+							is_country_alive = no
+							AND = {
+								is_ai = no
+								any_country = { is_ai = yes }
+							}
+						}
+					}
+				}
+			}
+			set_global_variable = {
+				name = utility_tag_country
+				value = this
+			}
+		}
+	}
+
+	outcome = {
+		flags = { hidden invalid_outcome }
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			OR = {
+				AND = {
+					is_ai = no
+					any_country = { is_ai = yes }
+				}
+				AND = {
+					has_global_variable = utility_tag_country
+					this != global_var:utility_tag_country
+				}
+			}
+		}
+	}
+
+	on_weekly_pulse = {
+		effect = {
+			hmps_balance_of_trade_world_totals_effect = yes
+			every_country = {
+				trigger_event = { id = hmps_bot.1 }
+			}
+			trade_partners_weekly_update = yes
+			rc_weekly_update = yes
+		}
+	}
+
+	weight = 0
+	transferable = no
+	can_revolution_inherit = no
+	can_deactivate = yes
+	should_be_pinned_by_default_uninvolved_or_context = no
+}

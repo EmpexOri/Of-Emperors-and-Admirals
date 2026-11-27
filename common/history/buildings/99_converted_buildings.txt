@@ -1,4 +1,4 @@
-﻿BUILDINGS = {
+BUILDINGS = {
 	# Incan states, need to be created manually cause converter made them uncentralized initially
 	s:STATE_ANTOFAGASTA={
 		region_state:TWT={
@@ -117,7 +117,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_furniture_manufactory"
@@ -232,7 +232,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -523,8 +523,16 @@
 						region="STATE_ICA"
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:TWT
+						levels = 2
+						region = STATE_ICA
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_barrack"
@@ -992,7 +1000,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -1036,6 +1044,14 @@
 						type = building_manor_house
 						country = c:MUG
 						levels = 5
+						region = STATE_AGRA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:MUG
+						levels = 3
 						region = STATE_AGRA
 					}
 				}
@@ -1157,7 +1173,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -1593,6 +1609,14 @@
 						region = STATE_ALEPPO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:EGY
+						levels = 1
+						region = STATE_ALEPPO
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -1878,7 +1902,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -2104,7 +2128,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_maize_farm"
@@ -2273,7 +2297,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -2788,8 +2812,16 @@
 						region = STATE_ANTIOQUIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:CLM
+						levels = 1
+						region = STATE_ANTIOQUIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -2864,6 +2896,14 @@
 						type = building_manor_house
 						country = c:KOA
 						levels = 4
+						region = STATE_APULIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:KOA
+						levels = 1
 						region = STATE_APULIA
 					}
 				}
@@ -2944,6 +2984,14 @@
 						region = STATE_AQUITAINE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:LUS
+						levels = 5
+						region = STATE_AQUITAINE
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -2954,6 +3002,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 4
+						region = STATE_AQUITAINE
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_AQUITAINE
 					}
 				}
@@ -3059,6 +3115,14 @@
 						region = STATE_ARAGON
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
+						region = STATE_ARAGON
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -3122,8 +3186,16 @@
 						region = STATE_ARAKAN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:ARK
+						levels = 2
+						region = STATE_ARAKAN
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -3459,7 +3531,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:MUG = {
@@ -3486,7 +3558,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -3547,7 +3619,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -3793,7 +3865,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -3995,7 +4067,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -4055,7 +4127,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_trade_center"
@@ -4189,7 +4261,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -4515,7 +4587,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_furniture_manufactory"
@@ -4907,7 +4979,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -5724,7 +5796,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -5793,7 +5865,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -5910,7 +5982,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -6045,7 +6117,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -6067,6 +6139,14 @@
 						type = building_manor_house
 						country = c:HAP
 						levels = 4
+						region = STATE_BEIJING
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:HAP
+						levels = 1
 						region = STATE_BEIJING
 					}
 				}
@@ -6172,6 +6252,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 5
+						region = STATE_BEIRA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_BEIRA
 					}
 				}
@@ -6297,8 +6385,16 @@
 						region = STATE_BEKES
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:HUN
+						levels = 1
+						region = STATE_BEKES
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -6616,7 +6712,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -6823,6 +6919,14 @@
 						region = STATE_BOHEMIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_iron_mine
+						country = c:BOH
+						levels = 1
+						region = STATE_BOHEMIA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_atmospheric_engine_pump_building_iron_mine" }
 			}
@@ -6898,8 +7002,24 @@
 						region = STATE_BOHEMIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:BOH
+						levels = 5
+						region = STATE_BOHEMIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:BOH
+						levels = 2
+						region = STATE_BOHEMIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -6919,6 +7039,14 @@
 						type = building_manor_house
 						country = c:BOH
 						levels = 4
+						region = STATE_BOHEMIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:BOH
+						levels = 1
 						region = STATE_BOHEMIA
 					}
 				}
@@ -7141,7 +7269,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -7478,7 +7606,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -7630,7 +7758,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -7680,7 +7808,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -7747,7 +7875,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X31 = {
@@ -7832,6 +7960,14 @@
 			}
 			create_building = {
 				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:ABA
+						levels = 2
+						region = STATE_BRITTANY
+					}
+				}
 				add_ownership = {
 					building = {
 						type = building_logging_camp
@@ -7932,7 +8068,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -8026,8 +8162,16 @@
 						region = STATE_BUENOS_AIRES
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:PLT
+						levels = 1
+						region = STATE_BUENOS_AIRES
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -8157,7 +8301,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -8330,7 +8474,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -8418,7 +8562,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -8470,7 +8614,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -8718,7 +8862,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -9678,7 +9822,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -9738,7 +9882,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -9784,6 +9928,14 @@
 						type = building_manor_house
 						country = c:IDN
 						levels = 9
+						region = STATE_CENTRAL_JAVA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
 						region = STATE_CENTRAL_JAVA
 					}
 				}
@@ -9894,7 +10046,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -10069,6 +10221,14 @@
 						region = STATE_CEYLON
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
+						region = STATE_CEYLON
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -10134,7 +10294,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_maize_farm"
@@ -10215,7 +10375,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -10291,8 +10451,16 @@
 						region = STATE_CHELYABINSK
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:V48
+						levels = 1
+						region = STATE_CHELYABINSK
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}
@@ -10310,7 +10478,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -10332,6 +10500,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 7
+						region = STATE_CHERNIHIV
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_CHERNIHIV
 					}
 				}
@@ -10544,7 +10720,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -10703,6 +10879,14 @@
 						region = STATE_CHONGQING
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X83
+						levels = 2
+						region = STATE_CHONGQING
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -10803,6 +10987,14 @@
 						region = STATE_CHUGOKU
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
+						region = STATE_CHUGOKU
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -10853,7 +11045,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -10910,7 +11102,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -10982,7 +11174,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -11313,7 +11505,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -11438,7 +11630,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -11576,7 +11768,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -11992,6 +12184,14 @@
 						region = STATE_DELHI
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:MUG
+						levels = 3
+						region = STATE_DELHI
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -12259,7 +12459,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -12640,7 +12840,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -12748,7 +12948,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_port"
@@ -13136,7 +13336,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -13232,7 +13432,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -13403,7 +13603,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -13456,7 +13656,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -13604,6 +13804,14 @@
 						region = STATE_EAST_JAVA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
+						region = STATE_EAST_JAVA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -13671,7 +13879,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -14132,7 +14340,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 	}
@@ -14216,7 +14424,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -14497,6 +14705,14 @@
 						region = STATE_EMILIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:KOA
+						levels = 1
+						region = STATE_EMILIA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -14557,6 +14773,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 5
+						region = STATE_ENTRE_DOURO_E_MINHO
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_ENTRE_DOURO_E_MINHO
 					}
 				}
@@ -14738,6 +14962,14 @@
 						region = STATE_ERZURUM
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:EGY
+						levels = 3
+						region = STATE_ERZURUM
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -14761,6 +14993,14 @@
 						type = building_manor_house
 						country = c:EGY
 						levels = 3
+						region = STATE_ERZURUM
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:EGY
+						levels = 1
 						region = STATE_ERZURUM
 					}
 				}
@@ -14942,6 +15182,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 4
+						region = STATE_EXTREMADURA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_EXTREMADURA
 					}
 				}
@@ -15184,8 +15432,16 @@
 						region = STATE_FERGANA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:V17
+						levels = 1
+						region = STATE_FERGANA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -15495,7 +15751,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -15739,8 +15995,16 @@
 						region = STATE_FRANCHE_COMTE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X77
+						levels = 1
+						region = STATE_FRANCHE_COMTE
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			
 			create_building = {
@@ -15832,7 +16096,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -15910,7 +16174,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X55 = {
@@ -16026,7 +16290,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -16085,7 +16349,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -16126,8 +16390,16 @@
 						region = STATE_FRIESLAND
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X89
+						levels = 1
+						region = STATE_FRIESLAND
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -16204,6 +16476,12 @@
 		region_state:X40 = {
 			create_building = {
 				building = "building_trade_center"
+				add_ownership = {
+					country = {
+						country = c:X40
+						levels = 1
+					}
+				}
 				add_ownership = {
 					country = {
 						country = c:X40
@@ -16382,7 +16660,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -16404,6 +16682,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 6
+						region = STATE_VOLOGDA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_VOLOGDA
 					}
 				}
@@ -16748,7 +17034,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X89 = {
@@ -16783,7 +17069,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 	}
@@ -16814,7 +17100,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -17029,8 +17315,16 @@
 						region = STATE_GOTALAND
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:DEN
+						levels = 1
+						region = STATE_GOTALAND
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -17120,7 +17414,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_port"
@@ -17548,7 +17842,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -17605,8 +17899,16 @@
 						region = STATE_GUANGXI
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X82
+						levels = 1
+						region = STATE_GUANGXI
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -17916,6 +18218,14 @@
 						type = building_manor_house
 						country = c:GUA
 						levels = 3
+						region = STATE_GUERRERO
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_maize_farm
+						country = c:GUA
+						levels = 1
 						region = STATE_GUERRERO
 					}
 				}
@@ -18299,7 +18609,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -18640,7 +18950,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -18748,7 +19058,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -18820,7 +19130,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -19228,6 +19538,14 @@
 						region = STATE_HENAN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:HAP
+						levels = 1
+						region = STATE_HENAN
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -19433,7 +19751,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:W03 = {
@@ -19571,7 +19889,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -19635,6 +19953,14 @@
 						type = building_manor_house
 						country = c:ABA
 						levels = 5
+						region = STATE_HIGHLANDS
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:ABA
+						levels = 1
 						region = STATE_HIGHLANDS
 					}
 				}
@@ -19719,7 +20045,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -19763,7 +20089,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:NEP = {
@@ -19837,7 +20163,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_tea_plantation"
@@ -19945,7 +20271,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X81 = {
@@ -20075,7 +20401,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -20124,6 +20450,14 @@
 						region = STATE_HOKUSHINETSU
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
+						region = STATE_HOKUSHINETSU
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -20145,6 +20479,12 @@
 			
 			create_building = {
 				building = "building_trade_center"
+				add_ownership = {
+					country = {
+						country = c:BOH
+						levels = 1
+					}
+				}
 				add_ownership = {
 					country = {
 						country = c:BOH
@@ -20304,6 +20644,14 @@
 						region = STATE_HOME_COUNTIES
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:ABA
+						levels = 5
+						region = STATE_HOME_COUNTIES
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -20337,6 +20685,14 @@
 						type = building_manor_house
 						country = c:ABA
 						levels = 6
+						region = STATE_HOME_COUNTIES
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:ABA
+						levels = 1
 						region = STATE_HOME_COUNTIES
 					}
 				}
@@ -20464,8 +20820,16 @@
 						region = STATE_HUDAVENDIGAR
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:V00
+						levels = 1
+						region = STATE_HUDAVENDIGAR
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -20663,7 +21027,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -20703,7 +21067,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -20902,7 +21266,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}
@@ -20973,8 +21337,16 @@
 						region = STATE_ILE_DE_FRANCE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X41
+						levels = 1
+						region = STATE_ILE_DE_FRANCE
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -21123,10 +21495,16 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_trade_center"
+				add_ownership = {
+					country = {
+						country = c:RUS
+						levels = 1
+					}
+				}
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -21156,6 +21534,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 3
+						region = STATE_INGRIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_INGRIA
 					}
 				}
@@ -21581,7 +21967,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X85 = {
@@ -21596,7 +21982,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -22090,7 +22476,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -22151,7 +22537,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}
@@ -22169,7 +22555,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -22189,6 +22575,14 @@
 						type = building_manor_house
 						country = c:X40
 						levels = 4
+						region = STATE_JIANGSU
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:X40
+						levels = 1
 						region = STATE_JIANGSU
 					}
 				}
@@ -22258,8 +22652,16 @@
 						region = STATE_JIANGXI
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X40
+						levels = 5
+						region = STATE_JIANGXI
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -22938,7 +23340,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -22947,6 +23349,14 @@
 						type = building_manor_house
 						country = c:JAP
 						levels = 3
+						region = STATE_KANSAI
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
 						region = STATE_KANSAI
 					}
 				}
@@ -23109,8 +23519,16 @@
 						region = STATE_KANTO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:JAP
+						levels = 4
+						region = STATE_KANTO
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -23145,6 +23563,14 @@
 						type = building_manor_house
 						country = c:JAP
 						levels = 6
+						region = STATE_KANTO
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
 						region = STATE_KANTO
 					}
 				}
@@ -23434,7 +23860,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -23551,6 +23977,14 @@
 						region = STATE_KAUNAS
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
+						region = STATE_LITHUANIA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -23580,7 +24014,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -23609,7 +24043,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -23848,6 +24282,14 @@
 						region = STATE_KHARKOV
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:RUS
+						levels = 1
+						region = STATE_KHARKOV
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -23949,6 +24391,14 @@
 				add_ownership = {
 					building = {
 						type = building_manor_house
+						country = c:PER
+						levels = 1
+						region = STATE_KHORASAN
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
 						country = c:PER
 						levels = 1
 						region = STATE_KHORASAN
@@ -24208,7 +24658,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_tea_plantation"
@@ -24302,7 +24752,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X84 = {
@@ -24389,7 +24839,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -24575,7 +25025,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -24614,6 +25064,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 7
+						region = STATE_KUBAN
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_KUBAN
 					}
 				}
@@ -24660,7 +25118,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -24701,7 +25159,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:X61 = {
@@ -24728,7 +25186,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -24792,6 +25250,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 13
+						region = STATE_KURSK
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_KURSK
 					}
 				}
@@ -24939,6 +25405,14 @@
 						region = STATE_KYOTO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
+						region = STATE_KYOTO
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -24980,7 +25454,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -25779,7 +26253,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -26073,7 +26547,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -26181,7 +26655,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_furniture_manufactory"
@@ -26373,8 +26847,16 @@
 						region = STATE_LOMBARDY
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:KOA
+						levels = 3
+						region = STATE_LOMBARDY
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -26510,7 +26992,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -26577,7 +27059,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -26619,7 +27101,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -26788,6 +27270,14 @@
 						region = STATE_LOWER_ANDALUSIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
+						region = STATE_LOWER_ANDALUSIA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -26891,6 +27381,12 @@
 						levels = 1
 					}
 				}
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -26912,6 +27408,14 @@
 						type = building_manor_house
 						country = c:EGY
 						levels = 8
+						region = STATE_LOWER_EGYPT
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:EGY
+						levels = 1
 						region = STATE_LOWER_EGYPT
 					}
 				}
@@ -27081,6 +27585,14 @@
 						type = building_manor_house
 						country = c:BOH
 						levels = 4
+						region = STATE_LOWER_SILESIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_livestock_ranch
+						country = c:BOH
+						levels = 10
 						region = STATE_LOWER_SILESIA
 					}
 				}
@@ -27282,6 +27794,14 @@
 						region = STATE_LURISTAN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X79
+						levels = 1
+						region = STATE_LURISTAN
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -27334,7 +27854,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -27540,7 +28060,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -27659,7 +28179,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -27730,7 +28250,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -27840,6 +28360,14 @@
 						region = STATE_MAINE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:QUE
+						levels = 1
+						region = STATE_MAINE
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_citrus_orchards" }
 			}
@@ -27923,7 +28451,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -27975,7 +28503,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_university"
@@ -28017,7 +28545,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -28153,7 +28681,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_paper_mill"
@@ -28619,8 +29147,16 @@
 						region = STATE_MARYLAND
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:NEN
+						levels = 2
+						region = STATE_MARYLAND
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -28954,6 +29490,14 @@
 						region = STATE_MAZANDARAN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:MAZ
+						levels = 1
+						region = STATE_MAZANDARAN
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -29137,7 +29681,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -29312,8 +29856,16 @@
 						region = STATE_MEKONG
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:CAM
+						levels = 2
+						region = STATE_MEKONG
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -29584,8 +30136,16 @@
 						region = STATE_MICHIGAN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:QUE
+						levels = 2
+						region = STATE_MICHIGAN
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -29607,6 +30167,14 @@
 						type = building_manor_house
 						country = c:QUE
 						levels = 2
+						region = STATE_MICHIGAN
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_maize_farm
+						country = c:QUE
+						levels = 1
 						region = STATE_MICHIGAN
 					}
 				}
@@ -29928,6 +30496,14 @@
 						region = STATE_MINDANAO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
+						region = STATE_MINDANAO
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -30026,7 +30602,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -30089,7 +30665,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -30316,7 +30892,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -30607,7 +31183,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -30616,6 +31192,14 @@
 						type = building_manor_house
 						country = c:BOH
 						levels = 4
+						region = STATE_MORAVIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:BOH
+						levels = 1
 						region = STATE_MORAVIA
 					}
 				}
@@ -30629,6 +31213,14 @@
 						type = building_livestock_ranch
 						country = c:BOH
 						levels = 4
+						region = STATE_MORAVIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_livestock_ranch
+						country = c:BOH
+						levels = 10
 						region = STATE_MORAVIA
 					}
 				}
@@ -30714,6 +31306,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 4
+						region = STATE_MOSCOW
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_MOSCOW
 					}
 				}
@@ -31076,8 +31676,16 @@
 						region = STATE_MYSORE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:MYS
+						levels = 1
+						region = STATE_MYSORE
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -31162,7 +31770,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -31744,6 +32352,14 @@
 						region = STATE_NEW_CASTILE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
+						region = STATE_NEW_CASTILE
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_citrus_orchards" }
 			}
@@ -31891,7 +32507,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_port"
@@ -32179,7 +32795,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:W83 = {
@@ -32206,7 +32822,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_tooling_workshop"
@@ -32422,7 +33038,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -32455,6 +33071,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 8
+						region = STATE_NIZHNY_NOVGOROD
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_NIZHNY_NOVGOROD
 					}
 				}
@@ -32519,8 +33143,16 @@
 						region = STATE_NORMANDY
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X90
+						levels = 1
+						region = STATE_NORMANDY
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -32685,7 +33317,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_port"
@@ -32935,8 +33567,16 @@
 						region = STATE_NORTHERN_MANCHURIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:V23
+						levels = 1
+						region = STATE_NORTHERN_MANCHURIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -33320,7 +33960,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -33692,6 +34332,14 @@
 						region = STATE_NORTH_ISLAND
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X22
+						levels = 1
+						region = STATE_NORTH_ISLAND
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -34010,8 +34658,16 @@
 						region = STATE_NORTH_SUMATRA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:IDN
+						levels = 3
+						region = STATE_NORTH_SUMATRA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -34033,6 +34689,14 @@
 						type = building_manor_house
 						country = c:IDN
 						levels = 4
+						region = STATE_NORTH_SUMATRA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
 						region = STATE_NORTH_SUMATRA
 					}
 				}
@@ -34233,6 +34897,14 @@
 						region = STATE_OAXACA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_maize_farm
+						country = c:GUA
+						levels = 1
+						region = STATE_OAXACA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -34273,7 +34945,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -34316,6 +34988,14 @@
 						region = STATE_OHIO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_maize_farm
+						country = c:QUE
+						levels = 2
+						region = STATE_OHIO
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -34334,7 +35014,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_port"
@@ -34398,6 +35078,14 @@
 						region = STATE_OKLAHOMA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X93
+						levels = 1
+						region = STATE_OKLAHOMA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -34425,6 +35113,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 5
+						region = STATE_OLD_CASTILE
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_OLD_CASTILE
 					}
 				}
@@ -34678,7 +35374,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -35167,7 +35863,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -35305,8 +36001,16 @@
 						region = STATE_ORYOL
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:RUS
+						levels = 4
+						region = STATE_ORYOL
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -35315,6 +36019,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 14
+						region = STATE_ORYOL
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_ORYOL
 					}
 				}
@@ -35661,7 +36373,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_food_industry"
@@ -35744,7 +36456,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -35829,7 +36541,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -36287,7 +36999,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -36318,7 +37030,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -36372,8 +37084,16 @@
 						region = STATE_PERNAMBUCO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X21
+						levels = 1
+						region = STATE_PERNAMBUCO
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_maize_farm"
@@ -36540,7 +37260,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -36549,6 +37269,14 @@
 						type = building_manor_house
 						country = c:BOH
 						levels = 4
+						region = STATE_PICARDY
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:BOH
+						levels = 1
 						region = STATE_PICARDY
 					}
 				}
@@ -36582,7 +37310,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -36759,8 +37487,16 @@
 						region = STATE_POITOU
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:FRA
+						levels = 1
+						region = STATE_POITOU
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -37127,7 +37863,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:DZG = {
@@ -37367,7 +38103,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -37495,8 +38231,16 @@
 						region = STATE_PUNJAB
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:PAN
+						levels = 1
+						region = STATE_PUNJAB
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -37697,8 +38441,16 @@
 						region = STATE_QINGHAI
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:W83
+						levels = 2
+						region = STATE_QINGHAI
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -37830,6 +38582,14 @@
 						region = STATE_QUEBEC
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_iron_mine
+						country = c:QUE
+						levels = 1
+						region = STATE_QUEBEC
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" }
 			}
@@ -37854,6 +38614,14 @@
 						region = STATE_QUEBEC
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_furniture_manufactory
+						country = c:QUE
+						levels = 1
+						region = STATE_QUEBEC
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" }
 			}
@@ -37867,11 +38635,27 @@
 						region = STATE_QUEBEC
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_textile_mill
+						country = c:QUE
+						levels = 1
+						region = STATE_QUEBEC
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_food_industry
+						country = c:QUE
+						levels = 1
+						region = STATE_QUEBEC
+					}
+				}
 				add_ownership = {
 					building = {
 						type = building_food_industry
@@ -38140,7 +38924,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -38162,6 +38946,14 @@
 						type = building_manor_house
 						country = c:BOH
 						levels = 4
+						region = STATE_RHINELAND
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_livestock_ranch
+						country = c:BOH
+						levels = 7
 						region = STATE_RHINELAND
 					}
 				}
@@ -38232,7 +39024,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -38555,8 +39347,16 @@
 						region = STATE_RIO_GRANDE_DO_NORTE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X21
+						levels = 1
+						region = STATE_RIO_GRANDE_DO_NORTE
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_maize_farm"
@@ -38816,6 +39616,14 @@
 						region = STATE_ROSTOV
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:RUS
+						levels = 1
+						region = STATE_ROSTOV
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -38865,7 +39673,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -38934,7 +39742,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -38989,7 +39797,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -39046,6 +39854,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 9
+						region = STATE_RYAZAN
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_RYAZAN
 					}
 				}
@@ -39355,7 +40171,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_port"
@@ -39450,8 +40266,16 @@
 						region = STATE_SANTIAGO
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X32
+						levels = 1
+						region = STATE_SANTIAGO
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -39742,6 +40566,14 @@
 						region = STATE_SUZHOU
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:KOR
+						levels = 3
+						region = STATE_SARIWON
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -39923,7 +40755,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -40016,7 +40848,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -40095,7 +40927,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -40298,7 +41130,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}
@@ -40492,8 +41324,16 @@
 						region = STATE_SEOUL
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:KOR
+						levels = 5
+						region = STATE_SEOUL
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_iron_mine"
@@ -40607,6 +41447,14 @@
 						type = building_manor_house
 						country = c:KOR
 						levels = 25
+						region = STATE_SEOUL
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:KOR
+						levels = 3
 						region = STATE_SEOUL
 					}
 				}
@@ -40935,6 +41783,14 @@
 						region = STATE_SHAOZHOU
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:X40
+						levels = 1
+						region = STATE_SHAOZHOU
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -41014,6 +41870,14 @@
 						region = STATE_SHENGJING
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:HAP
+						levels = 1
+						region = STATE_SHENGJING
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -41076,6 +41940,14 @@
 						type = building_manor_house
 						country = c:JAP
 						levels = 11
+						region = STATE_SHIKOKU
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
 						region = STATE_SHIKOKU
 					}
 				}
@@ -41242,6 +42114,14 @@
 						type = building_manor_house
 						country = c:KOA
 						levels = 4
+						region = STATE_SICILY
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:KOA
+						levels = 1
 						region = STATE_SICILY
 					}
 				}
@@ -41606,7 +42486,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -41792,8 +42672,16 @@
 						region = STATE_SLOVENIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:W69
+						levels = 1
+						region = STATE_SLOVENIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -41849,7 +42737,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -41871,6 +42759,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 6
+						region = STATE_SMOLENSK
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_SMOLENSK
 					}
 				}
@@ -42265,7 +43161,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -42484,8 +43380,16 @@
 						region = STATE_SOUTHERN_TRANSYLVANIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:TRS
+						levels = 1
+						region = STATE_SOUTHERN_TRANSYLVANIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_silk_plantation"
@@ -43160,7 +44064,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:V22 = {
@@ -43385,6 +44289,14 @@
 						region = STATE_SUNDA_ISLANDS
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
+						region = STATE_SUNDA_ISLANDS
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -43452,7 +44364,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -43648,7 +44560,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:SWE = {
@@ -43679,7 +44591,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -43835,7 +44747,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -43887,7 +44799,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_barrack"
@@ -44130,6 +45042,14 @@
 						region = STATE_TAHITI
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:W91
+						levels = 1
+						region = STATE_TAHITI
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -44263,6 +45183,14 @@
 						region = STATE_TALINN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
+						region = STATE_TALINN
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -44292,7 +45220,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -44301,6 +45229,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 14
+						region = STATE_TAMBOV
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_TAMBOV
 					}
 				}
@@ -44370,7 +45306,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -44532,6 +45468,14 @@
 						region = STATE_TAURIDA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:RUS
+						levels = 1
+						region = STATE_TAURIDA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -44587,7 +45531,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -45144,6 +46088,14 @@
 						region = STATE_TOHOKU
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:JAP
+						levels = 1
+						region = STATE_TOHOKU
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -45198,7 +46150,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -45396,7 +46348,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -45821,6 +46773,14 @@
 						region = STATE_TRANSVAAL
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:VEC
+						levels = 1
+						region = STATE_TRANSVAAL
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -45919,8 +46879,16 @@
 						region = STATE_TRANS_BAIKAL
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X84
+						levels = 1
+						region = STATE_TRANS_BAIKAL
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -46001,8 +46969,16 @@
 						region = STATE_TRAVANCORE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:X76
+						levels = 1
+						region = STATE_TRAVANCORE
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -46379,7 +47355,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -46498,7 +47474,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -46507,6 +47483,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 8
+						region = STATE_TVER
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_TVER
 					}
 				}
@@ -46664,7 +47648,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_vineyard"
@@ -46721,7 +47705,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -46765,7 +47749,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 		region_state:X81 = {
@@ -46892,6 +47876,14 @@
 						region = STATE_ULSTER
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:ABA
+						levels = 1
+						region = STATE_ULSTER
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -46933,7 +47925,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -47198,6 +48190,14 @@
 						region = STATE_UPPER_EGYPT
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:EGY
+						levels = 1
+						region = STATE_UPPER_EGYPT
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -47234,6 +48234,14 @@
 						type = building_iron_mine
 						country = c:BOH
 						levels = 2
+						region = STATE_UPPER_SILESIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_iron_mine
+						country = c:BOH
+						levels = 1
 						region = STATE_UPPER_SILESIA
 					}
 				}
@@ -47297,6 +48305,14 @@
 						region = STATE_UPPER_SILESIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:BOH
+						levels = 1
+						region = STATE_UPPER_SILESIA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -47316,7 +48332,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -47345,7 +48361,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -47405,7 +48421,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}
@@ -47423,7 +48439,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:V48 = {
@@ -47438,7 +48454,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -47613,7 +48629,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -47800,7 +48816,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -47874,7 +48890,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -47957,6 +48973,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 4
+						region = STATE_VALENCIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_VALENCIA
 					}
 				}
@@ -48094,7 +49118,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -48103,6 +49127,14 @@
 						type = building_manor_house
 						country = c:KOA
 						levels = 4
+						region = STATE_VENETIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_wheat_farm
+						country = c:KOA
+						levels = 1
 						region = STATE_VENETIA
 					}
 				}
@@ -48241,6 +49273,14 @@
 						region = STATE_VERACRUZ
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_maize_farm
+						country = c:GUA
+						levels = 1
+						region = STATE_VERACRUZ
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -48364,7 +49404,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 	}
@@ -48432,6 +49472,14 @@
 						type = building_manor_house
 						country = c:IDN
 						levels = 4
+						region = STATE_VISAYAS
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
 						region = STATE_VISAYAS
 					}
 				}
@@ -48504,7 +49552,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -48584,8 +49632,16 @@
 						region = STATE_VOLHYNIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:SLV
+						levels = 1
+						region = STATE_VOLHYNIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -48678,6 +49734,14 @@
 						region = STATE_VYATKA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
+						region = STATE_VYATKA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -48766,6 +49830,14 @@
 						type = building_manor_house
 						country = c:ABA
 						levels = 5
+						region = STATE_WALES
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:ABA
+						levels = 1
 						region = STATE_WALES
 					}
 				}
@@ -48929,7 +50001,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			
 			create_building = {
@@ -49163,7 +50235,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_shipyard"
@@ -49287,6 +50359,14 @@
 			}
 			create_building = {
 				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:HAI
+						levels = 1
+						region = STATE_WESTERN_CUBA
+					}
+				}
 				add_ownership = {
 					building = {
 						type = building_logging_camp
@@ -49496,7 +50576,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -49602,8 +50682,16 @@
 						region = STATE_WESTERN_SERBIA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:CRO
+						levels = 1
+						region = STATE_WESTERN_SERBIA
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -49657,8 +50745,16 @@
 						region = STATE_WESTERN_THRACE
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:GRE
+						levels = 1
+						region = STATE_WESTERN_THRACE
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -49722,7 +50818,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -49807,7 +50903,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rye_farm"
@@ -49874,7 +50970,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -49965,7 +51061,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -50568,6 +51664,14 @@
 						region = STATE_WEST_JAVA
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:IDN
+						levels = 1
+						region = STATE_WEST_JAVA
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -50988,7 +52092,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:QUE = {
@@ -51205,8 +52309,16 @@
 						region = STATE_XIAN
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:V15
+						levels = 2
+						region = STATE_XIAN
+					}
+				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -51247,7 +52359,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 		}
 	}
@@ -51276,7 +52388,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+				activate_production_methods = { "pm_simple_forestry" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -51463,6 +52575,14 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 9
+						region = STATE_YAROSLAVL
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rye_farm
+						country = c:RUS
+						levels = 1
 						region = STATE_YAROSLAVL
 					}
 				}
@@ -52174,6 +53294,12 @@
 						levels = 1
 					}
 				}
+				add_ownership = {
+					country = {
+						country = c:LUS
+						levels = 1
+					}
+				}
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -52210,6 +53336,14 @@
 						type = building_manor_house
 						country = c:LUS
 						levels = 3
+						region = STATE_ZANZIBAR
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_millet_farm
+						country = c:LUS
+						levels = 1
 						region = STATE_ZANZIBAR
 					}
 				}
@@ -52403,7 +53537,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+				activate_production_methods = { "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_tooling_workshop"
@@ -52444,6 +53578,14 @@
 						type = building_manor_house
 						country = c:X40
 						levels = 4
+						region = STATE_ZHEJIANG
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_rice_farm
+						country = c:X40
+						levels = 1
 						region = STATE_ZHEJIANG
 					}
 				}

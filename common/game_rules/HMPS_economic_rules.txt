@@ -1,0 +1,10 @@
+HMPS_game_rule_goods_transfer = {
+	default = HMPS_game_rule_goods_transfer_enabled
+
+	HMPS_game_rule_goods_transfer_enabled = {
+	}
+
+	HMPS_game_rule_goods_transfer_disabled = {
+		flag = HMPS_game_rule_goods_transfer_disabled
+	}
+}

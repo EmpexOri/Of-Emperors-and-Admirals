@@ -1,0 +1,735 @@
+REPLACE_OR_CREATE:decree_encourage_manufacturing_industry = {
+	texture = "gfx/interface/icons/decree/decree_encourage_manufacturing_industry.dds"
+	country_trigger = {
+		custom_tooltip = {
+			text = tsarpoints_decree_not_upgraded_tt
+			NOT = { has_variable = tsarpoints_upgraded_encourage_manufacturing_industry }
+			NOT = { overlord ?= { has_variable = tsarpoints_upgraded_encourage_manufacturing_industry } }
+		}
+	}
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_encourage_manufacturing_industry_tsarpoints }
+	}
+	modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.2
+		building_group_bg_service_throughput_add = 0.2
+		building_art_academy_throughput_add = 0.2
+		building_group_bg_manufacturing_standard_of_living_add = -0.5
+		building_group_bg_service_standard_of_living_add = -0.5
+	}
+	cost = 100
+
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_group = bg_manufacturing
+				}
+			}
+			add = 5
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_group = bg_manufacturing
+					count >= 3
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_group = bg_manufacturing
+					count >= 5
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_variable_map = industrial_states_map
+					is_key_in_variable_map = {
+						name = industrial_states_map
+						target = root
+					}
+				}
+			}
+			add = {
+				value = 5
+				subtract = "scope:country.variable_map(industrial_states_map|root)"
+				multiply = 20
+			}
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_taming_the_north
+				}
+				state_region = {
+					this = s:STATE_HOKKAIDO
+				}
+			}
+			add = 50
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_strategy = ai_strategy_industrial_expansion
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				scope:country = {
+					has_journal_entry = je_tp_pool_develop_capital
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_journal_entry = je_tp_fav_parochial
+					has_variable = tp_fav_home_state
+					var:tp_fav_home_state ?= root
+				}
+			}
+			multiply = 1.5
+		}
+	}
+}
+
+REPLACE_OR_CREATE:decree_encourage_manufacturing_industry_tsarpoints = {
+	texture = "gfx/interface/icons/decree/decree_encourage_manufacturing_industry.dds"
+	country_trigger = {
+		custom_tooltip = {
+			text = tsarpoints_decree_upgraded_tt
+			OR = {
+				has_variable = tsarpoints_upgraded_encourage_manufacturing_industry
+				overlord ?= { has_variable = tsarpoints_upgraded_encourage_manufacturing_industry }
+			}
+		}
+	}
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_encourage_manufacturing_industry }
+	}
+	modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.25
+		building_group_bg_service_throughput_add = 0.25
+		building_art_academy_throughput_add = 0.25
+		building_group_bg_manufacturing_standard_of_living_add = -0.5
+		building_group_bg_service_standard_of_living_add = -0.5
+	}
+	cost = 125
+
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_group = bg_manufacturing
+				}
+			}
+			add = 5
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_group = bg_manufacturing
+					count >= 3
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_group = bg_manufacturing
+					count >= 5
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_variable_map = industrial_states_map
+					is_key_in_variable_map = {
+						name = industrial_states_map
+						target = root
+					}
+				}
+			}
+			add = {
+				value = 5
+				subtract = "scope:country.variable_map(industrial_states_map|root)"
+				multiply = 20
+			}
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_strategy = ai_strategy_industrial_expansion
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				scope:country = {
+					has_journal_entry = je_tp_pool_develop_capital
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_journal_entry = je_tp_fav_parochial
+					has_variable = tp_fav_home_state
+					var:tp_fav_home_state ?= root
+				}
+			}
+			multiply = 1.5
+		}
+	}
+}
+
+REPLACE_OR_CREATE:decree_encourage_agricultural_industry = {
+	texture = "gfx/interface/icons/decree/decree_encourage_agricultural_industry.dds"
+	country_trigger = {
+		custom_tooltip = {
+			text = tsarpoints_decree_not_upgraded_tt
+			NOT = { has_variable = tsarpoints_upgraded_encourage_agricultural_industry }
+			NOT = { overlord ?= { has_variable = tsarpoints_upgraded_encourage_agricultural_industry } }
+		}
+	}
+
+	unlocking_technologies = {
+		enclosure
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_encourage_agricultural_industry_tsarpoints }
+	}
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_ranching_throughput_add  = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+		building_group_bg_agriculture_standard_of_living_add = -0.5
+		building_group_bg_ranching_standard_of_living_add = -0.5
+		building_group_bg_plantations_standard_of_living_add = -0.5
+	}
+	cost = 100
+
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_agriculture
+						is_building_group = bg_ranching
+						is_building_group = bg_plantations
+					}
+				}
+			}
+			add = 5
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_agriculture
+						is_building_group = bg_ranching
+						is_building_group = bg_plantations
+					}
+					count >= 3
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_agriculture
+						is_building_group = bg_ranching
+						is_building_group = bg_plantations
+					}
+					count >= 5
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_variable_map = agricultural_states_map
+					is_key_in_variable_map = {
+						name = agricultural_states_map
+						target = root
+					}
+				}
+			}
+			add = {
+				value = 5
+				subtract = "scope:country.variable_map(agricultural_states_map|root)"
+				multiply = 20
+			}
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_taming_the_north
+				}
+				state_region = {
+					this = s:STATE_HOKKAIDO
+				}
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_plantation_economy
+						has_strategy = ai_strategy_agricultural_expansion
+					}
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				scope:country = {
+					has_journal_entry = je_tp_pool_develop_capital
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_journal_entry = je_tp_fav_parochial
+					has_variable = tp_fav_home_state
+					var:tp_fav_home_state ?= root
+				}
+			}
+			multiply = 1.5
+		}
+	}
+}
+
+REPLACE_OR_CREATE:decree_encourage_agricultural_industry_tsarpoints = {
+	texture = "gfx/interface/icons/decree/decree_encourage_agricultural_industry.dds"
+	country_trigger = {
+		custom_tooltip = {
+			text = tsarpoints_decree_upgraded_tt
+			OR = {
+				has_variable = tsarpoints_upgraded_encourage_agricultural_industry
+				overlord ?= { has_variable = tsarpoints_upgraded_encourage_agricultural_industry }
+			}
+		}
+	}
+
+	unlocking_technologies = {
+		enclosure
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_encourage_agricultural_industry }
+	}
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.25
+		building_group_bg_plantations_throughput_add = 0.25
+		building_group_bg_ranching_throughput_add = 0.25
+		building_group_bg_agriculture_standard_of_living_add = -0.5
+		building_group_bg_ranching_standard_of_living_add = -0.5
+		building_group_bg_plantations_standard_of_living_add = -0.5
+	}
+	cost = 125
+
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_agriculture
+						is_building_group = bg_ranching
+						is_building_group = bg_plantations
+					}
+				}
+			}
+			add = 5
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_agriculture
+						is_building_group = bg_ranching
+						is_building_group = bg_plantations
+					}
+					count >= 3
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_agriculture
+						is_building_group = bg_ranching
+						is_building_group = bg_plantations
+					}
+					count >= 5
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_variable_map = agricultural_states_map
+					is_key_in_variable_map = {
+						name = agricultural_states_map
+						target = root
+					}
+				}
+			}
+			add = {
+				value = 5
+				subtract = "scope:country.variable_map(agricultural_states_map|root)"
+				multiply = 20
+			}
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_plantation_economy
+						has_strategy = ai_strategy_agricultural_expansion
+					}
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				scope:country = {
+					has_journal_entry = je_tp_pool_develop_capital
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_journal_entry = je_tp_fav_parochial
+					has_variable = tp_fav_home_state
+					var:tp_fav_home_state ?= root
+				}
+			}
+			multiply = 1.5
+		}
+	}
+}
+
+REPLACE_OR_CREATE:decree_encourage_resource_industry = {
+	texture = "gfx/interface/icons/decree/decree_encourage_resource_industry.dds"
+	country_trigger = {
+		custom_tooltip = {
+			text = tsarpoints_decree_not_upgraded_tt
+			NOT = { has_variable = tsarpoints_upgraded_encourage_resource_industry }
+			NOT = { overlord ?= { has_variable = tsarpoints_upgraded_encourage_resource_industry } }
+		}
+	}
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_encourage_resource_industry_tsarpoints }
+	}
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.2
+		building_group_bg_logging_throughput_add = 0.2
+		building_group_bg_fishing_throughput_add = 0.2
+		building_group_bg_whaling_throughput_add = 0.2
+		building_group_bg_oil_extraction_throughput_add = 0.2
+		building_group_bg_mining_standard_of_living_add = -0.5
+		building_group_bg_logging_standard_of_living_add = -0.5
+		building_group_bg_fishing_standard_of_living_add = -0.5
+		building_group_bg_whaling_standard_of_living_add = -0.5
+		building_group_bg_oil_extraction_standard_of_living_add = -0.5
+	}
+	cost = 100
+
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_mining
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
+				}
+			}
+			add = 5
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_mining
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
+					count >= 3
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_mining
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
+					count >= 5
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_variable_map = resource_states_map
+					is_key_in_variable_map = {
+						name = resource_states_map
+						target = root
+					}
+				}
+			}
+			add = {
+				value = 5
+				subtract = "scope:country.variable_map(resource_states_map|root)"
+				multiply = 20
+			}
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_taming_the_north
+				}
+				state_region = {
+					this = s:STATE_HOKKAIDO
+				}
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				scope:country = {
+					has_journal_entry = je_tp_pool_develop_capital
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_journal_entry = je_tp_fav_parochial
+					has_variable = tp_fav_home_state
+					var:tp_fav_home_state ?= root
+				}
+			}
+			multiply = 1.5
+		}
+	}
+}
+
+REPLACE_OR_CREATE:decree_encourage_resource_industry_tsarpoints = {
+	texture = "gfx/interface/icons/decree/decree_encourage_resource_industry.dds"
+	country_trigger = {
+		custom_tooltip = {
+			text = tsarpoints_decree_upgraded_tt
+			OR = {
+				has_variable = tsarpoints_upgraded_encourage_resource_industry
+				overlord ?= { has_variable = tsarpoints_upgraded_encourage_resource_industry }
+			}
+		}
+	}
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_encourage_resource_industry }
+	}
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.25
+		building_group_bg_logging_throughput_add = 0.25
+		building_group_bg_fishing_throughput_add = 0.25
+		building_group_bg_whaling_throughput_add = 0.25
+		building_group_bg_oil_extraction_throughput_add = 0.25
+		building_group_bg_mining_standard_of_living_add = -0.5
+		building_group_bg_logging_standard_of_living_add = -0.5
+		building_group_bg_fishing_standard_of_living_add = -0.5
+		building_group_bg_whaling_standard_of_living_add = -0.5
+		building_group_bg_oil_extraction_standard_of_living_add = -0.5
+	}
+	cost = 125
+
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_mining
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
+				}
+			}
+			add = 5
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_mining
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
+					count >= 3
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				any_scope_building = {
+					OR = {
+						is_building_group = bg_mining
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
+					count >= 5
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_variable_map = resource_states_map
+					is_key_in_variable_map = {
+						name = resource_states_map
+						target = root
+					}
+				}
+			}
+			add = {
+				value = 5
+				subtract = "scope:country.variable_map(resource_states_map|root)"
+				multiply = 20
+			}
+		}
+		if = {
+			limit = {
+				scope:country = {
+					has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				scope:country = {
+					has_journal_entry = je_tp_pool_develop_capital
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				scope:country ?= {
+					has_journal_entry = je_tp_fav_parochial
+					has_variable = tp_fav_home_state
+					var:tp_fav_home_state ?= root
+				}
+			}
+			multiply = 1.5
+		}
+	}
+}
+
+REPLACE_OR_CREATE:decree_additional_taxes = {
+	texture = "gfx/interface/icons/decree/decree_additional_taxes.dds"		
+	
+	unlocking_technologies = {
+		tech_bureaucracy
+	}
+	
+	state_trigger = {
+		is_incorporated = yes
+	}
+	
+	modifier = {
+		tax_land_add = 0.2
+		tax_per_capita_add = 0.4
+		state_expected_sol_mult = 0.33
+		state_turmoil_effects_mult = 0.10
+		state_tax_capacity_mult = 0.20
+	}
+	cost = 100
+	
+	ai_weight = {
+		value = 0
+	}
+}

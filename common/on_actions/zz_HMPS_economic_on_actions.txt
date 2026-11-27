@@ -1,0 +1,39 @@
+on_monthly_pulse_country = {
+	on_actions = {
+		HMPS_interest_by_rank_action
+	}
+}
+
+on_game_started_after_lobby = {
+	on_actions = {
+		HMPS_balance_of_trade_start
+	}
+}
+
+HMPS_interest_by_rank_action = {
+	effect = {
+		remove_modifier = interest_rate_by_rank_modifier
+		if = {
+			limit = {
+				global_country_ranking < 16
+			}
+			add_modifier = {
+				name = interest_rate_by_rank_modifier
+				multiplier = sv_interest_reduction
+			}
+		}
+	}
+}
+
+HMPS_balance_of_trade_start = {
+	effect = {
+		hmps_balance_of_trade_world_totals_effect = yes
+		every_country = {
+			trigger_event = { id = hmps_bot.1 }
+		}
+		every_country = {
+			limit = { is_player = yes }
+			trigger_event = { id = hmps_bot.2 popup = yes }
+		}
+	}
+}
