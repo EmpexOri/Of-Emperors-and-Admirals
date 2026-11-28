@@ -1,0 +1,668 @@
+INJECT:ideology_laissez_faire = {
+	lawgroup_legislative_organisation = {
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = disapprove
+		law_no_legislature = disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_interventionist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_asymmetric_bicameralism = neutral
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_hierarchic = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_paternalistic = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_pious = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = neutral
+		law_jefferson_method = neutral
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_moralist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = neutral
+		law_jefferson_method = neutral
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_oligarchic = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = neutral
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = strongly_approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_agrarian = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = neutral
+	}
+	lawgroup_voting_system = {
+		law_plurality = strongly_approve
+		law_single_transferable_vote = approve
+		law_jefferson_method = approve
+		law_pure_proportional = neutral
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_particularist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = neutral
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = disapprove
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_meritocratic = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_loyalist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = neutral
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_liberal = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_proletarian = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = disapprove
+		law_asymmetric_bicameralism = strongly_disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = disapprove
+		law_single_transferable_vote = strongly_approve
+		law_jefferson_method = strongly_disapprove
+		law_pure_proportional = strongly_approve
+		law_electoral_college = strongly_disapprove
+	}
+}
+
+INJECT:ideology_egalitarian = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = strongly_disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = disapprove
+		law_single_transferable_vote = strongly_approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = strongly_approve
+		law_electoral_college = strongly_disapprove
+	}
+}
+
+INJECT:ideology_reactionary = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_anti_slavery = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_pro_slavery = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = strongly_approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = strongly_approve
+	}
+}
+
+INJECT:ideology_pro_slavery_colonial = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = strongly_approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = strongly_approve
+	}
+}
+
+INJECT:ideology_corporatist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = approve
+		law_electoral_college = neutral
+	}
+}
+
+INJECT:ideology_internationalist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = disapprove
+		law_asymmetric_bicameralism = strongly_disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = disapprove
+		law_single_transferable_vote = approve
+		law_jefferson_method = strongly_disapprove
+		law_pure_proportional = strongly_approve
+		law_electoral_college = strongly_disapprove
+	}
+}
+
+INJECT:ideology_jingoist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = strongly_approve
+		law_asymmetric_bicameralism = neutral
+		law_symmetric_bicameralism = disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_isolationist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = neutral
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = neutral
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = neutral
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = neutral
+	}
+}
+
+INJECT:ideology_plutocratic = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = neutral
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = strongly_approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_christian_democrat = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = approve
+		law_electoral_college = neutral
+	}
+}
+
+INJECT:ideology_pol_parlamentarism = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_russian_military = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_approve
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = disapprove
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = disapprove
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_american_particularism = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = neutral
+	}
+	lawgroup_voting_system = {
+		law_plurality = strongly_approve
+		law_single_transferable_vote = approve
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_american_intelligentsia = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = disapprove
+		law_single_transferable_vote = approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = strongly_approve
+		law_electoral_college = strongly_disapprove
+	}
+}
+
+INJECT:ideology_american_liberalism = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_american_meritocracy = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_american_system = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = neutral
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_daimyo_traditionalism = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_merchant_oligarchy = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = neutral
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = strongly_approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_liberal_republican_movement = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_liberal_movement = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = strongly_approve
+		law_electoral_college = strongly_disapprove
+	}
+}
+
+INJECT:ideology_cossack_movement = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = neutral
+		law_symmetric_bicameralism = approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = approve
+		law_jefferson_method = neutral
+		law_pure_proportional = disapprove
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_fascist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = strongly_approve
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_integralist = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = disapprove
+		law_jefferson_method = neutral
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_protectionism = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = disapprove
+		law_unicameralism = approve
+		law_asymmetric_bicameralism = approve
+		law_symmetric_bicameralism = neutral
+	}
+	lawgroup_voting_system = {
+		law_plurality = approve
+		law_single_transferable_vote = neutral
+		law_jefferson_method = approve
+		law_pure_proportional = disapprove
+		law_electoral_college = approve
+	}
+}
+
+INJECT:ideology_cultural_inclusiveness = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = strongly_disapprove
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = disapprove
+		law_symmetric_bicameralism = strongly_approve
+	}
+	lawgroup_voting_system = {
+		law_plurality = neutral
+		law_single_transferable_vote = approve
+		law_jefferson_method = disapprove
+		law_pure_proportional = approve
+		law_electoral_college = disapprove
+	}
+}
+
+INJECT:ideology_southern_economy = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = strongly_approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = strongly_approve
+	}
+}
+
+INJECT:ideology_southern_patriarchy = {
+	lawgroup_legislative_organisation = {
+		law_no_legislature = approve
+		law_unicameralism = neutral
+		law_asymmetric_bicameralism = strongly_approve
+		law_symmetric_bicameralism = strongly_disapprove
+	}
+	lawgroup_voting_system = {
+		law_plurality = strongly_approve
+		law_single_transferable_vote = strongly_disapprove
+		law_jefferson_method = approve
+		law_pure_proportional = strongly_disapprove
+		law_electoral_college = strongly_approve
+	}
+}

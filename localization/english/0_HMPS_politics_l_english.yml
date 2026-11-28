@@ -124,18 +124,18 @@
  law_single_party_state:0 "Political Bureau"
  law_single_party_state_desc:0 "The executive decisions are carried out by the foremost committee of the party."
  
- # Cameralism Laws
- lawgroup_cameralism:0 "Legislative Subdivision"
- lawgroup_cameralism_desc:0 "The legislature may be divided into one or two houses, of equal or unequal power."
+ # Legislative Organisation Laws
+ lawgroup_legislative_organisation:0 "Legislative System"
+ lawgroup_legislative_organisation_desc:0 "The structure of the legislature. States without elections have no legislature; electoral systems may organize a single or bicameral assembly."
  
  law_no_legislature:0 "No Legislature"
- law_no_legislature_desc:0 "There is no meaningful legislative assembly."
+ law_no_legislature_desc:0 "With no representative chamber to scrutinize proposals, the executive can change laws quickly, but decisions lack parliamentary representation."
  law_unicameralism:0 "Unicameralism"
- law_unicameralism_desc:0 "The legislative branch consists of a single dominant legislature that promulgates law"
+ law_unicameralism_desc:0 "A single chamber can pass laws quickly. It offers fewer checks and tends to favor decisive majorities over broad consensus."
  law_asymmetric_bicameralism:0 "Asymmetric Bicameralism"
- law_asymmetric_bicameralism_desc:0 "The legislative branch consists of a dominant assembly and an inferior assembly."
+ law_asymmetric_bicameralism_desc:0 "A dominant chamber can usually govern while a weaker chamber reviews legislation. This slows lawmaking, but encourages parties to negotiate compromises."
  law_symmetric_bicameralism:0 "Symmetric Bicameralism"
- law_symmetric_bicameralism_desc:0 "The legislative branch consists of two assemblies of equal strength."
+ law_symmetric_bicameralism_desc:0 "Two equally powerful chambers must agree on legislation. Lawmaking is slower, but parties have more incentive to negotiate amendments and compromise, making passage modestly more likely."
  
  # Power Distribution Laws
  law_technocracy_desc:0 "The nation is governed by an unelected group of academic and industrial interests."
@@ -149,18 +149,20 @@
  
  # Voting System Laws
  lawgroup_voting_system:0 "Voting System"
- lawgroup_voting_system_desc:0 "The method by which elected representatives are selected."
+ lawgroup_voting_system_desc:0 "The rules for translating votes into representation shape government legitimacy, opposition support, and how quickly laws can be enacted."
  
  law_no_voting:0 "No Popular Suffrage"
- law_no_voting_desc:0 "There is no voting."
+ law_no_voting_desc:0 "Popular elections do not determine representation. This concentrates authority in the executive and is available only where the distribution of power does not hold elections."
  law_plurality:0 "Plurality"
- law_plurality_desc:0 "A system where citizens place a single cross by their preferred candidate and the candidate with the largest number of votes is elected."
+ law_plurality_desc:0 "The candidate with the most votes wins, producing decisive majorities and faster lawmaking. Smaller parties and minority viewpoints can be left with little representation."
  law_single_transferable_vote:0 "Single Transferable Vote"
- law_single_transferable_vote_desc:0 "A ranked transferable voting system where in single, or multi-member, districts candidates are elected upon achieving the minimum vote threshold, with the least popular candidate eliminated each counting round."
+ law_single_transferable_vote_desc:0 "Voters rank candidates and surplus or eliminated votes transfer to the next preference. Representation is broader and parties are more open to negotiation, but coalition-building takes longer."
  law_jefferson_method:0 "Jefferson Method"
- law_jefferson_method_desc:0 "Seats in the legislature are assigned according to the highest average of votes per existing number of assigned seats, therefore with a minor bias towards larger parties."
+ law_jefferson_method_desc:0 "Seats are allocated using a divisor method that favors larger parties. This tends to create decisive blocs and quicker lawmaking at the expense of smaller parties."
  law_pure_proportional:0 "Pure Proportional"
- law_pure_proportional_desc:0 "The fraction of votes won per party correlates exactly to the fraction of seats occupied per party in the legislature."
+ law_pure_proportional_desc:0 "Each party's share of seats closely matches its share of votes. More viewpoints can enter government and legislation can gain broad support, but coalition negotiations slow its passage."
+ law_electoral_college:0 "Electoral College"
+ law_electoral_college_desc:0 "Voters choose regional electors, who cast the decisive votes for the head of state. This strengthens the winner's mandate while making the result less representative of the nationwide vote and slowing legislation."
  
  # Economic system
  law_extraction_economy:0 "Extractive Economy"

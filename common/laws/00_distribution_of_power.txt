@@ -24,6 +24,7 @@ law_autocracy = {
 	on_activate = {
 		scripted_effect_parties_disappearence = yes
 		cleanup_voting_strength_modifiers = yes
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	modifier = {
@@ -155,6 +156,7 @@ law_bakufu = {
 		hidden_effect = {
 			country_assess_daimyo_alignments = yes
 		}
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	on_deactivate = {
@@ -211,6 +213,7 @@ law_neo_absolutism = { # Reward for completing the neo-absolutist content
 
 	on_activate = {
 		scripted_effect_parties_disappearence = yes
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	is_visible = {
@@ -260,6 +263,7 @@ law_technocracy = {
 		scripted_effect_parties_disappearence = yes
 		cleanup_voting_strength_modifiers = yes
 		add_journal_entry = { type = je_technocracy }
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	modifier = {
@@ -364,6 +368,7 @@ law_oligarchy = {
 		scripted_effect_parties_disappearence = yes
 		handle_possible_absent_caciquismo_variables = yes
 		cleanup_voting_strength_modifiers = yes
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	modifier = {
@@ -486,6 +491,7 @@ law_organic_regulation = {
 
 	on_activate = {
 		scripted_effect_parties_disappearence = yes
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	modifier = {
@@ -587,6 +593,7 @@ law_elder_council = {
 		}
 		scripted_effect_parties_disappearence = yes
 		cleanup_voting_strength_modifiers = yes
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	modifier = {
@@ -697,6 +704,7 @@ law_landed_voting = {
 				add = 3
 			}
 		}
+		electoral_laws_synchronize = yes
 	}
 
 	can_impose = {
@@ -847,6 +855,7 @@ law_wealth_voting = {
 				add = 4
 			}
 		}
+		electoral_laws_synchronize = yes
 	}
 
 	can_impose = {
@@ -1004,6 +1013,7 @@ law_census_voting = {
 				add = 5
 			}
 		}
+		electoral_laws_synchronize = yes
 	}
 
 	can_impose = {
@@ -1146,6 +1156,7 @@ law_universal_suffrage = {
 				add = 4
 			}
 		}
+		electoral_laws_synchronize = yes
 	}
 
 	can_impose = {
@@ -1255,6 +1266,7 @@ law_anarchy = {
 	on_activate = {
 		scripted_effect_parties_disappearence = yes
 		cleanup_voting_strength_modifiers = yes
+		electoral_laws_force_non_electoral_defaults = yes
 	}
 
 	ai_will_do = {
@@ -1439,6 +1451,7 @@ law_single_party_state = {
 		call_election = {
 			months = 3
 		}
+		electoral_laws_synchronize = yes
 	}
 
 	on_deactivate = {
@@ -1589,6 +1602,7 @@ law_labour_suffrage = {
 		call_election = {
 			months = 3
 		}
+		electoral_laws_synchronize = yes
 	}
 
 	ai_enact_weight_modifier = { #Petitions

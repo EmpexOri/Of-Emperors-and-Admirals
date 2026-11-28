@@ -198,7 +198,7 @@ ideology_american_republicanism = { #HMPS ORIGINAL, do not need inject/replace
 		law_technocracy = disapprove
 		law_single_party_state = neutral
 	}
-	lawgroup_cameralism = {
+	lawgroup_legislative_organisation = {
 		law_no_legislature = strongly_disapprove
 		law_unicameralism = disapprove
 		law_asymmetric_bicameralism = disapprove
@@ -210,6 +210,7 @@ ideology_american_republicanism = { #HMPS ORIGINAL, do not need inject/replace
 		law_single_transferable_vote = neutral
 		law_jefferson_method = neutral
 		law_pure_proportional = neutral
+		law_electoral_college = approve
 	}
 }
 

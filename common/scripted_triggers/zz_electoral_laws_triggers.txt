@@ -1,0 +1,38 @@
+electoral_laws_has_elections = {
+	OR = {
+		has_law_or_variant = law_type:law_landed_voting
+		has_law_or_variant = law_type:law_wealth_voting
+		has_law_or_variant = law_type:law_census_voting
+		has_law_or_variant = law_type:law_universal_suffrage
+		has_law_or_variant = law_type:law_labour_suffrage
+		has_law_or_variant = law_type:law_single_party_state
+	}
+}
+
+electoral_laws_will_have_elections = {
+	OR = {
+		OR = {
+			is_enacting_law = law_type:law_landed_voting
+			is_enacting_law = law_type:law_wealth_voting
+			is_enacting_law = law_type:law_census_voting
+			is_enacting_law = law_type:law_universal_suffrage
+			is_enacting_law = law_type:law_labour_suffrage
+			is_enacting_law = law_type:law_single_party_state
+		}
+		AND = {
+			NOR = {
+				is_enacting_law = law_type:law_autocracy
+				is_enacting_law = law_type:law_bakufu
+				is_enacting_law = law_type:law_neo_absolutism
+				is_enacting_law = law_type:law_technocracy
+				is_enacting_law = law_type:law_oligarchy
+				is_enacting_law = law_type:law_organic_regulation
+				is_enacting_law = law_type:law_elder_council
+				is_enacting_law = law_type:law_anarchy
+				is_enacting_law = law_type:law_almirantado_junta
+				is_enacting_law = law_type:law_choninbakufu
+			}
+			electoral_laws_has_elections = yes
+		}
+	}
+}

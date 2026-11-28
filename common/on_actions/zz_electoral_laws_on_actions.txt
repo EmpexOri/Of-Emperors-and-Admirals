@@ -1,0 +1,57 @@
+on_game_started = {
+	on_actions = {
+		electoral_laws_startup_defaults
+	}
+}
+
+on_game_started_after_lobby = {
+	on_actions = {
+		electoral_laws_startup_defaults
+	}
+}
+
+electoral_laws_startup_defaults = {
+	effect = {
+		every_country = {
+			electoral_laws_synchronize = yes
+		}
+	}
+}
+
+on_law_activated = {
+	on_actions = {
+		electoral_laws_after_law_activation
+	}
+}
+
+on_law_enactment_pass = {
+	on_actions = {
+		electoral_laws_after_law_enactment_pass
+	}
+}
+
+electoral_laws_after_law_enactment_pass = {
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_variable = electoral_laws_sync_suppressed
+				}
+			}
+			electoral_laws_synchronize = yes
+		}
+	}
+}
+
+electoral_laws_after_law_activation = {
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_variable = electoral_laws_sync_suppressed
+				}
+			}
+			electoral_laws_synchronize = yes
+		}
+	}
+}

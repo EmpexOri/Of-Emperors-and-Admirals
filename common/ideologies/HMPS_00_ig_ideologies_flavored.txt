@@ -126,8 +126,9 @@ ideology_civic_religion = { #USA landowners #HMPS ORIGINAL, do not need inject/r
 		law_single_transferable_vote = neutral
 		law_jefferson_method = disapprove
 		law_pure_proportional = strongly_disapprove
+		law_electoral_college = approve
 	}
-	lawgroup_cameralism = {
+	lawgroup_legislative_organisation = {
 		law_no_legislature = disapprove
 		law_unicameralism = disapprove
 		law_asymmetric_bicameralism = disapprove

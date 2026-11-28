@@ -63,10 +63,16 @@ lawgroup_church_and_state = {
 	regime_change_min_progressiveness_difference = 50
 }
 
-lawgroup_cameralism = {
+lawgroup_legislative_organisation = {
 	law_group_category = power_structure
 	base_enactment_days = 75
 	regime_change_min_progressiveness_difference = 50
+	ideological_opinion_impact = 0.5
+}
+
+lawgroup_voting_system = {
+	law_group_category = power_structure
+	base_enactment_days = 75
 	ideological_opinion_impact = 0.5
 }
 

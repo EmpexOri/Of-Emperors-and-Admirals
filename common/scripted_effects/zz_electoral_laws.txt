@@ -1,0 +1,121 @@
+electoral_laws_set_non_electoral_defaults = {
+	if = {
+		limit = {
+			has_law = law_type:law_unicameralism
+		}
+		deactivate_law = law_type:law_unicameralism
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_asymmetric_bicameralism
+		}
+		deactivate_law = law_type:law_asymmetric_bicameralism
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_symmetric_bicameralism
+		}
+		deactivate_law = law_type:law_symmetric_bicameralism
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_plurality
+		}
+		deactivate_law = law_type:law_plurality
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_single_transferable_vote
+		}
+		deactivate_law = law_type:law_single_transferable_vote
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_jefferson_method
+		}
+		deactivate_law = law_type:law_jefferson_method
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_pure_proportional
+		}
+		deactivate_law = law_type:law_pure_proportional
+	}
+	if = {
+		limit = {
+			has_law = law_type:law_electoral_college
+		}
+		deactivate_law = law_type:law_electoral_college
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_law = law_type:law_no_voting
+			}
+		}
+		activate_law = law_type:law_no_voting
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_law = law_type:law_no_legislature
+			}
+		}
+		activate_law = law_type:law_no_legislature
+	}
+}
+
+electoral_laws_force_non_electoral_defaults = {
+	set_variable = {
+		name = electoral_laws_sync_suppressed
+		value = 1
+	}
+	electoral_laws_set_non_electoral_defaults = yes
+	remove_variable = electoral_laws_sync_suppressed
+}
+
+electoral_laws_synchronize = {
+	if = {
+		limit = {
+			electoral_laws_will_have_elections = yes
+		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_no_legislature
+			}
+			deactivate_law = law_type:law_no_legislature
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_law = law_type:law_unicameralism
+					has_law = law_type:law_asymmetric_bicameralism
+					has_law = law_type:law_symmetric_bicameralism
+				}
+			}
+			activate_law = law_type:law_unicameralism
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_no_voting
+			}
+			deactivate_law = law_type:law_no_voting
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_law = law_type:law_plurality
+					has_law = law_type:law_single_transferable_vote
+					has_law = law_type:law_jefferson_method
+					has_law = law_type:law_pure_proportional
+					has_law = law_type:law_electoral_college
+				}
+			}
+			activate_law = law_type:law_pure_proportional
+		}
+	}
+	else = {
+		electoral_laws_set_non_electoral_defaults = yes
+	}
+}
