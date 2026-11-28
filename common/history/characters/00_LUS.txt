@@ -6,7 +6,7 @@
 			dna = "Arualdo_Nuno_de_Thouars"
 			ruler = yes
 			is_admiral = yes
-			commander_rank = commander_rank_3
+			commander_rank = commander_rank_4
 			culture = cu:portuguese
 			religion = rel:catholic
 			interest_group = ig_armed_forces

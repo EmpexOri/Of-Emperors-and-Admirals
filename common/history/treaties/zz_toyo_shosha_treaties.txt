@@ -1,0 +1,102 @@
+TREATIES = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc_feature = foreign_investment
+				has_dlc_feature = mp1_treaties
+			}
+			exists = c:JAP
+			exists = c:CAL
+		}
+		create_treaty = {
+			name = treaty_name_toyo_shosha_cal
+			first_country = c:JAP
+			second_country = c:CAL
+			is_draft = no
+			entered_into_force_on = 1836.1.1
+			binding_period = { years = 20 }
+			articles_to_create = {
+				{
+					article = foreign_investment_rights
+					source_country = c:CAL
+					target_country = c:JAP
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_dlc_feature = foreign_investment
+				has_dlc_feature = mp1_treaties
+			}
+			exists = c:JAP
+			exists = c:HAW
+		}
+		create_treaty = {
+			name = treaty_name_toyo_shosha_haw
+			first_country = c:JAP
+			second_country = c:HAW
+			is_draft = no
+			entered_into_force_on = 1836.1.1
+			binding_period = { years = 20 }
+			articles_to_create = {
+				{
+					article = foreign_investment_rights
+					source_country = c:HAW
+					target_country = c:JAP
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_dlc_feature = foreign_investment
+				has_dlc_feature = mp1_treaties
+			}
+			exists = c:JAP
+			exists = c:W73
+		}
+		create_treaty = {
+			name = treaty_name_toyo_shosha_w73
+			first_country = c:JAP
+			second_country = c:W73
+			is_draft = no
+			entered_into_force_on = 1836.1.1
+			binding_period = { years = 20 }
+			articles_to_create = {
+				{
+					article = foreign_investment_rights
+					source_country = c:W73
+					target_country = c:JAP
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_dlc_feature = foreign_investment
+				has_dlc_feature = mp1_treaties
+			}
+			exists = c:JAP
+			exists = c:TWT
+		}
+		create_treaty = {
+			name = treaty_name_toyo_shosha_twt
+			first_country = c:JAP
+			second_country = c:TWT
+			is_draft = no
+			entered_into_force_on = 1836.1.1
+			binding_period = { years = 20 }
+			articles_to_create = {
+				{
+					article = foreign_investment_rights
+					source_country = c:TWT
+					target_country = c:JAP
+				}
+			}
+		}
+	}
+}

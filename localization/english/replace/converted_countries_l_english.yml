@@ -114,6 +114,13 @@
  HAP_ADJ: "Handan Prefecture"
  HAP_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
 
+ V23: "Kwantung"
+ dyn_c_v23_shogunate: "Kwantung Shogunate"
+ dyn_c_v23_monarchy: "Imperial Kwantung"
+ dyn_c_v23_republic: "Republic of Kwantung"
+ V23_ADJ: "Kwantung"
+ V23_FLAVOR_TEXT: "$GENERIC_FLAVOR_TEXT$"
+
  JAP: "Japan"
  JAP_ADJ: "Japanese"
  dyn_c_jap_choninbakufu: "Shōbatsu Japan"

@@ -99,3 +99,27 @@ X21_colony = {
 		instance = { position = { 0.5 0.46 } scale = { 0.4 0.7356 } }
 	}
 }
+
+V23 = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0.039 0.039 0.039 }
+	color2 = rgb { 0.961 0.945 0.910 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_V23_custom_j1qycl3pno41.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.499 0.7579 } }
+	}
+}
+
+V23_republic = {
+	pattern = "pattern_border_two_stripes.dds"
+	color1 = rgb { 0.039 0.039 0.039 }
+	color2 = rgb { 0.937 0.776 0.000 }
+	color3 = rgb { 0.776 0.639 0.361 }
+
+	textured_emblem = {
+		texture = "ff_V23_republic_custom_139x2q87v5x4i.tga"
+		instance = { position = { 0.5 0.5 } scale = { 0.4201 0.638 } }
+	}
+}

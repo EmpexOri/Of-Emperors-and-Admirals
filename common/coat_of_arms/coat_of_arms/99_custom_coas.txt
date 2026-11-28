@@ -48,7 +48,6 @@ V16 = { textured_emblem = { texture = "custom_export/V16.tga" } }
 V18 = { textured_emblem = { texture = "custom_export/V18.tga" } }
 V19 = { textured_emblem = { texture = "custom_export/V19.tga" } }
 V21 = { textured_emblem = { texture = "custom_export/V21.tga" } }
-V23 = { textured_emblem = { texture = "custom_export/V23.tga" } }
 V26 = { textured_emblem = { texture = "custom_export/V26.tga" } }
 V27 = { textured_emblem = { texture = "custom_export/V27.tga" } }
 V28 = { textured_emblem = { texture = "custom_export/V28.tga" } }

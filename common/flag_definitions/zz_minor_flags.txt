@@ -74,3 +74,31 @@ X21 = { # Arualdia
 		priority = 1
 	}
 }
+
+V23 = { # V23
+	flag_definition = {
+		coa = V23
+		allow_overlord_canton = no
+		subject_canton = V23
+		priority = 1
+	}
+}
+
+V23_republic = { # V23 Republic
+	flag_definition = {
+		coa = V23_republic
+		allow_overlord_canton = no
+		subject_canton = V23_republic
+		priority = 1
+		trigger = {
+			scope:actor ?= {
+				NOT = {
+					OR = {
+						has_law = law_type:law_monarchy
+						has_law = law_type:law_social_monarchy
+					}
+				}
+			}
+		}
+	}
+}

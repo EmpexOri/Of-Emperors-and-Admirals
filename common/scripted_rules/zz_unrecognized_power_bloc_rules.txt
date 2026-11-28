@@ -1,0 +1,15 @@
+REPLACE_OR_CREATE:can_lead_power_bloc = {
+	OR = {
+		country_rank >= rank_value:major_power
+		country_rank = rank_value:unrecognized_major_power
+	}
+}
+
+REPLACE_OR_CREATE:is_weak_power_bloc = {
+	power_bloc_is_weak = yes
+	NOT = {
+		power_bloc_leader = {
+			country_rank = rank_value:unrecognized_major_power
+		}
+	}
+}

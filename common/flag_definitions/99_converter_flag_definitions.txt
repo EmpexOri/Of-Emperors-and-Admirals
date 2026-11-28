@@ -5083,14 +5083,6 @@ V22 = {
 		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
-V23 = {
-	flag_definition = {
-		coa = V23
-		allow_overlord_canton = yes
-		subject_canton = V23
-		priority = 1
-	}
-}
 V24 = {
 	flag_definition = {
 		coa = legacy_d_hafun

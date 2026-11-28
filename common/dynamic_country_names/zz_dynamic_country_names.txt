@@ -778,3 +778,55 @@ VEC = {
 		}
 	}
 }
+
+V23 = {
+	# Kwantung
+	dynamic_country_name = {
+		name = dyn_c_v23_shogunate
+		adjective = V23_ADJ
+		is_main_tag_only = yes
+		priority = 100000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_bakufu
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_v23_monarchy
+		adjective = V23_ADJ
+		is_main_tag_only = yes
+		priority = 10000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_monarchy
+                    has_law = law_type:social_monarchy
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_v23_republic
+		adjective = V23_ADJ
+		is_main_tag_only = yes
+		priority = 60000
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}

@@ -116,6 +116,14 @@
 						region="STATE_LA_PAZ"
 					}
 				}
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:JAP
+						levels = 1
+						region = STATE_KANSAI
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
@@ -8772,6 +8780,14 @@
 						country = c:CAL
 						levels = 14
 						region = STATE_CALIFORNIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:JAP
+						levels = 2
+						region = STATE_KANTO
 					}
 				}
 				reserves = 1
@@ -27994,6 +28010,14 @@
 						country = c:W73
 						levels = 1
 						region = STATE_LUZON
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:JAP
+						levels = 1
+						region = STATE_KANTO
 					}
 				}
 				reserves = 1

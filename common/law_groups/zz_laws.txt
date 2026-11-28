@@ -50,7 +50,10 @@ lawgroup_edo_social_system = {
 	regime_change_min_progressiveness_difference = 50
 	linked_social_hierarchy = edo_system
 	enable = {
-		c:JAP ?= this
+		OR = {
+			c:JAP ?= this
+			c:V23 ?= this
+		}
 	}
 }
 

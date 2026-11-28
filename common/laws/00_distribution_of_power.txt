@@ -126,7 +126,10 @@ law_bakufu = {
 	}
 
 	is_visible = {
-		c:JAP ?= this
+		OR = {
+			c:JAP ?= this
+			c:V23 ?= this
+		}
 		NOT = {
 			has_law = law_type:law_autocracy
 		}
@@ -136,6 +139,7 @@ law_bakufu = {
 		scripted_effect_parties_disappearence = yes
 		if = {
 			limit = {
+				c:JAP ?= this
 				country_has_monarchy_law = yes
 				game_date > 1836.1.1
 				NOR = { # Revolter tags are handled a different way
@@ -156,6 +160,7 @@ law_bakufu = {
 	on_deactivate = {
 		if = {
 			limit = {
+				c:JAP ?= this
 				country_has_monarchy_law = yes
 				country_has_non_monarchy_law = no # To handle an execution order issue
 			}

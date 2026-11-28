@@ -10089,6 +10089,7 @@ REPLACE_OR_CREATE:V22 ?= {
 REPLACE_OR_CREATE:V23 ?= {
 	color = { 62 73 87 }
 	country_type = unrecognized
+	social_hierarchy = edo_system
 	tier = principality
 	cultures = { japanese }
 	religion = mahayana
