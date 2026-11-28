@@ -82,9 +82,8 @@ V23 = { # V23
 		subject_canton = V23
 		priority = 1
 	}
-}
 
-V23_republic = { # V23 Republic
+	 # V23 Republic
 	flag_definition = {
 		coa = V23_republic
 		allow_overlord_canton = no
